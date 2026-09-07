@@ -64,6 +64,7 @@ ARTICLES = [
         "tags": ["actualites", "galas"],
         "image": "/assets/img/sofia-equipe-france-card.jpg",
         "list_image": "/assets/img/sofia-equipe-france.jpeg",
+        "thumb": "/assets/img/sofia-equipe-france-thumb.jpg",
         "image_alt": "Calendrier 2026 de l’équipe de France olympique — Championnats d’Europe en Bulgarie",
         "gallery": [
             ("/assets/img/sofia-equipe-france.jpeg", "Calendrier officiel FFBoxe 2026 — Europe en septembre, World Boxing Cup en novembre"),

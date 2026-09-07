@@ -275,9 +275,12 @@ def title_card_html(article: dict) -> str:
     </div>"""
 
 
-def visual_html(article: dict, lazy: bool = True, list_view: bool = False) -> str:
-    src = article.get("list_image") if list_view else None
-    src = src or article.get("image")
+def visual_html(article: dict, lazy: bool = True, list_view: bool = False, compact: bool = False) -> str:
+    if compact:
+        src = article.get("thumb") or article.get("image")
+    else:
+        src = article.get("list_image") if list_view else None
+        src = src or article.get("image")
     if not src:
         return title_card_html(article)
     alt = escape(article.get("image_alt", article["title"]))
@@ -286,14 +289,15 @@ def visual_html(article: dict, lazy: bool = True, list_view: bool = False) -> st
     return f'<div class="visual{poster}"><img src="{src}" alt="{alt}"{load}></div>'
 
 
-def card(article: dict, extra_class: str = "") -> str:
+def card(article: dict, extra_class: str = "", *, list_view: bool = True, compact: bool = False) -> str:
+    heading = escape(article.get("card_title") or article["title"])
     return f"""
 <article class="item {extra_class}">
   <a href="{href_article(article['slug'])}">
-    {visual_html(article, list_view=True)}
+    {visual_html(article, list_view=list_view, compact=compact)}
     <div class="meta">
       <span class="date">{article['date']}</span>
-      <h3>{article['title']}</h3>
+      <h3>{heading}</h3>
       <p>{article['excerpt']}</p>
     </div>
   </a>
@@ -344,7 +348,7 @@ def home() -> str:
     ]
     sec_html = []
     for label, title, more, arts in sections:
-        items = "".join(card(a) for a in arts[:6])
+        items = "".join(card(a, list_view=False, compact=True) for a in arts[:6])
         sec_html.append(f"""
         <section class="section is-visible">
           <header>
