@@ -63,7 +63,8 @@ ARTICLES = [
         "active": "news",
         "tags": ["actualites", "galas"],
         "image": "/assets/img/sofia-equipe-france-card.jpg",
-        "image_alt": "Boxeurs de l’équipe de France, visuel FFBoxe calendrier 2026",
+        "list_image": "/assets/img/sofia-equipe-france.jpeg",
+        "image_alt": "Calendrier 2026 de l’équipe de France olympique — Championnats d’Europe en Bulgarie",
         "gallery": [
             ("/assets/img/sofia-equipe-france.jpeg", "Calendrier officiel FFBoxe 2026 — Europe en septembre, World Boxing Cup en novembre"),
             ("/assets/img/sofia-selection-ffboxe.png", "Annonce FFBoxe — sélection Sofia 2026"),
@@ -741,8 +742,8 @@ ARTICLES = [
         "category_href": "/resultats/",
         "active": "results",
         "tags": ["resultats", "actualites", "boxeurs", "international"],
-        "image": "/assets/img/lenny-patrach-ffboxe.jpg",
-        "image_alt": "Lenny Patrach — visuel FFBoxe",
+        "image": "/assets/img/patrach-khyzhniak-djeddah.jpeg",
+        "image_alt": "Oleksandr Khyzhniak frappe Lenny Patrach à Djeddah, juillet 2026",
         "info": [
             ("Lieu", "Super Dôme, Djeddah"),
             ("Verdict", "Khyzhniak, arrêt 2e reprise"),
@@ -769,8 +770,8 @@ ARTICLES = [
         "active": "fights",
         "tags": ["galas", "combats-a-venir", "actualites"],
         "card_title": "Béziers, 17 octobre : Patrach–Ghodbane",
-        "image": "/assets/img/lenny-patrach-ffboxe.jpg",
-        "image_alt": "Lenny Patrach (à droite) à Djeddah, visuel FFBoxe — prochaine sortie à Béziers le 17 octobre",
+        "image": "/assets/img/patrach-khyzhniak-djeddah.jpeg",
+        "image_alt": "Lenny Patrach (à droite) face à Khyzhniak à Djeddah — prochaine sortie à Béziers le 17 octobre",
         "info": [
             ("Date", "Samedi 17 octobre 2026"),
             ("Lieu", "Salle du Four à Chaux, Béziers"),
@@ -783,7 +784,7 @@ ARTICLES = [
         ],
         "body": """
 <p>Les enchères ont placé le championnat de France des mi-lourds (-79,378 kg) à Béziers, le samedi 17 octobre 2026, salle du Four à Chaux. La ceinture est vacante. Lenny Patrach, 20 ans, Boxing Club Marcel Cerdan, reçoit Samir Ghodbane, 31 ans, BC Schiltigheim. Le président du club alsacien, Alain Greitzer, a dit aux DNA avoir accepté le combat.</p>
-<p>Patrach arrive avec une première défaite, à Djeddah en juillet. Ghodbane boxe loin de chez lui. Actu Boxe n’avance pas de pourcentage sur cette affiche. La photo de carte est le cliché FFBoxe de Patrach à Djeddah (juillet 2026)&nbsp;: pas encore d’affiche Béziers distincte, pas de photo de Ghodbane ici.</p>
+<p>Patrach arrive avec une première défaite, à Djeddah en juillet. Ghodbane boxe loin de chez lui. Actu Boxe n’avance pas de pourcentage sur cette affiche. La photo de carte est le combat de Djeddah (Khyzhniak–Patrach, juillet 2026)&nbsp;: pas encore d’affiche Béziers distincte, pas de photo de Ghodbane ici.</p>
 """,
     },
     {

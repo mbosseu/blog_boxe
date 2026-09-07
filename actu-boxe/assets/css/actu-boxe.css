@@ -126,9 +126,8 @@ body {
     min-width: 640px;
 }
 
-#blog-home .section {
-    opacity: 1;
-    transform: none;
+#blog-home .section .item .visual {
+    background: #0a0a0a;
 }
 
 #blog-home .section .list {
@@ -203,7 +202,20 @@ body {
     position: relative;
     overflow: hidden;
     aspect-ratio: 16 / 9;
-    background: rgba(255,255,255,.025);
+    background: #0a0a0a;
+}
+
+.visual-poster img,
+.cards-grid .item .visual-poster img,
+#blog-home .section .item .visual-poster img {
+    object-fit: contain !important;
+    object-position: center center !important;
+    transform: none !important;
+}
+
+#blog-home .section .item:hover .visual-poster img {
+    transform: none !important;
+    filter: none;
 }
 
 .cards-grid .item .meta {

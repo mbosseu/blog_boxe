@@ -275,20 +275,22 @@ def title_card_html(article: dict) -> str:
     </div>"""
 
 
-def visual_html(article: dict, lazy: bool = True) -> str:
-    src = article.get("image")
+def visual_html(article: dict, lazy: bool = True, list_view: bool = False) -> str:
+    src = article.get("list_image") if list_view else None
+    src = src or article.get("image")
     if not src:
         return title_card_html(article)
     alt = escape(article.get("image_alt", article["title"]))
     load = ' loading="lazy" decoding="async"' if lazy else ' fetchpriority="high"'
-    return f'<div class="visual"><img src="{src}" alt="{alt}"{load}></div>'
+    poster = " visual-poster" if list_view and article.get("list_image") else ""
+    return f'<div class="visual{poster}"><img src="{src}" alt="{alt}"{load}></div>'
 
 
 def card(article: dict, extra_class: str = "") -> str:
     return f"""
 <article class="item {extra_class}">
   <a href="{href_article(article['slug'])}">
-    {visual_html(article)}
+    {visual_html(article, list_view=True)}
     <div class="meta">
       <span class="date">{article['date']}</span>
       <h3>{article['title']}</h3>
