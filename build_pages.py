@@ -373,8 +373,8 @@ def home() -> str:
         body,
         "home",
         path="/",
-        image="/assets/img/dublin-pili-ring-henkinet.jpg",
-        image_alt="Flora Pili sur le ring à Dublin",
+        image="/assets/img/sofia-equipe-france-card.jpg",
+        image_alt="Boxeurs de l’équipe de France, visuel FFBoxe",
         title_full="Actu Boxe | Actualité de la boxe anglaise",
     )
 

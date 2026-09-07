@@ -62,7 +62,10 @@ ARTICLES = [
         "category_href": "/actualites/",
         "active": "news",
         "tags": ["actualites", "galas"],
+        "image": "/assets/img/sofia-equipe-france-card.jpg",
+        "image_alt": "Boxeurs de l’équipe de France, visuel FFBoxe calendrier 2026",
         "gallery": [
+            ("/assets/img/sofia-equipe-france.jpeg", "Calendrier officiel FFBoxe 2026 — Europe en septembre, World Boxing Cup en novembre"),
             ("/assets/img/sofia-selection-ffboxe.png", "Annonce FFBoxe — sélection Sofia 2026"),
             ("/assets/img/sofia-liste-ffboxe.png", "Liste officielle FFBoxe des treize sélectionnés"),
             ("/assets/img/billal-bennama-ffboxe.png", "Billal Bennama — visuel FFBoxe"),

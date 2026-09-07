@@ -147,20 +147,18 @@ body {
     background:
         linear-gradient(
             180deg,
-            rgba(6, 6, 6, 0.58) 0%,
-            rgba(6, 6, 6, 0.28) 36%,
+            rgba(6, 6, 6, 0.45) 0%,
+            rgba(6, 6, 6, 0.55) 42%,
             rgba(6, 6, 6, 0.94) 100%
         ) !important;
 }
 
 #blog-home .hero-item-1 .overlay {
-    background:
-        linear-gradient(
-            180deg,
-            rgba(6, 6, 6, 0.52) 0%,
-            rgba(6, 6, 6, 0.32) 40%,
-            rgba(6, 6, 6, 0.96) 100%
-        ) !important;
+    background: rgba(5, 5, 5, 0.84) !important;
+}
+
+#blog-home .hero-item-1 .content {
+    background: linear-gradient(180deg, transparent 0%, rgba(5, 5, 5, 0.55) 12%, rgba(5, 5, 5, 0.92) 100%);
 }
 
 #blog-home .hero-item .visual.title-card .title-card-inner {
@@ -168,7 +166,7 @@ body {
 }
 
 .ab-hero:has(.ab-hero-bg)::after {
-    background: linear-gradient(180deg, rgba(8, 8, 8, 0.45) 8%, rgba(8, 8, 8, 0.92) 100%);
+    background: linear-gradient(180deg, rgba(8, 8, 8, 0.62) 0%, rgba(8, 8, 8, 0.94) 100%);
 }
 
 #blog-home .hero-item .visual img,
@@ -178,6 +176,11 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center 18%;
+}
+
+#blog-home .hero-item-1 .visual img[src*="sofia-equipe-france"] {
+    object-position: center 22%;
+    filter: none;
 }
 
 .cards-grid .item {
@@ -364,6 +367,10 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center 18%;
+}
+
+.ab-hero-bg img[src*="sofia-equipe-france-card"] {
+    object-position: center 22%;
 }
 
 .ab-hero:has(.ab-hero-bg)::after {
