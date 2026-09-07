@@ -1,0 +1,274 @@
+/**
+ * Fichier  : /ott/blog/home/assets/css/sections.css
+ * Fonction : rubriques de la page d'accueil du blog
+ */
+
+
+/* ==================================================
+   SECTION
+================================================== */
+
+#blog-home .section {
+    opacity: 0;
+    transform: translateY(14px);
+}
+
+#blog-home .section {
+    transition:
+        opacity .55s ease,
+        transform .55s ease;
+}
+
+#blog-home .section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ==================================================
+   HEADER
+================================================== */
+
+#blog-home .section > header {
+    margin-bottom: 1.25em;
+}
+
+#blog-home .section > header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#blog-home .section > header > div {
+    min-width: 0;
+}
+
+#blog-home .section > header > div {
+    display: flex;
+    flex-direction: column;
+    gap: .6em;
+}
+
+
+/* ==================================================
+   LABEL
+================================================== */
+
+#blog-home .section > header > div > span {
+    position: relative;
+}
+
+#blog-home .section > header > div > span {
+    width: fit-content;
+}
+
+#blog-home .section > header > div > span {
+    font-family: 'content-font';
+    font-size: .8em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+#blog-home .section > header > div > span {
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+}
+
+#blog-home .section > header > div > span::after {
+    content: "";
+}
+
+#blog-home .section > header > div > span::after {
+    position: absolute;
+    left: calc(100% + 10px);
+    top: 50%;
+}
+
+#blog-home .section > header > div > span::after {
+    width: 24px;
+    height: 1px;
+}
+
+#blog-home .section > header > div > span::after {
+    background: rgba(255,120,0,.45);
+    transform: translateY(-50%);
+}
+
+
+/* ==================================================
+   TITLE
+================================================== */
+
+#blog-home .section > header h2 {
+    margin: 0;
+}
+
+#blog-home .section > header h2 {
+    font-family: 'title-font';
+    font-size: 2em;
+    font-weight: 800;
+    line-height: .96;
+}
+
+#blog-home .section > header h2 {
+    letter-spacing: -.04em;
+    text-wrap: balance;
+    color: var(--color-white);
+}
+
+#blog-home .section > header h2 {
+    text-shadow:
+        0 2px 18px rgba(0,0,0,.22);
+}
+
+
+/* ==================================================
+   MORE
+================================================== */
+
+#blog-home .section .more {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#blog-home .section .more {
+    flex: 0 0 auto;
+}
+
+#blog-home .section .more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#blog-home .section .more {
+    padding: 11px 16px;
+}
+
+#blog-home .section .more {
+    background: var(--gradient-primary);
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-primary);
+}
+
+#blog-home .section .more {
+    font-family: 'content-font';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    color: var(--color-text);
+}
+
+#blog-home .section .more {
+    transition:
+        transform var(--transition-default),
+        border-color var(--transition-soft),
+        background var(--transition-soft),
+        box-shadow var(--transition-soft),
+        color var(--transition-soft);
+}
+
+
+/* ==================================================
+   MORE HOVER
+================================================== */
+
+#blog-home .section .more:hover {
+    transform: translateY(-2px);
+}
+
+#blog-home .section .more:hover {
+    box-shadow:
+        0 16px 34px rgba(233,64,27,.42),
+        0 0 24px rgba(255,123,0,.22);
+}
+
+
+/* ==================================================
+   GRID
+================================================== */
+
+#blog-home .section .grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(14px, 1.4vw, 22px);
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 1180px) {
+
+    #blog-home .section .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    #blog-home .section .item:nth-child(4) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    #blog-home .section .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #blog-home .section .item:nth-child(4) {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #blog-home .section > header {
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    #blog-home .section > header h2 {
+        font-size: 1.2em;
+        line-height: 1;
+    }
+
+    #blog-home .section > header > div > span {
+        font-size: 10px;
+    }
+
+    #blog-home .section > header > div > span::after {
+        width: 14px;
+    }
+
+    #blog-home .section .more {
+        padding: 9px 12px;
+    }
+
+    #blog-home .section .more {
+        font-size: 11px;
+    }
+
+    #blog-home .section .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    #blog-home .section {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+}

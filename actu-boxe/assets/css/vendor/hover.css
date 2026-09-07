@@ -1,0 +1,201 @@
+/**
+ * Fichier  : /features/style/css/hover.css
+ * Fonction : effets :hover du site
+ */
+
+
+@media screen and (min-width: 1024px) {
+
+
+    /* ==================================================
+       TEXT COLOR
+    ================================================== */
+
+    .hoverTextColor {
+        display: inline-block;
+        position: relative;
+    }
+
+    .hoverTextColor {
+        background-image: linear-gradient(
+            to right,
+            var(--color-black),
+            var(--color-black) 50%,
+            var(--color-white) 50%
+        );
+        background-size: 200% 100%;
+        background-position: -100%;
+    }
+
+    .hoverTextColor {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .hoverTextColor {
+        padding: 5px 0;
+        transition: all .3s ease-in-out;
+    }
+
+    .hoverTextColor:hover {
+        background-position: 0;
+    }
+
+
+    /* ==================================================
+       TEXT COLOR + UNDERLINE
+    ================================================== */
+
+    .hoverTextColorAndUnderline {
+        position: relative;
+    }
+
+    .hoverTextColorAndUnderline {
+        display: inline-block;
+    }
+
+    .hoverTextColorAndUnderline {
+        background-image: linear-gradient(
+            to right,
+            var(--color-primary),
+            var(--color-primary) 50%,
+            var(--color-white) 50%
+        );
+        background-size: 200% 100%;
+        background-position: -100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 5px 0;
+    }
+
+    .hoverTextColorAndUnderline {
+        transition: all .3s ease-in-out;
+    }
+
+
+    /*** UNDERLINE ***/
+
+    .hoverTextColorAndUnderline:before {
+        content: '';
+        display: block;
+    }
+
+    .hoverTextColorAndUnderline:before {
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+    }
+
+    .hoverTextColorAndUnderline:before {
+        width: 0;
+        height: 3px;
+    }
+
+    .hoverTextColorAndUnderline:before {
+        background: var(--gradient-primary);
+    }
+
+    .hoverTextColorAndUnderline:before {
+        transition: all .3s ease-in-out;
+    }
+
+
+    /*** HOVER ***/
+
+    .hoverTextColorAndUnderline:hover {
+        background-position: 0;
+    }
+
+    .hoverTextColorAndUnderline:hover::before {
+        width: 100%;
+    }
+
+
+    /* ==================================================
+       UNDERLINE
+    ================================================== */
+
+    .hoverUnderline {
+        width: fit-content;
+    }
+
+
+    /*** BEFORE ***/
+
+    .hoverUnderline:before {
+        content: '';
+        display: block;
+    }
+
+    .hoverUnderline:before {
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+    }
+
+    .hoverUnderline:before {
+        width: 0;
+        height: 2px;
+    }
+
+    .hoverUnderline:before {
+        background: var(--gradient-primary);
+    }
+
+    .hoverUnderline:before {
+        transition: all .3s ease-in-out;
+    }
+
+
+    /*** HOVER ***/
+
+    .hoverUnderline:hover {
+        background-position: 0;
+    }
+
+    .hoverUnderline:hover::before {
+        width: 100%;
+    }
+
+
+    /* ==================================================
+       SPIN
+    ================================================== */
+
+    .hoverSpin:hover {
+        animation: Spin 1s;
+    }
+
+
+    /*** ANIMATION ***/
+
+    @keyframes Spin {
+
+        0% {
+            rotate: 0;
+            scale: 1;
+        }
+
+        50% {
+            scale: 1.08;
+        }
+
+        to {
+            rotate: 360deg;
+            scale: 1;
+        }
+
+    }
+
+
+    /* ==================================================
+       ZOOM
+    ================================================== */
+
+    .hoverZoom:hover {
+        scale: 1.02;
+        transition: .3s ease-in-out;
+    }
+
+
+}

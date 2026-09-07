@@ -1,0 +1,180 @@
+/**
+ * Fichier  : /features/style/css/animations.css
+ * Fonction : animations du site
+ */
+
+
+/* ==================================================
+   FADE IN
+================================================== */
+
+/*** UP ***/
+
+@keyframes FadeInUp {
+
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+.FadeInUp {
+    animation: FadeInUp .5s forwards;
+}
+
+
+/*** LEFT ***/
+
+@keyframes FadeInLeft {
+
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+}
+
+.FadeInLeft {
+    animation: FadeInLeft .5s forwards;
+}
+
+
+/*** RIGHT ***/
+
+@keyframes FadeInRight {
+
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+}
+
+.FadeInRight {
+    animation: FadeInRight .5s forwards;
+}
+
+
+/*** DOWN ***/
+
+@keyframes FadeInDown {
+
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+.FadeInDown {
+    animation: FadeInDown .5s forwards;
+}
+
+
+/* ==================================================
+   FADE OUT
+================================================== */
+
+/*** UP ***/
+
+@keyframes FadeOutUp {
+
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+}
+
+.FadeOutUp {
+    animation: FadeOutUp .5s forwards;
+}
+
+
+/*** LEFT ***/
+
+@keyframes FadeOutLeft {
+
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+
+}
+
+.FadeOutLeft {
+    animation: FadeOutLeft .5s forwards;
+}
+
+
+/*** RIGHT ***/
+
+@keyframes FadeOutRight {
+
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+}
+
+.FadeOutRight {
+    animation: FadeOutRight .5s forwards;
+}
+
+
+/*** DOWN ***/
+
+@keyframes FadeOutDown {
+
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+}
+
+.FadeOutDown {
+    animation: FadeOutDown .5s forwards;
+}

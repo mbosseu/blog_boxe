@@ -1,0 +1,118 @@
+/**
+ * Fichier  : /ott/blog/home/assets/css/style.css
+ * Fonction : structure de la page d'accueil du blog
+ */
+
+
+/* ==================================================
+   BLOG HOME WRAPPER
+================================================== */
+
+#blog-home,
+#blog-home *,
+#blog-home *::before,
+#blog-home *::after {
+    box-sizing: border-box;
+}
+
+#blog-home {
+    position: relative;
+    overflow: hidden;
+}
+
+#blog-home {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 2em 5em 2em;
+}
+
+#blog-home {
+    color: var(--color-white);
+}
+
+
+/* ==================================================
+   INNER
+================================================== */
+
+#blog-home > .inner {
+    width: min(100%, 1440px);
+    margin: 0 auto;
+}
+
+#blog-home > .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+/* ==================================================
+   SECTIONS WRAPPER
+================================================== */
+
+#blog-home .sections {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+
+/* ==================================================
+   LINK RESET
+================================================== */
+
+#blog-home a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* ==================================================
+   IMAGE RESET
+================================================== */
+
+#blog-home img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* ==================================================
+   ACCESSIBILITY
+================================================== */
+
+#blog-home a:focus-visible {
+    outline: none;
+    box-shadow: var(--shadow-focus);
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 1024px) {
+
+    #blog-home {
+        padding: 1.5em 1em 4em 1em;
+    }
+
+    #blog-home .sections {
+        gap: 4em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #blog-home {
+        padding: 15px 10px 3em 10px;
+    }
+
+    #blog-home .sections {
+        gap: 3em;
+    }
+
+}

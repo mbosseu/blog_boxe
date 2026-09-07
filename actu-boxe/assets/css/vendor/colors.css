@@ -1,0 +1,93 @@
+/**
+ * Fichier  : /features/style/css/colors.css
+ * Fonction : couleurs du site
+ */
+
+
+:root {
+
+    /* ==================================================
+       SECTIONS
+    ================================================== */
+
+    --main-background: radial-gradient(
+        circle,
+        rgba(18, 18, 18, 1) 70%,
+        rgba(17, 17, 17, 1) 100%
+    );
+
+    --menu-background: radial-gradient(
+        circle,
+        rgba(18, 18, 18, 0.8) 70%,
+        rgba(17, 17, 17, 0.8) 100%
+    );
+
+
+    /* ==================================================
+       COULEURS
+    ================================================== */
+
+    --color-white: #fff;
+    --color-black: #000;
+
+    --color-primary: #e9401b;
+    --color-primary-dark: #8e0e00;
+    --color-primary-mid: #c91f16;
+    --color-primary-light: #e9401b;
+
+    --color-text: rgba(255,255,255,.82);
+    --color-text-soft: rgba(255,255,255,.68);
+    --color-text-muted: rgba(255,255,255,.58);
+    --color-placeholder: rgba(255,255,255,.42);
+
+    --color-border: rgba(255,255,255,.08);
+    --color-border-soft: rgba(255,255,255,.06);
+    --color-border-primary: rgba(255,120,0,.22);
+
+    --color-focus: rgba(255,123,0,.25);
+
+
+    /* ==================================================
+       GRADIENTS
+    ================================================== */
+
+    --gradient-primary: linear-gradient(
+        135deg,
+        var(--color-primary-dark),
+        var(--color-primary-mid) 35%,
+        var(--color-primary-light) 68%,
+        var(--color-primary)
+    );
+
+    --gradient-primary-short: linear-gradient(
+        135deg,
+        var(--color-primary-dark),
+        var(--color-primary-light) 60%,
+        var(--color-primary)
+    );
+
+    --gradient-glass: linear-gradient(
+        180deg,
+        rgba(255,255,255,.08),
+        rgba(255,255,255,.03)
+    );
+
+    --gradient-glass-soft: linear-gradient(
+        180deg,
+        rgba(255,255,255,.06),
+        rgba(255,255,255,.03)
+    );
+
+    --gradient-hover: linear-gradient(
+        135deg,
+        rgba(255,95,45,.16),
+        rgba(255,145,0,.08)
+    );
+
+    --gradient-overlay-bottom: linear-gradient(
+        180deg,
+        transparent 55%,
+        rgba(0,0,0,.45) 100%
+    );
+
+}

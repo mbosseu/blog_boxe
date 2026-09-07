@@ -1,0 +1,154 @@
+/**
+ * Fichier  : /menus/footer/assets/css/social.css
+ * Fonction : style des réseaux sociaux
+ */
+
+
+/* ==================================================
+   SOCIAL
+================================================== */
+
+#footer .social > .inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+
+/* ==================================================
+   ITEMS
+================================================== */
+
+#footer .social > .inner > .item {
+    position: relative;
+}
+
+#footer .social > .inner > .item {
+    width: 42px;
+    height: 42px;
+}
+
+
+/* ==================================================
+   LIENS
+================================================== */
+
+#footer .social > .inner > .item > a {
+    width: 100%;
+    height: 100%;
+}
+
+#footer .social > .inner > .item > a {
+    box-sizing: border-box;
+}
+
+#footer .social > .inner > .item > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#footer .social > .inner > .item > a {
+    border: 1px solid rgba(255, 255, 255, .09);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .025);
+}
+
+#footer .social > .inner > .item > a {
+    transition:
+        background .3s ease,
+        border-color .3s ease,
+        transform .3s cubic-bezier(.2, .7, .2, 1);
+}
+
+
+/* ==================================================
+   INNER
+================================================== */
+
+#footer .social > .inner > .item > a > div {
+    position: relative;
+}
+
+#footer .social > .inner > .item > a > div {
+    width: 100%;
+    height: 100%;
+}
+
+#footer .social > .inner > .item > a > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ==================================================
+   IMAGES
+================================================== */
+
+#footer .social > .inner > .item img {
+    position: relative;
+}
+
+#footer .social > .inner > .item img {
+    width: 18px;
+    height: 18px;
+}
+
+#footer .social > .inner > .item img {
+    object-fit: contain;
+}
+
+#footer .social > .inner > .item img {
+    opacity: .75;
+}
+
+#footer .social > .inner > .item img {
+    transition:
+        opacity .3s ease,
+        transform .3s ease;
+}
+
+
+/* ==================================================
+   HOVER
+================================================== */
+
+#footer .social > .inner > .item > a:hover {
+    border-color: rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .08);
+}
+
+#footer .social > .inner > .item > a:hover {
+    transform: translateY(-3px);
+}
+
+#footer .social > .inner > .item > a:hover img {
+    opacity: 1;
+}
+
+#footer .social > .inner > .item > a:hover img {
+    transform: scale(1.08);
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 700px) {
+
+    #footer .social > .inner {
+        justify-content: flex-start;
+    }
+
+    #footer .social > .inner > .item {
+        width: 44px;
+        height: 44px;
+    }
+
+}

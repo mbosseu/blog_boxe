@@ -1,0 +1,388 @@
+/**
+ * Fichier  : /menus/footer/assets/css/style.css
+ * Fonction : style du pied de page
+ */
+
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+#footer {
+    position: relative;
+    z-index: 98;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+}
+
+#footer {
+    box-sizing: border-box;
+}
+
+#footer {
+    padding: 90px 5vw 35px;
+}
+
+#footer {
+    overflow: hidden;
+}
+
+#footer {
+    background: var(--main-background);
+}
+
+
+/* ==================================================
+   BACKGROUND DETAILS
+================================================== */
+
+#footer::before {
+    content: "";
+}
+
+#footer::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#footer::before {
+    width: 100%;
+    height: 1px;
+}
+
+#footer::before {
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, .18),
+        transparent
+    );
+}
+
+#footer::before {
+    pointer-events: none;
+}
+
+
+/* ==================================================
+   STRUCTURE
+================================================== */
+
+#footer main {
+    position: relative;
+    z-index: 2;
+}
+
+#footer main {
+    width: 100%;
+    max-width: 1400px;
+}
+
+#footer main {
+    margin: 0 auto;
+}
+
+#footer main {
+    display: grid;
+    grid-template-columns:
+        minmax(100px, .7fr)
+        minmax(170px, 1fr)
+        minmax(260px, 1.4fr)
+        minmax(170px, .9fr);
+    align-items: start;
+    gap: clamp(40px, 6vw, 100px);
+}
+
+
+/* ==================================================
+   BLOCS
+================================================== */
+
+#footer main > div {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+
+/* ==================================================
+   TITRES
+================================================== */
+
+#footer main > div > h4 {
+    position: relative;
+}
+
+#footer main > div > h4 {
+    margin: 0;
+}
+
+#footer main > div > h4 {
+    padding: 0 0 15px;
+}
+
+#footer main > div > h4 {
+    font-family: 'bold-font';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    color: rgba(255, 255, 255, .55);
+}
+
+#footer main > div > h4::after {
+    content: "";
+}
+
+#footer main > div > h4::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#footer main > div > h4::after {
+    width: 24px;
+    height: 1px;
+}
+
+#footer main > div > h4::after {
+    background: rgba(255, 255, 255, .35);
+}
+
+#footer main > div > h4::after {
+    transition:
+        width .35s ease,
+        background .35s ease;
+}
+
+#footer main > div:hover > h4::after {
+    width: 42px;
+}
+
+#footer main > div:hover > h4::after {
+    background: var(--color-primary, #d80000);
+}
+
+
+/* ==================================================
+   LOGO
+================================================== */
+
+#footer .logo {
+    width: auto;
+    height: auto;
+}
+
+#footer .logo {
+    display: flex;
+    align-items: flex-start;
+}
+
+#footer .logo img {
+    width: auto;
+    height: 95px;
+}
+
+#footer .logo img {
+    display: block;
+    object-fit: contain;
+}
+
+#footer .logo img {
+    opacity: .95;
+}
+
+#footer .logo img {
+    transition:
+        opacity .35s ease,
+        transform .35s ease;
+}
+
+#footer .logo:hover img {
+    opacity: 1;
+}
+
+#footer .logo:hover img {
+    transform: scale(1.035);
+}
+
+
+/* ==================================================
+   SEPARATOR
+================================================== */
+
+#footer hr {
+    position: relative;
+    z-index: 2;
+}
+
+#footer hr {
+    width: 100%;
+    max-width: 1400px;
+    height: 1px;
+}
+
+#footer hr {
+    margin: 70px auto 28px;
+}
+
+#footer hr {
+    border: none;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(255, 255, 255, .12) 10%,
+        rgba(255, 255, 255, .12) 90%,
+        transparent 100%
+    );
+}
+
+
+/* ==================================================
+   COPYRIGHT
+================================================== */
+
+#footer .copyright {
+    position: relative;
+    z-index: 2;
+}
+
+#footer .copyright {
+    width: 100%;
+    max-width: 1400px;
+}
+
+#footer .copyright {
+    margin: 0 auto;
+}
+
+#footer .copyright {
+    display: block;
+}
+
+#footer .copyright p {
+    margin: 0;
+}
+
+#footer .copyright p,
+#footer .copyright a {
+    position: relative;
+}
+
+#footer .copyright p,
+#footer .copyright a {
+    font-family: 'content-font';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    color: rgba(255, 255, 255, .4);
+}
+
+#footer .copyright a {
+    color: rgba(255, 255, 255, .7);
+}
+
+#footer .copyright a {
+    transition: color .25s ease;
+}
+
+#footer .copyright a:hover {
+    color: #fff;
+}
+
+#footer .copyright span {
+    font-family: 'title-font';
+}
+
+
+/* ==================================================
+   RESPONSIVE — TABLET
+================================================== */
+
+@media screen and (max-width: 1100px) {
+
+    #footer {
+        padding: 75px 40px 30px;
+    }
+
+    #footer main {
+        grid-template-columns: 1fr 1fr;
+        gap: 60px 80px;
+    }
+
+    #footer .logo {
+        min-height: auto;
+    }
+
+}
+
+
+/* ==================================================
+   RESPONSIVE — MOBILE
+================================================== */
+
+@media screen and (max-width: 700px) {
+
+    #footer {
+        padding: 65px 25px 25px;
+    }
+
+    #footer main {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #footer main > div {
+        width: 100%;
+    }
+
+    #footer main > div {
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    #footer .logo {
+        order: 1;
+    }
+
+    #footer .links {
+        order: 2;
+    }
+
+    #footer .contact {
+        order: 3;
+    }
+
+    #footer .social {
+        order: 4;
+    }
+
+    #footer .logo img {
+        height: 62px;
+    }
+
+    #footer main > div > h4 {
+        font-size: 10px;
+    }
+
+    #footer hr {
+        margin: 55px auto 25px;
+    }
+
+    #footer .copyright p,
+    #footer .copyright a {
+        font-size: 9px;
+        line-height: 1.8;
+        letter-spacing: .08em;
+    }
+
+}

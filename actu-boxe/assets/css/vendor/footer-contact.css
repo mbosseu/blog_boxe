@@ -1,0 +1,219 @@
+/**
+ * Fichier  : /menus/footer/assets/css/contact.css
+ * Fonction : style des informations de contact
+ */
+
+
+/* ==================================================
+   CONTACT
+================================================== */
+
+#footer .contact > .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+/* ==================================================
+   BLOCS CONTACT
+================================================== */
+
+#footer .contact > .inner > div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+
+/* ==================================================
+   MAIL
+================================================== */
+
+#footer .contact > .inner > .mail {
+    padding: 15px 16px;
+}
+
+#footer .contact > .inner > .mail {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+}
+
+#footer .contact > .inner > .mail {
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .025);
+}
+
+#footer .contact > .inner > .mail {
+    transition:
+        background .3s ease,
+        border-color .3s ease,
+        transform .3s ease;
+}
+
+#footer .contact > .inner > .mail:hover {
+    background: rgba(255, 255, 255, .045);
+    border-color: rgba(255, 255, 255, .14);
+}
+
+#footer .contact > .inner > .mail:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ==================================================
+   EN-TÊTE MAIL
+================================================== */
+
+#footer .contact .mail > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#footer .contact .mail header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+/* ==================================================
+   ICÔNES
+================================================== */
+
+#footer .contact svg {
+    width: 18px;
+    height: 18px;
+}
+
+#footer .contact svg {
+    flex: 0 0 auto;
+}
+
+#footer .contact svg {
+    color: rgba(255, 255, 255, .85);
+}
+
+
+/* ==================================================
+   TEXTES
+================================================== */
+
+#footer .contact a,
+#footer .contact p,
+#footer .contact span {
+    position: relative;
+}
+
+#footer .contact a,
+#footer .contact p,
+#footer .contact span {
+    margin: 0;
+}
+
+#footer .contact a,
+#footer .contact p,
+#footer .contact span {
+    font-family: 'content-font';
+}
+
+#footer .contact a,
+#footer .contact p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, .72);
+}
+
+#footer .contact a {
+    transition: color .25s ease;
+}
+
+#footer .contact a:hover {
+    color: #fff;
+}
+
+
+/* ==================================================
+   TYPE DE CONTACT
+================================================== */
+
+#footer .contact .mail header p {
+    font-family: 'bold-font';
+    font-size: 12px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+#footer .contact .mail header span {
+    margin-top: 2px;
+}
+
+#footer .contact .mail header span {
+    display: block;
+}
+
+#footer .contact .mail header span {
+    font-size: 9px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: rgba(255, 255, 255, .4);
+}
+
+
+/* ==================================================
+   ADRESSE
+================================================== */
+
+#footer .contact > .inner > div:not(.mail) {
+    padding: 10px 2px;
+}
+
+#footer .contact > .inner > div:not(.mail) p {
+    color: rgba(255, 255, 255, .6);
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 700px) {
+
+    #footer .contact > .inner {
+        width: 100%;
+    }
+
+    #footer .contact > .inner {
+        gap: 12px;
+    }
+
+    #footer .contact > .inner > .mail {
+        width: 100%;
+    }
+
+    #footer .contact > .inner > .mail {
+        box-sizing: border-box;
+    }
+
+    #footer .contact > .inner > .mail {
+        padding: 16px;
+    }
+
+    #footer .contact > .inner > div {
+        align-items: flex-start;
+    }
+
+    #footer .contact a,
+    #footer .contact p {
+        text-align: left;
+        font-size: 13px;
+    }
+
+}

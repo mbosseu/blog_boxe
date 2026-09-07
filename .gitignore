@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+site/
+_img_index.json
+_dl_selected.py
+_fetch_imgs.py

@@ -1,0 +1,80 @@
+/**
+ * Fichier  : /features/style/css/variables.css
+ * Fonction : variables globales du site
+ */
+
+:root {
+
+    /* ==================================================
+       RAYONS
+    ================================================== */
+
+    --radius-sm: 10px;
+    --radius-md: 14px;
+    --radius-lg: 18px;
+    --radius-xl: 20px;
+    --radius-pill: 999px;
+
+
+    /* ==================================================
+       OMBRES
+    ================================================== */
+
+    --shadow-panel: 0 10px 30px rgba(0,0,0,.30);
+    --shadow-card: 0 12px 34px rgba(0,0,0,.26);
+    --shadow-card-hover: 0 18px 46px rgba(0,0,0,.38);
+
+    --shadow-primary: 
+        0 12px 30px rgba(233,64,27,.34),
+        0 0 20px rgba(255,123,0,.18),
+        inset 0 1px 0 rgba(255,255,255,.18);
+
+    --shadow-primary-hover:
+        0 16px 36px rgba(233,64,27,.42),
+        0 0 26px rgba(255,123,0,.24),
+        inset 0 1px 0 rgba(255,255,255,.20);
+
+    --shadow-focus: 0 0 0 3px var(--color-focus);
+
+    --shadow-inset: inset 0 1px 0 rgba(255,255,255,.18);
+    --shadow-inset-soft: inset 0 1px 0 rgba(255,255,255,.05);
+
+
+    /* ==================================================
+       GLASSMORPHISM
+    ================================================== */
+
+    --glass-background: var(--gradient-glass);
+    --glass-background-soft: var(--gradient-glass-soft);
+    --glass-border: 1px solid var(--color-border);
+    --glass-border-soft: 1px solid var(--color-border-soft);
+    --glass-blur: blur(18px);
+    --glass-blur-soft: blur(14px);
+
+
+    /* ==================================================
+       COMPOSANTS
+    ================================================== */
+
+    --button-height: 54px;
+    --button-radius: var(--radius-pill);
+
+    --field-height: 48px;
+    --field-padding: 0 14px;
+    --field-radius: var(--radius-md);
+
+    --badge-radius: var(--radius-pill);
+    --card-radius: var(--radius-lg);
+
+
+    /* ==================================================
+       TRANSITIONS
+    ================================================== */
+
+    --transition-fast: .15s ease;
+    --transition-default: .2s ease;
+    --transition-soft: .25s ease;
+    --transition-card: .28s ease;
+    --transition-state: .35s ease;
+
+}

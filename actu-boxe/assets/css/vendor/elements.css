@@ -1,0 +1,184 @@
+/**
+ * Fichier  : /menus/main/assets/css/elements.css
+ * Fonction : style des éléments du menu
+ */
+
+
+/* ==================================================
+   MENU
+================================================== */
+
+.menu {
+    --menu-gap: 3em
+}
+
+
+/* ==================================================
+   LOGO
+================================================== */
+
+.menu .logo {
+    position: relative;
+}
+
+.menu .logo {
+    width: auto;
+    height: 100%;
+}
+
+.menu .logo {
+    padding: 0 18px;
+}
+
+.menu .logo a {
+    width: auto;
+    height: 100%;
+}
+
+.menu .logo a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu .logo a img {
+    width: auto;
+    height: 60%;
+}
+
+
+/* ==================================================
+   BUTTONS
+================================================== */
+
+.menu .buttons {
+    position: relative;
+}
+
+.menu .buttons {
+    list-style: none;
+    padding: 0;
+}
+
+.menu .buttons {
+    display: flex;
+    align-items: center;
+    gap: var(--menu-gap);
+}
+
+.menu .buttons li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.menu .buttons li svg {
+    margin-top: -2px;
+}
+
+.menu .buttons li svg {
+    width: auto;
+    height: 20px;
+}
+
+.menu .buttons li a {
+    font-family: 'content-font';
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.menu .buttons li svg,
+.menu .buttons li a {
+    color: var(--color-white);
+}
+
+/*** Sign up ***/
+.menu .buttons .signup {
+    height: var(--button-height);
+    padding: 0 20px;
+}
+.menu .buttons .signup {
+    background: var(--gradient-primary);
+    border-radius: var(--button-radius);
+    box-shadow:
+        0 10px 26px rgba(233,64,27,.30),
+        0 0 18px rgba(255,123,0,.16),
+        inset 0 1px 0 rgba(255,255,255,.16);
+    transition:
+        transform var(--transition-soft),
+        box-shadow var(--transition-soft);
+}
+.menu .buttons .signup:hover {
+    transform: translateY(-2px);
+}
+.menu .buttons .signup:hover {
+    box-shadow: var(--shadow-primary-hover);
+}
+
+
+/*** Search ***/
+
+.menu .buttons .search svg {
+    width: auto;
+    height: 2em;
+}
+
+.menu .buttons .search a:hover svg {
+    color: var(--color-primary);
+    transition: .3s ease-in-out;
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 1024px) {
+
+    .menu {
+        --menu-gap: 2em;
+    }
+
+    .menu .logo a img {
+        height: 65%;
+    }
+
+    .menu .buttons li svg {
+        height: 28px;
+    }
+
+    .menu .buttons li span {
+        display: none;
+    }
+    
+    .menu .buttons .myaccount {
+        width: 34px;
+        height: 34px;
+    }
+
+    .menu .buttons .myaccount {
+        background: var(--gradient-primary);
+        border-radius: 50%;
+        box-shadow:
+            0 10px 26px rgba(233,64,27,.30),
+            0 0 18px rgba(255,123,0,.16),
+            inset 0 1px 0 rgba(255,255,255,.16);
+        transition:
+            transform var(--transition-default),
+            box-shadow var(--transition-default);
+    }
+
+    .menu .buttons .myaccount svg {
+        width: auto;
+        height: 18px;
+    }
+
+    .menu .buttons .signup {
+        display: none;
+    }
+
+}

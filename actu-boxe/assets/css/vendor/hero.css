@@ -1,0 +1,314 @@
+/**
+ * Fichier  : /ott/blog/home/assets/css/hero.css
+ * Fonction : une éditoriale de la page d'accueil du blog
+ */
+
+
+/* ==================================================
+   HERO
+================================================== */
+
+#blog-home .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(0, .75fr) minmax(0, .75fr);
+    grid-template-rows: repeat(2, minmax(220px, 1fr));
+    gap: 14px;
+}
+
+
+/* ==================================================
+   HERO ITEM
+================================================== */
+
+#blog-home .hero-item {
+    position: relative;
+    overflow: hidden;
+    min-height: 220px;
+}
+
+#blog-home .hero-item {
+    background: var(--color-black);
+    border: var(--glass-border);
+    border-radius: var(--card-radius);
+    box-shadow: var(--shadow-card);
+}
+
+#blog-home .hero-item-1 {
+    grid-row: 1 / 3;
+}
+
+#blog-home .hero-item > a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: inherit;
+}
+
+
+/* ==================================================
+   VISUAL
+================================================== */
+
+#blog-home .hero-item .visual,
+#blog-home .hero-item .overlay {
+    position: absolute;
+    inset: 0;
+}
+
+#blog-home .hero-item .visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#blog-home .hero-item .visual img {
+    transform: scale(1);
+    transition:
+        transform .7s ease,
+        filter var(--transition-state);
+}
+
+#blog-home .hero-item:hover .visual img {
+    transform: scale(1.04);
+    filter: brightness(1.04);
+}
+
+
+/* ==================================================
+   OVERLAY
+================================================== */
+
+#blog-home .hero-item .overlay {
+    z-index: 1;
+    pointer-events: none;
+}
+
+#blog-home .hero-item .overlay {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,.06) 0%,
+            rgba(0,0,0,.18) 40%,
+            rgba(0,0,0,.92) 100%
+        );
+}
+
+#blog-home .hero-item-1 .overlay {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0,0,0,.88) 0%,
+            rgba(0,0,0,.58) 42%,
+            rgba(0,0,0,.12) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,.05) 0%,
+            rgba(0,0,0,.08) 50%,
+            rgba(0,0,0,.62) 100%
+        );
+}
+
+
+/* ==================================================
+   CONTENT
+================================================== */
+
+#blog-home .hero-item .content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#blog-home .hero-item .content {
+    padding: 1.2em;
+}
+
+#blog-home .hero-item-1 .content {
+    max-width: 760px;
+    padding: clamp(26px, 4vw, 54px);
+}
+
+
+/* ==================================================
+   DATE
+================================================== */
+
+#blog-home .hero-item .date {
+    display: block;
+    margin-bottom: 7px;
+    font-family: 'content-font';
+    font-size: 10px;
+    color: rgba(255,255,255,.62);
+}
+
+
+/* ==================================================
+   TITLE
+================================================== */
+
+#blog-home .hero-item h2 {
+    font-family: 'bold-font';
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -.025em;
+    text-wrap: balance;
+    color: var(--color-white);
+}
+
+#blog-home .hero-item-1 h2 {
+    font-family: 'title-font';
+    font-size: 2em;
+    font-weight: 800;
+    line-height: .98;
+    letter-spacing: -.05em;
+}
+
+
+/* ==================================================
+   EXCERPT
+================================================== */
+
+#blog-home .hero-item p {
+    max-width: 660px;
+    margin: 1em 0 0 0;
+}
+
+#blog-home .hero-item p {
+    font-family: 'content-font';
+    font-size: 14px;
+    line-height: 1.55;
+    color: rgba(255,255,255,.76);
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 1180px) {
+
+    #blog-home .hero-grid {
+        grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    }
+
+    #blog-home .hero-item-1 {
+        grid-row: 1 / 3;
+    }
+
+    #blog-home .hero-item-4,
+    #blog-home .hero-item-5 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    /* ==================================================
+       GRID
+    ================================================== */
+
+    #blog-home .hero-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: auto;
+        gap: 8px;
+    }
+
+
+    /* ==================================================
+       MAIN ITEM
+    ================================================== */
+
+    #blog-home .hero-item-1 {
+        grid-column: 1 / -1;
+        grid-row: auto;
+        min-height: 420px;
+    }
+
+
+    /* ==================================================
+       SECONDARY ITEMS
+    ================================================== */
+
+    #blog-home .hero-item-2,
+    #blog-home .hero-item-3,
+    #blog-home .hero-item-4,
+    #blog-home .hero-item-5 {
+        display: block;
+        min-height: 170px;
+    }
+
+    #blog-home .hero-item {
+        border-radius: var(--radius-md);
+    }
+
+
+    /* ==================================================
+       MAIN OVERLAY
+    ================================================== */
+
+    #blog-home .hero-item-1 .overlay {
+        background:
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,.06) 0%,
+                rgba(0,0,0,.22) 42%,
+                rgba(0,0,0,.94) 100%
+            );
+    }
+
+
+    /* ==================================================
+       CONTENT
+    ================================================== */
+
+    #blog-home .hero-item .content {
+        padding: 12px;
+    }
+
+    #blog-home .hero-item-1 .content {
+        padding: 24px 20px;
+    }
+
+
+    /* ==================================================
+       TITLES
+    ================================================== */
+
+    #blog-home .hero-item h2 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    #blog-home .hero-item-1 h2 {
+        font-size: 1.8em;
+        line-height: .98;
+    }
+
+
+    /* ==================================================
+       DATE
+    ================================================== */
+
+    #blog-home .hero-item .date {
+        margin-bottom: 5px;
+        font-size: 9px;
+    }
+
+
+    /* ==================================================
+       EXCERPT
+    ================================================== */
+
+    #blog-home .hero-item p {
+        font-size: 13px;
+    }
+
+}

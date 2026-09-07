@@ -1,0 +1,98 @@
+/**
+ * Fichier  : /ott/archives/assets/css/style.css
+ * Fonction : style des archives
+ */
+
+
+/* ==================================================
+   ARCHIVES WRAPPER
+================================================== */
+
+#archives {
+    position: relative;
+    overflow: hidden;
+}
+
+#archives,
+#archives *,
+#archives *::before,
+#archives *::after {
+    box-sizing: border-box;
+}
+
+#archives {
+    min-height: 100vh;
+}
+
+#archives {
+    margin-bottom: 3em;
+}
+
+#archives {
+    color: var(--color-white);
+}
+
+
+/* ==================================================
+   MAIN
+================================================== */
+
+#archives > main {
+    position: relative;
+    z-index: 1;
+}
+
+#archives > main {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+
+/* ==================================================
+   LINK RESET
+================================================== */
+
+#archives a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* ==================================================
+   IMAGE RESET
+================================================== */
+
+#archives img {
+    display: block;
+}
+
+#archives img {
+    max-width: 100%;
+}
+
+
+/* ==================================================
+   ACCESSIBILITY
+================================================== */
+
+#archives a:focus-visible {
+    outline: none;
+}
+
+#archives a:focus-visible {
+    box-shadow: var(--shadow-focus);
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 768px) {
+
+    #archives {
+        padding: 22px 0 36px 0;
+    }
+
+}

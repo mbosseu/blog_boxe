@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": null,
+  "buildCommand": "true",
+  "outputDirectory": "actu-boxe",
+  "cleanUrls": true,
+  "trailingSlash": true
+}

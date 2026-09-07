@@ -1,0 +1,231 @@
+/**
+ * Fichier  : /ott/ads/banner/sample/assets/css/style.css
+ * Fonction : style de l'exemple de panneau publicitaire
+ */
+
+
+/* ==================================================
+   SAMPLE
+================================================== */
+
+.adBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.adBox {
+    width: 100%;
+    min-height: 225px;
+}
+
+.adBox {
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+.adBox {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1.2em !important;
+}
+
+.adBox {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.055),
+            rgba(255,255,255,.015)
+        );
+
+    border: var(--glass-border);
+    border-radius: var(--card-radius);
+
+    backdrop-filter: var(--glass-blur);
+}
+
+.adBox {
+    box-shadow:
+        var(--shadow-inset-soft),
+        var(--shadow-card);
+}
+
+
+/* ==================================================
+   BACKGROUND
+================================================== */
+
+.adBox::before {
+    content: "";
+}
+
+.adBox::before {
+    position: absolute;
+    inset: 0;
+}
+
+.adBox::before {
+    background-image: var(--ad-logo);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: min(320px, 55%);
+}
+
+.adBox::before {
+    opacity: .06;
+    pointer-events: none;
+}
+
+
+/* ==================================================
+   GLOW
+================================================== */
+
+.adBox::after {
+    content: "";
+}
+
+.adBox::after {
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+}
+
+.adBox::after {
+    width: 300px;
+    height: 180px;
+}
+
+.adBox::after {
+    background: rgba(255,120,0,.14);
+    border-radius: 50%;
+    filter: blur(70px);
+    transform: translateX(-50%);
+}
+
+.adBox::after {
+    pointer-events: none;
+}
+
+
+/* ==================================================
+   TITLE
+================================================== */
+
+.adBox h3 {
+    position: relative;
+    z-index: 1;
+}
+
+.adBox h3 {
+    margin: 0;
+}
+
+.adBox h3 {
+    font-family: 'title-font';
+    font-size: clamp(22px, 2vw, 30px);
+    font-weight: 800;
+    line-height: 1;
+}
+
+.adBox h3 {
+    letter-spacing: -.035em;
+    color: var(--color-white);
+}
+
+
+/* ==================================================
+   CONTACT
+================================================== */
+
+.adBox > a {
+    position: relative;
+    z-index: 1;
+}
+
+.adBox > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adBox > a {
+    padding: 11px 16px;
+}
+
+.adBox > a {
+    background: var(--gradient-primary);
+
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: var(--radius-pill);
+
+    box-shadow: var(--shadow-primary);
+}
+
+.adBox > a {
+    font-family: 'content-font';
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.adBox > a {
+    transition:
+        transform var(--transition-default),
+        box-shadow var(--transition-soft);
+}
+
+
+/* ==================================================
+   TEXT
+================================================== */
+
+.adBox > a p {
+    margin: 0;
+}
+
+.adBox > a strong {
+    font-family: 'bold-font';
+    font-weight: 600;
+}
+
+
+/* ==================================================
+   HOVER
+================================================== */
+
+.adBox > a:hover {
+    transform: translateY(-2px);
+}
+
+.adBox > a:hover {
+    box-shadow:
+        0 16px 34px rgba(233,64,27,.42),
+        0 0 24px rgba(255,123,0,.22);
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 768px) {
+
+    .adBox {
+        min-height: 200px;
+        padding: 1.5em;
+    }
+
+    .adBox h3 {
+        font-size: 22px;
+    }
+
+    .adBox > a {
+        padding: 9px 12px;
+        font-size: 11px;
+    }
+
+}

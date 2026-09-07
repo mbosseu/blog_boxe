@@ -1,0 +1,229 @@
+/**
+ * Fichier  : /menus/main/assets/css/menu.css
+ * Fonction : style du menu principal
+ */
+
+
+/* ==================================================
+   VARIABLES
+================================================== */
+
+:root {
+    --menu_height: 95px;
+}
+
+
+/* ==================================================
+   MENU
+================================================== */
+
+.menu {
+    height: var(--menu_height);
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.menu {
+    box-sizing: border-box;
+    padding: 0 3em;
+    z-index: 999;
+}
+
+
+/* ==================================================
+   POSITIONS
+================================================== */
+
+.menu.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu.nosticky {
+    position: relative;
+    width: 100%;
+}
+
+
+/* ==================================================
+   BACKGROUND
+================================================== */
+
+.menu {
+    background: var(--main-background);
+}
+
+.menu.sticky {
+    background: var(--menu-background);
+    backdrop-filter: var(--glass-blur-soft);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+
+/* ==================================================
+   LOGO BACKGROUND
+================================================== */
+
+.menu .logo .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu .logo .background {
+    width: 100%;
+    height: var(--menu_height);
+}
+
+.menu .logo .background {
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+/* ==================================================
+   LOGO BACKGROUND STATES
+================================================== */
+
+.menu .logo .background.hidden {
+    display: none;
+}
+
+.menu .logo .background.fadeInDown {
+    display: block;
+}
+
+.menu .logo .background.fadeInDown {
+    animation: FadeInDown .5s;
+}
+
+.menu .logo .background.fadeInDown {
+    background: var(--gradient-primary);
+}
+
+
+/* ==================================================
+   BUTTONS
+================================================== */
+
+.menu .buttons li a {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 1024px) {
+
+    :root {
+        --menu_height: 60px;
+    }
+
+
+    /* ==================================================
+       MOBILE POSITION
+    ================================================== */
+
+    .menu,
+    .menu.sticky,
+    .menu.nosticky {
+        position: fixed;
+        top: auto;
+        bottom: 1.5em;
+        left: 10px;
+        right: 10px;
+    }
+
+    .menu,
+    .menu.sticky,
+    .menu.nosticky {
+        width: auto;
+        height: var(--menu_height);
+    }
+
+    .menu,
+    .menu.sticky,
+    .menu.nosticky {
+        padding: 0 1.5em;
+    }
+
+
+    /* ==================================================
+       MOBILE BACKGROUND
+    ================================================== */
+
+    .menu,
+    .menu.sticky,
+    .menu.nosticky {
+        background: var(--menu-background);
+        border: 1px solid var(--main-background);
+        backdrop-filter: var(--glass-blur-soft);
+        -webkit-backdrop-filter: blur(18px);
+        border-radius: 999px;
+        box-shadow: 0 0 10px #00000050;
+    }
+
+
+    /* ==================================================
+       MOBILE LAYOUT
+    ================================================== */
+
+    .menu {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+
+    /* ==================================================
+       MOBILE META EFFECT
+    ================================================== */
+
+    .menu {
+        transform-origin: center bottom;
+    }
+
+    .menu {
+        transition:
+            transform .28s ease,
+            opacity .28s ease,
+            box-shadow .28s ease;
+    }
+
+    .menu.is-compact {
+        transform: scale(.88) translateY(8px);
+    }
+
+    .menu.is-compact {
+        opacity: .86;
+    }
+
+    .menu.is-compact {
+        box-shadow:
+            0 4px 14px rgba(0, 0, 0, .35);
+    }
+
+
+    /* ==================================================
+       MOBILE BACKGROUND DISABLED
+    ================================================== */
+
+    .menu .background {
+        display: none !important;
+    }
+
+}

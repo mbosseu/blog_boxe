@@ -1,0 +1,146 @@
+/**
+ * Fichier  : /menus/main/assets/css/drawer.css
+ * Fonction : style du menu coulissant (seulement sur mobiles)
+ */
+
+
+/* ==================================================
+   DESKTOP
+================================================== */
+
+@media screen and (min-width: 1024px) {
+
+    .drawer {
+        display: none;
+    }
+
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media screen and (max-width: 1024px) {
+
+
+    /* ==================================================
+       DRAWER
+    ================================================== */
+
+    .drawer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .drawer {
+        width: auto;
+        height: 80svh;
+    }
+
+    .drawer {
+        background: var(--gradient__1);
+        box-shadow: 0 0 28px #000;
+    }
+
+
+    /* ==================================================
+       NAVIGATION
+    ================================================== */
+
+    .drawer ul.inner {
+        position: absolute;
+    }
+
+    .drawer ul.inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .drawer ul.inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .drawer ul.inner {
+        padding: 1em 0 0 0;
+    }
+
+
+    /*** ITEMS ***/
+
+    .drawer ul.inner li {
+        list-style: none;
+    }
+
+
+    /*** LIENS ***/
+
+    .drawer ul.inner li a {
+        font-family: 'content-font';
+        font-size: 16px;
+        line-height: 50px;
+        color: #fff;
+    }
+
+
+    /* ==================================================
+       LOGO
+    ================================================== */
+
+    .drawer img {
+        display: none;
+    }
+
+}
+
+
+/* ==================================================
+   ANIMATIONS
+================================================== */
+
+.drawerIn {
+    animation: drawerIn 0.25s ease forwards;
+}
+
+.drawerOut {
+    animation: drawerOut 0.2s ease forwards;
+}
+
+
+/*** DRAWER IN ***/
+
+@keyframes drawerIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/*** DRAWER OUT ***/
+
+@keyframes drawerOut {
+
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+}

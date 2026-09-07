@@ -1,0 +1,159 @@
+/**
+ * Fichier  : /features/back-to-top/assets/css/style.css
+ * Fonction : bouton pour remonter tout en haut de la page
+ */
+
+
+/* ==================================================
+   ANCRES
+================================================== */
+
+.top_of_the_page {
+    position: absolute;
+    top: 0;
+}
+
+
+/* ==================================================
+   BOUTON
+================================================== */
+
+.back_to_top {
+    position: fixed;
+    bottom: 2em;
+    right: 3em;
+    z-index: 100;
+}
+
+.back_to_top {
+    width: 40px;
+    height: 40px;
+}
+
+.back_to_top {
+    background: var(--gradient-primary);
+    border: 1px solid var(--color-border-soft);
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00000080;
+}
+
+.back_to_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_to_top {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(20px) scale(.85);
+}
+
+.back_to_top svg {
+    width: auto;
+    height: 60%;
+}
+
+.back_to_top svg {
+    color: #fff;
+}
+
+
+/* ==================================================
+   ANIMATIONS
+================================================== */
+
+@keyframes backtopIn {
+
+    0% {
+        opacity: 0;
+        transform: translateY(24px) scale(.75) rotate(-12deg);
+        filter: blur(4px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(-4px) scale(1.08) rotate(4deg);
+        filter: blur(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1) rotate(0);
+        filter: blur(0);
+    }
+
+}
+
+@keyframes backtotopOut {
+
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(18px) scale(.85);
+        filter: blur(3px);
+    }
+
+}
+
+
+/* ==================================================
+   ÉTATS
+================================================== */
+
+.back_to_top.BackToTop {
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.back_to_top.backtopIn {
+    animation: backtopIn .45s cubic-bezier(.2, .9, .25, 1.25) forwards;
+}
+
+.back_to_top.backtotopOut {
+    animation: backtotopOut .3s ease-in forwards;
+}
+
+/*** HOVER ***/
+
+.back_to_top:hover {
+    background-color: #111;
+    transform: translateY(-4px) scale(1.08);
+    box-shadow:
+        0 12px 28px #00000035,
+        0 0 0 6px #ffffff10;
+    border-color: #ffffff80;
+    transition:
+        transform .35s cubic-bezier(.22, 1, .36, 1),
+        box-shadow .35s ease,
+        border-color .35s ease;
+}
+
+.back_to_top:hover svg {
+    transform: translateY(-2px);
+    transition: transform .35s cubic-bezier(.22, 1, .36, 1);
+}
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media screen and (max-width: 1024px) {
+
+    .back_to_top {
+        display: none;
+    }
+    
+    .back_to_top {
+        bottom: 1.4em;
+        right: 1em;
+    }
+
+}

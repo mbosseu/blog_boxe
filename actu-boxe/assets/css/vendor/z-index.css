@@ -1,0 +1,25 @@
+/**
+ * Fichier  : /menus/main/assets/css/z-index.css
+ * Fonction : gestion z-index du menu principal
+ */
+ 
+.menu {
+    z-index: 99;
+}
+.menu .logo {
+    z-index: 5;
+}
+@media screen and (max-width: 1024px) {
+    .menu .buttons,
+    .menu .hamburger, .menu .hamburger .checkbox {
+        z-index: 4;
+    }
+}
+.background,
+.initialBackground,
+.stickyBackground {
+    z-index: 1;
+}
+.drawer {
+    z-index: -1;
+}

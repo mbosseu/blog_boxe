@@ -1,0 +1,132 @@
+/**
+ * Fichier  : /menus/main/assets/css/hamburger.css
+ * Fonction : style de l'hamburger du menu
+ */
+
+
+/* ==================================================
+   DESKTOP
+================================================== */
+
+@media screen and (min-width: 1024px) {
+
+    .menu .hamburger {
+        display: none;
+    }
+
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media screen and (max-width: 1024px) {
+
+
+    /* ==================================================
+       HAMBURGER
+    ================================================== */
+
+    .menu .hamburger {
+        position: relative;
+    }
+
+    .menu .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* ==================================================
+       CHECKBOX
+    ================================================== */
+
+    .menu .hamburger .checkbox {
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .menu .hamburger .checkbox {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu .hamburger .checkbox {
+        opacity: 0;
+        appearance: none;
+    }
+
+
+    /* ==================================================
+       LINES
+    ================================================== */
+
+    .menu .hamburger .lines {
+        width: 40px;
+        height: 2px;
+    }
+
+    .menu .hamburger .lines {
+        background: #fff;
+        border-radius: 50px;
+    }
+
+    .menu .hamburger .lines {
+        transform: translateY(-50%);
+        transition: all 0.4s ease;
+    }
+
+
+    /*** BEFORE / AFTER ***/
+
+    .menu .hamburger .lines::before,
+    .menu .hamburger .lines::after {
+        content: '';
+        position: absolute;
+        left: 0;
+    }
+
+    .menu .hamburger .lines::before,
+    .menu .hamburger .lines::after {
+        width: 100%;
+        height: 2.5px;
+    }
+
+    .menu .hamburger .lines::before,
+    .menu .hamburger .lines::after {
+        background: #fff;
+        border-radius: 50px;
+        transition: all 0.4s ease;
+    }
+
+    .menu .hamburger .lines::before {
+        top: -12px;
+    }
+
+    .menu .hamburger .lines::after {
+        top: 12px;
+    }
+
+
+    /* ==================================================
+       ÉTATS
+    ================================================== */
+
+    .menu .hamburger .checkbox:checked + .lines {
+        background: transparent;
+    }
+
+    .menu .hamburger .checkbox:checked + .lines::before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    .menu .hamburger .checkbox:checked + .lines::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+
+}
