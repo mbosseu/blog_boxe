@@ -5,7 +5,8 @@ import json
 from html import escape
 from pathlib import Path
 
-from content import ARTICLES, by_tag, get
+from content import ARTICLES, all_articles, by_tag, get
+from feed_store import vu_ailleurs_items
 
 ROOT = Path(__file__).resolve().parent / "actu-boxe"
 SITE = "https://actu-boxe.com"
@@ -40,6 +41,8 @@ PAGES = [
      "WBC, WBA, IBF, WBO, EBU, FFB : comprendre les fédérations et les ceintures."),
     ("analyses", "Analyses", "Décryptage",
      "Lectures de combats, performances et enjeux sportifs."),
+    ("vu-ailleurs", "Vu ailleurs", "Fil des médias",
+     "Titres et liens vers d’autres sites de boxe anglaise. Actu Boxe n’héberge ni leurs textes ni leurs photos."),
     ("interviews", "Interviews", "Paroles d’acteurs",
      "Extraits publics et entretiens, uniquement quand une source existe. Pas de citations inventées."),
     ("mentions-legales", "Mentions légales", "Informations",
@@ -123,6 +126,7 @@ def footer() -> str:
         ("/clubs/", "Clubs"),
         ("/organisations/", "Organisations"),
         ("/analyses/", "Analyses"),
+        ("/vu-ailleurs/", "Vu ailleurs"),
         ("/interviews/", "Interviews"),
         ("/mentions-legales/", "Mentions légales"),
         ("/confidentialite/", "Confidentialité"),
@@ -312,6 +316,80 @@ def cards_html(articles: list[dict]) -> str:
     return '<div class="cards-grid">' + "".join(card(a) for a in articles) + "</div>"
 
 
+def vu_ailleurs_home() -> str:
+    items = vu_ailleurs_items()[:8]
+    if not items:
+        return ""
+    rows = "".join(
+        f"""<li>
+        <a href="{escape(it['url'], quote=True)}" target="_blank" rel="noopener">
+          <span class="vu-source">{escape(it['source'])}</span>
+          <strong>{escape(it['title'])}</strong>
+          <span class="date">{escape(it.get('date') or '')}</span>
+        </a>
+      </li>"""
+        for it in items
+    )
+    return f"""
+    <section class="section is-visible vu-home">
+      <header>
+        <div>
+          <span>Fil</span>
+          <h2>Vu ailleurs</h2>
+        </div>
+        <a class="more" href="/vu-ailleurs/">Voir tout</a>
+      </header>
+      <ul class="vu-list">{rows}</ul>
+    </section>
+"""
+
+
+def vu_ailleurs_page() -> str:
+    items = vu_ailleurs_items()
+    if items:
+        rows = "".join(
+            f"""<li>
+            <a href="{escape(it['url'], quote=True)}" target="_blank" rel="noopener">
+              <span class="vu-source">{escape(it['source'])}</span>
+              <strong>{escape(it['title'])}</strong>
+              <span class="date">{escape(it.get('date') or '')}</span>
+            </a>
+          </li>"""
+            for it in items
+        )
+        listing = f'<ul class="vu-list vu-list-page">{rows}</ul>'
+    else:
+        listing = """<div class="empty-state"><strong>Fil en cours d’alimentation</strong>
+        <p>Les titres des autres médias apparaîtront après la prochaine veille automatique.</p></div>"""
+    intro = (
+        "Titres publics et liens vers BoxeNet, Boxemag, La Sueur (rubrique boxe) et RMC Sport. "
+        "Pas de recopie d’articles, pas de photos reprises. L’Équipe n’a pas de flux RSS boxe ouvert : "
+        "nous ne le listons pas."
+    )
+    body = f"""
+<main class="page-shell" id="contenu">
+  <header>
+    <span>Fil des médias</span>
+    <h1>Vu ailleurs</h1>
+    <p>{intro}</p>
+  </header>
+  {listing}
+</main>
+"""
+    crumbs = [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{SITE}/"},
+        {"@type": "ListItem", "position": 2, "name": "Vu ailleurs", "item": f"{SITE}/vu-ailleurs/"},
+    ]
+    return page_shell(
+        "Vu ailleurs",
+        intro,
+        body,
+        "news",
+        path="/vu-ailleurs/",
+        extra_ld=[{"@type": "BreadcrumbList", "itemListElement": crumbs}],
+    )
+
+
 def home() -> str:
     featured = get("championnats-d-europe-2026-la-selection-francaise-pour-sofia")
     others = [
@@ -369,6 +447,7 @@ def home() -> str:
       <h3>Vous représentez un club ou un gala ?</h3>
       <a href="mailto:contact@actu-boxe.com"><p>Écrire à <strong>contact@actu-boxe.com</strong></p></a>
     </div>
+    {vu_ailleurs_home()}
     <div class="sections">{''.join(sec_html)}</div>
   </div>
 </main>
@@ -401,7 +480,8 @@ def listing_page(slug: str, title: str, kicker: str, intro: str) -> str:
           <p>Préproduction&nbsp;: hébergement local sur la machine de développement.</p>
           <p>Production&nbsp;: l’hébergeur (nom, raison sociale, adresse) sera indiqué ici lors de la mise en ligne sur actu-boxe.com.</p>
           <h2>Propriété intellectuelle</h2>
-          <p>Textes&nbsp;: Actu Boxe. Photos&nbsp;: crédits indiqués sous chaque cliché (Moselle TV / Matthieu Henkinet, FFBoxe, clubs, visuels de gala). Le seul lien sortant vers un club est celui du Toulouse Minimes Boxing Club.</p>
+          <p>Textes rédactionnels&nbsp;: Actu Boxe. Photos&nbsp;: crédits indiqués sous chaque cliché (Moselle TV / Matthieu Henkinet, FFBoxe, clubs, visuels de gala). Le seul lien sortant vers un club est celui du Toulouse Minimes Boxing Club.</p>
+          <p>La page <a href="/vu-ailleurs/">Vu ailleurs</a> liste des titres et des liens vers des sites tiers. Actu Boxe n’héberge pas leurs articles ni leurs images. Le fil FFBoxe reprend le titre d’un communiqué fédéral, un lien vers la source, et le visuel uniquement s’il est servi par ffboxe.com.</p>
         </div>"""
     if slug == "interviews":
         extra = """<div class="legal-content">
@@ -414,7 +494,7 @@ def listing_page(slug: str, title: str, kicker: str, intro: str) -> str:
           <p>Contact données&nbsp;: <a href="mailto:contact@actu-boxe.com">contact@actu-boxe.com</a></p>
         </div>"""
     cards = ""
-    if slug not in {"mentions-legales", "confidentialite"}:
+    if slug not in {"mentions-legales", "confidentialite", "vu-ailleurs"}:
         cards = cards_html(by_tag(slug))
     active = {
         "actualites": "news",
@@ -449,7 +529,7 @@ def listing_page(slug: str, title: str, kicker: str, intro: str) -> str:
 
 
 def article_page(article: dict) -> str:
-    related = [a for a in ARTICLES if a["slug"] != article["slug"] and set(a["tags"]) & set(article["tags"])][:4]
+    related = [a for a in all_articles() if a["slug"] != article["slug"] and set(a["tags"]) & set(article["tags"])][:4]
     info = "".join(f"<p><strong>{k}</strong> — {v}</p>" for k, v in article.get("info") or [])
     rel = "".join(
         f'<a href="{href_article(a["slug"])}">{a["title"]}</a>' for a in related
@@ -542,6 +622,7 @@ def article_page(article: dict) -> str:
         image_alt=article.get("image_alt", article["title"]),
         og_type="article",
         date_published=article["date_iso"],
+        canonical=article.get("canonical_source") if article.get("wire") else None,
         extra_ld=[
             {"@type": "BreadcrumbList", "itemListElement": crumbs},
             news_ld,
@@ -715,12 +796,12 @@ def write_sitemap() -> None:
     urls = ["/"]
     for slug, *_ in PAGES:
         urls.append(f"/{slug}/")
-    for article in ARTICLES:
+    for article in all_articles():
         urls.append(f"/articles/{article['slug']}/")
     body = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path in urls:
         lastmod = ""
-        art = next((a for a in ARTICLES if f"/articles/{a['slug']}/" == path), None)
+        art = next((a for a in all_articles() if f"/articles/{a['slug']}/" == path), None)
         if art:
             lastmod = f"<lastmod>{art['date_iso']}</lastmod>"
         else:
@@ -739,11 +820,12 @@ def main() -> None:
     write("champions/index.html", champions_page())
     write("cotes/index.html", gone_cotes_page())
     write("organisations/index.html", organisations_page())
+    write("vu-ailleurs/index.html", vu_ailleurs_page())
     for slug, title, kicker, intro in PAGES:
-        if slug in {"champions", "organisations"}:
+        if slug in {"champions", "organisations", "vu-ailleurs"}:
             continue
         write(f"{slug}/index.html", listing_page(slug, title, kicker, intro))
-    for article in ARTICLES:
+    for article in all_articles():
         write(f"articles/{article['slug']}/index.html", article_page(article))
     write_sitemap()
 

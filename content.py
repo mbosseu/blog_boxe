@@ -1073,9 +1073,16 @@ ARTICLES = [
 ]
 
 
+def all_articles() -> list:
+    from feed_store import wire_articles
+
+    pool = ARTICLES + wire_articles()
+    return sorted(pool, key=lambda a: a.get("date_iso", ""), reverse=True)
+
+
 def by_tag(tag: str):
-    return [a for a in ARTICLES if tag in a["tags"]]
+    return [a for a in all_articles() if tag in a["tags"]]
 
 
 def get(slug: str):
-    return next(a for a in ARTICLES if a["slug"] == slug)
+    return next(a for a in all_articles() if a["slug"] == slug)
