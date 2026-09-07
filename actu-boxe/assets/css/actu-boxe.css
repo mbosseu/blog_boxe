@@ -143,6 +143,34 @@ body {
         linear-gradient(160deg, #1a1a1a 0%, #0a0a0a 55%, #2a0a0a 100%);
 }
 
+#blog-home .hero-item .overlay {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(6, 6, 6, 0.58) 0%,
+            rgba(6, 6, 6, 0.28) 36%,
+            rgba(6, 6, 6, 0.94) 100%
+        ) !important;
+}
+
+#blog-home .hero-item-1 .overlay {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(6, 6, 6, 0.52) 0%,
+            rgba(6, 6, 6, 0.32) 40%,
+            rgba(6, 6, 6, 0.96) 100%
+        ) !important;
+}
+
+#blog-home .hero-item .visual.title-card .title-card-inner {
+    display: none;
+}
+
+.ab-hero:has(.ab-hero-bg)::after {
+    background: linear-gradient(180deg, rgba(8, 8, 8, 0.45) 8%, rgba(8, 8, 8, 0.92) 100%);
+}
+
 #blog-home .hero-item .visual img,
 #blog-home .section .item .visual img,
 .cards-grid .item .visual img {

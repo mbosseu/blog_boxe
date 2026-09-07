@@ -62,8 +62,6 @@ ARTICLES = [
         "category_href": "/actualites/",
         "active": "news",
         "tags": ["actualites", "galas"],
-        "image": "/assets/img/sofia-selection-ffboxe.png",
-        "image_alt": "Visuel FFBoxe de la sélection française pour Sofia 2026",
         "gallery": [
             ("/assets/img/sofia-selection-ffboxe.png", "Annonce FFBoxe — sélection Sofia 2026"),
             ("/assets/img/sofia-liste-ffboxe.png", "Liste officielle FFBoxe des treize sélectionnés"),
@@ -398,6 +396,8 @@ ARTICLES = [
         "category_href": "/galas/",
         "active": "fights",
         "tags": ["galas", "combats-a-venir", "actualites"],
+        "image": "/assets/img/saint-nazaire-boxing-nazairien.jpg",
+        "image_alt": "Affiche du championnat de France Clavier vs Ntambwe, 9 octobre 2026 à La Soucoupe",
         "info": [
             ("Gala", "Boxing Nazairien"),
             ("Date", "Vendredi 9 octobre 2026"),
@@ -408,6 +408,7 @@ ARTICLES = [
         "sources": [
             ("Ouest-France — Clavier briguera le titre le 9 octobre", "https://www.ouest-france.fr/sport/boxe/boxe-brice-clavier-briguera-le-titre-de-champion-de-france-le-9-octobre-a-saint-nazaire-f86cbc8a-a2fe-11f1-abd7-ab566e68ae13"),
             ("Atlantique Sport — report au 9 octobre", "https://atlantiquesports.fr/2026/08/04/boxe-le-championnat-de-france-de-brice-clavier-reporte-au-09-octobre/"),
+            ("Placeminute — Championnat de France Brice Clavier", "https://www.placeminute.com/event/sports-de-combat/championnat-de-france-brice-clavier-et-3-combats-professionnels,48802.html"),
         ],
         "body": """
 <h2>Un gala français, décalé de septembre à octobre</h2>
@@ -415,8 +416,8 @@ ARTICLES = [
 <p>Combat principal&nbsp;: le Nazairien <strong>Brice Clavier</strong> (34 ans, 14 victoires dont 7 avant la limite, 7 défaites dont 3 avant la limite, 1 nul) face à <strong>Gaëtan Ntambwe</strong> (Boxing Club Hénin-Beaumont, 31 ans, 11 victoires dont une avant la limite, 2 défaites). Les deux sont co-challengers. La ceinture est vacante.</p>
 <p>Ce sera la deuxième tentative de Clavier pour le titre national, après un KO dès la première reprise à Cayenne en mars 2023 face à Léonardo Mosquéa. Ntambwe avait perdu en mars 2026 face à Sofiane Abdeljabbar pour le même titre des lourds-légers.</p>
 <h2>Autour de l’affiche</h2>
-<p>Atlantique Sport annonce trois autres combats professionnels avec des boxeurs de la Team Cazeaux&nbsp;: Romain Bartra, Driss Gharroumi et Jonas Zozo, plus une carte amateur du Boxing Nazairien.</p>
-<p>Nous n’avons pas d’affiche officielle libre de droits à republier ici. La soirée se tient rue Léo Lagrange, 44600 Saint-Nazaire. Actu Boxe suivra le résultat le 9 octobre avant d’inscrire un champion de France des lourds-légers dans la rubrique Champions.</p>
+<p>Atlantique Sport annonce trois autres combats professionnels avec des boxeurs de la Team Cazeaux&nbsp;: Romain Bartra, Driss Gharroumi et Jonas Zozo, plus une carte amateur du Boxing Nazairien. L’affiche de billetterie, publiée sur Placeminute, porte bien Clavier vs Ntambwe, le 9 octobre à La Soucoupe, avec Gharroumi, Bartra et Zozo en sous-carte. Ce n’est pas une photo de camp&nbsp;: c’est le visuel d’événement.</p>
+<p>La soirée se tient rue Léo Lagrange, 44600 Saint-Nazaire. Actu Boxe suivra le résultat le 9 octobre avant d’inscrire un champion de France des lourds-légers dans la rubrique Champions.</p>
 """,
     },
     {
@@ -765,6 +766,8 @@ ARTICLES = [
         "active": "fights",
         "tags": ["galas", "combats-a-venir", "actualites"],
         "card_title": "Béziers, 17 octobre : Patrach–Ghodbane",
+        "image": "/assets/img/lenny-patrach-ffboxe.jpg",
+        "image_alt": "Lenny Patrach (à droite) à Djeddah, visuel FFBoxe — prochaine sortie à Béziers le 17 octobre",
         "info": [
             ("Date", "Samedi 17 octobre 2026"),
             ("Lieu", "Salle du Four à Chaux, Béziers"),
@@ -777,7 +780,7 @@ ARTICLES = [
         ],
         "body": """
 <p>Les enchères ont placé le championnat de France des mi-lourds (-79,378 kg) à Béziers, le samedi 17 octobre 2026, salle du Four à Chaux. La ceinture est vacante. Lenny Patrach, 20 ans, Boxing Club Marcel Cerdan, reçoit Samir Ghodbane, 31 ans, BC Schiltigheim. Le président du club alsacien, Alain Greitzer, a dit aux DNA avoir accepté le combat.</p>
-<p>Patrach arrive avec une première défaite, à Djeddah en juillet. Ghodbane boxe loin de chez lui. Actu Boxe n’avance pas de pourcentage sur cette affiche. Pas de visuel Béziers distinct de la photo Djeddah&nbsp;: cette page est en titre visuel.</p>
+<p>Patrach arrive avec une première défaite, à Djeddah en juillet. Ghodbane boxe loin de chez lui. Actu Boxe n’avance pas de pourcentage sur cette affiche. La photo de carte est le cliché FFBoxe de Patrach à Djeddah (juillet 2026)&nbsp;: pas encore d’affiche Béziers distincte, pas de photo de Ghodbane ici.</p>
 """,
     },
     {
@@ -889,7 +892,7 @@ ARTICLES = [
 <p><strong>18 septembre, Metz</strong> — La Relève, Palais des sports de Longeville-lès-Metz. Ibrahim Boukedim défend le WBC Youth des coqs contre Erick Yahir Lopez. Portes 18h.</p>
 <p><strong>9 octobre, Saint-Nazaire</strong> — La Soucoupe. Brice Clavier vs Gaëtan Ntambwe, titre de France des lourds-légers vacant, reporté du 18 septembre.</p>
 <p><strong>17 octobre, Béziers</strong> — Salle du Four à Chaux. Lenny Patrach vs Samir Ghodbane, titre de France des mi-lourds vacant. Le même jour, Kassimou Mouhamadou (BCA Lingolsheim, moyens) a une date à Blois selon les DNA&nbsp;: adversaire non repris ici tant qu’il n’est pas confirmé par une source aussi nette.</p>
-<p>Sofia (17-26 septembre) tourne en parallèle, côté amateur. Pas d’affiche Saint-Nazaire libre de droits&nbsp;: le gala nazairien reste en titre visuel sur sa propre page.</p>
+<p>Sofia (17-26 septembre) tourne en parallèle, côté amateur. Chaque gala a sa propre page&nbsp;: visuel de billetterie à Saint-Nazaire, photo FFBoxe de Patrach pour Béziers, affiche La Relève pour Metz. Cette carte d’ensemble reste typographique&nbsp;: pas de visuel Weezevent générique, pas de photo d’un autre gala recyclée.</p>
 """,
     },
     {

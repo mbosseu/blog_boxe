@@ -373,8 +373,8 @@ def home() -> str:
         body,
         "home",
         path="/",
-        image="/assets/img/sofia-selection-ffboxe.png",
-        image_alt="Sélection française pour les championnats d’Europe de Sofia",
+        image="/assets/img/dublin-pili-ring-henkinet.jpg",
+        image_alt="Flora Pili sur le ring à Dublin",
         title_full="Actu Boxe | Actualité de la boxe anglaise",
     )
 
@@ -630,7 +630,7 @@ def champions_page() -> str:
         body,
         "champs",
         path="/champions/",
-        image="/assets/img/sofia-selection-ffboxe.png",
+        image="/assets/img/ibrahim-boukedim.jpg",
         extra_ld=[{
             "@type": "BreadcrumbList",
             "itemListElement": [
