@@ -388,7 +388,64 @@ ARTICLES = [
         "body": """
 <p>Mehdi Boutlelis est le coach de boxe anglaise mis en avant par le Toulouse Minimes Boxing Club pour les créneaux loisirs et compétiteurs. Titulaire du BPJEPS, il encadre débutants et licenciés dans la salle de la rue de Fenouillet, à deux pas du métro Barrière de Paris.</p>
 <p>Le TMBC se distingue d’une salle multi-disciplines&nbsp;: ici, le cadre reste la boxe anglaise. Autour de Mehdi, un entraîneur titulaire du Prévôt fédéral suit amateur et professionnel. Le détail du club, des horaires et de l’accès est dans notre <a href="/articles/toulouse-minimes-boxing-club/">portrait du TMBC</a>.</p>
-<p>Nous n’avons pas d’entretien exclusif avec Mehdi ni avec le président Oussama. Dès qu’un échange aura lieu, il sera publié dans <a href="/interviews/">Interviews</a>. Aucune photo publique suffisamment fiable n’identifie Oussama&nbsp;: nous n’en publions pas.</p>
+<p>Entretien Actu Boxe avec Mehdi Boutlelis&nbsp;: <a href="/articles/mehdi-boutlelis-la-boxe-apprendre-a-se-construire/">« La boxe, ce n’est pas seulement apprendre à frapper, c’est apprendre à se construire »</a>. Aucune photo publique suffisamment fiable n’identifie le président Oussama&nbsp;: nous n’en publions pas.</p>
+""",
+    },
+    {
+        "slug": "mehdi-boutlelis-la-boxe-apprendre-a-se-construire",
+        "title": "Mehdi Boutlelis : « La boxe, ce n’est pas seulement apprendre à frapper, c’est apprendre à se construire »",
+        "excerpt": "Coach référent du TMBC, il parle transmission, loisirs et compétiteurs, mental et valeurs. Entretien Actu Boxe.",
+        "date": "8 septembre 2026",
+        "date_iso": "2026-09-08",
+        "category": "Interviews",
+        "category_href": "/interviews/",
+        "active": "home",
+        "tags": ["interviews", "coachs", "clubs", "actualites"],
+        "image": "/assets/img/tmbc-coach-mehdi.webp",
+        "image_alt": "Mehdi Boutlelis au Toulouse Minimes Boxing Club",
+        "info": [
+            ("Rôle", "Coach référent, boxe anglaise"),
+            ("Club", "Toulouse Minimes Boxing Club"),
+            ("Diplôme", "BPJEPS mention boxe anglaise"),
+            ("Publics", "Loisirs et compétiteurs"),
+        ],
+        "sources": [
+            ("Toulouse Minimes Boxing Club", "https://www.toulouse-minimes-boxing-club.fr/"),
+            ("Portrait du coach", "/articles/mehdi-boutlelis-toulouse-minimes/"),
+            ("Portrait du club", "/articles/toulouse-minimes-boxing-club/"),
+        ],
+        "body": """
+<p>Coach référent du Toulouse Minimes Boxing Club, Mehdi Boutlelis accompagne les pratiquants loisirs et les compétiteurs. Titulaire du BPJEPS mention boxe anglaise, il encadre à la salle de la rue de Fenouillet. Il a également une expérience de compétiteur. Entretien Actu Boxe.</p>
+<p><strong>Actu Boxe — Mehdi, comment êtes-vous arrivé dans le monde de la boxe&nbsp;?</strong><br>
+«&nbsp;La boxe a toujours occupé une place importante dans ma vie. Au départ, j’ai découvert la discipline comme pratiquant, avec tout ce que cela implique&nbsp;: les entraînements, les sacrifices, les combats et surtout les remises en question. Avec le temps, j’ai eu envie de transmettre ce que j’avais appris.&nbsp;»</p>
+<p>«&nbsp;Passer de boxeur à entraîneur s’est donc fait assez naturellement. J’ai compris que j’aimais autant accompagner quelqu’un dans sa progression que pratiquer moi-même.&nbsp;»</p>
+<p><strong>Actu Boxe — Qu’est-ce qui vous plaît particulièrement dans votre rôle de coach&nbsp;?</strong><br>
+«&nbsp;Ce qui me plaît, c’est de voir l’évolution d’un pratiquant. Quelqu’un peut arriver à la salle sans aucune expérience, manquer de confiance et, quelques mois plus tard, être capable de réaliser des choses qu’il pensait impossibles.&nbsp;»</p>
+<p>«&nbsp;La boxe permet vraiment de travailler sur soi. On développe ses qualités physiques, mais aussi sa discipline, sa confiance, sa capacité à gérer la pression et les difficultés.&nbsp;»</p>
+<p><strong>Actu Boxe — Vous encadrez à la fois des loisirs et des compétiteurs. Est-ce que votre approche change selon le profil&nbsp;?</strong><br>
+«&nbsp;Oui, forcément. On ne peut pas entraîner de la même manière quelqu’un qui vient simplement découvrir la boxe et un boxeur qui prépare une compétition.&nbsp;»</p>
+<p>«&nbsp;Pour un pratiquant loisir, l’objectif peut être de se dépenser, apprendre les bases, progresser techniquement ou simplement prendre du plaisir. Pour un compétiteur, le travail devient beaucoup plus précis&nbsp;: préparation physique, technique, tactique, gestion du poids, récupération et préparation mentale.&nbsp;»</p>
+<p>«&nbsp;Mais dans les deux cas, les fondamentaux restent les mêmes&nbsp;: sérieux, régularité, respect et envie de progresser.&nbsp;»</p>
+<p><strong>Actu Boxe — Quelle place donnez-vous au mental dans la préparation d’un boxeur&nbsp;?</strong><br>
+«&nbsp;Elle est énorme. La boxe est un sport où l’on est confronté à soi-même. À l’entraînement comme en compétition, il faut apprendre à rester concentré lorsque les choses deviennent difficiles.&nbsp;»</p>
+<p>«&nbsp;Un boxeur peut avoir de très bonnes qualités physiques et techniques, mais s’il abandonne mentalement dès que la situation devient compliquée, cela peut devenir un problème.&nbsp;»</p>
+<p>«&nbsp;C’est pour cela que j’essaie aussi de préparer mes boxeurs mentalement. Il faut apprendre à accepter les difficultés et à continuer à avancer.&nbsp;»</p>
+<p><strong>Actu Boxe — Quel conseil donneriez-vous à quelqu’un qui n’ose pas pousser la porte d’une salle de boxe&nbsp;?</strong><br>
+«&nbsp;De simplement venir essayer. Beaucoup de personnes ont une image de la boxe qui peut les impressionner. Elles pensent qu’il faut déjà être sportif, savoir boxer ou être capable de prendre des coups.&nbsp;»</p>
+<p>«&nbsp;Ce n’est pas le cas.&nbsp;»</p>
+<p>«&nbsp;On apprend progressivement. La boxe est accessible à différents profils et à différents niveaux. Le plus important, c’est d’avoir envie d’apprendre.&nbsp;»</p>
+<p><strong>Actu Boxe — Quelles sont les valeurs que vous souhaitez transmettre à vos boxeurs&nbsp;?</strong><br>
+«&nbsp;Le respect, la discipline, la persévérance et l’humilité.&nbsp;»</p>
+<p>«&nbsp;La boxe peut apprendre beaucoup de choses qui dépassent largement le cadre du sport. Elle peut aider quelqu’un à prendre confiance en lui, à mieux gérer ses émotions et à comprendre l’importance du travail.&nbsp;»</p>
+<p>«&nbsp;C’est aussi pour cela que je trouve ce sport particulièrement intéressant auprès des jeunes.&nbsp;»</p>
+<p><strong>Actu Boxe — Quelle est votre vision du TMBC&nbsp;?</strong><br>
+«&nbsp;Le club doit être un endroit où chacun peut trouver sa place. Que l’on vienne pour pratiquer en loisir, pour progresser ou pour faire de la compétition, il faut pouvoir être accompagné correctement.&nbsp;»</p>
+<p>«&nbsp;Le Toulouse Minimes Boxing Club porte également une dimension sociale importante&nbsp;: rendre la boxe accessible et utiliser le sport comme un outil de cohésion, d’éducation et d’insertion.&nbsp;»</p>
+<p><strong>Actu Boxe — Et pour terminer, quel message aimeriez-vous adresser aux jeunes boxeurs qui débutent&nbsp;?</strong><br>
+«&nbsp;Ne cherchez pas à aller trop vite. Prenez le temps d’apprendre et acceptez de faire des erreurs.&nbsp;»</p>
+<p>«&nbsp;La progression ne se fait pas en quelques semaines. Il faut être régulier, écouter son entraîneur et surtout continuer à travailler lorsque les résultats ne sont pas immédiatement visibles.&nbsp;»</p>
+<p>«&nbsp;La boxe est une école de patience. Si vous êtes sérieux et que vous aimez ce que vous faites, vous progresserez forcément.&nbsp;»</p>
+<p>Salle&nbsp;: 10 rue de Fenouillet, 31200 Toulouse. <a href="https://www.toulouse-minimes-boxing-club.fr/" target="_blank" rel="noopener">Site du TMBC</a>.</p>
 """,
     },
     {
@@ -451,7 +508,7 @@ ARTICLES = [
             ("Compte rendu Dublin", "/articles/flora-pili-s-incline-face-a-katie-taylor-a-dublin/"),
         ],
         "body": """
-<p>Actu Boxe n’a pas encore d’entretien exclusif avec Mehdi Boutlelis, Oussama (TMBC), Jean-Claude Mbiye, Ben Bachir ou Ibrahim Boukedim. En attendant ces échanges, voici les paroles publiques les plus précises du moment&nbsp;: Flora Pili et Pietro Pili, interrogés par Moselle TV au lendemain de Dublin. Les réponses ci-dessous sont des extraits, pas une reconstruction.</p>
+<p>L’entretien d’Actu Boxe avec Mehdi Boutlelis, coach du TMBC, est publié à part. Oussama (TMBC), Jean-Claude Mbiye, Ben Bachir et Ibrahim Boukedim n’ont pas encore d’entretien exclusif. Ici&nbsp;: Flora Pili et Pietro Pili, interrogés par Moselle TV au lendemain de Dublin. Les réponses ci-dessous sont des extraits, pas une reconstruction.</p>
 <h2>Flora Pili</h2>
 <p><strong>Après la défaite, quelle est ta première réaction&nbsp;?</strong><br>
 «&nbsp;En tant que compétitrice, on est toujours déçus de la défaite. Mais je m’imaginais autre chose que Katie Taylor… Là, franchement, elle ne m’a pas touchée, je n’ai rien, je suis un peu frustrée parce que j’aurais peut-être pu plus aller à la guerre.&nbsp;»</p>

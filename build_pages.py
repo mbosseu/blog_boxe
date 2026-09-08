@@ -485,7 +485,7 @@ def listing_page(slug: str, title: str, kicker: str, intro: str) -> str:
         </div>"""
     if slug == "interviews":
         extra = """<div class="legal-content">
-          <p>Les paroles publiées ici sont des extraits sourcés. Mehdi Boutlelis, Oussama (TMBC), Jean-Claude Mbiye et Ben Bachir n’ont pas encore d’entretien exclusif Actu Boxe&nbsp;: dès qu’un échange aura lieu, il remplacera cette mention.</p>
+          <p>Les paroles publiées ici sont sourcées. Entretien Actu Boxe avec Mehdi Boutlelis (TMBC). Extraits publics Moselle TV pour Flora Pili et Pietro Pili. Oussama (TMBC), Jean-Claude Mbiye, Ben Bachir et Ibrahim Boukedim n’ont pas encore d’entretien exclusif.</p>
         </div>"""
     if slug == "confidentialite":
         extra = """<div class="legal-content">
