@@ -89,6 +89,10 @@ def fetch(url: str) -> requests.Response:
 
 
 def parse_rss(xml: bytes) -> list[dict]:
+    xml = re.sub(rb"[\x00-\x08\x0B\x0C\x0E-\x1F]", b"", xml)
+    start = xml.lstrip()[:200].lower()
+    if start.startswith(b"<!doctype html") or start.startswith(b"<html"):
+        raise ET.ParseError("html instead of rss")
     root = ET.fromstring(xml)
     items = []
     for item in root.iter():
@@ -102,6 +106,12 @@ def parse_rss(xml: bytes) -> list[dict]:
         if title and link:
             items.append({"title": title, "url": link.split("#")[0], "pubDate": pub, "categories": cats})
     return items
+
+
+def load_rss(url: str) -> list[dict]:
+    r = fetch(url)
+    r.raise_for_status()
+    return parse_rss(r.content)
 
 
 def editorial_urls() -> set[str]:
@@ -177,7 +187,11 @@ def ingest_ffboxe(known: set[str]) -> list[dict]:
         previous = json.loads(prev_path.read_text(encoding="utf-8")).get("items") or []
     by_url = {i["url"].rstrip("/") + "/": i for i in previous}
 
-    rss = parse_rss(fetch("https://www.ffboxe.com/feed/").content)
+    try:
+        rss = load_rss("https://www.ffboxe.com/feed/")
+    except (requests.RequestException, ET.ParseError) as exc:
+        print(f"ffboxe feed skipped: {exc}")
+        return previous
     for entry in rss:
         url = entry["url"].rstrip("/") + "/"
         if skip_item(entry["title"], entry.get("categories")):
@@ -220,13 +234,19 @@ def ingest_ffboxe(known: set[str]) -> list[dict]:
 
 
 def ingest_vu_ailleurs() -> list[dict]:
+    prev_path = DATA / "vu_ailleurs.json"
+    previous = []
+    if prev_path.exists():
+        previous = json.loads(prev_path.read_text(encoding="utf-8")).get("items") or []
     items: list[dict] = []
     seen = set()
     for source, feed_url in VU_FEEDS:
         try:
-            entries = parse_rss(fetch(feed_url).content)
-        except requests.RequestException:
+            entries = load_rss(feed_url)
+        except (requests.RequestException, ET.ParseError) as exc:
+            print(f"{source} feed skipped: {exc}")
             continue
+        print(f"{source}: {len(entries)} items")
         for entry in entries:
             if skip_item(entry["title"]):
                 continue
@@ -243,9 +263,12 @@ def ingest_vu_ailleurs() -> list[dict]:
                 "date": date_fr(dt) if dt else "",
             })
         time.sleep(0.25)
+    if not items:
+        print("vu ailleurs: keeping previous list")
+        return previous
     items = sorted(items, key=lambda x: x.get("date_iso") or "", reverse=True)[:40]
     DATA.mkdir(parents=True, exist_ok=True)
-    (DATA / "vu_ailleurs.json").write_text(
+    prev_path.write_text(
         json.dumps({"updated": datetime.now(timezone.utc).isoformat(), "items": items}, ensure_ascii=False, indent=2)
         + "\n",
         encoding="utf-8",
