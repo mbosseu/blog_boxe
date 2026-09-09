@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-07T18:21:26.798398+00:00",
+  "updated": "2026-09-09T11:44:10.502507+00:00",
   "items": [
+    {
+      "source": "Boxemag",
+      "title": "Ryan Garcia – Conor Benn: Découvrez la carte complète des combats prévus samedi",
+      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-conor-benn-decouvrez-la-carte-complete-des-combats-prevus-samedi/",
+      "date_iso": "2026-09-08",
+      "date": "8 septembre 2026"
+    },
     {
       "source": "Boxemag",
       "title": "Impatient, Tyson Fury prêt à abandonner le combat contre Anthony Joshua et à défier Oleksandr Usyk",
@@ -170,27 +177,6 @@
       "date": "27 août 2026"
     },
     {
-      "source": "Boxemag",
-      "title": "“Il m’a copié”: Tyson Fury affirme avoir appris l’art de la provocation à Conor McGregor",
-      "url": "https://boxemag.ouest-france.fr/boxe/il-ma-copie-tyson-fury-affirme-avoir-appris-lart-de-la-provocation-a-conor-mcgregor/",
-      "date_iso": "2026-08-27",
-      "date": "27 août 2026"
-    },
-    {
-      "source": "La Sueur",
-      "title": "Tyson Fury fait un aveu sur sa victoire contre Francis Ngannou",
-      "url": "https://lasueur.com/tyson-fury-fait-un-aveu-victoire-francis-ngannou-26-8-2026",
-      "date_iso": "2026-08-26",
-      "date": "26 août 2026"
-    },
-    {
-      "source": "La Sueur",
-      "title": "Tyson Fury balance : « j’ai tout appris à Conor McGregor »",
-      "url": "https://lasueur.com/tyson-fury-balance-jai-tout-appris-a-conor-mcgregor-26-08-2026",
-      "date_iso": "2026-08-26",
-      "date": "26 août 2026"
-    },
-    {
       "source": "RMC Sport",
       "title": "Boxe: l'ancien double champion du monde Zolani Tete tué par balle en Afrique du Sud",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-l-ancien-double-champion-du-monde-zolani-tete-tue-par-balle-en-afrique-du-sud_AN-202608210574.html",
@@ -240,32 +226,11 @@
       "date": "28 juillet 2026"
     },
     {
-      "source": "La Sueur",
-      "title": "Boxe – La superstar Errol Spence Jr tire sa révérence",
-      "url": "https://lasueur.com/boxe-la-superstar-errol-spence-jr-tire-sa-reverence-28-07-2026",
-      "date_iso": "2026-07-28",
-      "date": "28 juillet 2026"
-    },
-    {
       "source": "RMC Sport",
       "title": "Boxe: envoyé au tapis, victoire par KO, larmes, message à Fury… Anthony Joshua est prêt pour la \"Bataille d’Angleterre\"",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-victoire-par-ko-larmes-message-a-fury-anthony-joshua-est-pret-pour-la-bataille-d-angleterre_AD-202607260085.html",
       "date_iso": "2026-07-26",
       "date": "26 juillet 2026"
-    },
-    {
-      "source": "La Sueur",
-      "title": "Joshua tombe en quelques secondes… Puis termine Prenga au second round",
-      "url": "https://lasueur.com/joshua-tombe-quelques-secondes-termine-prenga-second-round-26-7-2026",
-      "date_iso": "2026-07-25",
-      "date": "25 juillet 2026"
-    },
-    {
-      "source": "La Sueur",
-      "title": "Tyson Fury attaque violemment Anthony Joshua après sa victoire",
-      "url": "https://lasueur.com/tyson-fury-attaque-violemment-anthony-joshua-apres-victoire-25-7-2026",
-      "date_iso": "2026-07-25",
-      "date": "25 juillet 2026"
     },
     {
       "source": "RMC Sport",
@@ -275,11 +240,46 @@
       "date": "25 juillet 2026"
     },
     {
-      "source": "La Sueur",
-      "title": "Tyson Fury fait abandonner Mariusz Wach au 7ᵉ round",
-      "url": "https://lasueur.com/tyson-fury-fait-abandonner-mariusz-wach-7-round-24-7-2026",
+      "source": "RMC Sport",
+      "title": "Boxe: Tyson Fury vainqueur par abandon de Mariusz Wach",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-tyson-fury-vainqueur-par-abandon-de-mariusz-wach_AD-202607240587.html",
       "date_iso": "2026-07-24",
       "date": "24 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Streaming Anthony Joshua vs Kristian Prenga : comment regarder le combat de boxe en direct ce samedi ?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/streaming-anthony-joshua-vs-kristian-prenga-comment-regarder-le-combat-de-boxe-en-direct-ce-samedi_AN-202607240025.html",
+      "date_iso": "2026-07-24",
+      "date": "24 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "\"Je n'ai pas l'impression que le monde ait déjà vu le meilleur de Tyson Fury\": le boxeur britannique refuse qu'on l'enterre trop vite",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/je-n-ai-pas-l-impression-que-le-monde-ait-deja-vu-le-meilleur-de-tyson-fury-le-boxeur-britannique-refuse-qu-on-l-enterre-trop-vite_AV-202607220379.html",
+      "date_iso": "2026-07-22",
+      "date": "22 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: le combat de Tyson Fury en Thaïlande, avant son choc face à Anthony Joshua, ne sera pas diffusé",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-combat-de-tyson-fury-en-thailande-avant-son-choc-face-a-anthony-joshua-ne-sera-pas-diffuse_AV-202607210323.html",
+      "date_iso": "2026-07-21",
+      "date": "21 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: \"Dans les semaines à venir, on va considérer ça comme un exploit\", Papot savoure sa victoire face à Eubank",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-dans-les-semaines-a-venir-on-va-considerer-ca-comme-un-exploit-papot-savoure-sa-victoire-face-a-eubank_AV-202607190377.html",
+      "date_iso": "2026-07-19",
+      "date": "19 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: face à la légende Katie Taylor, la Française Flora Pili va livrer un combat à la Rocky",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-face-a-la-legende-katie-taylor-la-francaise-flora-pili-va-livrer-un-combat-a-la-rocky_AN-202607021032.html",
+      "date_iso": "2026-07-02",
+      "date": "2 juillet 2026"
     }
   ]
 }
