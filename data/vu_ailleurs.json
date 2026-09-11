@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-11T04:47:54.720482+00:00",
+  "updated": "2026-09-11T11:29:46.384996+00:00",
   "items": [
+    {
+      "source": "Boxemag",
+      "title": "Ryan Garcia vs Conor Benn: Quelle date, heure et chaine pour regarder le combat en direct à la TV  ?",
+      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-vs-conor-benn-quelle-date-heure-et-chaine-pour-regarder-le-combat-en-direct-a-la-tv/",
+      "date_iso": "2026-09-11",
+      "date": "11 septembre 2026"
+    },
+    {
+      "source": "Boxemag",
+      "title": "Le combat Anthony Joshua-Tyson Fury “de plus en plus susceptible” de se tenir dans un lieu surprise au Royaume-Uni",
+      "url": "https://boxemag.ouest-france.fr/boxe/le-combat-anthony-joshua-tyson-fury-de-plus-en-plus-susceptible-de-se-tenir-dans-un-lieu-surprise-au-royaume-uni/",
+      "date_iso": "2026-09-11",
+      "date": "11 septembre 2026"
+    },
     {
       "source": "Boxemag",
       "title": "“Trop pour lui”: Ryan Garcia affirme que Conor Benn ne fera pas le poids sur le ring",
@@ -149,20 +163,6 @@
       "date": "29 août 2026"
     },
     {
-      "source": "Boxemag",
-      "title": "La revanche Fabio Wardley – Daniel Dubois officialisée pour le 17 octobre à Londres",
-      "url": "https://boxemag.ouest-france.fr/boxe/la-revanche-fabio-wardley-daniel-dubois-prevue-pour-octobre-a-peine-cinq-mois-apres-leur-combat-epique-revele-frank-warren/",
-      "date_iso": "2026-08-29",
-      "date": "29 août 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Résultats des combats: Moses Itauma vs Filip Hrgovic",
-      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-moses-itauma-vs-filip-hrgovic/",
-      "date_iso": "2026-08-29",
-      "date": "29 août 2026"
-    },
-    {
       "source": "RMC Sport",
       "title": "Boxe: ça chauffe entre Itauma et Hrgovic avant le combat pour la ceinture IBF",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-ca-chauffe-entre-itauma-et-hrgovic-avant-le-combat-pour-la-ceinture-ibf_AV-202608290103.html",
@@ -175,13 +175,6 @@
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/moses-itauma-filip-hrgovic-sur-quelle-chaine-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202608290029.html",
       "date_iso": "2026-08-29",
       "date": "29 août 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Ryan Garcia: “je vais pulvériser Teofimo”",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-je-vais-pulveriser-teofimo/",
-      "date_iso": "2026-08-28",
-      "date": "28 août 2026"
     },
     {
       "source": "RMC Sport",
@@ -280,6 +273,13 @@
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-dans-les-semaines-a-venir-on-va-considerer-ca-comme-un-exploit-papot-savoure-sa-victoire-face-a-eubank_AV-202607190377.html",
       "date_iso": "2026-07-19",
       "date": "19 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: face à la légende Katie Taylor, la Française Flora Pili va livrer un combat à la Rocky",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-face-a-la-legende-katie-taylor-la-francaise-flora-pili-va-livrer-un-combat-a-la-rocky_AN-202607021032.html",
+      "date_iso": "2026-07-02",
+      "date": "2 juillet 2026"
     }
   ]
 }
