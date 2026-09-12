@@ -1,10 +1,17 @@
 {
-  "updated": "2026-09-12T10:54:09.729592+00:00",
+  "updated": "2026-09-12T15:36:05.612419+00:00",
   "items": [
     {
       "source": "Boxemag",
       "title": "Résultats des combats Ryan Garcia vs Conor Benn",
       "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-ryan-garcia-vs-conor-benn/",
+      "date_iso": "2026-09-12",
+      "date": "12 septembre 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "La folie du cutting en boxe: Conor Benn atteint le poids puis reprend... 14,5kg en 12h avant d'affronter Ryan Garcia",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/la-folie-du-cutting-en-boxe-conor-benn-atteint-le-poids-puis-reprend-14-5kg-en-12h-avant-d-affronter-ryan-garcia_AV-202609120215.html",
       "date_iso": "2026-09-12",
       "date": "12 septembre 2026"
     },
@@ -273,13 +280,6 @@
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-combat-de-tyson-fury-en-thailande-avant-son-choc-face-a-anthony-joshua-ne-sera-pas-diffuse_AV-202607210323.html",
       "date_iso": "2026-07-21",
       "date": "21 juillet 2026"
-    },
-    {
-      "source": "RMC Sport",
-      "title": "Boxe: \"Dans les semaines à venir, on va considérer ça comme un exploit\", Papot savoure sa victoire face à Eubank",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-dans-les-semaines-a-venir-on-va-considerer-ca-comme-un-exploit-papot-savoure-sa-victoire-face-a-eubank_AV-202607190377.html",
-      "date_iso": "2026-07-19",
-      "date": "19 juillet 2026"
     }
   ]
 }
