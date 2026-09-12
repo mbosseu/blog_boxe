@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-12T04:41:54.870130+00:00",
+  "updated": "2026-09-12T10:54:09.729592+00:00",
   "items": [
+    {
+      "source": "Boxemag",
+      "title": "Résultats des combats Ryan Garcia vs Conor Benn",
+      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-ryan-garcia-vs-conor-benn/",
+      "date_iso": "2026-09-12",
+      "date": "12 septembre 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Ryan Garcia - Conor Benn : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/ryan-garcia-conor-benn-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202609120027.html",
+      "date_iso": "2026-09-12",
+      "date": "12 septembre 2026"
+    },
     {
       "source": "Boxemag",
       "title": "Ryan Garcia vs Conor Benn: Quelle date, heure et chaine pour regarder le combat en direct à la TV  ?",
@@ -156,13 +170,6 @@
       "date": "29 août 2026"
     },
     {
-      "source": "Boxemag",
-      "title": "Filip Hrgovic met fin à l’invincibilité du prodige Moses Itauma et remporte le titre IBF",
-      "url": "https://boxemag.ouest-france.fr/boxe/filip-hrgovic-met-fin-a-linvincibilite-du-prodige-moses-itauma-et-remporte-le-titre-ibf/",
-      "date_iso": "2026-08-29",
-      "date": "29 août 2026"
-    },
-    {
       "source": "RMC Sport",
       "title": "Boxe: ça chauffe entre Itauma et Hrgovic avant le combat pour la ceinture IBF",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-ca-chauffe-entre-itauma-et-hrgovic-avant-le-combat-pour-la-ceinture-ibf_AV-202608290103.html",
@@ -273,13 +280,6 @@
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-dans-les-semaines-a-venir-on-va-considerer-ca-comme-un-exploit-papot-savoure-sa-victoire-face-a-eubank_AV-202607190377.html",
       "date_iso": "2026-07-19",
       "date": "19 juillet 2026"
-    },
-    {
-      "source": "RMC Sport",
-      "title": "Boxe: face à la légende Katie Taylor, la Française Flora Pili va livrer un combat à la Rocky",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-face-a-la-legende-katie-taylor-la-francaise-flora-pili-va-livrer-un-combat-a-la-rocky_AN-202607021032.html",
-      "date_iso": "2026-07-02",
-      "date": "2 juillet 2026"
     }
   ]
 }
