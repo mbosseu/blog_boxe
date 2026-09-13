@@ -1,6 +1,27 @@
 {
-  "updated": "2026-09-13T04:55:21.987212+00:00",
+  "updated": "2026-09-13T11:59:04.656659+00:00",
   "items": [
+    {
+      "source": "Boxemag",
+      "title": "Résumé vidéo du combat Ryan Garcia contre Conor Benn",
+      "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-ryan-garcia-contre-conor-benn/",
+      "date_iso": "2026-09-13",
+      "date": "13 septembre 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: Ryan Garcia éteint Conor Benn après un fracassant crochet du droit, l'Américain conserve sa ceinture WBC",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-ryan-garcia-eteint-conor-benn-apres-un-fracassant-crochet-du-droit-l-americain-conserve-sa-ceinture-wbc_AD-202609130095.html",
+      "date_iso": "2026-09-13",
+      "date": "13 septembre 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe : Qui est le NOUVEAU CHAMPION DU MONDE WBC des moins de 67kg ? Garcia vs Benn (Résumé)",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-boxe-qui-est-le-nouveau-champion-du-monde-wbc-des-moins-de-67kg-garcia-vs-benn-resume_VN-202609130077.html",
+      "date_iso": "2026-09-13",
+      "date": "13 septembre 2026"
+    },
     {
       "source": "Boxemag",
       "title": "Résultats des combats Ryan Garcia vs Conor Benn",
@@ -170,13 +191,6 @@
       "date": "30 août 2026"
     },
     {
-      "source": "Boxemag",
-      "title": "Résumé vidéo du combat Filip Hrgovic vs Moses Itauma",
-      "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-filip-hrgovic-vs-moses-itauma/",
-      "date_iso": "2026-08-29",
-      "date": "29 août 2026"
-    },
-    {
       "source": "RMC Sport",
       "title": "Boxe: ça chauffe entre Itauma et Hrgovic avant le combat pour la ceinture IBF",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-ca-chauffe-entre-itauma-et-hrgovic-avant-le-combat-pour-la-ceinture-ibf_AV-202608290103.html",
@@ -266,20 +280,6 @@
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/streaming-anthony-joshua-vs-kristian-prenga-comment-regarder-le-combat-de-boxe-en-direct-ce-samedi_AN-202607240025.html",
       "date_iso": "2026-07-24",
       "date": "24 juillet 2026"
-    },
-    {
-      "source": "RMC Sport",
-      "title": "\"Je n'ai pas l'impression que le monde ait déjà vu le meilleur de Tyson Fury\": le boxeur britannique refuse qu'on l'enterre trop vite",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/je-n-ai-pas-l-impression-que-le-monde-ait-deja-vu-le-meilleur-de-tyson-fury-le-boxeur-britannique-refuse-qu-on-l-enterre-trop-vite_AV-202607220379.html",
-      "date_iso": "2026-07-22",
-      "date": "22 juillet 2026"
-    },
-    {
-      "source": "RMC Sport",
-      "title": "Boxe: le combat de Tyson Fury en Thaïlande, avant son choc face à Anthony Joshua, ne sera pas diffusé",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-combat-de-tyson-fury-en-thailande-avant-son-choc-face-a-anthony-joshua-ne-sera-pas-diffuse_AV-202607210323.html",
-      "date_iso": "2026-07-21",
-      "date": "21 juillet 2026"
     }
   ]
 }
