@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-15T11:51:10.438804+00:00",
+  "updated": "2026-09-15T17:05:23.345901+00:00",
   "items": [
+    {
+      "slug": "ffboxe-trois-medailles-pour-les-espoirs-a-la-chemistry-cup",
+      "title": "Trois médailles pour les Espoirs à la Chemistry Cup",
+      "url": "https://www.ffboxe.com/trois-medailles-pour-les-espoirs-a-la-chemistry-cup/",
+      "date_iso": "2026-09-15",
+      "date": "15 septembre 2026",
+      "image": "/assets/img/wire/ffboxe-trois-medailles-pour-les-espoirs-a-la-chemistry-cup.jpg",
+      "image_alt": "Visuel publié par la FFBoxe",
+      "categories": [
+        "Equipe de France"
+      ]
+    },
+    {
+      "slug": "ffboxe-fete-du-sport-a-marseille",
+      "title": "Fête du Sport à Marseille",
+      "url": "https://www.ffboxe.com/fete-du-sport-a-marseille/",
+      "date_iso": "2026-09-15",
+      "date": "15 septembre 2026",
+      "image": "/assets/img/wire/ffboxe-fete-du-sport-a-marseille.jpeg",
+      "image_alt": "Visuel publié par la FFBoxe",
+      "categories": [
+        "La vie fédérale"
+      ]
+    },
     {
       "slug": "ffboxe-championnats-d-europe-2026-comment-suivre-la-competition",
       "title": "Championnats d'Europe 2026 : comment suivre la compétition ?",
