@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-16T11:44:31.940776+00:00",
+  "updated": "2026-09-16T17:05:24.386522+00:00",
   "items": [
+    {
+      "slug": "ffboxe-entre-les-cordes-episode-6",
+      "title": "Entre les cordes - Épisode 6",
+      "url": "https://www.ffboxe.com/entre-les-cordes-episode-6/",
+      "date_iso": "2026-09-16",
+      "date": "16 septembre 2026",
+      "image": "/assets/img/wire/ffboxe-entre-les-cordes-episode-6.jpg",
+      "image_alt": "Visuel publié par la FFBoxe",
+      "categories": [
+        "Equipe de France"
+      ]
+    },
     {
       "slug": "ffboxe-trois-medailles-pour-les-espoirs-a-la-chemistry-cup",
       "title": "Trois médailles pour les Espoirs à la Chemistry Cup",
