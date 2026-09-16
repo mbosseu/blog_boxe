@@ -1,34 +1,6 @@
 {
-  "updated": "2026-09-16T17:05:29.449958+00:00",
+  "updated": "2026-09-16T21:23:26.859968+00:00",
   "items": [
-    {
-      "source": "Boxemag",
-      "title": "Ryan Garcia affirme que Gervonta Davis l’a contacté pour organiser une revanche",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-affirme-que-gervonta-davis-la-contacte-pour-organiser-une-revanche/",
-      "date_iso": "2026-09-16",
-      "date": "16 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "La WBC destitue Mikaelian, nomme Cieslak nouveau champion et ouvre la voie au combat pour le titre entre Benavidez et Opetaia",
-      "url": "https://boxemag.ouest-france.fr/boxe/la-wbc-destitue-mikaelian-nomme-cieslak-nouveau-champion-et-ouvre-la-voie-au-combat-pour-le-titre-entre-benavidez-et-opetaia/",
-      "date_iso": "2026-09-15",
-      "date": "15 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Ryan Garcia défie Teofimo Lopez et Devin Haney après sa victoire sur Benn: « Je vais te défoncer tout de suite ! »",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-defie-teofimo-lopez-et-devin-haney-apres-sa-victoire-sur-benn-je-vais-te-defoncer-tout-de-suite/",
-      "date_iso": "2026-09-14",
-      "date": "14 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Résumé vidéo du combat Ryan Garcia contre Conor Benn",
-      "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-ryan-garcia-contre-conor-benn/",
-      "date_iso": "2026-09-13",
-      "date": "13 septembre 2026"
-    },
     {
       "source": "RMC Sport",
       "title": "Boxe: Ryan Garcia éteint Conor Benn après un fracassant crochet du droit, l'Américain conserve sa ceinture WBC",
@@ -42,13 +14,6 @@
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-boxe-qui-est-le-nouveau-champion-du-monde-wbc-des-moins-de-67kg-garcia-vs-benn-resume_VN-202609130077.html",
       "date_iso": "2026-09-13",
       "date": "13 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Résultats des combats Ryan Garcia vs Conor Benn",
-      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-ryan-garcia-vs-conor-benn/",
-      "date_iso": "2026-09-12",
-      "date": "12 septembre 2026"
     },
     {
       "source": "RMC Sport",
@@ -65,74 +30,11 @@
       "date": "12 septembre 2026"
     },
     {
-      "source": "Boxemag",
-      "title": "Ryan Garcia vs Conor Benn: Quelle date, heure et chaine pour regarder le combat en direct à la TV  ?",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-vs-conor-benn-quelle-date-heure-et-chaine-pour-regarder-le-combat-en-direct-a-la-tv/",
-      "date_iso": "2026-09-11",
-      "date": "11 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Le combat Anthony Joshua-Tyson Fury “de plus en plus susceptible” de se tenir dans un lieu surprise au Royaume-Uni",
-      "url": "https://boxemag.ouest-france.fr/boxe/le-combat-anthony-joshua-tyson-fury-de-plus-en-plus-susceptible-de-se-tenir-dans-un-lieu-surprise-au-royaume-uni/",
-      "date_iso": "2026-09-11",
-      "date": "11 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "“Trop pour lui”: Ryan Garcia affirme que Conor Benn ne fera pas le poids sur le ring",
-      "url": "https://boxemag.ouest-france.fr/boxe/trop-pour-lui-ryan-garcia-affirme-que-conor-benn-ne-fera-pas-le-poids-sur-le-ring/",
-      "date_iso": "2026-09-10",
-      "date": "10 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Jake et Logan Paul vont diriger une nouvelle émission de téléréalité axée sur la compétition de combat pour Hulu et ESPN",
-      "url": "https://boxemag.ouest-france.fr/boxe/jake-et-logan-paul-vont-diriger-une-nouvelle-emission-de-telerealite-axee-sur-la-competition-de-combat-pour-hulu-et-espn/",
-      "date_iso": "2026-09-10",
-      "date": "10 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Ryan Garcia explique pourquoi il a fait l’impasse sur le face-à-face d’avant-combat avec Conor Benn",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-explique-pourquoi-il-a-fait-limpasse-sur-le-face-a-face-davant-combat-avec-conor-benn/",
-      "date_iso": "2026-09-10",
-      "date": "10 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Ryan Garcia – Conor Benn: Découvrez la carte complète des combats prévus samedi",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-conor-benn-decouvrez-la-carte-complete-des-combats-prevus-samedi/",
-      "date_iso": "2026-09-08",
-      "date": "8 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Impatient, Tyson Fury prêt à abandonner le combat contre Anthony Joshua et à défier Oleksandr Usyk",
-      "url": "https://boxemag.ouest-france.fr/boxe/impatient-tyson-fury-pret-a-abandonner-le-combat-contre-anthony-joshua-et-a-defier-oleksandr-usyk/",
-      "date_iso": "2026-09-07",
-      "date": "7 septembre 2026"
-    },
-    {
       "source": "RMC Sport",
       "title": "\"Il s'est encore chié dessus\": Fury annonce que Joshua a annulé la \"bataille d'Angleterre\"",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/il-s-est-encore-chie-dessus-fury-annonce-que-joshua-a-annule-la-bataille-d-angleterre_AV-202609070441.html",
       "date_iso": "2026-09-07",
       "date": "7 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Résumé video du combat Katie Taylor vs Flora Pili",
-      "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-katie-taylor-vs-flora-pili/",
-      "date_iso": "2026-09-06",
-      "date": "6 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Résumé vidéo du combat Andy Ruiz vs Damian Knyba",
-      "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-andy-ruiz-vs-damian-knyba/",
-      "date_iso": "2026-09-05",
-      "date": "5 septembre 2026"
     },
     {
       "source": "RMC Sport",
@@ -142,44 +44,9 @@
       "date": "5 septembre 2026"
     },
     {
-      "source": "Boxemag",
-      "title": "Résultats des combats Andy Ruiz contre Damian Knyba",
-      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-andy-ruiz-contre-damian-knyba/",
-      "date_iso": "2026-09-04",
-      "date": "4 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Andy Ruiz vs Damian Knyba : Découvrez la carte complète des combats pour vendredi",
-      "url": "https://boxemag.ouest-france.fr/boxe/andy-ruiz-vs-damian-knyba-decouvrez-la-carte-complete-des-combats-pour-samedi/",
-      "date_iso": "2026-09-03",
-      "date": "3 septembre 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Moses Itauma réclame une revanche immédiate contre Filip Hrgovic, son manager est réticent",
-      "url": "https://boxemag.ouest-france.fr/boxe/moses-itauma-reclame-une-revanche-immediate-contre-filip-hrgovic-son-manager-est-reticent/",
-      "date_iso": "2026-08-31",
-      "date": "31 août 2026"
-    },
-    {
       "source": "BoxeNet",
       "title": "Filip Hrgovic déjoue les pronostics et devient champion du monde IBF",
       "url": "https://www.boxenet.fr/8842-2/",
-      "date_iso": "2026-08-30",
-      "date": "30 août 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Moses Itauma réagit pour la première fois depuis sa défaite contre Filip Hrgovic",
-      "url": "https://boxemag.ouest-france.fr/boxe/moses-itauma-reagit-pour-la-premiere-fois-depuis-sa-defaite-contre-filip-hrgovic/",
-      "date_iso": "2026-08-30",
-      "date": "30 août 2026"
-    },
-    {
-      "source": "Boxemag",
-      "title": "Filip Hrgovic révèle qui il veut affronter maintenant qu’il est champion du monde",
-      "url": "https://boxemag.ouest-france.fr/boxe/filip-hrgovic-revele-qui-il-veut-affronter-maintenant-quil-est-champion-du-monde/",
       "date_iso": "2026-08-30",
       "date": "30 août 2026"
     },
@@ -280,6 +147,139 @@
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/streaming-anthony-joshua-vs-kristian-prenga-comment-regarder-le-combat-de-boxe-en-direct-ce-samedi_AN-202607240025.html",
       "date_iso": "2026-07-24",
       "date": "24 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "\"Je n'ai pas l'impression que le monde ait déjà vu le meilleur de Tyson Fury\": le boxeur britannique refuse qu'on l'enterre trop vite",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/je-n-ai-pas-l-impression-que-le-monde-ait-deja-vu-le-meilleur-de-tyson-fury-le-boxeur-britannique-refuse-qu-on-l-enterre-trop-vite_AV-202607220379.html",
+      "date_iso": "2026-07-22",
+      "date": "22 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: le combat de Tyson Fury en Thaïlande, avant son choc face à Anthony Joshua, ne sera pas diffusé",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-combat-de-tyson-fury-en-thailande-avant-son-choc-face-a-anthony-joshua-ne-sera-pas-diffuse_AV-202607210323.html",
+      "date_iso": "2026-07-21",
+      "date": "21 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: \"Dans les semaines à venir, on va considérer ça comme un exploit\", Papot savoure sa victoire face à Eubank",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-dans-les-semaines-a-venir-on-va-considerer-ca-comme-un-exploit-papot-savoure-sa-victoire-face-a-eubank_AV-202607190377.html",
+      "date_iso": "2026-07-19",
+      "date": "19 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: face à la légende Katie Taylor, la Française Flora Pili va livrer un combat à la Rocky",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-face-a-la-legende-katie-taylor-la-francaise-flora-pili-va-livrer-un-combat-a-la-rocky_AN-202607021032.html",
+      "date_iso": "2026-07-02",
+      "date": "2 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: blessé, Tony Yoka déclare forfait pour son combat pour la ceinture WBA des lourds",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-blesse-tony-yoka-declare-forfait-pour-son-combat-pour-la-ceinture-wba-des-lourds_AV-202607020986.html",
+      "date_iso": "2026-07-02",
+      "date": "2 juillet 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe : \"Je gagne surtout psychologiquement\" rencontre avec Junior Tadah, le boxeur à l'ascension fulgurante",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-boxe-je-gagne-surtout-psychologiquement-rencontre-avec-junior-tadah-le-boxeur-a-l-ascension-fulgurante_VN-202606280338.html",
+      "date_iso": "2026-06-28",
+      "date": "28 juin 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe olympique: Junior Tadah, le puncheur à l’ascension fulgurante",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-olympique-junior-tadah-le-puncheur-a-l-ascension-fulgurante_AN-202606280332.html",
+      "date_iso": "2026-06-28",
+      "date": "28 juin 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: le combat entre Mbilli et Canelo pour la ceinture WBC reporté",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-combat-entre-mbilli-et-canelo-pour-la-ceinture-wbc-reporte_AD-202606280177.html",
+      "date_iso": "2026-06-28",
+      "date": "28 juin 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Xander Zayas - Jaros Ennis : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/xander-zayas-jaros-ennis-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202606270029.html",
+      "date_iso": "2026-06-27",
+      "date": "27 juin 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: Usyk renonce à ses trois ceintures mondiales des lourds avant de disputer un dernier combat",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-usyk-renonce-a-ses-trois-ceintures-mondiales-des-lourds-avant-de-disputer-un-dernier-combat_AD-202606260733.html",
+      "date_iso": "2026-06-26",
+      "date": "26 juin 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Boxe: la région Auvergne-Rhône-Alpes refuse que la salle d'un lycée de Lyon porte le nom d'Imane Khelif",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-la-region-auvergne-rhone-alpes-refuse-que-la-salle-d-un-lycee-de-lyon-porte-le-nom-d-imane-khelif_AD-202606250731.html",
+      "date_iso": "2026-06-25",
+      "date": "25 juin 2026"
+    },
+    {
+      "source": "RMC Sport",
+      "title": "Dmitry Bivol - Michael Eifert  : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/dmitry-bivol-michael-eifert-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202605300022.html",
+      "date_iso": "2026-05-30",
+      "date": "30 mai 2026"
+    },
+    {
+      "source": "BoxeNet",
+      "title": "David Benavidez entre dans l’histoire",
+      "url": "https://www.boxenet.fr/david-benavidez-entre-dans-lhistoire/",
+      "date_iso": "2026-05-03",
+      "date": "3 mai 2026"
+    },
+    {
+      "source": "BoxeNet",
+      "title": "Naoya Inoue reste le roi du monde !",
+      "url": "https://www.boxenet.fr/naoya-inoue-reste-le-roi-du-monde/",
+      "date_iso": "2026-05-02",
+      "date": "2 mai 2026"
+    },
+    {
+      "source": "BoxeNet",
+      "title": "Les inscriptions pour LES CEINTURES® 2026 sont ouvertes !",
+      "url": "https://www.boxenet.fr/les-inscriptions-pour-les-ceintures-2026-sont-ouvertes/",
+      "date_iso": "2026-04-16",
+      "date": "16 avril 2026"
+    },
+    {
+      "source": "BoxeNet",
+      "title": "Arslanbek Makhmudov s’incline face à Tyson Fury",
+      "url": "https://www.boxenet.fr/sincline-face-a-tyson-fury/",
+      "date_iso": "2026-04-12",
+      "date": "12 avril 2026"
+    },
+    {
+      "source": "BoxeNet",
+      "title": "Osleys Iglesias double champion du monde !",
+      "url": "https://www.boxenet.fr/osleys-iglesias-double-champion-du-monde/",
+      "date_iso": "2026-04-10",
+      "date": "10 avril 2026"
+    },
+    {
+      "source": "BoxeNet",
+      "title": "Odélia, artiste sur le ring et en dehors !",
+      "url": "https://www.boxenet.fr/odelia-artiste-sur-le-ring-et-en-dehors/",
+      "date_iso": "2026-02-08",
+      "date": "8 février 2026"
+    },
+    {
+      "source": "BoxeNet",
+      "title": "Kim Clavel de nouveau championne du monde !",
+      "url": "https://www.boxenet.fr/kim-clavel-de-nouveau-championne-du-monde/",
+      "date_iso": "2025-09-29",
+      "date": "29 septembre 2025"
     }
   ]
 }
