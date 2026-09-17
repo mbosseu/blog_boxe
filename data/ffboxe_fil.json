@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T17:05:24.386522+00:00",
+  "updated": "2026-09-17T04:58:41.386186+00:00",
   "items": [
     {
       "slug": "ffboxe-entre-les-cordes-episode-6",
@@ -8,6 +8,18 @@
       "date_iso": "2026-09-16",
       "date": "16 septembre 2026",
       "image": "/assets/img/wire/ffboxe-entre-les-cordes-episode-6.jpg",
+      "image_alt": "Visuel publié par la FFBoxe",
+      "categories": [
+        "Equipe de France"
+      ]
+    },
+    {
+      "slug": "ffboxe-suivez-les-bleu-e-s-en-direct-aux-championnats-d-europe-2026",
+      "title": "Suivez les Bleu(e)s en direct aux championnats d'Europe 2026",
+      "url": "https://www.ffboxe.com/suivez-les-bleues-en-direct-aux-championnats-deurope-2026/",
+      "date_iso": "2026-09-16",
+      "date": "16 septembre 2026",
+      "image": "/assets/img/wire/ffboxe-suivez-les-bleu-e-s-en-direct-aux-championnats-d-europe-2026.jpg",
       "image_alt": "Visuel publié par la FFBoxe",
       "categories": [
         "Equipe de France"
