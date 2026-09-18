@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:24:11.372985+00:00",
+  "updated": "2026-09-18T16:30:12.555304+00:00",
   "items": [
     {
       "slug": "ffboxe-g2c-nouvel-echeancier-pour-2026-2027",
@@ -11,6 +11,18 @@
       "image_alt": "Visuel publié par la FFBoxe",
       "categories": [
         "Gants de couleur"
+      ]
+    },
+    {
+      "slug": "ffboxe-martine-et-jeannine-quand-la-boxe-cree-du-lien-entre-les-generations",
+      "title": "Martine et Jeannine : quand la boxe crée du lien entre les générations",
+      "url": "https://www.ffboxe.com/martine-et-jeanine-quand-la-boxe-cree-du-lien-entre-les-generations/",
+      "date_iso": "2026-09-18",
+      "date": "18 septembre 2026",
+      "image": "/assets/img/wire/ffboxe-martine-et-jeannine-quand-la-boxe-cree-du-lien-entre-les-generations.jpg",
+      "image_alt": "Visuel publié par la FFBoxe",
+      "categories": [
+        "La vie fédérale"
       ]
     },
     {
@@ -131,18 +143,6 @@
       "image_alt": "Visuel publié par la FFBoxe",
       "categories": [
         "Boxe Professionnelle"
-      ]
-    },
-    {
-      "slug": "ffboxe-7-bleues-au-tournoi-de-gliwice-en-pologne",
-      "title": "7 Bleues au tournoi de Gliwice en Pologne",
-      "url": "https://www.ffboxe.com/7-bleues-au-tournoi-de-gliwice-en-pologne/",
-      "date_iso": "2026-08-31",
-      "date": "31 août 2026",
-      "image": "/assets/img/wire/ffboxe-7-bleues-au-tournoi-de-gliwice-en-pologne.jpeg",
-      "image_alt": "Visuel publié par la FFBoxe",
-      "categories": [
-        "Equipe de France"
       ]
     }
   ]
