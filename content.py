@@ -1127,138 +1127,106 @@ ARTICLES = [
 <p>Boukedim l’a prise le 14 février 2026 à Dubaï, contre Tiago Dylan Gonzalez, scores 79-73, 79-73, 80-72. Première défense à la maison, huit rounds. Lire Metz comme un mondial, ce serait se tromper d’échelle. Lire Metz comme un gala local sans enjeu, aussi.</p>
 """,
     },
-    {
-        "slug": "valentin-tapia-boxing-center-toulouse",
-        "title": "Valentin Tapia (Boxing Center) : le coach des champions, aussi pour les débutants",
-        "excerpt": "Profil documenté : BPJEPS Boxe, BPJEPS Sports de Contact, DEJEPS Boxe, plus de 10 ans d’encadrement, 9 champions de France selon le club. Pas un entretien exclusif inventé.",
-        "date": "18 septembre 2026",
-        "date_iso": "2026-09-18",
-        "category": "Interviews",
-        "category_href": "/interviews/",
-        "active": "home",
-        "tags": ["interviews", "coachs", "clubs", "actualites"],
-        "image": "/assets/img/boxing-center-valentin.jpg",
-        "image_alt": "Visuel Boxing Center Toulouse — page coach Valentin Tapia",
-        "info": [
-            ("Rôle", "Coach boxe anglaise, Boxing Center Toulouse"),
-            ("Diplômes", "BPJEPS Boxe · BPJEPS Sports de Contact · DEJEPS Boxe"),
-            ("Expérience", "Plus de 10 ans d’encadrement"),
-            ("Publics", "Enfants, débutants, loisirs, femmes, compétiteurs"),
-        ],
-        "sources": [
-            ("Boxing Center — page coach Valentin", "https://boxingcenter.fr/coachs-2/coach-valentin/"),
-            ("Portrait club Boxing Center", "/articles/boxing-center-toulouse-club/"),
-            ("Jeunes 2026", "/articles/boxing-center-meilleurs-jeunes-2026/"),
-        ],
-        "body": """
-<p><em>Profil en questions-réponses documentées.</em> Les réponses synthétisent le parcours publié par Boxing Center Toulouse sur sa page coach. Ce n’est <strong>pas</strong> la retranscription d’une interview orale exclusive réalisée par Actu Boxe.</p>
-<p><strong>Actu Boxe — Qui est Valentin Tapia&nbsp;?</strong><br>
-Selon le club, ancien compétiteur passé tôt à l’encadrement, présenté comme l’un des plus jeunes entraîneurs diplômés de France en boxe. Il accompagne aussi bien le débutant que le boxeur engagé au niveau national.</p>
-<p><strong>Actu Boxe — Quels diplômes&nbsp;?</strong><br>
-<strong>BPJEPS mention Boxe</strong>, <strong>BPJEPS mention Sports de Contact</strong>, <strong>DEJEPS mention Boxe</strong>. Boxing Center le situe parmi les rares entraîneurs de la région toulousaine à ce niveau, aux côtés notamment du coach Mehdi au sein du même réseau. Plus de dix ans d’expérience d’entraîneur.</p>
-<p><strong>Actu Boxe — Quelle formation hors France&nbsp;?</strong><br>
-Plusieurs semaines aux <strong>États-Unis</strong> auprès de coachs reconnus, puis suivi de l’<strong>Équipe de France</strong> lors d’un stage à <strong>Cuba</strong>, pour observer la préparation de boxeurs de très haut niveau — formulation du club.</p>
-<p><strong>Actu Boxe — Quels résultats d’encadrement le club met-il en avant&nbsp;?</strong><br>
-Contribution à la formation de <strong>9 champions de France</strong>, de <strong>2 boxeurs membres de l’Équipe de France jeunes</strong>, et d’<strong>Anna Boullez</strong>, présentée comme boxeuse professionnelle classée n°1 française dans sa catégorie, ainsi que de nombreux jeunes issus du parcours Boxing Center. Un gala du club a notamment été relayé par <em>La Dépêche du Midi</em> autour de la formation et de la boxe féminine.</p>
-<p><strong>Actu Boxe — Et le « meilleur club jeunes 2026 »&nbsp;?</strong><br>
-Selon Boxing Center, le club a terminé <strong>meilleur club de France 2026 chez les jeunes</strong> (cadets et juniors) aux Championnats de France. Lire le <a href="/articles/boxing-center-meilleurs-jeunes-2026/">décryptage</a>&nbsp;: c’est un bilan d’organisation sourcé club, pas un titre médiatique indépendant inventé ici.</p>
-<p><strong>Actu Boxe — Le haut niveau est-il réservé aux compétiteurs&nbsp;?</strong><br>
-Non, insiste le club&nbsp;: enfants dès 3 ans, débutants, loisirs, femmes, adolescents et confirmés bénéficient de la même exigence pédagogique. Message central&nbsp;: <strong>Boxing Center forme réellement ses boxeurs, du débutant au haut niveau</strong>. Les méthodes des compétiteurs profitent aussi aux loisirs.</p>
-<p><strong>Actu Boxe — Où trouver horaires et inscriptions&nbsp;?</strong><br>
-Sur la page du <a href="https://boxingcenter.fr/coachs-2/coach-valentin/" target="_blank" rel="noopener">coach Valentin Tapia chez Boxing Center Toulouse</a>. Contact général indiqué par le club&nbsp;: 05&nbsp;62&nbsp;24&nbsp;46&nbsp;82 / boxingcenter31@gmail.com.</p>
-<p>À lire aussi&nbsp;: <a href="/articles/debuter-boxe-anglaise-toulouse-boxing-center/">débuter la boxe à Toulouse</a>, <a href="/articles/boxing-center-toulouse-club/">portrait du club</a>.</p>
-""",
-    },
-    {
-        "slug": "boxing-center-toulouse-club",
-        "title": "Boxing Center Toulouse : un réseau de salles, de la boxe au MMA",
-        "excerpt": "Cinq salles en métropole toulousaine. Boxe anglaise, pieds-poings, MMA, fitness. Staff diplômé, filière jeunes et compétition. Portrait sourcé club.",
-        "date": "18 septembre 2026",
-        "date_iso": "2026-09-18",
-        "category": "Clubs",
-        "category_href": "/clubs/",
-        "active": "clubs",
-        "tags": ["clubs", "coachs", "actualites"],
-        "image": "/assets/img/boxing-center-valentin.jpg",
-        "image_alt": "Boxing Center Toulouse — sports de combat",
-        "info": [
-            ("Réseau", "5 salles (Toulouse et agglomération)"),
-            ("Disciplines", "Boxe anglaise, muay-thaï, kick, MMA, fitness"),
-            ("Contact", "05 62 24 46 82"),
-        ],
-        "sources": [
-            ("Boxing Center", "https://boxingcenter.fr/"),
-            ("Coach Valentin Tapia", "https://boxingcenter.fr/coachs-2/coach-valentin/"),
-        ],
-        "body": """
-<h2>Pas un club « cage only »</h2>
-<p>Boxing Center est un réseau toulousain de salles de sports de combat. Le club annonce cinq adresses (Barrière de Paris–Minimes, Ramonville–Saint-Agne, Portet-sur-Garonne, Saint-Cyprien, États-Unis) et une offre qui mêle boxe anglaise, boxe thaï, kick-boxing, MMA et fitness. Ce n’est pas le Toulouse Minimes Boxing Club (FFBoxe, boxe anglaise uniquement, rue de Fenouillet)&nbsp;: les deux coexistent dans le même quartier, avec des projets distincts.</p>
-<h2>Ce que le staff met en avant</h2>
-<p>Côté boxe anglaise, le club met en avant <a href="/articles/valentin-tapia-boxing-center-toulouse/">Valentin Tapia</a> (BPJEPS Boxe, BPJEPS Sports de Contact, DEJEPS Boxe) et cite aussi le coach Mehdi. Le message public est clair&nbsp;: les coachs qui forment des champions encadrent aussi les débutants, enfants, loisirs et femmes.</p>
-<p>Selon le club, le bilan d’encadrement inclut neuf champions de France, deux sélectionnés Équipe de France jeunes, et Anna Boullez (pro, n°1 française dans sa catégorie selon Boxing Center). En 2026, le club revendique le meilleur bilan jeunes (cadets / juniors) aux Championnats de France — détail dans <a href="/articles/boxing-center-meilleurs-jeunes-2026/">notre article</a>.</p>
-<h2>Inscriptions</h2>
-<p>Horaires et tarifs changent d’une saison à l’autre. Porte d’entrée&nbsp;: la page <a href="https://boxingcenter.fr/coachs-2/coach-valentin/" target="_blank" rel="noopener">formation boxe anglaise chez Boxing Center Toulouse</a> (coach Valentin). Tél. 05&nbsp;62&nbsp;24&nbsp;46&nbsp;82.</p>
-""",
-    },
-    {
-        "slug": "boxing-center-meilleurs-jeunes-2026",
-        "title": "Boxing Center : meilleur club jeunes 2026 (cadets / juniors), selon le club",
-        "excerpt": "Boxing Center revendique le meilleur bilan de France 2026 chez les jeunes aux Championnats de France. Ce que ça veut dire — et ce que ça ne veut pas dire.",
-        "date": "18 septembre 2026",
-        "date_iso": "2026-09-18",
-        "category": "Actualités",
-        "category_href": "/actualites/",
-        "active": "news",
-        "tags": ["actualites", "clubs", "coachs"],
-        "image": "/assets/img/boxing-center-valentin.jpg",
-        "image_alt": "Boxing Center Toulouse — filière jeunes",
-        "info": [
-            ("Année", "2026"),
-            ("Cadre", "Championnats de France jeunes"),
-            ("Catégories", "Cadets et juniors"),
-            ("Source", "Boxing Center / page coach Valentin"),
-        ],
-        "sources": [
-            ("Boxing Center — page coach Valentin", "https://boxingcenter.fr/coachs-2/coach-valentin/"),
-        ],
-        "body": """
-<h2>Ce que dit le club</h2>
-<p>Sur sa page coach, Boxing Center indique que Valentin Tapia a contribué à faire du club le <strong>meilleur club de France en 2026 chez les jeunes</strong>, catégories cadets et juniors, lors des derniers Championnats de France. Actu Boxe relaie cette formulation en la sourçant&nbsp;: nous n’avons pas ici le tableau officiel FFBoxe médailles par club sous les yeux.</p>
-<h2>Ce que ça signifie pour un lecteur</h2>
-<p>Un classement de clubs aux France jeunes mesure surtout le volume de résultats (médailles, places) sur une édition. Ce n’est pas un label « meilleur coach de France » ni une note pédagogique. C’est un signal&nbsp;: le club pousse une filière compétition jeunes, en parallèle des cours loisirs.</p>
-<p>Le même staff met en avant neuf champions de France formés, deux sélectionnés Équipe de France jeunes, et le parcours d’Anna Boullez. Lire aussi le <a href="/articles/valentin-tapia-boxing-center-toulouse/">profil documenté de Valentin Tapia</a>.</p>
-<p>Inscriptions et créneaux&nbsp;: <a href="https://boxingcenter.fr/coachs-2/coach-valentin/" target="_blank" rel="noopener">coach de boxe anglaise à Toulouse — Boxing Center</a>.</p>
-""",
-    },
-    {
-        "slug": "debuter-boxe-anglaise-toulouse-boxing-center",
-        "title": "Débuter la boxe anglaise à Toulouse : l’approche Boxing Center",
-        "excerpt": "Enfants dès 3 ans, débutants, loisirs, femmes, compétiteurs : le club insiste pour que le même staff diplômé encadre le premier cours et le haut niveau.",
-        "date": "18 septembre 2026",
-        "date_iso": "2026-09-18",
-        "category": "Clubs",
-        "category_href": "/clubs/",
-        "active": "clubs",
-        "tags": ["clubs", "coachs", "actualites"],
-        "image": "/assets/img/boxing-center-valentin.jpg",
-        "image_alt": "Débuter la boxe anglaise à Toulouse",
-        "info": [
-            ("Publics", "Enfants dès 3 ans, débutants, loisirs, femmes, compétiteurs"),
-            ("Formats cités", "Boxe anglaise, Boxing Camp, Boxing Lady, open sparring"),
-            ("Staff", "Valentin Tapia (DEJEPS / BPJEPS)"),
-        ],
-        "sources": [
-            ("Boxing Center — coach Valentin", "https://boxingcenter.fr/coachs-2/coach-valentin/"),
-            ("Portrait Valentin Tapia", "/articles/valentin-tapia-boxing-center-toulouse/"),
-        ],
-        "body": """
-<h2>Le message du club</h2>
-<p>Boxing Center répète une idée simple&nbsp;: les méthodes utilisées pour les compétiteurs et les champions doivent aussi profiter aux loisirs, enfants, femmes et débutants. Un pratiquant loisir n’y serait pas « mis de côté » dans un cours collectif&nbsp;: correction, progression, adaptation au niveau.</p>
-<h2>Pourquoi le diplôme compte pour un débutant</h2>
-<p>Valentin Tapia cumule BPJEPS Boxe, BPJEPS Sports de Contact et DEJEPS Boxe, avec plus de dix ans d’encadrement. Le club le présente comme capable d’accompagner le premier entraînement comme un boxeur d’Équipe de France jeunes. Pour un lecteur qui hésite à pousser la porte, c’est l’argument pédagogique&nbsp;: sécurité, méthode, cadre.</p>
-<p>Détail du parcours et des résultats d’encadrement&nbsp;: <a href="/articles/valentin-tapia-boxing-center-toulouse/">Valentin Tapia, coach Boxing Center</a>. Infos pratiques&nbsp;: <a href="https://boxingcenter.fr/coachs-2/coach-valentin/" target="_blank" rel="noopener">cours de boxe anglaise chez Boxing Center Toulouse</a>.</p>
-""",
-    },
+    {'slug': 'valentin-tapia-boxing-center-toulouse',
+     'title': 'Valentin Tapia : former des champions et accompagner les loisirs au Boxing Center',
+     'excerpt': 'Parcours, coaching, compétition et loisirs : les questions-réponses pour découvrir Valentin '
+                'Tapia et Boxing Center, un club ouvert aussi aux débutants.',
+     'date': '18 septembre 2026',
+     'date_iso': '2026-09-18',
+     'updated_iso': '2026-09-20',
+     'category': 'Interviews',
+     'category_href': '/interviews/',
+     'active': 'home',
+     'tags': ['interviews', 'coachs', 'clubs', 'actualites'],
+     'image': '/assets/img/valentin-tapia-entrainement.jpeg',
+     'image_alt': 'Valentin Tapia accompagne un boxeur aux pattes d’ours',
+     'gallery': [('/assets/img/valentin-tapia-coin.jpeg',
+                  'Accompagnement d’un boxeur dans son coin — photographie fournie à Actu Boxe'),
+                 ('/assets/img/valentin-tapia-ring.jpeg', 'Valentin Tapia au bord du ring — B.M. Photographie')],
+     'info': [('Rôle', 'Coach de boxe anglaise — Boxing Center'),
+              ('Publics', 'Débutants, loisirs, enfants et compétiteurs'),
+              ('Téléphone', '09 39 03 67 48'),
+              ('Mise à jour', '20 septembre 2026')],
+     'sources': ['Présentation du coach et des activités par Boxing Center ; précisions et numéro corrigé '
+                 'communiqués à Actu Boxe.'],
+     'body': '\n'
+             '<p>Former des compétiteurs et accompagner les premiers pas sur un ring : ces deux missions se '
+             'rejoignent dans le travail de Valentin Tapia au Boxing Center. Ce dossier rassemble son parcours, '
+             'la formation des boxeurs et la place des loisirs au sein du club.</p>\n'
+             '<p><em>Questions-réponses documentées par la rédaction à partir des informations publiées par '
+             'Boxing Center et des précisions communiquées à Actu Boxe. Les réponses ci-dessous sont des '
+             'synthèses éditoriales, et non des propos recueillis auprès de Valentin Tapia.</em></p>\n'
+             '\n'
+             '<h2>Actu Boxe — Quel est le parcours de Valentin Tapia ?</h2>\n'
+             '<p>Ancien compétiteur en boxe anglaise, Valentin Tapia s’est orienté tôt vers l’encadrement et la '
+             'formation. Il possède un BPJEPS mention Boxe, un BPJEPS mention Sports de Contact et un DEJEPS '
+             'mention Boxe. Le club lui attribue plus de dix ans d’expérience comme entraîneur. Son parcours '
+             'associe la pratique du ring, les diplômes et l’apprentissage auprès d’autres entraîneurs.</p>\n'
+             '<p>Boxing Center rapporte également des séjours de formation aux États-Unis et une expérience au '
+             'contact de l’Équipe de France lors d’un stage à Cuba. Ces expériences complètent son travail '
+             'quotidien auprès des boxeurs.</p>\n'
+             '\n'
+             '<h2>Actu Boxe — Quel est son rôle au Boxing Center ?</h2>\n'
+             '<p>Valentin Tapia intervient dans l’enseignement de la boxe anglaise et la formation des '
+             'pratiquants, du débutant au compétiteur. Son rôle ne se résume donc pas aux soirs de combat : '
+             'apprendre les bases, corriger les gestes et accompagner la progression font aussi partie de son '
+             'activité. Il travaille au sein d’une équipe de coachs aux spécialités complémentaires.</p>\n'
+             '\n'
+             '<h2>Actu Boxe — Comment fonctionne Boxing Center ?</h2>\n'
+             '<p>Le réseau présente cinq salles dans la métropole toulousaine et plusieurs disciplines : boxe '
+             'anglaise, boxe thaïlandaise, kick-boxing, MMA et activités de préparation physique. Les cours et '
+             'les créneaux dépendent de la salle et du public. Il est donc utile de préciser son objectif au '
+             'moment de prendre contact : découvrir la boxe, pratiquer régulièrement en loisir ou préparer une '
+             'évolution vers la compétition.</p>\n'
+             '<p>La spécificité mise en avant par le club est la présence de coachs impliqués dans la formation '
+             'de compétiteurs et dans les cours accessibles aux débutants. L’expérience du haut niveau nourrit '
+             'ainsi l’apprentissage au quotidien.</p>\n'
+             '\n'
+             '<h2>Actu Boxe — Quel est le secret des résultats et des champions formés ?</h2>\n'
+             '<p>Les informations du club mettent en avant la formation dans la durée, l’expérience des '
+             'entraîneurs et la continuité de l’accompagnement. Elles ne permettent pas d’attribuer les '
+             'résultats à une recette unique. Le travail technique et le suivi des boxeurs constituent les '
+             'principaux axes présentés par Boxing Center.</p>\n'
+             '<p>Le club associe Valentin Tapia à la formation de neuf champions de France et de deux boxeurs de '
+             'l’Équipe de France jeunes. Il cite également son accompagnement d’Anna Boullez. Pour les cadets et '
+             'juniors en 2026, Boxing Center revendique le meilleur bilan de club aux Championnats de France. '
+             'Ces éléments de palmarès sont rapportés d’après la communication du club ; ils ne constituent pas '
+             'un classement indépendant établi par Actu Boxe.</p>\n'
+             '\n'
+             '<h2>Actu Boxe — Comment les compétiteurs sont-ils accompagnés ?</h2>\n'
+             '<p>La filière compétition s’inscrit dans le prolongement de l’apprentissage. Les présentations du '
+             'club décrivent un accompagnement technique et une préparation aux échéances sportives, avec '
+             'l’appui de coachs diplômés. Les photos qui illustrent ce dossier montrent ce travail aux pattes '
+             'd’ours et au bord du ring : l’encadrement se poursuit pendant la préparation comme au moment du '
+             'combat.</p>\n'
+             '<p>Pour un pratiquant qui souhaite se lancer, les modalités précises — groupe, rythme et objectifs '
+             '— sont à définir avec l’équipe. La réussite d’autres boxeurs témoigne d’une expérience '
+             'd’encadrement ; elle ne garantit pas un résultat individuel.</p>\n'
+             '\n'
+             '<h2>Actu Boxe — Faut-il vouloir combattre pour s’inscrire ?</h2>\n'
+             '<p><strong>Non. Boxing Center accueille aussi de nombreux pratiquants en loisir.</strong> Le '
+             'projet ne se limite pas aux compétiteurs : enfants, adolescents, adultes et débutants peuvent '
+             'venir apprendre et progresser sans faire de la compétition leur objectif.</p>\n'
+             '<p><strong>Chaque année, Valentin Tapia forme et accompagne des dizaines de personnes</strong>, y '
+             'compris des pratiquants loisirs. Ce travail régulier mérite autant sa place dans son portrait que '
+             'les résultats sportifs. Découvrir les gestes, améliorer sa condition physique ou simplement '
+             'prendre plaisir à s’entraîner sont aussi des raisons de rejoindre le club.</p>\n'
+             '\n'
+             '<h2>Actu Boxe — Quelles activités sont proposées aux loisirs ?</h2>\n'
+             '<p>La boxe anglaise constitue l’un des points d’entrée. Le club présente également des formats de '
+             'préparation physique, le Boxing Camp, le Boxing Lady et la boxe éducative pour les plus jeunes. '
+             'Les autres sports de combat élargissent les possibilités selon les salles. Le choix d’un cours '
+             'dépend de l’âge, du niveau et des attentes ; les horaires et conditions d’accès sont à vérifier '
+             'directement auprès de l’équipe.</p>\n'
+             '\n'
+             '<h2>Actu Boxe — Comment contacter l’équipe et en savoir plus sur Valentin ?</h2>\n'
+             '<p>Le numéro à utiliser est le <strong><a href="tel:+33939036748">09 39 03 67 48</a></strong>. '
+             'Cette coordonnée a été corrigée à la demande du club.</p>\n'
+             '<p>Pour découvrir son parcours et les activités qu’il encadre, consultez la <a '
+             'href="https://boxingcenter.fr/coachs-2/coach-valentin/" target="_blank" rel="noopener '
+             'noreferrer">page du coach Valentin Tapia chez Boxing Center</a>.</p>\n'
+             '<p><small>Photographies fournies à Actu Boxe. Les signatures présentes sur les images sont '
+             'conservées.</small></p>\n'},
 ]
 
 

@@ -5,5 +5,22 @@
   "buildCommand": "true",
   "outputDirectory": "actu-boxe",
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/articles/boxing-center-toulouse-club/",
+      "destination": "/articles/valentin-tapia-boxing-center-toulouse/",
+      "permanent": true
+    },
+    {
+      "source": "/articles/boxing-center-meilleurs-jeunes-2026/",
+      "destination": "/articles/valentin-tapia-boxing-center-toulouse/",
+      "permanent": true
+    },
+    {
+      "source": "/articles/debuter-boxe-anglaise-toulouse-boxing-center/",
+      "destination": "/articles/valentin-tapia-boxing-center-toulouse/",
+      "permanent": true
+    }
+  ]
 }

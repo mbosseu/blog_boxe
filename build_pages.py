@@ -13,8 +13,6 @@ ROOT = Path(__file__).resolve().parent / "actu-boxe"
 SITE = "https://actu-boxe.com"
 # Domaines externes autorisés dans le corps (backlinks éditoriaux sourcés).
 ALLOWED_EXTERNAL_HOSTS = {
-    "toulouse-minimes-boxing-club.fr",
-    "www.toulouse-minimes-boxing-club.fr",
     "boxingcenter.fr",
     "www.boxingcenter.fr",
 }
@@ -273,19 +271,19 @@ def href_article(slug: str) -> str:
 
 def href_allowed(href: str) -> bool:
     href = (href or "").strip()
-    if href.startswith("/") or href.startswith("#") or href.startswith("mailto:"):
+    if (href.startswith("/") and not href.startswith("//")) or href.startswith(("#", "mailto:", "tel:")):
         return True
     return urlparse(href).netloc.lower() in ALLOWED_EXTERNAL_HOSTS
 
 
 def drop_external_links(html: str) -> str:
     def repl(match: re.Match[str]) -> str:
-        href, inner = match.group(1), match.group(2)
+        href, inner = match.group(2), match.group(3)
         if href_allowed(href):
             return match.group(0)
         return inner
 
-    return re.sub(r'<a\s+[^>]*href="([^"]*)"[^>]*>(.*?)</a>', repl, html, flags=re.I | re.S)
+    return re.sub(r'''<a\s+[^>]*href\s*=\s*(["'])(.*?)\1[^>]*>(.*?)</a>''', repl, html, flags=re.I | re.S)
 
 
 def title_card_html(article: dict) -> str:
@@ -520,7 +518,7 @@ def article_page(article: dict) -> str:
         "headline": article["title"],
         "description": article["excerpt"],
         "datePublished": article["date_iso"],
-        "dateModified": article["date_iso"],
+        "dateModified": article.get("updated_iso", article["date_iso"]),
         "inLanguage": "fr-FR",
         "mainEntityOfPage": f"{SITE}/articles/{article['slug']}/",
         "author": {"@id": f"{SITE}/#org"},
@@ -770,7 +768,7 @@ def write_sitemap() -> None:
         lastmod = ""
         art = next((a for a in all_articles() if f"/articles/{a['slug']}/" == path), None)
         if art:
-            lastmod = f"<lastmod>{art['date_iso']}</lastmod>"
+            lastmod = f"<lastmod>{art.get('updated_iso', art['date_iso'])}</lastmod>"
         else:
             lastmod = "<lastmod>2026-09-07</lastmod>"
         body.append(f"  <url><loc>{SITE}{path}</loc>{lastmod}</url>")
@@ -795,6 +793,15 @@ def main() -> None:
     for article in all_articles():
         write(f"articles/{article['slug']}/index.html", article_page(article))
     write_sitemap()
+    # Feed articles can outlive the rolling feed; update their related links too.
+    redirects = json.loads((ROOT.parent / "vercel.json").read_text(encoding="utf-8")).get("redirects", [])
+    for path in ROOT.rglob("*.html"):
+        original = path.read_text(encoding="utf-8")
+        updated = original
+        for redirect in redirects:
+            updated = updated.replace(redirect["source"], redirect["destination"])
+        if updated != original:
+            path.write_text(updated, encoding="utf-8")
 
 
 if __name__ == "__main__":
