@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T15:56:37.736350+00:00",
+  "updated": "2026-09-19T20:47:06.578256+00:00",
   "items": [
     {
       "slug": "ffboxe-g2c-nouvel-echeancier-pour-2026-2027",
@@ -23,6 +23,18 @@
       "image_alt": "Visuel publié par la FFBoxe",
       "categories": [
         "La vie fédérale"
+      ]
+    },
+    {
+      "slug": "ffboxe-un-duo-gagnant-dentree",
+      "title": "Un duo gagnant d’entrée",
+      "url": "https://www.ffboxe.com/un-duo-gagnant-dentree/",
+      "date_iso": "2026-09-18",
+      "date": "18 septembre 2026",
+      "image": "/assets/img/wire/ffboxe-un-duo-gagnant-dentree.jpg",
+      "image_alt": "Visuel publié par la FFBoxe",
+      "categories": [
+        "Equipe de France"
       ]
     },
     {
@@ -131,18 +143,6 @@
       "image_alt": "Visuel publié par la FFBoxe",
       "categories": [
         "La vie fédérale"
-      ]
-    },
-    {
-      "slug": "ffboxe-veillee-d-armes-pour-flora-pili",
-      "title": "Veillée d'armes pour Flora Pili",
-      "url": "https://www.ffboxe.com/veillee-darmes-pour-flora-pili/",
-      "date_iso": "2026-09-02",
-      "date": "2 septembre 2026",
-      "image": "/assets/img/wire/ffboxe-veillee-d-armes-pour-flora-pili.webp",
-      "image_alt": "Visuel publié par la FFBoxe",
-      "categories": [
-        "Boxe Professionnelle"
       ]
     }
   ]
