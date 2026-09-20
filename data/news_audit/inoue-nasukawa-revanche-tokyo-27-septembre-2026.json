@@ -1,0 +1,189 @@
+{
+  "published_at": "2026-09-20T08:33:54.777158+00:00",
+  "draft": {
+    "slug": "inoue-nasukawa-revanche-tokyo-27-septembre-2026",
+    "topic_key": "inoue-nasukawa-2026-09-27-avant-combat",
+    "title": "Inoue–Nasukawa II : les points à suivre avant la revanche du 27 septembre",
+    "excerpt": "Le titre WBC des coqs sera en jeu à Tokyo. Les entraînements publics donnent des indices sur la préparation de Nasukawa, sans préjuger du combat.",
+    "lead": "Takuma Inoue et Tenshin Nasukawa doivent se retrouver le 27 septembre à Toyota Arena Tokyo. À une semaine du rendez-vous, la séance publique du challenger et les observations du camp adverse éclairent les enjeux de cette revanche pour la ceinture WBC des poids coqs.",
+    "lead_claim_ids": [
+      "rendezvous",
+      "seance",
+      "observateurs"
+    ],
+    "tags": [
+      "actualites",
+      "combats-a-venir",
+      "analyses"
+    ],
+    "central_claim_id": "rendezvous",
+    "sources": [
+      {
+        "id": "teiken",
+        "publisher": "Teiken Promotions",
+        "publisher_group": "Teiken Promotions",
+        "url": "https://teiken.com/info/index_2.html",
+        "title": "Titre résumé en français : Présentation du 14 septembre : entraînement public de Tenshin Nasukawa",
+        "published_at": "2026-09-14",
+        "retrieved_at": "2026-09-20T08:31:24.639138+00:00",
+        "primary": true,
+        "evidence_summary": "L’organisateur annonce Prime Video Boxing 16 le 27 septembre à Toyota Arena Tokyo. Sa carte oppose le champion WBC des coqs Takuma Inoue à Tenshin Nasukawa. La page du 14 septembre rapporte la séance publique de Nasukawa au Teiken Gym, avec pattes d’ours et sac. Le texte décrit une revanche après une défaite."
+      },
+      {
+        "id": "boxingnews",
+        "publisher": "Boxing News Japon",
+        "publisher_group": "Boxing News Japon",
+        "url": "https://boxingnews.jp/en/english/117873/",
+        "title": "Titre résumé en français : Nasukawa prépare sa revanche pour le titre WBC des coqs",
+        "published_at": "2026-09-15",
+        "retrieved_at": "2026-09-20T08:31:24.639138+00:00",
+        "primary": false,
+        "evidence_summary": "Reportage daté du 15 septembre sur la séance du 14. Confirme la date du 27 septembre, Toyota Arena Tokyo et le titre WBC d’Inoue. Rappelle la défaite de Nasukawa aux points en douze reprises en novembre 2025. Décrit shadow-boxing, pattes d’ours et sac. Le boxeur identifie la distance imposée par Inoue comme une difficulté du premier combat."
+      },
+      {
+        "id": "nikkan",
+        "publisher": "Nikkan Sports",
+        "publisher_group": "Nikkan Sports",
+        "url": "https://www.nikkansports.com/battle/boxing/news/202609140000827.html",
+        "title": "Titre résumé en français : Le camp Inoue observe la préparation de Nasukawa avant la revanche",
+        "published_at": "2026-09-14T18:11:00+09:00",
+        "retrieved_at": "2026-09-20T08:31:24.639138+00:00",
+        "primary": false,
+        "evidence_summary": "Reportage signé par un média distinct, daté du 14 septembre. Confirme le combat du 27 à Toyota Arena Tokyo et la séance à Tokyo. Trois entraîneurs du camp Inoue ont assisté à la démonstration : Yasuhiro Suzuki, Ryo Kitano et Hiroki Inoue. Les observations rapportées portent sur des appuis plus bas et une entrée en distance plus engagée. Ce sont des impressions du camp adverse, pas des mesures de performance."
+      }
+    ],
+    "claims": [
+      {
+        "id": "rendezvous",
+        "text": "Inoue et Nasukawa sont annoncés le 27 septembre 2026 à Toyota Arena Tokyo pour le titre WBC des coqs détenu par Inoue.",
+        "source_ids": [
+          "teiken",
+          "boxingnews",
+          "nikkan"
+        ]
+      },
+      {
+        "id": "seance",
+        "text": "Nasukawa a montré son entraînement le 14 septembre à Tokyo, avec shadow-boxing, pattes d’ours et sac.",
+        "source_ids": [
+          "teiken",
+          "boxingnews",
+          "nikkan"
+        ]
+      },
+      {
+        "id": "revanche",
+        "text": "Nasukawa avait perdu aux points contre Inoue en novembre 2025 ; les sources décrivent une revanche.",
+        "source_ids": [
+          "boxingnews",
+          "teiken"
+        ]
+      },
+      {
+        "id": "observateurs",
+        "text": "Nikkan rapporte la présence de trois entraîneurs d’Inoue et leurs impressions sur les appuis et les entrées en distance de Nasukawa.",
+        "source_ids": [
+          "nikkan"
+        ]
+      },
+      {
+        "id": "distance",
+        "text": "Boxing News rapporte que Nasukawa avait été gêné par la distance et le style d’Inoue lors du premier combat.",
+        "source_ids": [
+          "boxingnews"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Un titre à défendre, une défaite à corriger",
+        "paragraphs": [
+          {
+            "text": "La carte annoncée par Teiken place Inoue dans le rôle du champion et Nasukawa dans celui du challenger. Le combat figure au programme de Prime Video Boxing 16, prévu le 27 septembre 2026 à Tokyo. La date, la salle et l’enjeu mondial concordent dans les présentations de l’organisateur, de Boxing News et de Nikkan Sports.",
+            "claim_ids": [
+              "rendezvous"
+            ]
+          },
+          {
+            "text": "Leur premier duel constitue le point de comparaison. Boxing News rappelle qu’Inoue avait gagné aux points en douze reprises en novembre 2025. Dans les propos rapportés par ce média, Nasukawa expliquait avoir été gêné par la distance et le style d’Inoue. Pour le challenger, la revanche pose donc la question des réponses à apporter à cet adversaire déjà rencontré.",
+            "claim_ids": [
+              "revanche",
+              "distance"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Une préparation exposée aux regards du camp adverse",
+        "paragraphs": [
+          {
+            "text": "Le 14 septembre, Nasukawa a ouvert une séance aux médias dans son gymnase de Tokyo. Les comptes rendus décrivent du shadow-boxing, un travail aux pattes d’ours et des séquences au sac. Teiken rapporte également cette démonstration : il s’agit d’une étape de présentation avant le combat, dont les images ne résument pas l’ensemble de la préparation.",
+            "claim_ids": [
+              "seance"
+            ]
+          },
+          {
+            "text": "Nikkan Sports relève un détail intéressant : trois entraîneurs du camp Inoue ont assisté à la séance, Yasuhiro Suzuki, Ryo Kitano et Hiroki Inoue. Leurs impressions rapportées par le journal concernent notamment une position plus basse et des entrées en distance plus engagées. Le camp du champion observe ainsi les ajustements possibles du challenger avant de le retrouver sur le ring.",
+            "claim_ids": [
+              "observateurs"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Les appuis et la distance comme fil de lecture",
+        "paragraphs": [
+          {
+            "text": "Ces observations proposent une piste de lecture pour la revanche. Si Nasukawa cherche à mieux entrer dans la distance d’Inoue, la façon dont il prépare ses attaques sera à surveiller. C’est une analyse des éléments rendus publics, pas la description d’un plan tactique confirmé par les deux équipes. Une démonstration sans opposition ne permet pas de savoir ce qui fonctionnera face au champion.",
+            "claim_ids": [
+              "observateurs",
+              "distance"
+            ]
+          },
+          {
+            "text": "Le principal intérêt du rendez-vous tient donc à la confrontation entre les ajustements du challenger et les réponses d’Inoue. Le résultat de novembre donne un précédent sportif ; il ne décide pas de la seconde rencontre. Les déclarations de confiance autour des entraînements appartiennent à la préparation et doivent rester distinctes de ce que les boxeurs réaliseront en compétition.",
+            "claim_ids": [
+              "revanche",
+              "rendezvous",
+              "observateurs"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Le repère à retenir pour le 27 septembre",
+        "paragraphs": [
+          {
+            "text": "Le rendez-vous annoncé reste Toyota Arena Tokyo, avec la ceinture WBC des coqs en jeu. Pour suivre cette affiche, le repère essentiel est la revanche entre le champion en titre et son ancien adversaire. Les observations de septembre donnent du contexte à cette rencontre ; le combat devra encore départager les deux boxeurs. Aucun résultat ne peut être déduit de ces séances publiques.",
+            "claim_ids": [
+              "rendezvous",
+              "seance",
+              "revanche"
+            ]
+          }
+        ]
+      }
+    ],
+    "image_brief": {
+      "kind": "fight",
+      "kicker": "REVANCHE À TOKYO",
+      "headline": "TAKUMA INOUE / TENSHIN NASUKAWA",
+      "facts": [
+        "27 SEPTEMBRE 2026",
+        "TOKYO · TITRE WBC DES COQS"
+      ],
+      "claim_ids": [
+        "rendezvous"
+      ]
+    },
+    "review": {
+      "facts_checked": true,
+      "independent_sources": true,
+      "contradictions_resolved": true,
+      "original_wording": true,
+      "image_checked": true,
+      "no_unverified_quotes": true,
+      "notes": "Pages Teiken, Boxing News et Nikkan ouvertes et relues le 20 septembre. Reportages distincts, aucune dépêche commune détectée. L’entraînement ne prouve pas une performance en combat : l’analyse est explicitement présentée comme telle. Pas de pronostic, citation traduite, poids de pesée, diffusion française ni horaire du combat principal inventés. Illustration vectorielle originale sans portrait. Aucun doublon trouvé dans les articles existants."
+    }
+  }
+}

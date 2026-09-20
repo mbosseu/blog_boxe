@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675"
+        viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+      <title id="title">Inoue–Nasukawa II : les points à suivre avant la revanche du 27 septembre</title>
+      <desc id="description">Illustration originale Actu Boxe : TAKUMA INOUE / TENSHIN NASUKAWA.
+        Dessin stylisé de boxe, sans représentation photographique de l’événement.</desc>
+      <defs>
+        <linearGradient id="background" x2="1" y2="1">
+          <stop stop-color="#1c1c1f"/><stop offset="1" stop-color="#09090a"/>
+        </linearGradient>
+        <radialGradient id="halo">
+          <stop stop-color="#9b161c" stop-opacity=".42"/>
+          <stop offset="1" stop-color="#9b161c" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="glove" x2="1" y2="1">
+          <stop stop-color="#ee3333"/><stop offset="1" stop-color="#8b070d"/>
+        </linearGradient>
+        <linearGradient id="silver" x2="1" y2="1">
+          <stop stop-color="#757579"/><stop offset="1" stop-color="#333338"/>
+        </linearGradient>
+        <clipPath id="canvas"><rect width="1200" height="675"/></clipPath>
+      </defs>
+      <g clip-path="url(#canvas)" font-family="Arial, Helvetica, sans-serif">
+        <rect width="1200" height="675" fill="url(#background)"/>
+        <rect width="1200" height="7" fill="#d31212"/>
+        <circle cx="965" cy="298" r="300" fill="url(#halo)"/>
+        <path d="M704 96 L704 567" stroke="#ffffff" stroke-opacity=".1"/>
+        <circle cx="948" cy="294" r="177" fill="none" stroke="#d31212" stroke-opacity=".35"/>
+        <circle cx="948" cy="294" r="190" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+        <path d="M727 476 L943 573 L1157 464 L946 383 Z" fill="#27272b" stroke="#66666c"/>
+        <path d="M727 476 L727 491 L943 590 L943 573 M943 590 L1157 480 L1157 464"
+              fill="#141416" stroke="#515157"/>
+        <g fill="none" stroke-width="3">
+          <path d="M740 422 L943 514 L1144 412 M740 440 L943 532 L1144 430"
+                stroke="#b6b6ba"/>
+          <path d="M740 458 L943 550 L1144 448" stroke="#d31212"/>
+        </g>
+        <path d="M740 413 V480 M943 503 V574 M1144 402 V470"
+              stroke="#f4f3ef" stroke-width="8"/>
+        <g transform="translate(805 176) rotate(-20 80 105) scale(.83)" stroke-linejoin="round">
+      <path d="M38 180 C15 159 9 126 18 106 L31 88 L31 50
+               C31 12 58 -5 91 0 C128 -3 156 18 157 51 L160 112
+               C160 143 146 164 132 179 L131 225 L42 225 Z"
+            fill="url(#glove)" stroke="#ff6464" stroke-width="3"/>
+      <path d="M36 91 C3 79 -15 100 -5 124 L24 166 C34 182 51 183 62 169
+               C70 157 64 145 56 135 L41 112"
+            fill="url(#glove)" stroke="#ff6464" stroke-width="3"/>
+      <path d="M55 35 C78 21 107 22 133 40 M67 63 L137 67 M78 172 L127 172"
+            fill="none" stroke="#ff9999" stroke-opacity=".52" stroke-width="3"/>
+      <path d="M40 187 L134 187 L131 225 L42 225 Z" fill="#f5f4f0" stroke="#f5f4f0"/>
+      <path d="M55 202 L115 202 M55 212 L104 212" stroke="#b1b1b1" stroke-width="3"/>
+    </g><g transform="translate(989 203) rotate(22 70 90) scale(.73)" stroke-linejoin="round">
+      <path d="M38 180 C15 159 9 126 18 106 L31 88 L31 50
+               C31 12 58 -5 91 0 C128 -3 156 18 157 51 L160 112
+               C160 143 146 164 132 179 L131 225 L42 225 Z"
+            fill="url(#silver)" stroke="#ff6464" stroke-width="3"/>
+      <path d="M36 91 C3 79 -15 100 -5 124 L24 166 C34 182 51 183 62 169
+               C70 157 64 145 56 135 L41 112"
+            fill="url(#silver)" stroke="#ff6464" stroke-width="3"/>
+      <path d="M55 35 C78 21 107 22 133 40 M67 63 L137 67 M78 172 L127 172"
+            fill="none" stroke="#ff9999" stroke-opacity=".52" stroke-width="3"/>
+      <path d="M40 187 L134 187 L131 225 L42 225 Z" fill="#f5f4f0" stroke="#f5f4f0"/>
+      <path d="M55 202 L115 202 M55 212 L104 212" stroke="#b1b1b1" stroke-width="3"/>
+    </g>
+        <rect x="55" y="379" width="130" height="4" fill="#d31212"/>
+        <path d="M55 588 H1145" stroke="#ffffff" stroke-opacity=".12"/>
+        <text data-role="label" font-size="25" font-weight="700" fill="#ffffff"><tspan x="55" y="66" textLength="149.50" lengthAdjust="spacingAndGlyphs">ACTU BOXE</tspan></text><text data-role="label" font-size="15" font-weight="700" fill="#cfd3d8"><tspan x="835" y="64" textLength="67.65" lengthAdjust="spacingAndGlyphs">COMBAT</tspan></text><text data-role="label" font-size="17" font-weight="700" fill="#ff6666"><tspan x="55" y="151" textLength="179.18" lengthAdjust="spacingAndGlyphs">REVANCHE À TOKYO</tspan></text><text data-role="headline" font-size="53" font-weight="800" fill="#ffffff"><tspan x="52" y="222" textLength="467.99" lengthAdjust="spacingAndGlyphs">TAKUMA INOUE /</tspan><tspan x="52" y="283" textLength="571.87" lengthAdjust="spacingAndGlyphs">TENSHIN NASUKAWA</tspan></text><text data-role="credit" font-size="15" font-weight="400" fill="#dadadd"><tspan x="802" y="627" textLength="170.10" lengthAdjust="spacingAndGlyphs">Illustration Actu Boxe</tspan></text><text data-role="label" font-size="12" font-weight="400" fill="#a1a1a7"><tspan x="55" y="627" textLength="240.48" lengthAdjust="spacingAndGlyphs">L’ACTUALITÉ, AU PLUS PRÈS DU RING.</tspan></text><rect x="55" y="414" width="4" height="17" fill="#d31212"/><text data-role="fact" font-size="19" font-weight="400" fill="#d7d7db"><tspan x="75" y="428" textLength="203.68" lengthAdjust="spacingAndGlyphs">27 SEPTEMBRE 2026</tspan></text><rect x="55" y="468" width="4" height="17" fill="#d31212"/><text data-role="fact" font-size="19" font-weight="400" fill="#d7d7db"><tspan x="75" y="482" textLength="306.28" lengthAdjust="spacingAndGlyphs">TOKYO · TITRE WBC DES COQS</tspan></text>
+      </g>
+    </svg>

@@ -1232,8 +1232,9 @@ ARTICLES = [
 
 def all_articles() -> list:
     from feed_store import wire_articles
+    from news_store import news_articles
 
-    pool = ARTICLES + wire_articles()
+    pool = ARTICLES + news_articles() + wire_articles()
     return sorted(pool, key=lambda a: a.get("date_iso", ""), reverse=True)
 
 

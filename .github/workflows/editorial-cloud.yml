@@ -1,0 +1,63 @@
+name: Bot éditorial Actu Boxe — cloud
+
+on:
+  schedule:
+    - cron: "12 7 * * *"
+    - cron: "12 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actu-boxe-editorial-cloud
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests
+      - name: Vérifier la configuration
+        id: config
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Europe/Paris date +%H)" != "09" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "Passage ignoré : il n’est pas 9 h à Paris"
+          elif [ -z "$OPENAI_API_KEY" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "OPENAI_API_KEY absent : exécution ignorée"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Rechercher, rédiger et contrôler
+        if: steps.config.outputs.configured == 'true'
+        run: |
+          python news_bot.py collect
+          python cloud_editor.py
+          python build_pages.py
+          python -m unittest discover -s tests
+      - name: Publier au plus un article
+        if: steps.config.outputs.configured == 'true'
+        run: |
+          git config user.name "actu-boxe-editorial-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news_articles.json data/news_audit data/news_candidates.json actu-boxe
+          if git diff --staged --quiet; then
+            echo "Aucun article publié aujourd’hui"
+            exit 0
+          fi
+          git commit -m "Publish daily verified boxing article"
+          python news_bot.py status
+          git push origin HEAD:main

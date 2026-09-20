@@ -494,6 +494,16 @@ def article_page(article: dict) -> str:
             for src, alt in article["gallery"]
         )
         gallery = f'<div class="ab-gallery">{figs}</div>'
+    if article.get("automated") and article.get("image"):
+        # Editorial graphics already contain text: display them without an H1 overlay.
+        hero_class = "ab-hero ab-hero-typo"
+        hero_bg = '<div class="title-card-mesh" aria-hidden="true"></div>'
+        gallery = (
+            '<figure style="margin:0 0 2rem">'
+            f'<img src="{escape(article["image"], quote=True)}" alt="{escape(article.get("image_alt", article["title"]), quote=True)}" '
+            'width="1200" height="675" style="display:block;width:100%;height:auto;border-radius:12px" decoding="async">'
+            '<figcaption style="font-size:.8rem;margin-top:.5rem">Illustration originale Actu Boxe.</figcaption></figure>'
+        )
     sources_html = ""
     if article.get("sources"):
         lis = []
