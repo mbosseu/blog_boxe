@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-20T04:59:15.353352+00:00",
+  "updated": "2026-09-20T11:32:23.592823+00:00",
   "items": [
+    {
+      "slug": "ffboxe-clothilde-del-ben-s-incline-sans-demeriter",
+      "title": "Clothilde Del Ben s'incline sans démériter",
+      "url": "https://www.ffboxe.com/clothilde-del-ben-sincline-sans-demeriter/",
+      "date_iso": "2026-09-20",
+      "date": "20 septembre 2026",
+      "image": "/assets/img/wire/ffboxe-clothilde-del-ben-s-incline-sans-demeriter.jpg",
+      "image_alt": "Visuel publié par la FFBoxe",
+      "categories": [
+        "Boxe Professionnelle"
+      ]
+    },
     {
       "slug": "ffboxe-encheres-des-finales-du-challenge-jean-claude-bouttier-2026",
       "title": "Enchères des finales du Challenge Jean-Claude Bouttier 2026",
@@ -131,18 +143,6 @@
       "image_alt": "Visuel publié par la FFBoxe",
       "categories": [
         "La vie fédérale"
-      ]
-    },
-    {
-      "slug": "ffboxe-flora-pili-battue-aux-points-en-irlande",
-      "title": "Flora Pili battue aux points en Irlande",
-      "url": "https://www.ffboxe.com/flora-pili-battue-aux-points-en-irlande/",
-      "date_iso": "2026-09-05",
-      "date": "5 septembre 2026",
-      "image": "/assets/img/wire/ffboxe-flora-pili-battue-aux-points-en-irlande.jpg",
-      "image_alt": "Visuel publié par la FFBoxe",
-      "categories": [
-        "Boxe Professionnelle"
       ]
     }
   ]
