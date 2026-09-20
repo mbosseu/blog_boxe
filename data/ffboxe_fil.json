@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-19T20:47:06.578256+00:00",
+  "updated": "2026-09-20T04:59:15.353352+00:00",
   "items": [
+    {
+      "slug": "ffboxe-encheres-des-finales-du-challenge-jean-claude-bouttier-2026",
+      "title": "Enchères des finales du Challenge Jean-Claude Bouttier 2026",
+      "url": "https://www.ffboxe.com/136367-2/",
+      "date_iso": "2026-09-19",
+      "date": "19 septembre 2026",
+      "image": "/assets/img/wire/ffboxe-encheres-des-finales-du-challenge-jean-claude-bouttier-2026.jpg",
+      "image_alt": "Visuel publié par la FFBoxe",
+      "categories": [
+        "Boxe Professionnelle"
+      ]
+    },
     {
       "slug": "ffboxe-g2c-nouvel-echeancier-pour-2026-2027",
       "title": "G2C : nouvel échéancier pour 2026-2027",
@@ -131,18 +143,6 @@
       "image_alt": "Visuel publié par la FFBoxe",
       "categories": [
         "Boxe Professionnelle"
-      ]
-    },
-    {
-      "slug": "ffboxe-martine-jeannine-les-mamies-boxeuses",
-      "title": "Martine & Jeannine : les mamies boxeuses",
-      "url": "https://www.ffboxe.com/martine-jeannine-les-mamies-boxeuses/",
-      "date_iso": "2026-09-04",
-      "date": "4 septembre 2026",
-      "image": "/assets/img/wire/ffboxe-martine-jeannine-les-mamies-boxeuses.jpg",
-      "image_alt": "Visuel publié par la FFBoxe",
-      "categories": [
-        "La vie fédérale"
       ]
     }
   ]
