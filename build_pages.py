@@ -337,24 +337,31 @@ def cards_html(articles: list[dict]) -> str:
 
 
 def home() -> str:
-    featured = get("championnats-d-europe-2026-la-selection-francaise-pour-sofia")
-    others = [
+    fallback = get("championnats-d-europe-2026-la-selection-francaise-pour-sofia")
+    fallback_others = [
         get("flora-pili-s-incline-face-a-katie-taylor-a-dublin"),
         get("ibrahim-boukedim-defend-son-titre-a-metz"),
         get("gala-saint-nazaire-clavier-ntambwe"),
         get("toulouse-minimes-boxing-club"),
     ]
+    pool = all_articles()
+    featured = next((article for article in pool if article.get("featured") is True), fallback)
+    uses_fallback = not featured.get("featured") and featured["slug"] == fallback["slug"]
+    others = fallback_others if uses_fallback else [
+        article for article in pool if article["slug"] != featured["slug"]
+    ][:4]
     hero = [featured, *others]
     cards = []
     for i, art in enumerate(hero, 1):
         extra = f"<p>{art['excerpt']}</p>" if i == 1 else ""
+        label = "À la une · " if i == 1 and art.get("featured") is True else ""
         cards.append(f"""
         <article class="hero-item hero-item-{i}">
           <a href="{href_article(art['slug'])}">
             {visual_html(art, lazy=i > 1)}
             <div class="overlay"></div>
             <div class="content">
-              <span>{art['date']} · {art['category']}</span>
+              <span>{label}{art['date']} · {art['category']}</span>
               <h2>{art['title']}</h2>
               {extra}
             </div>
@@ -403,8 +410,8 @@ def home() -> str:
         body,
         "home",
         path="/",
-        image="/assets/img/sofia-equipe-france-card.jpg",
-        image_alt="Boxeurs de l’équipe de France, visuel FFBoxe",
+        image=featured["image"],
+        image_alt=featured.get("image_alt", featured["title"]),
         title_full="Actu Boxe | Actualité de la boxe anglaise",
     )
 

@@ -1,0 +1,74 @@
+name: Bot une Actu Boxe - cloud
+
+on:
+  schedule:
+    - cron: "12 12 * * *"
+    - cron: "12 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actu-boxe-featured-editorial-cloud
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GROQ_FEATURED_API_KEY: ${{ secrets.GROQ_FEATURED_API_KEY }}
+      GROQ_FEATURED_RESEARCH_MODEL: ${{ vars.GROQ_FEATURED_RESEARCH_MODEL || 'openai/gpt-oss-20b' }}
+      GROQ_FEATURED_WRITING_MODEL: ${{ vars.GROQ_FEATURED_WRITING_MODEL || 'openai/gpt-oss-120b' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests
+      - name: Verifier la configuration
+        id: config
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Europe/Paris date +%H)" != "14" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "Passage ignore : il n'est pas 14 h a Paris"
+          elif [ -z "$GROQ_FEATURED_API_KEY" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "GROQ_FEATURED_API_KEY absent : execution ignoree"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Rechercher, rediger et controler la une
+        if: steps.config.outputs.configured == 'true'
+        run: |
+          python featured_bot.py collect
+          python featured_editor.py
+          python build_pages.py
+          python -m unittest discover -s tests
+      - name: Publier au plus un article a la une
+        if: steps.config.outputs.configured == 'true'
+        run: |
+          git config user.name "actu-boxe-featured-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/featured_candidates.json actu-boxe
+          if [ -f data/featured_articles.json ]; then
+            git add data/featured_articles.json
+          fi
+          if [ -d data/featured_audit ]; then
+            git add data/featured_audit
+          fi
+          if git diff --staged --quiet; then
+            echo "Aucun article a la une publie aujourd'hui"
+            exit 0
+          fi
+          if git diff --staged --quiet -- data/featured_articles.json; then
+            git commit -m "Refresh featured editorial candidates"
+          else
+            git commit -m "Publish verified homepage feature"
+          fi
+          python featured_bot.py status
+          git push origin HEAD:main

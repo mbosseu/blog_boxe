@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 .venv/
 .env
+.env.featured
 site/
 _img_index.json
 _dl_selected.py
