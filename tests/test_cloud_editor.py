@@ -41,12 +41,7 @@ class CloudEditorTests(unittest.TestCase):
                 )
             writing_response = SimpleNamespace(output_text='{"action":"skip","reason":"preuves insuffisantes","draft":null}')
             responses = unittest.mock.Mock()
-            responses.create.side_effect = [
-                research_response('Découverte'),
-                research_response('Source primaire'),
-                research_response('Confirmation indépendante'),
-                writing_response,
-            ]
+            responses.create.side_effect = [research_response('Rapport documenté'), writing_response]
             client = SimpleNamespace(responses=responses)
             now = datetime(2026, 9, 21, 8, tzinfo=timezone.utc)
 
@@ -55,9 +50,9 @@ class CloudEditorTests(unittest.TestCase):
 
             self.assertIn('https://example.org/source', dossier)
             self.assertEqual(proposal['action'], 'skip')
-            research_calls = responses.create.call_args_list[:3]
-            writing_call = responses.create.call_args_list[3]
-            self.assertEqual(len(research_calls), 3)
+            research_calls = responses.create.call_args_list[:1]
+            writing_call = responses.create.call_args_list[1]
+            self.assertEqual(len(research_calls), 1)
             for research_call in research_calls:
                 self.assertEqual(research_call.kwargs['tools'], [{'type': 'browser_search'}])
                 self.assertNotIn('text', research_call.kwargs)
