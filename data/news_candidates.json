@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Ca passe pour les garçons pas pour les filles",
+      "url": "https://www.ffboxe.com/ca-passe-pour-les-garcons-pas-pour-les-filles/",
+      "published_at": "2026-09-20T20:03:27+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Clothilde Del Ben s'incline sans démériter",
+      "url": "https://www.ffboxe.com/clothilde-del-ben-sincline-sans-demeriter/",
+      "published_at": "2026-09-20T10:49:17+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Résumé vidéo du combat Pitbull Cruz vs Nestor Bravo",
       "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-pitbull-cruz-vs-nestor-bravo/",
@@ -103,10 +115,5 @@
       "published_at": "2026-09-14T13:43:59+00:00"
     }
   ],
-  "unavailable_feeds": [
-    {
-      "publisher": "La Sueur",
-      "error": "URLError"
-    }
-  ]
+  "unavailable_feeds": []
 }
