@@ -59,6 +59,10 @@ jobs:
             echo "Aucun article publié aujourd’hui"
             exit 0
           fi
-          git commit -m "Publish daily verified boxing article"
+          if git diff --staged --quiet -- data/news_articles.json; then
+            git commit -m "Refresh cloud editorial candidates"
+          else
+            git commit -m "Publish daily verified boxing article"
+          fi
           python news_bot.py status
           git push origin HEAD:main

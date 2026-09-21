@@ -32,15 +32,21 @@ class CloudEditorTests(unittest.TestCase):
             (root / 'data').mkdir()
             (root / 'data/news_candidates.json').write_text('{"items": []}', encoding='utf-8')
             (root / 'data/news_articles.json').write_text('{"items": []}', encoding='utf-8')
-            research_response = SimpleNamespace(
-                output_text='Rapport documenté',
-                model_dump=lambda: {'output': [{'content': [{'annotations': [
-                    {'url': 'https://example.org/source', 'title': 'Source'}
-                ]}]}]},
-            )
+            def research_response(label):
+                return SimpleNamespace(
+                    output_text=label,
+                    model_dump=lambda: {'output': [{'content': [{'annotations': [
+                        {'url': 'https://example.org/source', 'title': 'Source'}
+                    ]}]}]},
+                )
             writing_response = SimpleNamespace(output_text='{"action":"skip","reason":"preuves insuffisantes","draft":null}')
             responses = unittest.mock.Mock()
-            responses.create.side_effect = [research_response, writing_response]
+            responses.create.side_effect = [
+                research_response('Découverte'),
+                research_response('Source primaire'),
+                research_response('Confirmation indépendante'),
+                writing_response,
+            ]
             client = SimpleNamespace(responses=responses)
             now = datetime(2026, 9, 21, 8, tzinfo=timezone.utc)
 
@@ -49,9 +55,12 @@ class CloudEditorTests(unittest.TestCase):
 
             self.assertIn('https://example.org/source', dossier)
             self.assertEqual(proposal['action'], 'skip')
-            research_call, writing_call = responses.create.call_args_list
-            self.assertEqual(research_call.kwargs['tools'], [{'type': 'browser_search'}])
-            self.assertNotIn('text', research_call.kwargs)
+            research_calls = responses.create.call_args_list[:3]
+            writing_call = responses.create.call_args_list[3]
+            self.assertEqual(len(research_calls), 3)
+            for research_call in research_calls:
+                self.assertEqual(research_call.kwargs['tools'], [{'type': 'browser_search'}])
+                self.assertNotIn('text', research_call.kwargs)
             self.assertIn('text', writing_call.kwargs)
             self.assertNotIn('tools', writing_call.kwargs)
 
