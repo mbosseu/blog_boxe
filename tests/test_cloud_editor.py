@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 import cloud_editor
@@ -24,6 +25,35 @@ class CloudEditorTests(unittest.TestCase):
                 result = cloud_editor.run(root, datetime(2026, 9, 20, 12, tzinfo=timezone.utc))
             self.assertEqual(result, 0)
             client.assert_not_called()
+
+    def test_groq_research_and_structured_writing_are_separate_calls(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / 'data').mkdir()
+            (root / 'data/news_candidates.json').write_text('{"items": []}', encoding='utf-8')
+            (root / 'data/news_articles.json').write_text('{"items": []}', encoding='utf-8')
+            research_response = SimpleNamespace(
+                output_text='Rapport documenté',
+                model_dump=lambda: {'output': [{'content': [{'annotations': [
+                    {'url': 'https://example.org/source', 'title': 'Source'}
+                ]}]}]},
+            )
+            writing_response = SimpleNamespace(output_text='{"action":"skip","reason":"preuves insuffisantes","draft":null}')
+            responses = unittest.mock.Mock()
+            responses.create.side_effect = [research_response, writing_response]
+            client = SimpleNamespace(responses=responses)
+            now = datetime(2026, 9, 21, 8, tzinfo=timezone.utc)
+
+            dossier = cloud_editor.research(client, root, now)
+            proposal = cloud_editor.propose(client, root, now, dossier)
+
+            self.assertIn('https://example.org/source', dossier)
+            self.assertEqual(proposal['action'], 'skip')
+            research_call, writing_call = responses.create.call_args_list
+            self.assertEqual(research_call.kwargs['tools'], [{'type': 'browser_search'}])
+            self.assertNotIn('text', research_call.kwargs)
+            self.assertIn('text', writing_call.kwargs)
+            self.assertNotIn('tools', writing_call.kwargs)
 
 
 if __name__ == '__main__':

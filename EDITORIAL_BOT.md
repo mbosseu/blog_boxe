@@ -2,7 +2,7 @@
 
 ## Fonctionnement
 
-Le workflow GitHub `editorial-cloud.yml` réalise la recherche, la rédaction, les contrôles et la publication dans le cloud. Il fonctionne ordinateur éteint grâce à l’API OpenAI et à GitHub Actions. Le workflow `ingest.yml` reste disponible uniquement pour lancer manuellement une collecte de pistes ; il ne publie aucun article.
+Le workflow GitHub `editorial-cloud.yml` réalise la recherche, la rédaction, les contrôles et la publication dans le cloud. Il fonctionne ordinateur éteint grâce à l’API Groq et à GitHub Actions. La recherche et la rédaction structurée sont séparées, car la recherche par navigateur Groq n’est pas compatible avec les sorties structurées dans un même appel. Le workflow `ingest.yml` reste disponible uniquement pour lancer manuellement une collecte de pistes ; il ne publie aucun article.
 
 La cadence validée est **un nouvel article par jour au maximum, heure de Paris**, avec un passage quotidien vers 9 h. Deux horaires UTC couvrent les changements d’heure ; le quota bloque automatiquement le second passage. Aucun quota minimal : une journée sans sujet suffisamment documenté reste sans nouvelle publication. Les annonces déjà publiées sont conservées comme archives.
 
@@ -60,4 +60,4 @@ Exemple de structure uniquement : compléter avec au moins deux vraies sources, 
 - Registre public : `data/news_articles.json` (chargé par `news_store.py`). Dossier de vérification : `data/news_audit/<slug>.json` (hors de la sortie Vercel `actu-boxe/`).
 - Le verrou `data/.news-publish.lock` bloque les écritures concurrentes locales. Ne le supprimer qu’après avoir confirmé qu’aucune publication n’est active. Les erreurs de validation ne consomment pas le quota.
 - En cas d’accès réseau ou GitHub refusé, garder le brouillon et signaler le blocage. Ne pas désactiver les protections ni prétendre avoir publié.
-- Le secret GitHub `OPENAI_API_KEY` active le moteur cloud. Sans ce secret, le workflow se termine proprement sans rechercher ni publier. La variable facultative `OPENAI_MODEL` permet de changer de modèle ; sa valeur par défaut est `gpt-5.5`.
+- Le secret GitHub `GROQ_API_KEY` active le moteur cloud. Sans ce secret, le workflow se termine proprement sans rechercher ni publier. Les variables facultatives `GROQ_RESEARCH_MODEL` et `GROQ_WRITING_MODEL` permettent de changer les modèles ; leur valeur par défaut est `openai/gpt-oss-120b`.
