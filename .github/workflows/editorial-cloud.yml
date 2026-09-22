@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: actu-boxe-editorial-cloud
+  group: actu-boxe-editorial-publish
   cancel-in-progress: false
 
 jobs:
@@ -69,4 +69,5 @@ jobs:
             git commit -m "Publish daily verified boxing article"
           fi
           python news_bot.py status
+          git pull --rebase origin main
           git push origin HEAD:main

@@ -61,10 +61,10 @@ Pistes de l’instance featured : {json.dumps(candidates, ensure_ascii=False)}
 
 def research(client: OpenAI, root: Path, now: datetime) -> str:
     response = client.responses.create(
-        model=os.environ.get("GROQ_FEATURED_RESEARCH_MODEL", "openai/gpt-oss-20b"),
+        model=os.environ.get("GROQ_FEATURED_RESEARCH_MODEL", "openai/gpt-oss-120b"),
         reasoning={"effort": "medium"},
         tools=[{"type": "browser_search"}],
-        tool_choice="auto",
+        tool_choice="required",
         max_output_tokens=2500,
         input=build_research_prompt(root, now),
     )
@@ -94,27 +94,28 @@ Si le dossier est publiable, produis 350 à 850 mots, avec un maximum de 200 mot
 Crée un brief d’illustration vectorielle factuelle, sans portrait, logo ni photographie. Les contrôles review ne peuvent être vrais qu’après vérification réelle. Dans notes, explique recoupements, limites, contradictions et éléments écartés.
 
 Articles existants à ne pas dupliquer : {json.dumps(existing, ensure_ascii=False)}
+Structure JSON obligatoire : {json.dumps(article_schema(), ensure_ascii=False)}
 <RAPPORT>
-{research_dossier}
+{research_dossier[:24000]}
 </RAPPORT>
 """
 
 
 def propose(client: OpenAI, root: Path, now: datetime, research_dossier: str) -> dict:
-    response = client.responses.create(
+    response = client.chat.completions.create(
         model=os.environ.get("GROQ_FEATURED_WRITING_MODEL", "openai/gpt-oss-120b"),
-        reasoning={"effort": "high"},
-        max_output_tokens=8000,
-        text={"format": {
-            "type": "json_schema",
-            "name": "actu_boxe_featured_article",
-            "strict": True,
-            "schema": article_schema(),
-        }},
-        instructions="Tu es un journaliste factuel. La traçabilité et l’intérêt éditorial priment sur la fréquence. Réponds uniquement avec le JSON demandé.",
-        input=build_draft_prompt(root, now, research_dossier),
+        reasoning_effort="high",
+        max_completion_tokens=8000,
+        response_format={"type": "json_object"},
+        messages=[
+            {
+                "role": "system",
+                "content": "Tu es un journaliste factuel. La traçabilité et l’intérêt éditorial priment sur la fréquence. Réponds uniquement avec un objet JSON conforme à la structure demandée.",
+            },
+            {"role": "user", "content": build_draft_prompt(root, now, research_dossier)},
+        ],
     )
-    return json.loads(response.output_text)
+    return json.loads(response.choices[0].message.content or "{}")
 
 
 def run(root: Path = ROOT, now: datetime | None = None) -> int:
@@ -138,7 +139,17 @@ def run(root: Path = ROOT, now: datetime | None = None) -> int:
         print("SKIP: limite Groq featured atteinte, nouvel essai au prochain passage")
         return 0
     except APIError as error:
-        print(f"SKIP: service Groq indisponible ({type(error).__name__})")
+        detail = str(error)
+        if api_key:
+            detail = detail.replace(api_key, "[secret]")
+        detail = detail[:1200]
+        print(
+            "SKIP: service Groq featured indisponible "
+            f"({type(error).__name__}, HTTP {getattr(error, 'status_code', 'inconnu')}): {detail}"
+        )
+        return 0
+    except (KeyError, TypeError, ValueError, json.JSONDecodeError):
+        print("SKIP: réponse Groq featured mal formée, aucun article publié")
         return 0
 
     if proposal["action"] == "skip":

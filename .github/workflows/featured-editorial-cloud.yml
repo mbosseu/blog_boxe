@@ -4,13 +4,15 @@ on:
   schedule:
     - cron: "12 12 * * *"
     - cron: "12 13 * * *"
+    - cron: "12 15 * * *"
+    - cron: "12 17 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: actu-boxe-featured-editorial-cloud
+  group: actu-boxe-editorial-publish
   cancel-in-progress: false
 
 jobs:
@@ -19,7 +21,7 @@ jobs:
     timeout-minutes: 25
     env:
       GROQ_FEATURED_API_KEY: ${{ secrets.GROQ_FEATURED_API_KEY }}
-      GROQ_FEATURED_RESEARCH_MODEL: ${{ vars.GROQ_FEATURED_RESEARCH_MODEL || 'openai/gpt-oss-20b' }}
+      GROQ_FEATURED_RESEARCH_MODEL: ${{ vars.GROQ_FEATURED_RESEARCH_MODEL || 'openai/gpt-oss-120b' }}
       GROQ_FEATURED_WRITING_MODEL: ${{ vars.GROQ_FEATURED_WRITING_MODEL || 'openai/gpt-oss-120b' }}
     steps:
       - uses: actions/checkout@v4
@@ -33,9 +35,10 @@ jobs:
       - name: Verifier la configuration
         id: config
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Europe/Paris date +%H)" != "14" ]; then
+          PARIS_HOUR="$(TZ=Europe/Paris date +%H)"
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$PARIS_HOUR" -lt 14 ] || [ "$PARIS_HOUR" -gt 19 ]; }; then
             echo "configured=false" >> "$GITHUB_OUTPUT"
-            echo "Passage ignore : il n'est pas 14 h a Paris"
+            echo "Passage ignore : hors de la fenetre 14 h-19 h a Paris"
           elif [ -z "$GROQ_FEATURED_API_KEY" ]; then
             echo "configured=false" >> "$GITHUB_OUTPUT"
             echo "GROQ_FEATURED_API_KEY absent : execution ignoree"
@@ -71,4 +74,5 @@ jobs:
             git commit -m "Publish verified homepage feature"
           fi
           python featured_bot.py status
+          git pull --rebase origin main
           git push origin HEAD:main

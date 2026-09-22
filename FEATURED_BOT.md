@@ -19,13 +19,13 @@ Pour une exécution locale, créer `.env.featured` à la racine du dépôt :
 
 ```dotenv
 GROQ_FEATURED_API_KEY=valeur-privee
-GROQ_FEATURED_RESEARCH_MODEL=openai/gpt-oss-20b
+GROQ_FEATURED_RESEARCH_MODEL=openai/gpt-oss-120b
 GROQ_FEATURED_WRITING_MODEL=openai/gpt-oss-120b
 ```
 
 Le fichier est ignoré par Git. Dans GitHub, enregistrer la clé dans le secret de dépôt `GROQ_FEATURED_API_KEY`. Les modèles peuvent être personnalisés avec les variables de dépôt `GROQ_FEATURED_RESEARCH_MODEL` et `GROQ_FEATURED_WRITING_MODEL`.
 
-Le workflow passe vers 14 h, heure de Paris. Les deux expressions UTC couvrent les changements d'heure ; une vérification locale de l'heure empêche le second passage. Une exécution manuelle reste possible depuis GitHub Actions.
+Le workflow effectue un premier passage vers 14 h, heure de Paris, puis plusieurs nouvelles tentatives jusqu'à 19 h si Groq est temporairement indisponible ou limité. Dès qu'un article est publié, le quota indépendant bloque les passages suivants. Les expressions UTC couvrent les changements d'heure et une vérification locale borne la fenêtre. Une exécution manuelle reste possible depuis GitHub Actions.
 
 ## Commandes
 

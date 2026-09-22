@@ -7,6 +7,7 @@ import json
 import os
 from pathlib import Path
 import tempfile
+from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 
@@ -118,6 +119,44 @@ class FeaturedBotTests(unittest.TestCase):
 
 
 class FeaturedEditorTests(unittest.TestCase):
+    def test_research_and_json_writing_use_separate_supported_calls(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "data").mkdir()
+            (root / "data/featured_candidates.json").write_text('{"items": []}', encoding="utf-8")
+            research_response = SimpleNamespace(
+                output_text="Rapport documenté",
+                model_dump=lambda: {"output": [{"content": [{"annotations": [
+                    {"url": "https://example.org/source", "title": "Source"}
+                ]}]}]},
+            )
+            writing_response = SimpleNamespace(choices=[SimpleNamespace(
+                message=SimpleNamespace(
+                    content='{"action":"skip","reason":"preuves insuffisantes","draft":null}'
+                )
+            )])
+            responses = unittest.mock.Mock()
+            responses.create.return_value = research_response
+            completions = unittest.mock.Mock()
+            completions.create.return_value = writing_response
+            client = SimpleNamespace(
+                responses=responses,
+                chat=SimpleNamespace(completions=completions),
+            )
+            now = datetime(2026, 9, 22, 8, tzinfo=timezone.utc)
+
+            dossier = featured_editor.research(client, root, now)
+            proposal = featured_editor.propose(client, root, now, dossier)
+
+            self.assertIn("https://example.org/source", dossier)
+            self.assertEqual(proposal["action"], "skip")
+            research_call = responses.create.call_args
+            writing_call = completions.create.call_args
+            self.assertEqual(research_call.kwargs["tool_choice"], "required")
+            self.assertEqual(writing_call.kwargs["response_format"], {"type": "json_object"})
+            self.assertIn("messages", writing_call.kwargs)
+            self.assertNotIn("tools", writing_call.kwargs)
+
     def test_local_env_only_loads_featured_variables_without_overriding_ci(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
