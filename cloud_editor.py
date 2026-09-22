@@ -58,7 +58,7 @@ def browser_pass(client: OpenAI, prompt: str) -> str:
         model=os.environ.get('GROQ_RESEARCH_MODEL', 'openai/gpt-oss-20b'),
         reasoning={'effort': 'medium'},
         tools=[{'type': 'browser_search'}],
-        tool_choice='auto',
+        tool_choice='required',
         max_output_tokens=2500,
         input=prompt,
     )
@@ -114,7 +114,7 @@ def run(root: Path = ROOT, now: datetime | None = None) -> int:
         print('SKIP: limite Groq atteinte, nouvel essai au prochain passage')
         return 0
     except APIError as error:
-        print(f'SKIP: service Groq indisponible ({type(error).__name__})')
+        print(f'SKIP: service Groq indisponible ({type(error).__name__}, HTTP {getattr(error, "status_code", "inconnu")})')
         return 0
     if proposal['action'] == 'skip':
         print('SKIP:', proposal['reason'])

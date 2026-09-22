@@ -55,6 +55,7 @@ class CloudEditorTests(unittest.TestCase):
             self.assertEqual(len(research_calls), 1)
             for research_call in research_calls:
                 self.assertEqual(research_call.kwargs['tools'], [{'type': 'browser_search'}])
+                self.assertEqual(research_call.kwargs['tool_choice'], 'required')
                 self.assertNotIn('text', research_call.kwargs)
             self.assertIn('text', writing_call.kwargs)
             self.assertNotIn('tools', writing_call.kwargs)
