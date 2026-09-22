@@ -4,7 +4,7 @@
 
 Le workflow GitHub `editorial-cloud.yml` réalise la recherche, la rédaction, les contrôles et la publication dans le cloud. Il fonctionne ordinateur éteint grâce à l’API Groq et à GitHub Actions. La recherche et la rédaction structurée sont séparées, car la recherche par navigateur Groq n’est pas compatible avec les sorties structurées dans un même appel. Le workflow `ingest.yml` reste disponible uniquement pour lancer manuellement une collecte de pistes ; il ne publie aucun article.
 
-La cadence validée est **un nouvel article par jour au maximum, heure de Paris**, avec un passage quotidien vers 9 h. Deux horaires UTC couvrent les changements d’heure ; le quota bloque automatiquement le second passage. Aucun quota minimal : une journée sans sujet suffisamment documenté reste sans nouvelle publication. Les annonces déjà publiées sont conservées comme archives.
+La cadence validée est **un nouvel article par jour au maximum, heure de Paris**. Un premier passage a lieu vers 9 h, puis plusieurs reprises sont prévues jusqu’à 19 h en cas de retard GitHub, d’indisponibilité Groq ou de sujet insuffisamment documenté. Dès qu’un article est publié, le quota bloque les passages suivants. Aucun quota minimal : une journée sans sujet suffisamment documenté reste sans nouvelle publication. Les annonces déjà publiées sont conservées comme archives.
 
 ## Procédure quotidienne
 

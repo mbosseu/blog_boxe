@@ -39,10 +39,12 @@ class CloudEditorTests(unittest.TestCase):
                         {'url': 'https://example.org/source', 'title': 'Source'}
                     ]}]}]},
                 )
-            writing_response = SimpleNamespace(output_text='{"action":"skip","reason":"preuves insuffisantes","draft":null}')
+            writing_response = SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content='{"action":"skip","reason":"preuves insuffisantes","draft":null}'))])
             responses = unittest.mock.Mock()
-            responses.create.side_effect = [research_response('Rapport documenté'), writing_response]
-            client = SimpleNamespace(responses=responses)
+            responses.create.return_value = research_response('Rapport documenté')
+            completions = unittest.mock.Mock()
+            completions.create.return_value = writing_response
+            client = SimpleNamespace(responses=responses, chat=SimpleNamespace(completions=completions))
             now = datetime(2026, 9, 21, 8, tzinfo=timezone.utc)
 
             dossier = cloud_editor.research(client, root, now)
@@ -50,14 +52,15 @@ class CloudEditorTests(unittest.TestCase):
 
             self.assertIn('https://example.org/source', dossier)
             self.assertEqual(proposal['action'], 'skip')
-            research_calls = responses.create.call_args_list[:1]
-            writing_call = responses.create.call_args_list[1]
+            research_calls = responses.create.call_args_list
+            writing_call = completions.create.call_args
             self.assertEqual(len(research_calls), 1)
             for research_call in research_calls:
                 self.assertEqual(research_call.kwargs['tools'], [{'type': 'browser_search'}])
                 self.assertEqual(research_call.kwargs['tool_choice'], 'required')
                 self.assertNotIn('text', research_call.kwargs)
-            self.assertIn('text', writing_call.kwargs)
+            self.assertIn('messages', writing_call.kwargs)
+            self.assertEqual(writing_call.kwargs['response_format'], {'type': 'json_object'})
             self.assertNotIn('tools', writing_call.kwargs)
 
 

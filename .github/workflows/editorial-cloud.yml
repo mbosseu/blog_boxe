@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "12 7 * * *"
     - cron: "12 8 * * *"
+    - cron: "12 11 * * *"
+    - cron: "12 14 * * *"
+    - cron: "12 17 * * *"
   workflow_dispatch:
 
 permissions:
@@ -33,9 +36,10 @@ jobs:
       - name: Vérifier la configuration
         id: config
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Europe/Paris date +%H)" != "09" ]; then
+          PARIS_HOUR="$(TZ=Europe/Paris date +%H)"
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$PARIS_HOUR" -lt 9 ] || [ "$PARIS_HOUR" -gt 19 ]; }; then
             echo "configured=false" >> "$GITHUB_OUTPUT"
-            echo "Passage ignoré : il n’est pas 9 h à Paris"
+            echo "Passage ignoré : hors de la fenêtre 9 h–19 h à Paris"
           elif [ -z "$GROQ_API_KEY" ]; then
             echo "configured=false" >> "$GITHUB_OUTPUT"
             echo "GROQ_API_KEY absent : exécution ignorée"
