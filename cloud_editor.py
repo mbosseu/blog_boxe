@@ -114,7 +114,12 @@ def run(root: Path = ROOT, now: datetime | None = None) -> int:
         print('SKIP: limite Groq atteinte, nouvel essai au prochain passage')
         return 0
     except APIError as error:
-        print(f'SKIP: service Groq indisponible ({type(error).__name__}, HTTP {getattr(error, "status_code", "inconnu")})')
+        detail = str(error)
+        secret = os.environ.get('GROQ_API_KEY')
+        if secret:
+            detail = detail.replace(secret, '[secret]')
+        detail = detail[:1200]
+        print(f'SKIP: service Groq indisponible ({type(error).__name__}, HTTP {getattr(error, "status_code", "inconnu")}): {detail}')
         return 0
     if proposal['action'] == 'skip':
         print('SKIP:', proposal['reason'])
