@@ -55,7 +55,7 @@ Pistes détectées : {json.dumps(candidates, ensure_ascii=False)}
 
 def browser_pass(client: OpenAI, prompt: str) -> str:
     response = client.responses.create(
-        model=os.environ.get('GROQ_RESEARCH_MODEL', 'openai/gpt-oss-20b'),
+        model=os.environ.get('GROQ_RESEARCH_MODEL', 'openai/gpt-oss-120b'),
         reasoning={'effort': 'medium'},
         tools=[{'type': 'browser_search'}],
         tool_choice='required',
