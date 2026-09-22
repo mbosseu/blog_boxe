@@ -493,6 +493,10 @@ def listing_page(slug: str, title: str, kicker: str, intro: str) -> str:
 def article_page(article: dict) -> str:
     related = [a for a in all_articles() if a["slug"] != article["slug"] and set(a["tags"]) & set(article["tags"])][:4]
     info = "".join(f"<p><strong>{k}</strong> — {v}</p>" for k, v in article.get("info") or [])
+    image_credit = next(
+        (value for key, value in article.get("info") or [] if key == "Illustration"),
+        "Illustration originale Actu Boxe",
+    )
     rel = "".join(
         f'<a href="{href_article(a["slug"])}">{a["title"]}</a>' for a in related
     ) or "<p>Plus d’articles à venir.</p>"
@@ -519,7 +523,7 @@ def article_page(article: dict) -> str:
             '<figure style="margin:0 0 2rem">'
             f'<img src="{escape(article["image"], quote=True)}" alt="{escape(article.get("image_alt", article["title"]), quote=True)}" '
             'width="1200" height="675" style="display:block;width:100%;height:auto;border-radius:12px" decoding="async">'
-            '<figcaption style="font-size:.8rem;margin-top:.5rem">Illustration originale Actu Boxe.</figcaption></figure>'
+            f'<figcaption style="font-size:.8rem;margin-top:.5rem">{escape(image_credit)}.</figcaption></figure>'
         )
     sources_html = ""
     if article.get("sources"):
