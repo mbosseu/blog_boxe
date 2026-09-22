@@ -338,23 +338,33 @@ def cards_html(articles: list[dict]) -> str:
 
 def home() -> str:
     fallback = get("championnats-d-europe-2026-la-selection-francaise-pour-sofia")
-    fallback_others = [
+    fallback_articles = [
+        fallback,
         get("flora-pili-s-incline-face-a-katie-taylor-a-dublin"),
         get("ibrahim-boukedim-defend-son-titre-a-metz"),
         get("gala-saint-nazaire-clavier-ntambwe"),
         get("toulouse-minimes-boxing-club"),
     ]
     pool = all_articles()
-    featured = next((article for article in pool if article.get("featured") is True), fallback)
-    uses_fallback = not featured.get("featured") and featured["slug"] == fallback["slug"]
-    others = fallback_others if uses_fallback else [
+    featured = next(
+        (article for article in pool if article.get("featured") is True),
+        pool[0] if pool else fallback,
+    )
+    others = [
         article for article in pool if article["slug"] != featured["slug"]
     ][:4]
+    used_slugs = {featured["slug"], *(article["slug"] for article in others)}
+    for article in fallback_articles:
+        if len(others) == 4:
+            break
+        if article["slug"] not in used_slugs:
+            others.append(article)
+            used_slugs.add(article["slug"])
     hero = [featured, *others]
     cards = []
     for i, art in enumerate(hero, 1):
         extra = f"<p>{art['excerpt']}</p>" if i == 1 else ""
-        label = "À la une · " if i == 1 and art.get("featured") is True else ""
+        label = "À la une · " if i == 1 else ""
         cards.append(f"""
         <article class="hero-item hero-item-{i}">
           <a href="{href_article(art['slug'])}">

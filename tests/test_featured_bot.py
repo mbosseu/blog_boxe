@@ -117,6 +117,32 @@ class FeaturedBotTests(unittest.TestCase):
         self.assertLess(html.index(featured["title"]), html.index(fallback["title"]))
         self.assertIn(featured["image"], html)
 
+    def test_homepage_uses_latest_articles_before_first_featured_publication(self):
+        articles = []
+        for index, slug in enumerate(("nouveau-un", "nouveau-deux", "nouveau-trois", "nouveau-quatre", "nouveau-cinq")):
+            article = deepcopy(content_get("championnats-d-europe-2026-la-selection-francaise-pour-sofia"))
+            article.update(
+                slug=slug,
+                title=f"Nouvel article {index + 1}",
+                image=f"/assets/img/news/{slug}.svg",
+                image_alt=f"Illustration {index + 1}",
+                date_iso=f"2026-09-{22 - index:02d}",
+            )
+            articles.append(article)
+        fallback = content_get("championnats-d-europe-2026-la-selection-francaise-pour-sofia")
+        with (
+            patch.object(build_pages, "all_articles", return_value=articles),
+            patch.object(build_pages, "get", return_value=fallback),
+            patch.object(build_pages, "by_tag", return_value=[]),
+        ):
+            html = build_pages.home()
+
+        self.assertIn("À la une ·", html)
+        for article in articles:
+            self.assertIn(article["title"], html)
+            self.assertIn(article["image"], html)
+        self.assertNotIn(fallback["title"], html)
+
 
 class FeaturedEditorTests(unittest.TestCase):
     def test_research_and_json_writing_use_separate_supported_calls(self):
