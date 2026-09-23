@@ -2,6 +2,24 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Hugo Grau sur la boîte, Billal Bennama lésé",
+      "url": "https://www.ffboxe.com/hugo-grau-sur-la-boite-billal-bennama-lese/",
+      "published_at": "2026-09-23T12:07:45+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Jaime Munguia sommé de défendre son titre WBA des super-moyens face à Bektemir Melikuziev",
+      "url": "https://boxemag.ouest-france.fr/boxe/jaime-munguia-somme-de-defendre-son-titre-wba-des-super-moyens-face-a-bektemir-melikuziev/",
+      "published_at": "2026-09-23T06:21:25+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "La WBA ordonne à Teofimo Lopez d’affronter Jack Catterall pour unifier les titres des 67kg",
+      "url": "https://boxemag.ouest-france.fr/boxe/la-wba-ordonne-a-teofimo-lopez-daffronter-jack-catterall-pour-unifier-les-titres-des-67kg/",
+      "published_at": "2026-09-23T06:18:49+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Le combat Fury-Joshua ciblé au Principality Stadium de Cardiff en décembre",
       "url": "https://boxemag.ouest-france.fr/boxe/le-combat-fury-joshua-cible-au-principality-stadium-de-cardiff-en-decembre/",
@@ -30,6 +48,12 @@
       "title": "Ca passe pour les garçons pas pour les filles",
       "url": "https://www.ffboxe.com/ca-passe-pour-les-garcons-pas-pour-les-filles/",
       "published_at": "2026-09-20T20:03:27+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Ca continue pour Hugo Grau et Wassila Lkhadiri",
+      "url": "https://www.ffboxe.com/ca-continue-pour-hugo-grau-et-wassila-lkhadiri/",
+      "published_at": "2026-09-20T20:02:00+00:00"
     },
     {
       "publisher": "FFBoxe",
@@ -102,18 +126,6 @@
       "title": "Suivez les Bleu(e)s en direct aux championnats d'Europe 2026",
       "url": "https://www.ffboxe.com/suivez-les-bleues-en-direct-aux-championnats-deurope-2026/",
       "published_at": "2026-09-16T22:17:03+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Ryan Garcia affirme que Gervonta Davis l’a contacté pour organiser une revanche",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-affirme-que-gervonta-davis-la-contacte-pour-organiser-une-revanche/",
-      "published_at": "2026-09-16T16:08:47+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Entre les cordes - Épisode 6",
-      "url": "https://www.ffboxe.com/entre-les-cordes-episode-6/",
-      "published_at": "2026-09-16T15:45:05+00:00"
     }
   ],
   "unavailable_feeds": []
