@@ -160,12 +160,34 @@ body {
     background: linear-gradient(180deg, transparent 0%, rgba(5, 5, 5, 0.55) 12%, rgba(5, 5, 5, 0.92) 100%);
 }
 
+#blog-home .hero-item-1:has(img[src*="zouhir-boumenir"]) .overlay {
+    background: linear-gradient(
+        180deg,
+        rgba(5, 5, 5, 0.04) 0%,
+        rgba(5, 5, 5, 0.1) 45%,
+        rgba(5, 5, 5, 0.38) 100%
+    ) !important;
+}
+
+#blog-home .hero-item-1:has(img[src*="zouhir-boumenir"]) .content {
+    background: linear-gradient(180deg, transparent 0%, rgba(5, 5, 5, 0.08) 20%, rgba(5, 5, 5, 0.52) 100%);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.85);
+}
+
 #blog-home .hero-item .visual.title-card .title-card-inner {
     display: none;
 }
 
 .ab-hero:has(.ab-hero-bg)::after {
     background: linear-gradient(180deg, rgba(8, 8, 8, 0.62) 0%, rgba(8, 8, 8, 0.94) 100%);
+}
+
+.ab-hero:has(.ab-hero-bg img[src*="zouhir-boumenir"])::after {
+    background: linear-gradient(180deg, rgba(8, 8, 8, 0.04) 0%, rgba(8, 8, 8, 0.1) 48%, rgba(8, 8, 8, 0.58) 100%);
+}
+
+.ab-hero:has(.ab-hero-bg img[src*="zouhir-boumenir"]) .inner {
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9);
 }
 
 #blog-home .hero-item .visual img,
@@ -794,6 +816,10 @@ body {
     #blog-home .hero-item-1 {
         min-height: 260px !important;
         grid-column: 1 / -1;
+    }
+
+    #blog-home .hero-item-1:has(img[src*="zouhir-boumenir"]) {
+        min-height: 400px !important;
     }
 
     #blog-home .hero-item-2,
