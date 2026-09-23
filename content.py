@@ -1127,6 +1127,56 @@ ARTICLES = [
 <p>Boukedim l’a prise le 14 février 2026 à Dubaï, contre Tiago Dylan Gonzalez, scores 79-73, 79-73, 80-72. Première défense à la maison, huit rounds. Lire Metz comme un mondial, ce serait se tromper d’échelle. Lire Metz comme un gala local sans enjeu, aussi.</p>
 """,
     },
+    {
+        "slug": "zouhir-boumenir-jjb-grappling-mma-toulouse",
+        "title": "Zouhir Boumenir : transmettre le JJB, le grappling et le MMA sol à Toulouse",
+        "excerpt": "Ceinture noire de jiu-jitsu brésilien et titulaire d’un BPJEPS grappling, Zouhir Boumenir accompagne débutants, enfants et pratiquants confirmés dans l’apprentissage du combat au sol.",
+        "date": "23 septembre 2026",
+        "date_iso": "2026-09-23",
+        "category": "Coachs",
+        "category_href": "/coachs/",
+        "active": "home",
+        "tags": ["coachs", "clubs", "actualites"],
+        "card_title": "Zouhir Boumenir, le combat au sol à Toulouse",
+        "image": "/assets/img/zouhir-boumenir-boxing-center.webp",
+        "image_alt": "Zouhir Boumenir, coach de JJB et de grappling à Toulouse",
+        "info": [
+            ("Disciplines", "JJB, grappling et MMA sol"),
+            ("Grade", "Ceinture noire de JJB"),
+            ("Diplôme", "BPJEPS Lutte et Grappling"),
+            ("Secteur", "Toulouse et Muret"),
+        ],
+        "sources": [
+            ("Boxing Center — portrait de Zouhir", "https://boxingcenter.fr/coachs-2/coach-zouhir/"),
+            ("Boxe & Mind Academy — équipe pédagogique", "https://www.boxeandmindacademy.fr/coachs-mma-boxe-muret"),
+            ("Club MMA Toulouse — encadrement du combat au sol", "https://clubmma.fr/"),
+        ],
+        "body": """
+<p>Le combat au sol demande du temps, de la méthode et une attention constante aux détails. À Toulouse, Zouhir Boumenir en a fait le cœur de son enseignement. Le coach intervient en jiu-jitsu brésilien, en grappling et dans le travail au sol du MMA, auprès de pratiquants qui découvrent ces disciplines comme de profils plus expérimentés.</p>
+<p>Ce portrait repose sur les informations publiques de Boxing Center, de Boxe &amp; Mind Academy et de Club MMA Toulouse. Il ne s’agit pas d’un entretien exclusif avec Zouhir Boumenir&nbsp;: les éléments de parcours et de palmarès sont donc attribués aux structures qui les publient.</p>
+
+<h2>Un parcours construit autour du combat au sol</h2>
+<p>Boxing Center présente Zouhir Boumenir comme un coach titulaire d’un <strong>BPJEPS mention Lutte et Grappling</strong> et ceinture noire de jiu-jitsu brésilien. Le club lui attribue près de vingt ans d’enseignement du JJB, du grappling et des disciplines de sol. Club MMA Toulouse confirme son rôle de coach de grappling et de JJB dans l’équipe toulousaine.</p>
+<p>Sa pratique ne s’arrête pas au kimono. Selon Boxing Center, il évolue aussi en MMA depuis 2006 et compte plus de dix combats. Ces données sont celles communiquées par le club&nbsp;; elles permettent surtout de comprendre la double perspective de son enseignement, entre le grappling sportif et l’utilisation du sol en MMA.</p>
+
+<h2>Apprendre à contrôler avant de chercher la soumission</h2>
+<p>Le contenu annoncé des cours suit une progression complète&nbsp;: positions, déplacements, contrôles, sorties, renversements, transitions, soumissions et défenses. Cette construction rappelle une idée essentielle du combat au sol&nbsp;: une technique finale n’a de sens que si le pratiquant sait d’abord obtenir puis conserver une position favorable.</p>
+<p>Boxing Center insiste sur une pédagogie progressive. Un débutant peut ainsi commencer par les repères de sécurité, la mobilité et les positions fondamentales avant d’aborder des enchaînements plus complexes. La compétition n’est pas présentée comme une obligation. L’objectif peut être de progresser techniquement, de compléter une pratique du MMA ou simplement de découvrir une nouvelle discipline.</p>
+
+<h2>Des cours pour les enfants comme pour les adultes</h2>
+<p>Le portrait publié par Boxing Center mentionne également l’encadrement des enfants, avec des cours annoncés le mercredi et le samedi. Le travail change alors d’échelle&nbsp;: apprendre à chuter, respecter son partenaire, comprendre une consigne et maîtriser son effort comptent autant que la recherche d’efficacité.</p>
+<p>Les horaires et les lieux pouvant évoluer, les familles et les nouveaux pratiquants doivent vérifier le planning directement auprès du club avant de se déplacer. Les différentes salles de l’agglomération toulousaine ne proposent pas nécessairement les mêmes créneaux ni les mêmes disciplines.</p>
+
+<h2>Un palmarès publié par Boxe &amp; Mind Academy</h2>
+<p>Boxe &amp; Mind Academy présente Zouhir Boumenir au sein de son équipe de coachs à Muret et lui attribue plusieurs résultats&nbsp;: une première place à l’Open de Londres, une deuxième place au championnat de France par équipes de grappling ainsi qu’une deuxième place à l’Open de Toulouse. La structure mentionne aussi une victoire à l’Open du Bassin d’Arcachon CFJJB 2026.</p>
+<p>Ces résultats sont repris comme des éléments de présentation publiés par l’académie. En l’absence de feuilles de résultats fédérales consultées pour chacun de ces tournois, Actu Boxe ne les transforme pas en palmarès indépendant. Ils éclairent néanmoins l’expérience compétitive revendiquée autour de son activité d’entraîneur.</p>
+
+<h2>Où retrouver Zouhir Boumenir&nbsp;?</h2>
+<p>Zouhir Boumenir est présenté dans les équipes de <a href="https://boxingcenter.fr/coachs-2/coach-zouhir/" target="_blank" rel="noopener noreferrer">Boxing Center</a>, de Club MMA Toulouse et de Boxe &amp; Mind Academy à Muret. Pour connaître le lieu adapté, les conditions d’inscription et le niveau du groupe, le plus fiable reste de consulter le planning de la structure choisie puis de prendre contact avec elle.</p>
+<p>Son profil illustre une place parfois moins visible que celle du coach au bord d’un ring&nbsp;: celle du spécialiste qui apprend à rester lucide sous la pression, à construire une position et à progresser sans brûler les étapes.</p>
+<p><small>Photographie&nbsp;: Boxing Center. Visuel reproduit depuis la page de présentation du coach.</small></p>
+""",
+    },
     {'slug': 'valentin-tapia-boxing-center-toulouse',
      'title': 'Valentin Tapia : former des champions et accompagner les loisirs au Boxing Center',
      'excerpt': 'Parcours, coaching, compétition et loisirs : les questions-réponses pour découvrir Valentin '
