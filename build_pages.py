@@ -13,12 +13,8 @@ ROOT = Path(__file__).resolve().parent / "actu-boxe"
 SITE = "https://actu-boxe.com"
 # Domaines externes autorisés dans le corps (backlinks éditoriaux sourcés).
 ALLOWED_EXTERNAL_HOSTS = {
-    "boxeandmindacademy.fr",
     "boxingcenter.fr",
-    "clubmma.fr",
-    "www.boxeandmindacademy.fr",
     "www.boxingcenter.fr",
-    "www.clubmma.fr",
 }
 
 NAV = [
@@ -367,7 +363,7 @@ def home() -> str:
     hero = [featured, *others]
     cards = []
     for i, art in enumerate(hero, 1):
-        extra = f"              <p>{art['excerpt']}</p>" if i == 1 else ""
+        extra = f"<p>{art['excerpt']}</p>" if i == 1 else ""
         label = "À la une · " if i == 1 else ""
         cards.append(f"""
         <article class="hero-item hero-item-{i}">
@@ -377,7 +373,7 @@ def home() -> str:
             <div class="content">
               <span>{label}{art['date']} · {art['category']}</span>
               <h2>{art['title']}</h2>
-{extra}
+              {extra}
             </div>
           </a>
         </article>""")
