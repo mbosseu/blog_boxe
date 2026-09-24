@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Manny Pacquiao contre Shakur Stevenson en négociations sur la carte Joshua-Fury",
+      "url": "https://boxemag.ouest-france.fr/boxe/manny-pacquiao-contre-shakur-stevenson-en-negociations-sur-la-carte-joshua-fury/",
+      "published_at": "2026-09-24T10:17:21+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Hugo Grau et Junior Tadah en finale des Europes 2026",
+      "url": "https://www.ffboxe.com/hugo-grau-et-junior-tadah-en-finale-des-europes-2026/",
+      "published_at": "2026-09-24T07:39:48+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Hugo Grau sur la boîte, Billal Bennama lésé",
       "url": "https://www.ffboxe.com/hugo-grau-sur-la-boite-billal-bennama-lese/",
@@ -119,24 +131,6 @@
       "title": "Isaac “Pitbull” Cruz sait ce que veulent ses fans et compte bien le leur offrir",
       "url": "https://boxemag.ouest-france.fr/boxe/isaac-pitbull-cruz-sait-ce-que-veulent-ses-fans-et-compte-bien-le-leur-offrir/",
       "published_at": "2026-09-18T10:02:14+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Suivez les Bleu(e)s en direct aux championnats d'Europe 2026",
-      "url": "https://www.ffboxe.com/suivez-les-bleues-en-direct-aux-championnats-deurope-2026/",
-      "published_at": "2026-09-16T22:17:03+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Ryan Garcia affirme que Gervonta Davis l’a contacté pour organiser une revanche",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-affirme-que-gervonta-davis-la-contacte-pour-organiser-une-revanche/",
-      "published_at": "2026-09-16T16:08:47+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Entre les cordes - Épisode 6",
-      "url": "https://www.ffboxe.com/entre-les-cordes-episode-6/",
-      "published_at": "2026-09-16T15:45:05+00:00"
     }
   ],
   "unavailable_feeds": []
