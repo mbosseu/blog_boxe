@@ -2,6 +2,12 @@
   "items": [
     {
       "publisher": "FFBoxe",
+      "title": "La FFBoxe rend hommage à Sonia Sadli",
+      "url": "https://www.ffboxe.com/la-ffboxe-rend-hommage-a-sonia-sadli/",
+      "published_at": "2026-09-25T14:42:22+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
       "title": "Euro 2026 : Junior Tadah et Hugo Grau en argent, Sthélyne Grosy en finale !",
       "url": "https://www.ffboxe.com/euro-2026-junior-tadah-et-hugo-grau-en-argent-sthelyne-grosy-en-finale/",
       "published_at": "2026-09-24T20:58:17+00:00"
@@ -143,18 +149,6 @@
       "title": "Teaser: Netflix lance une nouvelle série documentaire en quatre volets sur Mike Tyson; La date de sortie dévoilée",
       "url": "https://boxemag.ouest-france.fr/boxe/teaser-netflix-lance-une-nouvelle-serie-documentaire-en-quatre-volets-sur-mike-tyson-la-date-de-sortie-devoilee/",
       "published_at": "2026-09-18T16:46:51+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Champion du monde avant GTA VI ? Bilel Jkitou va combattre pour la ceinture IBA début novembre",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/champion-du-monde-avant-gta-vi-bilel-jkitou-va-combattre-pour-la-ceinture-iba-debut-novembre_AN-202609180579.html",
-      "published_at": "2026-09-18T14:24:33+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Martine et Jeannine : quand la boxe crée du lien entre les générations",
-      "url": "https://www.ffboxe.com/martine-et-jeanine-quand-la-boxe-cree-du-lien-entre-les-generations/",
-      "published_at": "2026-09-18T14:15:05+00:00"
     }
   ],
   "unavailable_feeds": []
