@@ -2,6 +2,18 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "La FFBoxe rend hommage à Sonia Sadli",
+      "url": "https://www.ffboxe.com/la-ffboxe-rend-hommage-a-sonia-sadli/",
+      "published_at": "2026-09-25T14:42:22+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Euro 2026 : Sthélyne Grosy, Junior Tadah et Hugo Grau en argent, Makan Traoré en bronze",
+      "url": "https://www.ffboxe.com/euro-2026-sthelyne-grosy-junior-tadah-et-hugo-grau-en-argent-makan-traore-en-bronze/",
+      "published_at": "2026-09-24T20:58:17+00:00"
+    },
+    {
       "publisher": "RMC Sport",
       "title": "Boxe, championnats d'Europe: \"Je confirme devant le monde entier\", le Français Junior Tadah savoure sa médaille d’argent",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-championnats-d-europe-je-confirme-devant-le-monde-entier-le-francais-junior-tadah-savoure-sa-medaille-d-argent_AN-202609240880.html",
@@ -30,6 +42,18 @@
       "title": "Manny Pacquiao contre Shakur Stevenson en négociations sur la carte Joshua-Fury",
       "url": "https://boxemag.ouest-france.fr/boxe/manny-pacquiao-contre-shakur-stevenson-en-negociations-sur-la-carte-joshua-fury/",
       "published_at": "2026-09-24T10:17:21+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Sthélyne Grosy, Hugo Grau et Junior Tadah en finale des Europes 2026",
+      "url": "https://www.ffboxe.com/hugo-grau-et-junior-tadah-en-finale-des-europes-2026/",
+      "published_at": "2026-09-24T07:39:48+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Hugo Grau sur la boîte, Billal Bennama lésé",
+      "url": "https://www.ffboxe.com/hugo-grau-sur-la-boite-billal-bennama-lese/",
+      "published_at": "2026-09-23T12:07:45+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -68,10 +92,34 @@
       "published_at": "2026-09-21T08:54:45+00:00"
     },
     {
+      "publisher": "FFBoxe",
+      "title": "Ca passe pour les garçons pas pour les filles",
+      "url": "https://www.ffboxe.com/ca-passe-pour-les-garcons-pas-pour-les-filles/",
+      "published_at": "2026-09-20T20:03:27+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Ca continue pour Hugo Grau et Wassila Lkhadiri",
+      "url": "https://www.ffboxe.com/ca-continue-pour-hugo-grau-et-wassila-lkhadiri/",
+      "published_at": "2026-09-20T20:02:00+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Clothilde Del Ben s'incline sans démériter",
+      "url": "https://www.ffboxe.com/clothilde-del-ben-sincline-sans-demeriter/",
+      "published_at": "2026-09-20T10:49:17+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Résumé vidéo du combat Pitbull Cruz vs Nestor Bravo",
       "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-pitbull-cruz-vs-nestor-bravo/",
       "published_at": "2026-09-20T07:42:30+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Enchères des finales du Challenge Jean-Claude Bouttier 2026",
+      "url": "https://www.ffboxe.com/136367-2/",
+      "published_at": "2026-09-19T20:57:40+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -86,16 +134,11 @@
       "published_at": "2026-09-19T07:49:58+00:00"
     },
     {
-      "publisher": "Boxemag",
-      "title": "La WBO refuse que Conor Benn affronte Denzel Bentley pour le titre des poids moyens",
-      "url": "https://boxemag.ouest-france.fr/boxe/la-wbo-refuse-que-conor-benn-affronte-denzel-bentley-pour-le-titre-des-poids-moyens/",
-      "published_at": "2026-09-18T17:23:55+00:00"
+      "publisher": "FFBoxe",
+      "title": "Un duo gagnant d’entrée",
+      "url": "https://www.ffboxe.com/un-duo-gagnant-dentree/",
+      "published_at": "2026-09-18T19:54:20+00:00"
     }
   ],
-  "unavailable_feeds": [
-    {
-      "publisher": "FFBoxe",
-      "error": "URLError"
-    }
-  ]
+  "unavailable_feeds": []
 }
