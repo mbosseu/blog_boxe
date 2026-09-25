@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Euro 2026 : Junior Tadah et Hugo Grau en argent, Sthélyne Grosy en finale !",
+      "url": "https://www.ffboxe.com/euro-2026-junior-tadah-et-hugo-grau-en-argent-sthelyne-grosy-en-finale/",
+      "published_at": "2026-09-24T20:58:17+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe, championnats d'Europe: \"Je confirme devant le monde entier\", le Français Junior Tadah savoure sa médaille d’argent",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-championnats-d-europe-je-confirme-devant-le-monde-entier-le-francais-junior-tadah-savoure-sa-medaille-d-argent_AN-202609240880.html",
+      "published_at": "2026-09-24T19:23:52+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe, championnats d'Europe: \"On m’a arraché ce titre\", dénonce Hugo Grau",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-championnats-d-europe-on-m-a-arrache-ce-titre-denonce-hugo-grau_AN-202609240873.html",
+      "published_at": "2026-09-24T19:14:17+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Le choc Tyson Fury et Anthony Joshua officiel pour le 11 décembre",
       "url": "https://boxemag.ouest-france.fr/boxe/le-choc-tyson-fury-et-anthony-joshua-officiel-pour-le-11-decembre/",
@@ -137,12 +155,6 @@
       "title": "Martine et Jeannine : quand la boxe crée du lien entre les générations",
       "url": "https://www.ffboxe.com/martine-et-jeanine-quand-la-boxe-cree-du-lien-entre-les-generations/",
       "published_at": "2026-09-18T14:15:05+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Isaac “Pitbull” Cruz sait ce que veulent ses fans et compte bien le leur offrir",
-      "url": "https://boxemag.ouest-france.fr/boxe/isaac-pitbull-cruz-sait-ce-que-veulent-ses-fans-et-compte-bien-le-leur-offrir/",
-      "published_at": "2026-09-18T10:02:14+00:00"
     }
   ],
   "unavailable_feeds": []
