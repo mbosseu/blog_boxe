@@ -3,6 +3,30 @@
   "items": [
     {
       "publisher": "FFBoxe",
+      "title": "Sthélyne Grosy n’a pas démérité",
+      "url": "https://www.ffboxe.com/sthelyne-grosy-na-pas-demerite/",
+      "published_at": "2026-09-26T10:35:32+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Tyson Fury fait une révélation fracassante sur l’implication de Dana White dans la promotion du combat contre Anthony Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-fait-une-revelation-fracassante-sur-limplication-de-dana-white-dans-la-promotion-du-combat-contre-anthony-joshua/",
+      "published_at": "2026-09-26T07:15:18+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Coup de tonnerre dans le Joshua vs Fury : une énorme affiche comme remplaçante",
+      "url": "https://lasueur.com/coup-de-tonnerre-joshua-vs-fury-enorme-affiche-remplacante-26-9-2026",
+      "published_at": "2026-09-26T05:15:00+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Junior Tadah et Hugo Grau en argent",
+      "url": "https://www.ffboxe.com/junior-tadah-et-hugo-grau-en-argent/",
+      "published_at": "2026-09-25T19:04:02+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
       "title": "La FFBoxe rend hommage à Sonia Sadli",
       "url": "https://www.ffboxe.com/la-ffboxe-rend-hommage-a-sonia-sadli/",
       "published_at": "2026-09-25T14:42:22+00:00"
@@ -30,6 +54,12 @@
       "title": "Le choc Tyson Fury et Anthony Joshua officiel pour le 11 décembre",
       "url": "https://boxemag.ouest-france.fr/boxe/le-choc-tyson-fury-et-anthony-joshua-officiel-pour-le-11-decembre/",
       "published_at": "2026-09-24T12:44:06+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Tyson Fury vs Anthony Joshua : la date du superfight officialisée",
+      "url": "https://lasueur.com/tyson-fury-vs-anthony-joshua-officiel-decembre-2026-24-9-2026",
+      "published_at": "2026-09-24T12:21:21+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -120,24 +150,6 @@
       "title": "Enchères des finales du Challenge Jean-Claude Bouttier 2026",
       "url": "https://www.ffboxe.com/136367-2/",
       "published_at": "2026-09-19T20:57:40+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Résultats des combats Pitbull Cruz vs Nestor Bravo",
-      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-pitbull-cruz-vs-nestor-bravo/",
-      "published_at": "2026-09-19T07:56:56+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "EOTTM annonce cinq galas de boxe à Montréal pour 2027",
-      "url": "https://boxemag.ouest-france.fr/boxe/eottm-annonce-cinq-galas-de-boxe-a-montreal-pour-2027/",
-      "published_at": "2026-09-19T07:49:58+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Un duo gagnant d’entrée",
-      "url": "https://www.ffboxe.com/un-duo-gagnant-dentree/",
-      "published_at": "2026-09-18T19:54:20+00:00"
     }
   ],
   "unavailable_feeds": []
