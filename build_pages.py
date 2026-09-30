@@ -363,7 +363,7 @@ def home() -> str:
     hero = [featured, *others]
     cards = []
     for i, art in enumerate(hero, 1):
-        extra = f"<p>{art['excerpt']}</p>" if i == 1 else ""
+        extra = f"<p>{art['excerpt']}</p>" if i == 1 else "<!-- résumé réservé à la une -->"
         label = "À la une · " if i == 1 else ""
         cards.append(f"""
         <article class="hero-item hero-item-{i}">

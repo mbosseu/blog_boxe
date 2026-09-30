@@ -2,6 +2,80 @@
 
 ARTICLES = [
     {
+        "slug": "bakary-samake-preparation-uisma-lima-las-vegas",
+        "title": "Bakary Samaké prépare son retour : le défi Uisma Lima après la première défaite",
+        "excerpt": "Avant son retour face au gaucher Uisma Lima le 14 novembre à Levallois, Bakary Samaké doit transformer sa première défaite en réponses techniques, physiques et mentales.",
+        "date": "30 septembre 2026",
+        "date_iso": "2026-09-30",
+        "category": "Actualités",
+        "category_href": "/actualites/",
+        "active": "news",
+        "tags": ["actualites", "combats-a-venir", "analyses", "boxeurs"],
+        "image": "/assets/img/bakary-samake-entrainement.png",
+        "image_alt": "Bakary Samaké à l’entraînement avec ses gants avant son combat contre Uisma Lima",
+        "gallery": [
+            ("/assets/img/bakary-samake-camp.png", "Bakary Samaké dans une salle de boxe — photographie fournie à Actu Boxe"),
+            ("/assets/img/bakary-samake-ceintures.png", "Bakary Samaké avec ses ceintures WBC — photographie fournie à Actu Boxe"),
+            ("/assets/img/bakary-samake-portrait.png", "Portrait de Bakary Samaké — photographie fournie à Actu Boxe"),
+        ],
+        "info": [
+            ("Combat", "Bakary Samaké vs Uisma Lima"),
+            ("Date", "14 novembre 2026"),
+            ("Lieu", "Palais des Sports Marcel-Cerdan, Levallois-Perret"),
+            ("Enjeu", "Titre WBC International des super-welters — 10 rounds"),
+            ("Bilans annoncés", "Samaké 19-1, 11 KO · Lima 16-2, 11 KO"),
+        ],
+        "sources": [
+            "Samaké Promotion / Issa Boxing Club — annonce officielle du gala du 14 novembre 2026",
+            "L’Équipe — annonce Samaké–Lima et préparation prévue à Las Vegas, 9 juin 2026",
+            "L’Équipe — compte rendu de Hadribeaj–Samaké, 24 mai 2026",
+            "Fédération française de boxe — compte rendu de la première défaite de Samaké, 25 mai 2026",
+            "World Boxing Council — fiche et compte rendu du combat Samaké–Hadribeaj",
+            "Sportmag — entretien avec Issa Samaké sur le rôle du sparring à Las Vegas, 22 février 2024",
+        ],
+        "body": """
+<p>À six semaines de son retour, Bakary Samaké aborde un territoire nouveau. Le 14 novembre, au Palais des Sports Marcel-Cerdan de Levallois-Perret, le Français retrouvera le ring pour la première fois depuis la défaite qui a interrompu sa série de dix-neuf victoires. En face, Uisma Lima ne ressemble pas à un adversaire choisi pour remettre doucement la machine en route : le Portugais, né en Angola, est gaucher, expérimenté et détenteur de la ceinture WBC International des super-welters.</p>
+<p>Le rendez-vous oblige donc Samaké à mener deux combats en même temps. Il lui faut préparer une opposition de dix rounds contre un boxeur dangereux, mais aussi convertir les leçons d’Oberhausen en changements visibles. Son départ pour Las Vegas en octobre a été annoncé dès le mois de juin. Les détails précis du camp, les séances effectuées et les noms des sparring-partners de cette préparation n’ont cependant pas été rendus publics au 30 septembre. La prudence s’impose : les habitudes de ses camps précédents donnent un cadre, pas un compte rendu de ce qui se déroule aujourd’hui.</p>
+
+<h2>Levallois, première réponse après Oberhausen</h2>
+<p>Le 23 mai, Samaké s’est incliné à l’unanimité des juges devant Ermal Hadribeaj, avec des cartes de 116-112, 115-113 et 115-113. Cette demi-finale WBC devait désigner un prétendant au titre mondial. Elle est devenue la première défaite professionnelle du Français, jusque-là crédité de dix-neuf succès, dont onze avant la limite.</p>
+<p>Le scénario compte autant que le résultat. La Fédération française de boxe a décrit un Samaké attentiste en début de rencontre, gêné par les accrochages et par l’activité d’un adversaire capable de contrôler la distance et le rythme. Le Français a trouvé quelques coups marquants dans la seconde moitié du combat, sans installer assez longtemps son propre tempo pour renverser la lecture des juges. Cette soirée ne condamne pas son potentiel ; elle lui fournit en revanche un diagnostic exigeant sur la gestion d’un combat long.</p>
+<p>Le contexte avait également été perturbé. Initialement programmé le 25 avril à Paris, le combat avait été reporté après l’annulation de la réunion. L’équipe de Samaké n’a pas contesté la décision finale. Pour préparer Lima, l’enjeu utile consiste désormais à isoler ce qui relève du contexte et ce qui appelle une évolution technique durable.</p>
+
+<h2>Uisma Lima, un champion international et non un adversaire de reprise</h2>
+<p>Uisma Lima se présentera à Levallois avec un bilan annoncé de seize victoires, dont onze avant la limite, pour deux défaites. Le Portugais de 33 ans évolue en garde de gaucher. Son parcours l’a déjà placé face à Aaron McKenna, puis à Jaron Ennis. Depuis ce revers contre Ennis, il a renoué avec la victoire et s’est emparé de la ceinture WBC International en stoppant Souleimane Mohammedi au neuvième round à Aix-en-Provence.</p>
+<p>Cette expérience donne une dimension claire à l’affiche. Lima sait voyager, accepter un rapport de force défavorable sur le papier et avancer dans un combat qui dure. Samaké sera chez lui, devant un public acquis à sa cause, mais il ne pourra pas traiter cette soirée comme une reconstruction sans danger. L’organisateur présente d’ailleurs le combat comme une étape destinée à renforcer sa position mondiale et à ouvrir des perspectives pour 2027.</p>
+<p>Le choix de cet adversaire renseigne aussi sur l’état d’esprit du clan Samaké. Aucune déclaration récente ne permet de raconter ses émotions intimes ou de lui prêter une revanche verbale. En revanche, le matchmaking est un fait : après une première défaite, il accepte immédiatement un champion international doté d’un profil inconfortable. Le message sportif tient dans ce risque assumé.</p>
+
+<h2>Las Vegas, un cadre familier à documenter avec précision</h2>
+<p>La préparation à Las Vegas n’est pas une nouveauté dans la trajectoire de Samaké. Avant Hadribeaj, il expliquait y travailler depuis près de trois ans et y rechercher l’isolement, la variété des oppositions et un niveau de sparring difficile à réunir au même endroit. Pour ce camp précédent, il avait déclaré avoir effectué 76 rounds avec plusieurs gauchers sous la direction de l’entraîneur américain Ramon Matthews.</p>
+<p>Ces éléments éclairent sa méthode, mais ils ne doivent pas être recyclés comme s’ils décrivaient le camp contre Lima. À ce jour, le départ en octobre est confirmé ; la composition actuelle de l’encadrement, le volume de rounds et l’identité des partenaires ne le sont pas publiquement. Actu Boxe ne nommera donc aucun sparring-partner sans publication de l’équipe, du boxeur ou de la salle concernée.</p>
+<p>Le rôle du sparring reste néanmoins central. Issa Samaké expliquait déjà en 2024 que les séjours dans le Nevada étaient organisés en grande partie pour multiplier les oppositions. Contre Lima, la valeur du travail ne se mesurera pas au prestige des noms, mais à la pertinence des profils : des gauchers capables de varier le rythme, de fermer la distance et de répondre après les attaques offriraient une préparation cohérente. Il s’agit ici d’un besoin tactique, pas de la confirmation de partenaires déjà engagés.</p>
+
+<h2>Préparer un gaucher : gagner la bataille des appuis</h2>
+<p>Face à Lima, la première question sera celle du placement. Dans une opposition entre droitier et gaucher, la position du pied avant influence la ligne du direct arrière, les sorties après combinaison et la possibilité de tourner hors de l’axe fort adverse. Samaké devra éviter de poursuivre son rival en ligne droite et trouver des angles qui lui permettent d’accélérer sans rester disponible pour la riposte.</p>
+<p>Son jab aura plusieurs fonctions : mesurer la distance, occuper le gant avant de Lima et préparer les attaques au corps comme à la tête. La vitesse naturelle du Français reste une arme, mais elle doit produire des séquences complètes. Une accélération isolée impressionne ; une combinaison préparée, suivie d’une sortie sûre, permet de gagner un round et d’empêcher l’adversaire de reprendre immédiatement l’initiative.</p>
+<p>Le combat d’Oberhausen invite également à travailler la continuité. Hadribeaj a obtenu des rounds en restant plus actif et en imposant une lecture plus régulière de son travail. Contre Lima, Samaké devra limiter les longues phases d’observation, répondre aux accrochages sans perdre son organisation et marquer clairement la fin des reprises serrées. Sur dix rounds, laisser trop de séquences indécises aux juges serait prendre un risque évitable.</p>
+
+<h2>Condition physique : construire dix rounds, pas seulement des accélérations</h2>
+<p>La préparation physique devra servir ce plan. Il ne s’agit pas uniquement d’arriver sec et rapide le soir du combat. Samaké doit pouvoir répéter ses démarrages, conserver ses appuis lorsque le rythme baisse et rester lucide dans les échanges tardifs. Le travail aérobie, les séquences à haute intensité et la récupération entre les reprises doivent converger vers la même exigence : rester capable de décider, pas seulement de résister.</p>
+<p>La gestion du poids mérite aussi une attention particulière après un calendrier 2026 bouleversé par le report du combat contre Hadribeaj. Aucune donnée publique récente ne permet d’évaluer sa descente actuelle vers la limite des super-welters. On peut seulement rappeler qu’une préparation réussie doit préserver l’énergie nécessaire à la tactique. Le chiffre sur la balance ne peut pas devenir l’unique victoire de la semaine du combat.</p>
+
+<h2>Ce que ses derniers combats lui ont appris</h2>
+<p>Avant Oberhausen, Samaké avait franchi plusieurs étapes rapidement. Il avait remporté la ceinture WBC Silver en 2024 face à Wade Ryan, puis battu Roarke Knapp par arrêt au huitième round à Paris La Défense Arena en avril 2025. En octobre de la même année, il avait stoppé Alejandro Ortiz au cinquième round à Levallois. Ces succès ont montré sa capacité à accélérer, à faire mal et à porter une soirée importante.</p>
+<p>Hadribeaj a posé une autre question : que se passe-t-il lorsque l’adversaire absorbe les temps forts, dérègle la distance et oblige Samaké à construire jusqu’à la douzième reprise ? La réponse ne réside pas dans une transformation totale. Le Français n’a pas à renoncer à sa vitesse ni à son instinct offensif. Il doit leur ajouter une meilleure maîtrise des temps faibles, une activité lisible et des solutions lorsque la première intention ne suffit pas.</p>
+
+<h2>Une victoire pour rouvrir la route internationale</h2>
+<p>Le titre WBC International ne constitue pas une ceinture mondiale, mais il offre un levier dans la hiérarchie. Battre Lima permettrait à Samaké de récupérer un trophée reconnu, de renouer avec la victoire contre une opposition crédible et de replacer son nom dans les discussions internationales. À 23 ans, il dispose du temps nécessaire pour reconstruire, à condition que chaque étape apporte une progression réelle.</p>
+<p>Une défaite ne détruit pas une carrière ; la manière d’y répondre peut en modifier la direction. Le 14 novembre ne dira pas encore jusqu’où Samaké ira, mais il donnera une mesure concrète du travail accompli depuis mai. Sa capacité à imposer son rythme, à gérer la garde de gaucher et à rester discipliné pendant dix rounds offrira plus d’enseignements que n’importe quelle promesse prononcée avant le combat.</p>
+
+<h2>Le camp devra parler sur le ring</h2>
+<p>Les prochaines semaines seront riches en images d’entraînement, en séquences aux pattes d’ours et en récits de sparring. Leur intérêt dépendra des informations que l’équipe choisira de rendre publiques. Pour l’instant, le dossier tient sur des faits solides : un départ annoncé vers Las Vegas, un retour le 14 novembre à Levallois, une ceinture WBC International en jeu et un adversaire gaucher qui a déjà fréquenté un niveau élevé.</p>
+<p>Tout le reste devra être jugé entre les cordes. Si Samaké transforme la frustration d’Oberhausen en patience, en activité et en précision, cette soirée pourra devenir le point de départ d’une nouvelle séquence. Lima vient défendre sa ceinture ; Samaké vient vérifier que sa première défaite a produit autre chose qu’une cicatrice sur son palmarès.</p>
+<p><small>Photographies fournies à Actu Boxe.</small></p>
+""",
+    },
+    {
         "slug": "flora-pili-s-incline-face-a-katie-taylor-a-dublin",
         "title": "Flora Pili s’incline face à Katie Taylor, mais sort la tête haute",
         "excerpt": "À Dublin, devant environ 83 000 spectateurs, Taylor s’impose aux points (100-90, 100-90, 98-91) et referme sa carrière en championne incontestée. Première défaite pour Pili.",
