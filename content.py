@@ -2,6 +2,99 @@
 
 ARTICLES = [
     {
+        "slug": "johnson-suffo-sparring-bakary-samake-boxing-center-toulouse",
+        "title": "Johnson Suffo : « Boxer avec Bakary Samaké, c’est le genre d’expérience qui fait progresser »",
+        "excerpt": "Johnson Suffo revient sur ses sparrings avec Bakary Samaké, son parcours professionnel et sa formation au Boxing Center Toulouse, dans l’environnement de la boxe des Minimes.",
+        "date": "1 octobre 2026",
+        "date_iso": "2026-10-01",
+        "category": "Interviews",
+        "category_href": "/interviews/",
+        "active": "home",
+        "tags": ["interviews", "boxeurs", "clubs", "actualites", "combats-a-venir"],
+        "image": "/assets/img/johnson-suffo-ring.png",
+        "image_alt": "Johnson Suffo à l’entraînement, casque et gants, pendant une séance de préparation",
+        "gallery": [
+            ("/assets/img/johnson-suffo-sparring.png", "Johnson Suffo, casque rouge, pendant un sparring de préparation — photographie fournie à Actu Boxe"),
+            ("/assets/img/johnson-suffo-coach.png", "Johnson Suffo avec un membre de l’encadrement — photographie fournie à Actu Boxe"),
+            ("/assets/img/johnson-suffo-conseil.png", "Échange avec l’encadrement pendant la préparation — photographie fournie à Actu Boxe"),
+        ],
+        "info": [
+            ("Boxeur", "Johnson Suffo, poids moyens"),
+            ("Club formateur", "Boxing Center Toulouse"),
+            ("Contexte", "Sparrings dans la préparation de Bakary Samaké"),
+            ("Combat de Samaké", "14 novembre 2026, Levallois, face à Uisma Lima"),
+        ],
+        "sources": [
+            ("Boxing Center — école de boxe anglaise et parcours de Johnson Suffo", "https://boxingcenter.fr/club-de-boxe-anglaise-toulouse/"),
+            ("Boxing Center — témoignage de Johnson Suffo", "https://boxingcenter.fr/johnson-boxeur-pro-boxing-center/"),
+            ("Boxing Center — Fight Event IV, Suffo vs Khati", "https://boxingcenter.fr/fight-event-4-gala-boxe-toulouse/"),
+            ("La Dépêche — Ciril Johnson Suffo, les gants de l’espoir, 16 avril 2024", "https://www.ladepeche.fr/2024/04/16/ciril-johnson-suffo-les-gants-de-lespoir-11893537.php"),
+            ("La Dépêche — Johnson Suffo, boxeur très prometteur, 5 juillet 2025", "https://www.ladepeche.fr/2025/07/05/animation-johnson-suffo-boxeur-tres-prometteur-12807668.php"),
+            ("BoxRec — nul contre Anatole Lemaire, juillet 2026, Créteil", "https://boxrec.com/fr/box-pro/1159772"),
+            ("Toulouse Minimes Boxing Club", "https://www.toulouse-minimes-boxing-club.fr/"),
+            ("Préparation de Bakary Samaké", "/articles/bakary-samake-preparation-uisma-lima-las-vegas/"),
+        ],
+        "body": """
+<p>À quelques semaines du retour de Bakary Samaké, le 14 novembre à Levallois face à Uisma Lima, plusieurs boxeurs ont été appelés pour tenir le rythme de sa préparation. Parmi eux, Johnson Suffo, poids moyen professionnel formé à l’<a href="https://boxingcenter.fr/club-de-boxe-anglaise-toulouse/" target="_blank" rel="noopener">école de boxe anglaise de Boxing Center Toulouse</a>. Après plusieurs séances de sparring aux côtés de Samaké, le Toulousain revient sur cette expérience, son parcours et le club qui l’a accompagné jusqu’au monde professionnel.</p>
+<p><em>Entretien Actu Boxe. Les réponses ci-dessous sont celles transmises pour cette interview.</em></p>
+
+<p><strong>Actu Boxe — Johnson, comment s’est mise en place cette préparation avec Bakary Samaké&nbsp;?</strong><br>
+«&nbsp;On m’a proposé de venir participer à sa préparation et j’ai accepté tout de suite. Pour moi, ce sont exactement les expériences qu’il faut rechercher quand on veut continuer à progresser. Bakary évolue déjà à un très haut niveau, donc pouvoir partager le ring avec lui, travailler plusieurs fois ensemble et faire de vrais rounds de sparring, c’est forcément enrichissant.&nbsp;»</p>
+
+<p><strong>Actu Boxe — Qu’est-ce que tu recherches personnellement dans ce type de sparring&nbsp;?</strong><br>
+«&nbsp;Un sparring comme celui-là, ce n’est pas simplement venir pour échanger des coups. On vient pour travailler. Il faut s’adapter, réfléchir, essayer certaines choses et comprendre ce qui fonctionne face à un boxeur de ce niveau. C’est là que tu vois aussi les petits détails qui peuvent faire la différence.&nbsp;»</p>
+
+<p>Ces séances s’inscrivent dans une trajectoire déjà tournée vers le haut niveau. Boxing Center indique que Johnson Suffo a disputé 28 combats amateurs pour quatre défaites avant de passer professionnel en septembre 2023. En juillet 2026, BoxRec enregistre un match nul contre Anatole Lemaire au Palais des sports Robert-Oubron, à Créteil. Les bases publiques le créditaient auparavant de dix victoires et d’une défaite&nbsp;: après ce nul, le bilan s’établit donc à 10-1-1.</p>
+
+<p><strong>Actu Boxe — Quand tu partages le ring avec Bakary Samaké, qu’est-ce qui te marque chez lui&nbsp;?</strong><br>
+«&nbsp;Sa vitesse et sa capacité à rester concentré. À ce niveau-là, tu sens qu’il faut toujours rester attentif. Il ne faut pas faire les choses à moitié. C’est justement pour cela que ces séances sont utiles pour lui comme pour moi. Quand le niveau monte, tout va plus vite et chaque erreur se paie.&nbsp;»</p>
+
+<p><strong>Actu Boxe — Vous avez effectué plusieurs sparrings ensemble. Est-ce que le rythme change au fil des séances&nbsp;?</strong><br>
+«&nbsp;Oui, forcément. Au début, chacun prend ses repères. Ensuite, plus les rounds passent, plus on comprend les réactions de l’autre. Là, ça devient intéressant parce qu’il faut trouver d’autres solutions et ne pas toujours répéter la même chose. C’est aussi ça, le haut niveau&nbsp;: réussir à s’adapter.&nbsp;»</p>
+
+<p><strong>Actu Boxe — Est-ce différent d’un sparring effectué dans ton propre club&nbsp;?</strong><br>
+«&nbsp;Chaque partenaire apporte quelque chose de différent. Au club, je travaille avec des boxeurs que je connais très bien. Quand tu vas dans une préparation comme celle de Bakary, tu arrives avec un rôle précis. Tu dois apporter de l’opposition, respecter le travail demandé et être capable de maintenir un certain niveau pendant les rounds.&nbsp;»</p>
+
+<h2>Boxing Center Toulouse, le club qui a accompagné Johnson</h2>
+<p>Impossible d’évoquer le parcours de Johnson Suffo sans parler du <a href="https://boxingcenter.fr/club-de-boxe-anglaise-toulouse/" target="_blank" rel="noopener">Boxing Center Toulouse</a>, où il a poursuivi sa formation et construit une grande partie de son parcours amateur puis professionnel. Le club le présente comme l’un des boxeurs issus de son <a href="https://boxingcenter.fr/johnson-boxeur-pro-boxing-center/" target="_blank" rel="noopener">école de boxe anglaise</a>, dans la continuité entre les jeunes, les compétiteurs amateurs et le passage chez les professionnels.</p>
+
+<p><strong>Actu Boxe — Quelle importance a eu Boxing Center Toulouse dans ton parcours&nbsp;?</strong><br>
+«&nbsp;Une très grande importance. C’est là que j’ai beaucoup appris et que j’ai vraiment construit ma boxe. J’ai trouvé des entraîneurs qui m’ont suivi, des partenaires et surtout un environnement où je pouvais travailler sérieusement. Quand tu veux devenir professionnel, le talent ne suffit pas. Il faut des gens autour de toi qui croient au projet et qui t’aident à progresser tous les jours.&nbsp;»</p>
+
+<p>Cette relation avec le club dépasse le simple créneau du soir. Dans <a href="https://www.ladepeche.fr/2024/04/16/ciril-johnson-suffo-les-gants-de-lespoir-11893537.php" target="_blank" rel="noopener">La Dépêche</a>, en avril 2024, Johnson Suffo racontait des débuts amateurs à Rodez, puis l’intégration au Boxing Center de Toulouse au moment de basculer chez les professionnels. L’année suivante, le même journal le décrivait toujours à l’entraînement avec le club toulousain, tout en gardant un lien fort avec l’Aveyron.</p>
+
+<p><strong>Actu Boxe — Tu considères donc Boxing Center comme ton club formateur&nbsp;?</strong><br>
+«&nbsp;Oui. J’ai beaucoup grandi ici, humainement comme sportivement. Il y a eu énormément d’heures de travail dans cette salle. Quand les gens voient le professionnel aujourd’hui, ils ne voient pas toujours toutes les années derrière, les entraînements, les trajets, les sacrifices. Boxing Center fait partie de cette histoire.&nbsp;»</p>
+
+<h2>Du Boxing Center au TMBC, deux structures distinctes</h2>
+<p>Johnson Suffo est un boxeur de Boxing Center. Autour de lui, la boxe anglaise toulousaine compte aussi le <a href="https://www.toulouse-minimes-boxing-club.fr/" target="_blank" rel="noopener">Toulouse Minimes Boxing Club (TMBC)</a>, club affilié à la Fédération française de boxe, distinct de Boxing Center. Le TMBC accueille loisirs et compétiteurs et dispose de ses propres créneaux. Les deux projets se côtoient dans le quartier des Minimes sans se confondre. Le portrait du club est sur Actu Boxe&nbsp;: <a href="/articles/toulouse-minimes-boxing-club/">découvrir le Toulouse Minimes Boxing Club</a>.</p>
+
+<p><strong>Actu Boxe — Qu’est-ce que cet environnement t’a apporté dans ta façon de travailler&nbsp;?</strong><br>
+«&nbsp;La discipline. Quand tu es entouré de compétiteurs, tu ne peux pas venir à la salle seulement quand tu en as envie. Tu dois être régulier. Il faut accepter les séances difficiles, les jours où tu es fatigué, les rounds où ça ne se passe pas comme tu veux. C’est cette régularité qui construit un boxeur.&nbsp;»</p>
+
+<p><strong>Actu Boxe — Aujourd’hui, quand on t’appelle pour participer à la préparation d’un boxeur comme Bakary Samaké, est-ce aussi une forme de reconnaissance du travail accompli&nbsp;?</strong><br>
+«&nbsp;Oui, forcément, c’est une satisfaction. Mais je ne veux pas m’arrêter à ça. Je veux encore progresser. Être appelé pour travailler avec un boxeur comme Bakary montre que mon niveau est reconnu, mais pour moi ça doit surtout servir à aller encore plus loin.&nbsp;»</p>
+
+<h2>Une expérience utile dans les deux sens</h2>
+<p>Dans un camp professionnel, le sparring-partner doit tenir l’intensité demandée et obliger le boxeur qui prépare son combat à trouver des solutions. Johnson Suffo évolue chez les moyens. Il apporte une opposition différente de celle d’un super-welter, avec une expérience amateur puis professionnelle. Le bénéfice circule aussi dans l’autre sens&nbsp;: partager plusieurs rounds avec Samaké le confronte à un rythme et à des qualités qu’il ne retrouve pas à chaque séance de club. Le détail du rendez-vous de novembre est dans notre article sur <a href="/articles/bakary-samake-preparation-uisma-lima-las-vegas/">la préparation de Bakary Samaké</a>.</p>
+
+<p><strong>Actu Boxe — Est-ce que tu ressors toi aussi meilleur de cette préparation&nbsp;?</strong><br>
+«&nbsp;Bien sûr. Chaque fois que je peux boxer avec quelqu’un qui possède des qualités différentes des miennes, j’apprends quelque chose. Il y a des détails que tu vois seulement une fois que tu es sur le ring. Tu peux regarder des vidéos, travailler au sac, faire de la technique, mais le sparring reste irremplaçable.&nbsp;»</p>
+
+<p><strong>Actu Boxe — Quel regard portes-tu aujourd’hui sur le chemin parcouru depuis tes débuts&nbsp;?</strong><br>
+«&nbsp;Je regarde surtout ce qu’il reste à accomplir. Il y a eu beaucoup de difficultés, mais elles m’ont construit. Aujourd’hui je suis professionnel, je peux travailler avec des boxeurs de haut niveau et vivre de grandes expériences autour de la boxe. Mais mon objectif reste d’aller chercher mes propres grandes échéances.&nbsp;»</p>
+
+<h2>Johnson Suffo poursuit aussi sa propre route</h2>
+<p>Le passage dans le camp de Samaké ne remplace pas sa carrière. Boxing Center rappelle sa participation au tournoi WBC Grand Prix à Riyad. <em>La Dépêche</em> précisait en juillet 2025 qu’il s’y était incliné en huitièmes de finale au mois de mai. Le club l’a ensuite annoncé en tête d’affiche de son <a href="https://boxingcenter.fr/fight-event-4-gala-boxe-toulouse/" target="_blank" rel="noopener">Fight Event IV</a>, face à Sofiane Khati, chez les poids moyens. Autant d’étapes qui placent le Toulousain dans une autre dimension que le seul rôle de partenaire d’entraînement.</p>
+
+<p><strong>Actu Boxe — Pour terminer, quel est maintenant ton objectif personnel&nbsp;?</strong><br>
+«&nbsp;Continuer à monter. Je veux prendre les combats qui vont me permettre de progresser et de montrer mon niveau. Tout ce que je fais aujourd’hui, les entraînements, les sparrings et les combats, doit me rapprocher de mes objectifs. Je veux représenter mon club et montrer jusqu’où un boxeur formé à Toulouse peut aller.&nbsp;»</p>
+
+<p>De la salle du Boxing Center aux séances aux côtés de Bakary Samaké, Johnson Suffo continue ainsi son apprentissage du haut niveau. Une trajectoire construite sur plusieurs années, avec derrière lui le club de boxe anglaise à Toulouse qui l’accompagne depuis son passage chez les professionnels.</p>
+<p><small>Photographies fournies à Actu Boxe.</small></p>
+""",
+    },
+    {
         "slug": "bakary-samake-preparation-uisma-lima-las-vegas",
         "title": "Bakary Samaké prépare son retour : le défi Uisma Lima après la première défaite",
         "excerpt": "Avant son retour face au gaucher Uisma Lima le 14 novembre à Levallois, Bakary Samaké doit transformer sa première défaite en réponses techniques, physiques et mentales.",

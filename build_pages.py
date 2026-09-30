@@ -15,6 +15,8 @@ SITE = "https://actu-boxe.com"
 ALLOWED_EXTERNAL_HOSTS = {
     "boxingcenter.fr",
     "www.boxingcenter.fr",
+    "toulouse-minimes-boxing-club.fr",
+    "www.toulouse-minimes-boxing-club.fr",
 }
 
 NAV = [
