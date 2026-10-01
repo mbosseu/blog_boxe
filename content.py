@@ -25,13 +25,13 @@ ARTICLES = [
             ("Combat de Samaké", "14 novembre 2026, Levallois, face à Uisma Lima"),
         ],
         "sources": [
-            ("Boxing Center — école de boxe anglaise et parcours de Johnson Suffo", "https://boxingcenter.fr/club-de-boxe-anglaise-toulouse/"),
-            ("Boxing Center — témoignage de Johnson Suffo", "https://boxingcenter.fr/johnson-boxeur-pro-boxing-center/"),
-            ("Boxing Center — Fight Event IV, Suffo vs Khati", "https://boxingcenter.fr/fight-event-4-gala-boxe-toulouse/"),
+            ("Boxing Center — école de boxe anglaise et parcours de Johnson Suffo", None),
+            ("Boxing Center — témoignage de Johnson Suffo", None),
+            ("Boxing Center — Fight Event IV, Suffo vs Khati", None),
             ("La Dépêche — Ciril Johnson Suffo, les gants de l’espoir, 16 avril 2024", "https://www.ladepeche.fr/2024/04/16/ciril-johnson-suffo-les-gants-de-lespoir-11893537.php"),
             ("La Dépêche — Johnson Suffo, boxeur très prometteur, 5 juillet 2025", "https://www.ladepeche.fr/2025/07/05/animation-johnson-suffo-boxeur-tres-prometteur-12807668.php"),
             ("BoxRec — nul contre Anatole Lemaire, juillet 2026, Créteil", "https://boxrec.com/fr/box-pro/1159772"),
-            ("Toulouse Minimes Boxing Club", "https://www.toulouse-minimes-boxing-club.fr/"),
+            ("Toulouse Minimes Boxing Club", None),
             ("Préparation de Bakary Samaké", "/articles/bakary-samake-preparation-uisma-lima-las-vegas/"),
         ],
         "body": """
@@ -56,7 +56,7 @@ ARTICLES = [
 «&nbsp;Chaque partenaire apporte quelque chose de différent. Au club, je travaille avec des boxeurs que je connais très bien. Quand tu vas dans une préparation comme celle de Bakary, tu arrives avec un rôle précis. Tu dois apporter de l’opposition, respecter le travail demandé et être capable de maintenir un certain niveau pendant les rounds.&nbsp;»</p>
 
 <h2>Boxing Center Toulouse, le club qui a accompagné Johnson</h2>
-<p>Impossible d’évoquer le parcours de Johnson Suffo sans parler du <a href="https://boxingcenter.fr/club-de-boxe-anglaise-toulouse/" target="_blank" rel="noopener">Boxing Center Toulouse</a>, où il a poursuivi sa formation et construit une grande partie de son parcours amateur puis professionnel. Le club le présente comme l’un des boxeurs issus de son <a href="https://boxingcenter.fr/johnson-boxeur-pro-boxing-center/" target="_blank" rel="noopener">école de boxe anglaise</a>, dans la continuité entre les jeunes, les compétiteurs amateurs et le passage chez les professionnels.</p>
+<p>Impossible d’évoquer le parcours de Johnson Suffo sans parler du Boxing Center Toulouse, où il a poursuivi sa formation et construit une grande partie de son parcours amateur puis professionnel. Le club le présente comme l’un des boxeurs issus de son école de boxe anglaise, dans la continuité entre les jeunes, les compétiteurs amateurs et le passage chez les professionnels.</p>
 
 <p><strong>Actu Boxe — Quelle importance a eu Boxing Center Toulouse dans ton parcours&nbsp;?</strong><br>
 «&nbsp;Une très grande importance. C’est là que j’ai beaucoup appris et que j’ai vraiment construit ma boxe. J’ai trouvé des entraîneurs qui m’ont suivi, des partenaires et surtout un environnement où je pouvais travailler sérieusement. Quand tu veux devenir professionnel, le talent ne suffit pas. Il faut des gens autour de toi qui croient au projet et qui t’aident à progresser tous les jours.&nbsp;»</p>
@@ -85,12 +85,12 @@ ARTICLES = [
 «&nbsp;Je regarde surtout ce qu’il reste à accomplir. Il y a eu beaucoup de difficultés, mais elles m’ont construit. Aujourd’hui je suis professionnel, je peux travailler avec des boxeurs de haut niveau et vivre de grandes expériences autour de la boxe. Mais mon objectif reste d’aller chercher mes propres grandes échéances.&nbsp;»</p>
 
 <h2>Johnson Suffo poursuit aussi sa propre route</h2>
-<p>Le passage dans le camp de Samaké ne remplace pas sa carrière. Boxing Center rappelle sa participation au tournoi WBC Grand Prix à Riyad. <em>La Dépêche</em> précisait en juillet 2025 qu’il s’y était incliné en huitièmes de finale au mois de mai. Le club l’a ensuite annoncé en tête d’affiche de son <a href="https://boxingcenter.fr/fight-event-4-gala-boxe-toulouse/" target="_blank" rel="noopener">Fight Event IV</a>, face à Sofiane Khati, chez les poids moyens. Autant d’étapes qui placent le Toulousain dans une autre dimension que le seul rôle de partenaire d’entraînement.</p>
+<p>Le passage dans le camp de Samaké ne remplace pas sa carrière. Boxing Center rappelle sa participation au tournoi WBC Grand Prix à Riyad. <em>La Dépêche</em> précisait en juillet 2025 qu’il s’y était incliné en huitièmes de finale au mois de mai. Le club l’a ensuite annoncé en tête d’affiche de son Fight Event IV, face à Sofiane Khati, chez les poids moyens. Autant d’étapes qui placent le Toulousain dans une autre dimension que le seul rôle de partenaire d’entraînement.</p>
 
 <p><strong>Actu Boxe — Pour terminer, quel est maintenant ton objectif personnel&nbsp;?</strong><br>
 «&nbsp;Continuer à monter. Je veux prendre les combats qui vont me permettre de progresser et de montrer mon niveau. Tout ce que je fais aujourd’hui, les entraînements, les sparrings et les combats, doit me rapprocher de mes objectifs. Je veux représenter mon club et montrer jusqu’où un boxeur formé à Toulouse peut aller.&nbsp;»</p>
 
-<p>De la salle du Boxing Center aux séances aux côtés de Bakary Samaké, Johnson Suffo continue ainsi son apprentissage du haut niveau. Une trajectoire construite sur plusieurs années, avec derrière lui le club de boxe anglaise à Toulouse qui l’accompagne depuis son passage chez les professionnels.</p>
+<p>De la salle du Boxing Center aux séances aux côtés de Bakary Samaké, Johnson Suffo continue ainsi son apprentissage du haut niveau. Une trajectoire construite sur plusieurs années, avec derrière lui le <a href="https://club-boxe-toulouse.com/" target="_blank" rel="noopener">club de boxe à Toulouse</a> qui l’accompagne depuis son passage chez les professionnels.</p>
 <p><small>Photographies fournies à Actu Boxe.</small></p>
 """,
     },

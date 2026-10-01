@@ -29,6 +29,8 @@ ALLOWED_EXTERNAL_HOSTS = {
     "www.boxingcenter.fr",
     "toulouse-minimes-boxing-club.fr",
     "www.toulouse-minimes-boxing-club.fr",
+    "club-boxe-toulouse.com",
+    "www.club-boxe-toulouse.com",
 }
 
 NAV = [
