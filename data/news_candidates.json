@@ -2,6 +2,18 @@
   "items": [
     {
       "publisher": "Boxemag",
+      "title": "Anthony Joshua a accepté de perdre plusieurs millions pour que le combat contre Tyson Fury ait lieu au Royaume-Uni affirme Eddie Hearn",
+      "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-a-accepte-de-perdre-plusieurs-millions-pour-que-le-combat-contre-tyson-fury-ait-lieu-au-royaume-uni-affirme-eddie-hearn/",
+      "published_at": "2026-10-01T06:26:05+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Manny Pacquiao a trois nouveaux adversaires potentiels pour la carte du combat Tyson Fury-Anthony Joshua, après l’annulation du combat contre Shakur Stevenson.",
+      "url": "https://boxemag.ouest-france.fr/boxe/manny-pacquiao-a-trois-nouveaux-adversaires-potentiels-pour-la-carte-du-combat-tyson-fury-anthony-joshua-apres-lannulation-du-combat-contre-shakur-stevenson/",
+      "published_at": "2026-10-01T05:57:49+00:00"
+    },
+    {
+      "publisher": "Boxemag",
       "title": "Amir Tyson, le fils de Mike Tyson, signe avec Misfits Boxing",
       "url": "https://boxemag.ouest-france.fr/boxe/amir-tyson-le-fils-de-mike-tyson-signe-avec-misfits-boxing/",
       "published_at": "2026-09-30T16:41:33+00:00"
@@ -41,6 +53,12 @@
       "title": "Dana White s’emporte contre un journaliste au sujet des questions sur le combat Joshua-Fury",
       "url": "https://boxemag.ouest-france.fr/boxe/dana-white-semporte-contre-un-journaliste-au-sujet-des-questions-sur-le-combat-joshua-fury/",
       "published_at": "2026-09-28T10:53:04+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Jake Paul et MVP dans la tourmente : un procès à 10 millions de dollars",
+      "url": "https://lasueur.com/jake-paul-et-mvp-dans-la-tourmente-un-proces-a-10-millions-de-dollars-27-09-2026",
+      "published_at": "2026-09-27T19:14:16+00:00"
     },
     {
       "publisher": "La Sueur",
@@ -107,36 +125,6 @@
       "title": "Boxe, championnats d'Europe: \"On m’a arraché ce titre\", dénonce Hugo Grau",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-championnats-d-europe-on-m-a-arrache-ce-titre-denonce-hugo-grau_AN-202609240873.html",
       "published_at": "2026-09-24T19:14:17+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Le choc Tyson Fury et Anthony Joshua officiel pour le 11 décembre",
-      "url": "https://boxemag.ouest-france.fr/boxe/le-choc-tyson-fury-et-anthony-joshua-officiel-pour-le-11-decembre/",
-      "published_at": "2026-09-24T12:44:06+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Tyson Fury vs Anthony Joshua : la date du superfight officialisée",
-      "url": "https://lasueur.com/tyson-fury-vs-anthony-joshua-officiel-decembre-2026-24-9-2026",
-      "published_at": "2026-09-24T12:21:21+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Une date et un lieu annoncés: le combat entre Tyson Fury et Anthony Joshua va enfin se tenir",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/une-date-et-un-lieu-annonces-le-combat-entre-tyson-fury-et-anthony-joshua-va-enfin-avoir-lieu_AN-202609240515.html",
-      "published_at": "2026-09-24T12:15:23+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Manny Pacquiao contre Shakur Stevenson en négociations sur la carte Joshua-Fury",
-      "url": "https://boxemag.ouest-france.fr/boxe/manny-pacquiao-contre-shakur-stevenson-en-negociations-sur-la-carte-joshua-fury/",
-      "published_at": "2026-09-24T10:17:21+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Sthélyne Grosy, Hugo Grau et Junior Tadah en finale des Europes 2026",
-      "url": "https://www.ffboxe.com/hugo-grau-et-junior-tadah-en-finale-des-europes-2026/",
-      "published_at": "2026-09-24T07:39:48+00:00"
     }
   ],
   "unavailable_feeds": []
