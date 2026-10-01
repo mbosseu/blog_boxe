@@ -11,6 +11,18 @@ from content import all_articles, by_tag, get
 
 ROOT = Path(__file__).resolve().parent / "actu-boxe"
 SITE = "https://actu-boxe.com"
+SEO_CONFIG = Path(__file__).resolve().parent / "data" / "seo.json"
+
+
+def seo_config() -> dict:
+    if SEO_CONFIG.exists():
+        return json.loads(SEO_CONFIG.read_text(encoding="utf-8"))
+    return {}
+
+
+def is_indexable(article: dict) -> bool:
+    """Les filets automatiques FFBoxe sont trop courts pour être indexés : on les garde hors sitemap et en noindex."""
+    return not article.get("wire")
 # Domaines externes autorisés dans le corps (backlinks éditoriaux sourcés).
 ALLOWED_EXTERNAL_HOSTS = {
     "boxingcenter.fr",
@@ -36,25 +48,25 @@ PAGES = [
     ("combats-a-venir", "Combats à venir", "Calendrier",
      "Les affiches à venir, les enjeux sportifs et les rendez-vous à suivre."),
     ("galas", "Galas", "Événements",
-     "Les soirées de boxe anglaise, en France et à l’étranger."),
+     "Les soirées de boxe anglaise en France et à l’étranger : affiches, lieux, dates, enjeux et comptes rendus des galas suivis par Actu Boxe."),
     ("champions", "Champions actuels", "Titres en cours",
      "Les champions du monde, d’Europe et de France, par organisation et catégorie de poids."),
     ("boxeurs", "Boxeurs", "Portraits",
-     "Parcours, palmarès et style des boxeurs français et internationaux."),
+     "Portraits de boxeurs français et internationaux : parcours, palmarès vérifié, style sur le ring et prochains rendez-vous."),
     ("coachs", "Coachs", "Acteurs de terrain",
-     "Les entraîneurs qui forment les boxeurs et font vivre les salles."),
+     "Les entraîneurs qui forment les boxeurs et font vivre les salles : parcours, méthodes, diplômes et clubs où ils encadrent."),
     ("clubs", "Clubs de boxe", "France",
      "Portraits de clubs : histoire, salle, coachs, disciplines et rôle local."),
     ("organisations", "Organisations", "Écosystème",
      "WBC, WBA, IBF, WBO, EBU, FFB : comprendre les fédérations et les ceintures."),
     ("analyses", "Analyses", "Décryptage",
-     "Lectures de combats, performances et enjeux sportifs."),
+     "Lectures de combats, performances et enjeux sportifs de la boxe anglaise : ce que disent les cartes, les styles et les classements."),
     ("interviews", "Interviews", "Paroles d’acteurs",
      "Extraits publics et entretiens, uniquement quand une source existe. Pas de citations inventées."),
     ("mentions-legales", "Mentions légales", "Informations",
-     "Éditeur, hébergeur, contact et réseaux d’Actu Boxe."),
+     "Mentions légales d’Actu Boxe : éditeur du site, hébergeur, contact de la rédaction, réseaux sociaux et propriété intellectuelle."),
     ("confidentialite", "Politique de confidentialité", "Données",
-     "Comment Actu Boxe traite les données de navigation et de contact."),
+     "Politique de confidentialité d’Actu Boxe : cookies techniques, données de navigation et de contact, absence de partenaires publicitaires."),
 ]
 
 
@@ -190,12 +202,22 @@ def page_shell(
 ) -> str:
     og_img = image or "/assets/img/logo.png"
     og_alt = escape(image_alt or "Actu Boxe")
-    doc_title = title_full or f"{title} — Actu Boxe"
+    # Au-delà de ~55 caractères, Google tronque : on garde le titre seul plutôt qu'un suffixe coupé.
+    doc_title = title_full or (title if len(title) > 55 else f"{title} — Actu Boxe")
     desc = escape(description, quote=True)
     title_esc = escape(doc_title, quote=True)
     url = f"{SITE}{path}"
     canon = canonical or url
-    robots = '<meta name="robots" content="noindex, follow">\n  ' if noindex else ""
+    if noindex:
+        robots = '<meta name="robots" content="noindex, follow">\n  '
+    else:
+        robots = '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">\n  '
+    cfg = seo_config()
+    verification = ""
+    if cfg.get("google_site_verification"):
+        verification += f'<meta name="google-site-verification" content="{escape(cfg["google_site_verification"], quote=True)}">\n  '
+    if cfg.get("bing_verification"):
+        verification += f'<meta name="msvalidate.01" content="{escape(cfg["bing_verification"], quote=True)}">\n  '
     article_meta = ""
     if og_type == "article" and date_published:
         article_meta = f"""
@@ -207,10 +229,12 @@ def page_shell(
             "@type": "NewsMediaOrganization",
             "@id": f"{SITE}/#org",
             "name": "Actu Boxe",
+            "alternateName": "actu-boxe.com",
             "url": SITE,
-            "logo": f"{SITE}/assets/img/logo.png",
+            "logo": {"@type": "ImageObject", "url": f"{SITE}/assets/img/logo.png"},
             "email": "contact@actu-boxe.com",
             "inLanguage": "fr-FR",
+            "knowsAbout": ["Boxe anglaise", "Boxe professionnelle", "Boxe amateur", "Fédération française de boxe"],
         },
         {
             "@type": "WebSite",
@@ -240,7 +264,8 @@ def page_shell(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{title_esc}</title>
   <meta name="description" content="{desc}">
-  {robots}<link rel="canonical" href="{canon}">
+  {robots}{verification}<link rel="canonical" href="{canon}">
+  <link rel="alternate" type="application/rss+xml" title="Actu Boxe — derniers articles" href="{SITE}/feed.xml">
   <meta name="theme-color" content="#d31212">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:site_name" content="Actu Boxe">
@@ -254,7 +279,9 @@ def page_shell(
   <meta name="twitter:title" content="{title_esc}">
   <meta name="twitter:description" content="{desc}">
   <meta name="twitter:image" content="{SITE}{og_img}">{article_meta}
-  <link rel="icon" href="/assets/img/logo.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/assets/img/logo.png">
+  <link rel="apple-touch-icon" href="/assets/img/logo.png">
   <script type="application/ld+json">{ld}</script>
   {CSS}
 </head>
@@ -434,18 +461,17 @@ def listing_page(slug: str, title: str, kicker: str, intro: str) -> str:
         extra = """<div class="legal-content">
           <h2>Éditeur</h2>
           <p><strong>Actu Boxe</strong> — média francophone d’actualité sur la boxe anglaise.</p>
-          <p>Publication visée&nbsp;: <strong>actu-boxe.com</strong> (site en préproduction).</p>
-          <p>Directeur de la publication&nbsp;: à désigner avant la mise en ligne publique. Aucun nom ni SIRET n’est inventé ici.</p>
+          <p>Site publié à l’adresse <strong>actu-boxe.com</strong>.</p>
+          <p>Directeur de la publication&nbsp;: la rédaction d’Actu Boxe, joignable à l’adresse ci-dessous.</p>
           <h2>Contact</h2>
           <p>Email définitif de la rédaction&nbsp;: <a href="mailto:contact@actu-boxe.com">contact@actu-boxe.com</a></p>
           <h2>Réseaux sociaux</h2>
           <p>Aucun compte officiel Instagram, X, Facebook, TikTok ou YouTube n’est ouvert à ce jour. Toute page tierce utilisant le nom Actu Boxe n’est pas un compte du site.</p>
           <h2>Hébergeur</h2>
-          <p>Préproduction&nbsp;: hébergement local sur la machine de développement.</p>
-          <p>Production&nbsp;: l’hébergeur (nom, raison sociale, adresse) sera indiqué ici lors de la mise en ligne sur actu-boxe.com.</p>
+          <p>Le site est hébergé par <strong>Vercel Inc.</strong>, 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.</p>
           <h2>Propriété intellectuelle</h2>
-          <p>Textes rédactionnels&nbsp;: Actu Boxe. Photos&nbsp;: crédits indiqués sous chaque cliché (Moselle TV / Matthieu Henkinet, FFBoxe, clubs, visuels de gala). Le seul lien sortant vers un club est celui du Toulouse Minimes Boxing Club.</p>
-          <p>Les communiqués de la Fédération française de boxe sont repris sous forme d’articles Actu Boxe (texte de présentation et visuel fédéral). Le seul lien sortant autorisé vers un club est celui du Toulouse Minimes Boxing Club.</p>
+          <p>Textes rédactionnels&nbsp;: Actu Boxe. Photos&nbsp;: crédits indiqués sous chaque cliché (Moselle TV / Matthieu Henkinet, FFBoxe, clubs, visuels de gala, photographies fournies à la rédaction).</p>
+          <p>Les communiqués de la Fédération française de boxe sont signalés sous forme de filets Actu Boxe (titre, date et visuel fédéral), sans reprise du texte fédéral. Les liens sortants vers des clubs sont réservés aux structures présentées dans nos articles.</p>
         </div>"""
     if slug == "interviews":
         extra = """<div class="legal-content">
@@ -554,10 +580,14 @@ def article_page(article: dict) -> str:
         "dateModified": article.get("updated_iso", article["date_iso"]),
         "inLanguage": "fr-FR",
         "mainEntityOfPage": f"{SITE}/articles/{article['slug']}/",
-        "author": {"@id": f"{SITE}/#org"},
+        "author": {"@type": "Organization", "name": "Rédaction Actu Boxe", "url": SITE},
         "publisher": {"@id": f"{SITE}/#org"},
+        "articleSection": article["category"],
+        "isAccessibleForFree": True,
         "image": f"{SITE}{article['image']}" if article.get("image") else f"{SITE}/assets/img/logo.png",
     }
+    if article.get("tags"):
+        news_ld["keywords"] = ", ".join(article["tags"])
     body = f"""
 <main class="page-shell" id="contenu">
   <article>
@@ -599,6 +629,7 @@ def article_page(article: dict) -> str:
         image_alt=article.get("image_alt", article["title"]),
         og_type="article",
         date_published=article["date_iso"],
+        noindex=not is_indexable(article),
         extra_ld=[
             {"@type": "BreadcrumbList", "itemListElement": crumbs},
             news_ld,
@@ -790,35 +821,89 @@ def write(rel: str, html: str) -> None:
     print("wrote", path.relative_to(ROOT))
 
 
+def _article_date(article: dict) -> str:
+    return article.get("updated_iso") or article["date_iso"]
+
+
 def write_sitemap() -> None:
-    urls = ["/"]
+    articles = [a for a in all_articles() if is_indexable(a)]
+    latest_all = max((_article_date(a) for a in articles), default="2026-09-07")
+    entries: list[tuple[str, str, str, str]] = [("/", latest_all, "daily", "1.0")]
     for slug, *_ in PAGES:
-        urls.append(f"/{slug}/")
-    for article in all_articles():
-        urls.append(f"/articles/{article['slug']}/")
-    body = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for path in urls:
-        lastmod = ""
-        art = next((a for a in all_articles() if f"/articles/{a['slug']}/" == path), None)
-        if art:
-            lastmod = f"<lastmod>{art.get('updated_iso', art['date_iso'])}</lastmod>"
+        tagged = [a for a in articles if slug in a["tags"]]
+        latest = max((_article_date(a) for a in tagged), default="2026-09-07")
+        if slug in {"mentions-legales", "confidentialite"}:
+            entries.append((f"/{slug}/", "2026-10-01", "yearly", "0.2"))
         else:
-            lastmod = "<lastmod>2026-09-07</lastmod>"
-        body.append(f"  <url><loc>{SITE}{path}</loc>{lastmod}</url>")
+            entries.append((f"/{slug}/", latest, "daily", "0.8"))
+    for article in articles:
+        entries.append((f"/articles/{article['slug']}/", _article_date(article), "weekly", "0.7"))
+    body = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for path, lastmod, freq, prio in entries:
+        body.append(
+            f"  <url><loc>{SITE}{path}</loc><lastmod>{lastmod}</lastmod>"
+            f"<changefreq>{freq}</changefreq><priority>{prio}</priority></url>"
+        )
     body.append("</urlset>")
     write("sitemap.xml", "\n".join(body) + "\n")
     write(
         "robots.txt",
-        "User-agent: *\nAllow: /\nDisallow: /cotes/\nDisallow: /vu-ailleurs/\nSitemap: https://actu-boxe.com/sitemap.xml\n",
+        "User-agent: *\nAllow: /\n\n"
+        f"Sitemap: {SITE}/sitemap.xml\n",
     )
+
+
+def _rfc822(date_iso: str) -> str:
+    from datetime import datetime, timezone
+
+    dt = datetime.strptime(date_iso, "%Y-%m-%d").replace(hour=8, tzinfo=timezone.utc)
+    return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+
+def write_feed() -> None:
+    """Flux RSS des articles rédactionnels (sans les filets automatiques)."""
+    articles = [a for a in all_articles() if is_indexable(a)][:30]
+    items = []
+    for a in articles:
+        link = f"{SITE}/articles/{a['slug']}/"
+        enclosure = ""
+        if a.get("image"):
+            ext = a["image"].rsplit(".", 1)[-1].lower()
+            mime = {"jpg": "image/jpeg", "jpeg": "image/jpeg", "png": "image/png", "webp": "image/webp"}.get(ext, "image/jpeg")
+            enclosure = f'\n      <enclosure url="{SITE}{escape(a["image"], quote=True)}" type="{mime}" length="0"/>'
+        items.append(
+            "    <item>\n"
+            f"      <title>{escape(a['title'])}</title>\n"
+            f"      <link>{link}</link>\n"
+            f'      <guid isPermaLink="true">{link}</guid>\n'
+            f"      <pubDate>{_rfc822(a['date_iso'])}</pubDate>\n"
+            f"      <category>{escape(a['category'])}</category>\n"
+            f"      <description>{escape(a['excerpt'])}</description>{enclosure}\n"
+            "    </item>"
+        )
+    latest = _rfc822(articles[0]["date_iso"]) if articles else _rfc822("2026-09-07")
+    feed = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        "  <channel>\n"
+        "    <title>Actu Boxe — Actualité de la boxe anglaise</title>\n"
+        f"    <link>{SITE}/</link>\n"
+        "    <description>Média francophone d’actualité sur la boxe anglaise : résultats, galas, champions, clubs et analyses.</description>\n"
+        "    <language>fr-FR</language>\n"
+        f"    <lastBuildDate>{latest}</lastBuildDate>\n"
+        f'    <atom:link href="{SITE}/feed.xml" rel="self" type="application/rss+xml"/>\n'
+        f"    <image><url>{SITE}/assets/img/logo.png</url><title>Actu Boxe</title><link>{SITE}/</link></image>\n"
+        + "\n".join(items)
+        + "\n  </channel>\n</rss>\n"
+    )
+    write("feed.xml", feed)
 
 
 def main() -> None:
     write("index.html", home())
     write("champions/index.html", champions_page())
-    write("cotes/index.html", gone_cotes_page())
     write("organisations/index.html", organisations_page())
-    write("vu-ailleurs/index.html", gone_vu_ailleurs_page())
+    # /cotes/ et /vu-ailleurs/ sont redirigées (301) par vercel.json : plus de page fantôme à crawler.
     for slug, title, kicker, intro in PAGES:
         if slug in {"champions", "organisations"}:
             continue
@@ -826,6 +911,10 @@ def main() -> None:
     for article in all_articles():
         write(f"articles/{article['slug']}/index.html", article_page(article))
     write_sitemap()
+    write_feed()
+    key = seo_config().get("indexnow_key")
+    if key:
+        write(f"{key}.txt", key)
     # Feed articles can outlive the rolling feed; update their related links too.
     redirects = json.loads((ROOT.parent / "vercel.json").read_text(encoding="utf-8")).get("redirects", [])
     for path in ROOT.rglob("*.html"):

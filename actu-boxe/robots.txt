@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /cotes/
-Disallow: /vu-ailleurs/
+
 Sitemap: https://actu-boxe.com/sitemap.xml

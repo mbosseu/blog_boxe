@@ -8,6 +8,22 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.actu-boxe.com" }],
+      "destination": "https://actu-boxe.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/cotes/",
+      "destination": "/analyses/",
+      "permanent": true
+    },
+    {
+      "source": "/vu-ailleurs/",
+      "destination": "/actualites/",
+      "permanent": true
+    },
+    {
       "source": "/articles/boxing-center-toulouse-club/",
       "destination": "/articles/valentin-tapia-boxing-center-toulouse/",
       "permanent": true
@@ -21,6 +37,48 @@
       "source": "/articles/debuter-boxe-anglaise-toulouse-boxing-center/",
       "destination": "/articles/valentin-tapia-boxing-center-toulouse/",
       "permanent": true
+    },
+    {
+      "source": "/articles/ffboxe-7-bleues-au-tournoi-de-gliwice-en-pologne/",
+      "destination": "/actualites/",
+      "permanent": true
+    },
+    {
+      "source": "/articles/ffboxe-flora-pili-battue-aux-points-en-irlande/",
+      "destination": "/articles/flora-pili-s-incline-face-a-katie-taylor-a-dublin/",
+      "permanent": true
+    },
+    {
+      "source": "/articles/ffboxe-martine-jeannine-les-mamies-boxeuses/",
+      "destination": "/articles/ffboxe-martine-et-jeannine-quand-la-boxe-cree-du-lien-entre-les-generations/",
+      "permanent": true
+    },
+    {
+      "source": "/articles/ffboxe-veillee-d-armes-pour-flora-pili/",
+      "destination": "/articles/flora-pili-portrait/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    },
+    {
+      "source": "/feed.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/rss+xml; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
     }
   ]
 }
