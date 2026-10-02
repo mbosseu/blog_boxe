@@ -2,6 +2,96 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "La Sueur",
+      "title": "Tyson Fury dévoile son plan XXL après Anthony Joshua",
+      "url": "https://lasueur.com/tyson-fury-devoile-son-plan-xxl-apres-anthony-joshua-01-10-2026",
+      "published_at": "2026-10-01T17:58:40+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Le pass Sport est de retour",
+      "url": "https://www.ffboxe.com/le-passsport-est-de-retour/",
+      "published_at": "2026-10-01T14:52:52+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Anthony Joshua a accepté de perdre plusieurs millions pour que le combat contre Tyson Fury ait lieu au Royaume-Uni affirme Eddie Hearn",
+      "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-a-accepte-de-perdre-plusieurs-millions-pour-que-le-combat-contre-tyson-fury-ait-lieu-au-royaume-uni-affirme-eddie-hearn/",
+      "published_at": "2026-10-01T06:26:05+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Manny Pacquiao a trois nouveaux adversaires potentiels pour la carte du combat Tyson Fury-Anthony Joshua, après l’annulation du combat contre Shakur Stevenson.",
+      "url": "https://boxemag.ouest-france.fr/boxe/manny-pacquiao-a-trois-nouveaux-adversaires-potentiels-pour-la-carte-du-combat-tyson-fury-anthony-joshua-apres-lannulation-du-combat-contre-shakur-stevenson/",
+      "published_at": "2026-10-01T05:57:49+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Tyson Fury dévoile sa stratégie pour battre Anthony Joshua",
+      "url": "https://lasueur.com/tyson-fury-devoile-strategie-battre-anthony-joshua-30-9-2026",
+      "published_at": "2026-09-30T18:05:30+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Amir Tyson, le fils de Mike Tyson, signe avec Misfits Boxing",
+      "url": "https://boxemag.ouest-france.fr/boxe/amir-tyson-le-fils-de-mike-tyson-signe-avec-misfits-boxing/",
+      "published_at": "2026-09-30T16:41:33+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Direct: Regardez la première conférence de presse du combat Tyson Fury contre Anthony Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/direct-regardez-la-premiere-conference-de-presse-du-combat-tyson-fury-contre-anthony-joshua/",
+      "published_at": "2026-09-30T16:01:42+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Appels à candidature - Organisation des compétitions nationales BA",
+      "url": "https://www.ffboxe.com/appels-a-candidature-organisation-des-competitions-nationales-ba/",
+      "published_at": "2026-09-29T16:17:49+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "L’ancienne championne Heather Hardy poursuit Jake Paul et Most Valuable Promotions pour 10 millions de dollars",
+      "url": "https://boxemag.ouest-france.fr/boxe/lancienne-championne-heather-hardy-poursuit-jake-paul-et-most-valuable-promotions-pour-10-millions-de-dollars/",
+      "published_at": "2026-09-29T16:17:34+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "L’édito de Baba: Fury-Joshua, les promoteurs veulent le premier rôle",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/l-edito-de-baba-fury-joshua-les-promoteurs-veulent-le-premier-role_AN-202609290442.html",
+      "published_at": "2026-09-29T10:15:47+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "« Un pour cent ! » – Fury s’attend à une annulation imminente du combat contre Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/un-pour-cent-fury-sattend-a-une-annulation-imminente-du-combat-contre-joshua/",
+      "published_at": "2026-09-28T11:17:53+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Dana White s’emporte contre un journaliste au sujet des questions sur le combat Joshua-Fury",
+      "url": "https://boxemag.ouest-france.fr/boxe/dana-white-semporte-contre-un-journaliste-au-sujet-des-questions-sur-le-combat-joshua-fury/",
+      "published_at": "2026-09-28T10:53:04+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Jake Paul et MVP dans la tourmente : un procès à 10 millions de dollars",
+      "url": "https://lasueur.com/jake-paul-et-mvp-dans-la-tourmente-un-proces-a-10-millions-de-dollars-27-09-2026",
+      "published_at": "2026-09-27T19:14:16+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Fury confirme la mauvaise nouvelle pour Joshua et annonce un autre superfight",
+      "url": "https://lasueur.com/fury-confirme-mauvaise-nouvelle-joshua-annonce-autre-superfight-27-9-2026",
+      "published_at": "2026-09-27T18:00:00+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Amir, le fils de Mike Tyson, signe dans une grosse organisation",
+      "url": "https://lasueur.com/amir-le-fils-de-mike-tyson-signe-dans-une-grosse-organisation-27-09-2026",
+      "published_at": "2026-09-27T08:50:00+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Sthélyne Grosy n’a pas démérité",
       "url": "https://www.ffboxe.com/sthelyne-grosy-na-pas-demerite/",
@@ -30,114 +120,6 @@
       "title": "Junior Tadah et Hugo Grau en argent",
       "url": "https://www.ffboxe.com/junior-tadah-et-hugo-grau-en-argent/",
       "published_at": "2026-09-25T19:04:02+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "La FFBoxe rend hommage à Sonia Sadli",
-      "url": "https://www.ffboxe.com/la-ffboxe-rend-hommage-a-sonia-sadli/",
-      "published_at": "2026-09-25T14:42:22+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Euro 2026 : Sthélyne Grosy, Junior Tadah et Hugo Grau en argent, Makan Traoré en bronze",
-      "url": "https://www.ffboxe.com/euro-2026-sthelyne-grosy-junior-tadah-et-hugo-grau-en-argent-makan-traore-en-bronze/",
-      "published_at": "2026-09-24T20:58:17+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe, championnats d'Europe: \"Je confirme devant le monde entier\", le Français Junior Tadah savoure sa médaille d’argent",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-championnats-d-europe-je-confirme-devant-le-monde-entier-le-francais-junior-tadah-savoure-sa-medaille-d-argent_AN-202609240880.html",
-      "published_at": "2026-09-24T19:23:52+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe, championnats d'Europe: \"On m’a arraché ce titre\", dénonce Hugo Grau",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-championnats-d-europe-on-m-a-arrache-ce-titre-denonce-hugo-grau_AN-202609240873.html",
-      "published_at": "2026-09-24T19:14:17+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Le choc Tyson Fury et Anthony Joshua officiel pour le 11 décembre",
-      "url": "https://boxemag.ouest-france.fr/boxe/le-choc-tyson-fury-et-anthony-joshua-officiel-pour-le-11-decembre/",
-      "published_at": "2026-09-24T12:44:06+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Tyson Fury vs Anthony Joshua : la date du superfight officialisée",
-      "url": "https://lasueur.com/tyson-fury-vs-anthony-joshua-officiel-decembre-2026-24-9-2026",
-      "published_at": "2026-09-24T12:21:21+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Une date et un lieu annoncés: le combat entre Tyson Fury et Anthony Joshua va enfin se tenir",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/une-date-et-un-lieu-annonces-le-combat-entre-tyson-fury-et-anthony-joshua-va-enfin-avoir-lieu_AN-202609240515.html",
-      "published_at": "2026-09-24T12:15:23+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Manny Pacquiao contre Shakur Stevenson en négociations sur la carte Joshua-Fury",
-      "url": "https://boxemag.ouest-france.fr/boxe/manny-pacquiao-contre-shakur-stevenson-en-negociations-sur-la-carte-joshua-fury/",
-      "published_at": "2026-09-24T10:17:21+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Sthélyne Grosy, Hugo Grau et Junior Tadah en finale des Europes 2026",
-      "url": "https://www.ffboxe.com/hugo-grau-et-junior-tadah-en-finale-des-europes-2026/",
-      "published_at": "2026-09-24T07:39:48+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Hugo Grau sur la boîte, Billal Bennama lésé",
-      "url": "https://www.ffboxe.com/hugo-grau-sur-la-boite-billal-bennama-lese/",
-      "published_at": "2026-09-23T12:07:45+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jaime Munguia sommé de défendre son titre WBA des super-moyens face à Bektemir Melikuziev",
-      "url": "https://boxemag.ouest-france.fr/boxe/jaime-munguia-somme-de-defendre-son-titre-wba-des-super-moyens-face-a-bektemir-melikuziev/",
-      "published_at": "2026-09-23T06:21:25+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "La WBA ordonne à Teofimo Lopez d’affronter Jack Catterall pour unifier les titres des 67kg",
-      "url": "https://boxemag.ouest-france.fr/boxe/la-wba-ordonne-a-teofimo-lopez-daffronter-jack-catterall-pour-unifier-les-titres-des-67kg/",
-      "published_at": "2026-09-23T06:18:49+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Le combat Fury-Joshua ciblé au Principality Stadium de Cardiff en décembre",
-      "url": "https://boxemag.ouest-france.fr/boxe/le-combat-fury-joshua-cible-au-principality-stadium-de-cardiff-en-decembre/",
-      "published_at": "2026-09-22T17:00:19+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: \"Je me dis que je vais lui casser la gueule\", Christian Mbilli raconte sa préparation avant le combat de sa vie contre Canelo Alvarez",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-je-me-dis-que-je-vais-lui-casser-la-gueule-christian-mbilli-raconte-sa-preparation-avant-le-combat-de-sa-vie-contre-canelo-alvarez_AV-202609210722.html",
-      "published_at": "2026-09-21T17:04:24+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Mbilli-Canelo : \"J'utilise un casque de réalité virtuelle\" confie \"Solide\"",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-mbilli-canelo-j-utilise-un-casque-de-realite-virtuelle-confie-solide_VN-202609210658.html",
-      "published_at": "2026-09-21T15:56:52+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Ryan Garcia accepte le défi de “Pitbull” Cruz : « L’offre est sur la table »",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-accepte-le-defi-de-pitbull-cruz-loffre-est-sur-la-table/",
-      "published_at": "2026-09-21T08:54:45+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Ca passe pour les garçons pas pour les filles",
-      "url": "https://www.ffboxe.com/ca-passe-pour-les-garcons-pas-pour-les-filles/",
-      "published_at": "2026-09-20T20:03:27+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Ca continue pour Hugo Grau et Wassila Lkhadiri",
-      "url": "https://www.ffboxe.com/ca-continue-pour-hugo-grau-et-wassila-lkhadiri/",
-      "published_at": "2026-09-20T20:02:00+00:00"
     }
   ],
   "unavailable_feeds": []
