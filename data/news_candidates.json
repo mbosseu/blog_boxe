@@ -2,7 +2,7 @@
   "items": [
     {
       "publisher": "FFBoxe",
-      "title": "Le Pass'Sport est de retour",
+      "title": "Le pass Sport est de retour",
       "url": "https://www.ffboxe.com/le-passsport-est-de-retour/",
       "published_at": "2026-10-01T14:52:52+00:00"
     },
@@ -17,6 +17,12 @@
       "title": "Manny Pacquiao a trois nouveaux adversaires potentiels pour la carte du combat Tyson Fury-Anthony Joshua, après l’annulation du combat contre Shakur Stevenson.",
       "url": "https://boxemag.ouest-france.fr/boxe/manny-pacquiao-a-trois-nouveaux-adversaires-potentiels-pour-la-carte-du-combat-tyson-fury-anthony-joshua-apres-lannulation-du-combat-contre-shakur-stevenson/",
       "published_at": "2026-10-01T05:57:49+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Tyson Fury dévoile sa stratégie pour battre Anthony Joshua",
+      "url": "https://lasueur.com/tyson-fury-devoile-strategie-battre-anthony-joshua-30-9-2026",
+      "published_at": "2026-09-30T18:05:30+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -113,24 +119,6 @@
       "title": "La FFBoxe rend hommage à Sonia Sadli",
       "url": "https://www.ffboxe.com/la-ffboxe-rend-hommage-a-sonia-sadli/",
       "published_at": "2026-09-25T14:42:22+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Euro 2026 : Sthélyne Grosy, Junior Tadah et Hugo Grau en argent, Makan Traoré en bronze",
-      "url": "https://www.ffboxe.com/euro-2026-sthelyne-grosy-junior-tadah-et-hugo-grau-en-argent-makan-traore-en-bronze/",
-      "published_at": "2026-09-24T20:58:17+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe, championnats d'Europe: \"Je confirme devant le monde entier\", le Français Junior Tadah savoure sa médaille d’argent",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-championnats-d-europe-je-confirme-devant-le-monde-entier-le-francais-junior-tadah-savoure-sa-medaille-d-argent_AN-202609240880.html",
-      "published_at": "2026-09-24T19:23:52+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe, championnats d'Europe: \"On m’a arraché ce titre\", dénonce Hugo Grau",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-championnats-d-europe-on-m-a-arrache-ce-titre-denonce-hugo-grau_AN-202609240873.html",
-      "published_at": "2026-09-24T19:14:17+00:00"
     }
   ],
   "unavailable_feeds": []
