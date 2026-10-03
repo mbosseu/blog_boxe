@@ -2,6 +2,24 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Anthony Joshua signe un contrat colossal avec Netflix pour une série “d’une authenticité brutales” sur sa vie, avec son combat contre Fury en guise de dénouement épique.",
+      "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-signe-un-contrat-colossal-avec-netflix-pour-une-serie-dune-authenticite-brutales-sur-sa-vie-avec-son-combat-contre-fury-en-guise-de-denouement-epique/",
+      "published_at": "2026-10-03T14:05:11+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Résultats des combats Ben Whittaker vs Conor Wallace",
+      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-ben-whittaker-vs-conor-wallace/",
+      "published_at": "2026-10-03T13:45:13+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Ben Whittaker - Conor Wallace : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/ben-whittaker-conor-wallace-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610030013.html",
+      "published_at": "2026-10-03T04:00:00+00:00"
+    },
+    {
       "publisher": "La Sueur",
       "title": "Tyson Fury dévoile son plan XXL après Anthony Joshua",
       "url": "https://lasueur.com/tyson-fury-devoile-son-plan-xxl-apres-anthony-joshua-01-10-2026",
@@ -90,36 +108,6 @@
       "title": "Amir, le fils de Mike Tyson, signe dans une grosse organisation",
       "url": "https://lasueur.com/amir-le-fils-de-mike-tyson-signe-dans-une-grosse-organisation-27-09-2026",
       "published_at": "2026-09-27T08:50:00+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Sthélyne Grosy n’a pas démérité",
-      "url": "https://www.ffboxe.com/sthelyne-grosy-na-pas-demerite/",
-      "published_at": "2026-09-26T10:35:32+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Tony Yoka : une nouvelle chance mondiale après trois rendez-vous manqués",
-      "url": "https://lasueur.com/tony-yoka-une-chance-mondiale-se-precise-26-09-2026",
-      "published_at": "2026-09-26T09:00:00+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Tyson Fury fait une révélation fracassante sur l’implication de Dana White dans la promotion du combat contre Anthony Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-fait-une-revelation-fracassante-sur-limplication-de-dana-white-dans-la-promotion-du-combat-contre-anthony-joshua/",
-      "published_at": "2026-09-26T07:15:18+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Coup de tonnerre dans le Joshua vs Fury : une énorme affiche comme remplaçante",
-      "url": "https://lasueur.com/coup-de-tonnerre-joshua-vs-fury-enorme-affiche-remplacante-26-9-2026",
-      "published_at": "2026-09-26T05:15:00+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Junior Tadah et Hugo Grau en argent",
-      "url": "https://www.ffboxe.com/junior-tadah-et-hugo-grau-en-argent/",
-      "published_at": "2026-09-25T19:04:02+00:00"
     }
   ],
   "unavailable_feeds": []
