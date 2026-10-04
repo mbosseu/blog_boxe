@@ -91,7 +91,7 @@ CSS = """
 <link rel="stylesheet" href="/assets/css/vendor/sections.css">
 <link rel="stylesheet" href="/assets/css/vendor/item.css">
 <link rel="stylesheet" href="/assets/css/vendor/adbox.css">
-<link rel="stylesheet" href="/assets/css/actu-boxe.css">
+<link rel="stylesheet" href="/assets/css/actu-boxe.css?v=20261004-2">
 """
 
 ICONS = {

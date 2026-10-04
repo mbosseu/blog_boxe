@@ -895,9 +895,9 @@ body {
     }
 
     .ab-hero--split .ab-hero-bg {
-        height: auto;
+        height: clamp(160px, 42vw, 220px);
         min-height: 0;
-        aspect-ratio: 16 / 11;
+        aspect-ratio: auto;
     }
 
     .ab-hero--split .ab-hero-bg img {
