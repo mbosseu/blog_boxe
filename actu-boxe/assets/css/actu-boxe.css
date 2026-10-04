@@ -539,19 +539,20 @@ body {
 }
 
 .ab-gallery--portrait figure {
-    overflow: hidden;
+    overflow: visible;
     background: rgba(255, 255, 255, 0.035);
     border: var(--glass-border);
     border-radius: 14px;
 }
 
-.ab-gallery--portrait img {
+.ab-gallery.ab-gallery--portrait img {
     display: block;
     width: 100%;
     height: auto;
+    max-width: 100%;
     aspect-ratio: auto;
     border: 0;
-    border-radius: 0;
+    border-radius: 14px 14px 0 0;
     object-fit: contain;
     object-position: center center;
     background: #0a0a0a;
@@ -932,16 +933,18 @@ body {
     }
 
     .ab-gallery--portrait {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .ab-gallery--portrait figure:first-child {
-        grid-column: 1 / -1;
+        grid-column: auto;
     }
 
+    .ab-gallery.ab-gallery--portrait img,
     .ab-gallery--portrait figure:first-child img {
-        aspect-ratio: auto;
+        width: 100%;
         height: auto;
+        aspect-ratio: auto;
         object-fit: contain;
     }
 

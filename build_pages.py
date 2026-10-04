@@ -91,7 +91,7 @@ CSS = """
 <link rel="stylesheet" href="/assets/css/vendor/sections.css">
 <link rel="stylesheet" href="/assets/css/vendor/item.css">
 <link rel="stylesheet" href="/assets/css/vendor/adbox.css">
-<link rel="stylesheet" href="/assets/css/actu-boxe.css?v=20261004-4">
+<link rel="stylesheet" href="/assets/css/actu-boxe.css?v=20261004-5">
 """
 
 ICONS = {
@@ -520,6 +520,29 @@ def listing_page(slug: str, title: str, kicker: str, intro: str) -> str:
     )
 
 
+def _image_size(src: str) -> tuple[int, int] | None:
+    path = ROOT / src.lstrip("/")
+    if not path.is_file():
+        return None
+    try:
+        from PIL import Image
+
+        with Image.open(path) as im:
+            return im.size
+    except Exception:
+        return None
+
+
+def _gallery_figure(src: str, alt: str, *, eager: bool = False) -> str:
+    size = _image_size(src)
+    dims = f' width="{size[0]}" height="{size[1]}"' if size else ""
+    loading = "" if eager else ' loading="lazy"'
+    return (
+        f'<figure><img src="{escape(src, quote=True)}" alt="{escape(alt)}"{dims}'
+        f'{loading} decoding="async"><figcaption>{escape(alt)}</figcaption></figure>'
+    )
+
+
 def article_page(article: dict) -> str:
     related = [a for a in all_articles() if a["slug"] != article["slug"] and set(a["tags"]) & set(article["tags"])][:4]
     info = "".join(f"<p><strong>{k}</strong> — {v}</p>" for k, v in article.get("info") or [])
@@ -543,8 +566,8 @@ def article_page(article: dict) -> str:
     gallery = ""
     if article.get("gallery"):
         figs = "".join(
-            f'<figure><img src="{src}" alt="{escape(alt)}" loading="lazy" decoding="async"><figcaption>{escape(alt)}</figcaption></figure>'
-            for src, alt in article["gallery"]
+            _gallery_figure(src, alt, eager=(i == 0))
+            for i, (src, alt) in enumerate(article["gallery"])
         )
         gallery_class = "ab-gallery"
         if article.get("article_style") == "interview" or article.get("gallery_layout") == "portrait":
