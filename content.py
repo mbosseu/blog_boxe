@@ -108,6 +108,8 @@ ARTICLES = [
         "tags": ["actualites", "combats-a-venir", "analyses", "boxeurs"],
         "image": "/assets/img/bakary-samake-entrainement.png",
         "image_alt": "Bakary Samaké à l’entraînement avec ses gants avant son combat contre Uisma Lima",
+        "hero_layout": "split",
+        "gallery_layout": "portrait",
         "gallery": [
             ("/assets/img/bakary-samake-camp.png", "Bakary Samaké dans une salle de boxe — photographie fournie à Actu Boxe"),
             ("/assets/img/bakary-samake-ceintures.png", "Bakary Samaké avec ses ceintures WBC — photographie fournie à Actu Boxe"),

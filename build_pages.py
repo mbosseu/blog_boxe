@@ -91,7 +91,7 @@ CSS = """
 <link rel="stylesheet" href="/assets/css/vendor/sections.css">
 <link rel="stylesheet" href="/assets/css/vendor/item.css">
 <link rel="stylesheet" href="/assets/css/vendor/adbox.css">
-<link rel="stylesheet" href="/assets/css/actu-boxe.css?v=20261004-2">
+<link rel="stylesheet" href="/assets/css/actu-boxe.css?v=20261004-4">
 """
 
 ICONS = {
@@ -547,7 +547,7 @@ def article_page(article: dict) -> str:
             for src, alt in article["gallery"]
         )
         gallery_class = "ab-gallery"
-        if article.get("article_style") == "interview":
+        if article.get("article_style") == "interview" or article.get("gallery_layout") == "portrait":
             gallery_class += " ab-gallery--portrait"
         gallery = f'<div class="{gallery_class}">{figs}</div>'
     if article.get("automated") and article.get("image"):

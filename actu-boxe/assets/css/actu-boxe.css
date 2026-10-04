@@ -402,9 +402,9 @@ body {
 /* Bandeau éditorial pour les portraits verticaux : photo et titre restent lisibles
    sans agrandir artificiellement une image de faible largeur. */
 .ab-hero--split {
-    min-height: 520px;
+    min-height: 0;
     display: grid;
-    grid-template-columns: minmax(300px, 42%) minmax(0, 1fr);
+    grid-template-columns: minmax(240px, 38%) minmax(0, 1fr);
     align-items: stretch;
     background: linear-gradient(145deg, #181818 0%, #0b0b0b 62%, #260808 100%);
 }
@@ -412,21 +412,22 @@ body {
 .ab-hero--split .ab-hero-bg {
     position: relative;
     inset: auto;
-    height: 520px;
+    height: auto;
     min-height: 0;
     overflow: hidden;
+    background: #0a0a0a;
 }
 
 .ab-hero--split .ab-hero-bg img {
-    height: 100%;
-    object-fit: cover;
-    object-position: center 22%;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center center;
 }
 
 .ab-hero--split:has(.ab-hero-bg)::after {
-    background:
-        linear-gradient(90deg, transparent 55%, rgba(9, 9, 9, 0.88) 100%),
-        linear-gradient(0deg, rgba(9, 9, 9, 0.45), transparent 45%);
+    content: none;
 }
 
 .ab-hero--split .inner {
@@ -545,12 +546,15 @@ body {
 }
 
 .ab-gallery--portrait img {
-    aspect-ratio: 4 / 5;
+    display: block;
+    width: 100%;
     height: auto;
+    aspect-ratio: auto;
     border: 0;
     border-radius: 0;
-    object-fit: cover;
-    object-position: center 18%;
+    object-fit: contain;
+    object-position: center center;
+    background: #0a0a0a;
 }
 
 .ab-gallery--portrait figcaption {
@@ -731,11 +735,11 @@ body {
 
     .ab-hero--split {
         min-height: 0;
-        grid-template-columns: minmax(240px, 40%) minmax(0, 1fr);
+        grid-template-columns: minmax(200px, 36%) minmax(0, 1fr);
     }
 
     .ab-hero--split .ab-hero-bg {
-        height: 440px;
+        height: auto;
     }
 }
 
@@ -861,6 +865,10 @@ body {
         border-radius: 12px;
     }
 
+    .ab-hero--split {
+        min-height: 0;
+    }
+
     .ab-body {
         padding: 1.15em;
     }
@@ -892,20 +900,27 @@ body {
     .ab-hero--split {
         display: flex;
         flex-direction: column;
+        align-items: stretch;
+        min-height: 0;
     }
 
     .ab-hero--split .ab-hero-bg {
-        height: clamp(160px, 42vw, 220px);
+        height: auto;
+        max-height: none;
         min-height: 0;
         aspect-ratio: auto;
     }
 
     .ab-hero--split .ab-hero-bg img {
-        object-position: center 18%;
+        width: 100%;
+        height: auto;
+        max-height: 68vh;
+        object-fit: contain;
+        object-position: center center;
     }
 
     .ab-hero--split:has(.ab-hero-bg)::after {
-        background: linear-gradient(0deg, rgba(9, 9, 9, 0.65), transparent 52%);
+        content: none;
     }
 
     .ab-hero--split .inner {
@@ -925,7 +940,9 @@ body {
     }
 
     .ab-gallery--portrait figure:first-child img {
-        aspect-ratio: 4 / 3;
+        aspect-ratio: auto;
+        height: auto;
+        object-fit: contain;
     }
 
     .ab-body--interview {
@@ -1184,54 +1201,5 @@ body {
     .vu-list a {
         grid-template-columns: 1fr;
         gap: 4px;
-    }
-}
-
-/* Portraits Bakary Samaké : photo entière, sans recadrage. */
-.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]) {
-    min-height: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-    overflow: hidden;
-    background: #0c0c0c;
-}
-
-.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]) .ab-hero-bg {
-    position: relative;
-    inset: auto;
-    height: auto;
-}
-
-.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]) .ab-hero-bg img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    object-position: center center;
-    display: block;
-    background: #111;
-}
-
-.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"])::after {
-    content: none;
-}
-
-.ab-gallery:has(img[src*="bakary-samake"]) {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-
-.ab-gallery img[src*="bakary-samake"] {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    object-position: center center;
-    background: #111;
-}
-
-@media (max-width: 768px) {
-    .ab-gallery:has(img[src*="bakary-samake"]) {
-        grid-template-columns: 1fr;
-        gap: 16px;
     }
 }
