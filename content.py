@@ -13,6 +13,8 @@ ARTICLES = [
         "tags": ["interviews", "boxeurs", "clubs", "actualites", "combats-a-venir"],
         "image": "/assets/img/johnson-suffo-ring.png",
         "image_alt": "Johnson Suffo à l’entraînement, casque et gants, pendant une séance de préparation",
+        "hero_layout": "split",
+        "article_style": "interview",
         "gallery": [
             ("/assets/img/johnson-suffo-sparring.png", "Johnson Suffo, casque rouge, pendant un sparring de préparation — photographie fournie à Actu Boxe"),
             ("/assets/img/johnson-suffo-coach.png", "Johnson Suffo avec un membre de l’encadrement — photographie fournie à Actu Boxe"),
@@ -67,7 +69,7 @@ ARTICLES = [
 «&nbsp;Oui. J’ai beaucoup grandi ici, humainement comme sportivement. Il y a eu énormément d’heures de travail dans cette salle. Quand les gens voient le professionnel aujourd’hui, ils ne voient pas toujours toutes les années derrière, les entraînements, les trajets, les sacrifices. Boxing Center fait partie de cette histoire.&nbsp;»</p>
 
 <h2>Du Boxing Center au TMBC, deux structures distinctes</h2>
-<p>Johnson Suffo est un boxeur de Boxing Center. Autour de lui, la boxe anglaise toulousaine compte aussi le <a href="https://www.toulouse-minimes-boxing-club.fr/" target="_blank" rel="noopener">Toulouse Minimes Boxing Club (TMBC)</a>, club affilié à la Fédération française de boxe, distinct de Boxing Center. Le TMBC accueille loisirs et compétiteurs et dispose de ses propres créneaux. Les deux projets se côtoient dans le quartier des Minimes sans se confondre. Le portrait du club est sur Actu Boxe&nbsp;: <a href="/articles/toulouse-minimes-boxing-club/">découvrir le Toulouse Minimes Boxing Club</a>.</p>
+<p>Johnson Suffo est un boxeur de Boxing Center. Autour de lui, la boxe anglaise toulousaine compte aussi le Toulouse Minimes Boxing Club (TMBC), club affilié à la Fédération française de boxe, distinct de Boxing Center. Le TMBC accueille loisirs et compétiteurs et dispose de ses propres créneaux. Les deux projets se côtoient dans le quartier des Minimes sans se confondre. Le portrait du club est sur Actu Boxe&nbsp;: <a href="/articles/toulouse-minimes-boxing-club/">découvrir le Toulouse Minimes Boxing Club</a>.</p>
 
 <p><strong>Actu Boxe — Qu’est-ce que cet environnement t’a apporté dans ta façon de travailler&nbsp;?</strong><br>
 «&nbsp;La discipline. Quand tu es entouré de compétiteurs, tu ne peux pas venir à la salle seulement quand tu en as envie. Tu dois être régulier. Il faut accepter les séances difficiles, les jours où tu es fatigué, les rounds où ça ne se passe pas comme tu veux. C’est cette régularité qui construit un boxeur.&nbsp;»</p>
@@ -90,7 +92,7 @@ ARTICLES = [
 <p><strong>Actu Boxe — Pour terminer, quel est maintenant ton objectif personnel&nbsp;?</strong><br>
 «&nbsp;Continuer à monter. Je veux prendre les combats qui vont me permettre de progresser et de montrer mon niveau. Tout ce que je fais aujourd’hui, les entraînements, les sparrings et les combats, doit me rapprocher de mes objectifs. Je veux représenter mon club et montrer jusqu’où un boxeur formé à Toulouse peut aller.&nbsp;»</p>
 
-<p>De la salle du Boxing Center aux séances aux côtés de Bakary Samaké, Johnson Suffo continue ainsi son apprentissage du haut niveau. Une trajectoire construite sur plusieurs années, avec derrière lui le <a href="https://club-boxe-toulouse.com/" target="_blank" rel="noopener">club de boxe à Toulouse</a> qui l’accompagne depuis son passage chez les professionnels.</p>
+<p>De la salle du Boxing Center aux séances aux côtés de Bakary Samaké, Johnson Suffo continue ainsi son apprentissage du haut niveau. Une trajectoire construite sur plusieurs années, avec derrière lui le Boxing Center Toulouse, qui l’accompagne depuis son passage chez les professionnels.</p>
 <p><small>Photographies fournies à Actu Boxe.</small></p>
 """,
     },

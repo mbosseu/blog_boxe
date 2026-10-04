@@ -532,6 +532,8 @@ def article_page(article: dict) -> str:
     ) or "<p>Plus d’articles à venir.</p>"
     hero_bg = ""
     hero_class = "ab-hero"
+    if article.get("hero_layout") == "split":
+        hero_class += " ab-hero--split"
     if article.get("image"):
         alt = escape(article.get("image_alt", article["title"]))
         hero_bg = f'<div class="ab-hero-bg"><img src="{article["image"]}" alt="{alt}" fetchpriority="high"></div>'
@@ -544,7 +546,10 @@ def article_page(article: dict) -> str:
             f'<figure><img src="{src}" alt="{escape(alt)}" loading="lazy" decoding="async"><figcaption>{escape(alt)}</figcaption></figure>'
             for src, alt in article["gallery"]
         )
-        gallery = f'<div class="ab-gallery">{figs}</div>'
+        gallery_class = "ab-gallery"
+        if article.get("article_style") == "interview":
+            gallery_class += " ab-gallery--portrait"
+        gallery = f'<div class="{gallery_class}">{figs}</div>'
     if article.get("automated") and article.get("image"):
         # Editorial graphics already contain text: display them without an H1 overlay.
         hero_class = "ab-hero ab-hero-typo"
@@ -590,6 +595,9 @@ def article_page(article: dict) -> str:
     }
     if article.get("tags"):
         news_ld["keywords"] = ", ".join(article["tags"])
+    article_style = article.get("article_style", "")
+    layout_class = "ab-layout" + (f" ab-layout--{article_style}" if article_style else "")
+    body_class = "ab-body" + (f" ab-body--{article_style}" if article_style else "")
     body = f"""
 <main class="page-shell" id="contenu">
   <article>
@@ -605,8 +613,8 @@ def article_page(article: dict) -> str:
         </div>
       </div>
     </header>
-    <div class="ab-layout">
-      <div class="ab-body">{gallery}{drop_external_links(article['body'])}{sources_html}</div>
+    <div class="{layout_class}">
+      <div class="{body_class}">{gallery}{drop_external_links(article['body'])}{sources_html}</div>
       <aside class="ab-aside">
         <div class="ab-box">
           <h3>Informations</h3>

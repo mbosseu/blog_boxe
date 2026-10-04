@@ -255,6 +255,7 @@ body {
 
 .page-shell {
     width: min(100%, 1440px);
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0 2em 5em;
     color: #fff;
@@ -398,6 +399,48 @@ body {
     gap: 1em;
 }
 
+/* Bandeau éditorial pour les portraits verticaux : photo et titre restent lisibles
+   sans agrandir artificiellement une image de faible largeur. */
+.ab-hero--split {
+    min-height: 520px;
+    display: grid;
+    grid-template-columns: minmax(300px, 42%) minmax(0, 1fr);
+    align-items: stretch;
+    background: linear-gradient(145deg, #181818 0%, #0b0b0b 62%, #260808 100%);
+}
+
+.ab-hero--split .ab-hero-bg {
+    position: relative;
+    inset: auto;
+    height: 520px;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.ab-hero--split .ab-hero-bg img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center 22%;
+}
+
+.ab-hero--split:has(.ab-hero-bg)::after {
+    background:
+        linear-gradient(90deg, transparent 55%, rgba(9, 9, 9, 0.88) 100%),
+        linear-gradient(0deg, rgba(9, 9, 9, 0.45), transparent 45%);
+}
+
+.ab-hero--split .inner {
+    align-self: center;
+    width: auto;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: clamp(30px, 4.5vw, 64px);
+}
+
+.ab-hero--split h1 {
+    font-size: clamp(32px, 3.6vw, 54px);
+}
+
 .ab-badge {
     width: fit-content;
     padding: 6px 11px;
@@ -487,6 +530,64 @@ body {
     margin-top: 6px;
     font-size: 12px;
     color: var(--color-text-muted);
+}
+
+.ab-gallery--portrait {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.ab-gallery--portrait figure {
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.035);
+    border: var(--glass-border);
+    border-radius: 14px;
+}
+
+.ab-gallery--portrait img {
+    aspect-ratio: 4 / 5;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    object-fit: cover;
+    object-position: center 18%;
+}
+
+.ab-gallery--portrait figcaption {
+    min-height: 56px;
+    margin: 0;
+    padding: 10px 12px 12px;
+    line-height: 1.4;
+}
+
+.ab-body--interview {
+    font-size: 17px;
+    line-height: 1.78;
+}
+
+.ab-body--interview > p:has(> strong:first-child) {
+    margin-top: 1.4em;
+    padding: 1.2em 1.25em;
+    background: linear-gradient(135deg, rgba(211, 18, 18, 0.12), rgba(255, 255, 255, 0.035));
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-left: 3px solid var(--color-primary);
+    border-radius: 0 12px 12px 0;
+}
+
+.ab-body--interview > p:has(> strong:first-child) > strong:first-child {
+    display: block;
+    margin-bottom: 0.65em;
+    color: #fff;
+    font-family: "bold-font", sans-serif;
+    line-height: 1.45;
+}
+
+.ab-body--interview > p > em:only-child {
+    display: block;
+    padding: 0.9em 1em;
+    color: var(--color-text-soft);
+    background: rgba(255, 255, 255, 0.035);
+    border-radius: 10px;
 }
 
 .ab-sources {
@@ -626,6 +727,15 @@ body {
 @media (max-width: 900px) {
     .ab-layout {
         grid-template-columns: 1fr;
+    }
+
+    .ab-hero--split {
+        min-height: 0;
+        grid-template-columns: minmax(240px, 40%) minmax(0, 1fr);
+    }
+
+    .ab-hero--split .ab-hero-bg {
+        height: 440px;
     }
 }
 
@@ -777,6 +887,50 @@ body {
 
     .page-shell {
         padding: 0 14px 3em;
+    }
+
+    .ab-hero--split {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ab-hero--split .ab-hero-bg {
+        height: auto;
+        min-height: 0;
+        aspect-ratio: 16 / 11;
+    }
+
+    .ab-hero--split .ab-hero-bg img {
+        object-position: center 18%;
+    }
+
+    .ab-hero--split:has(.ab-hero-bg)::after {
+        background: linear-gradient(0deg, rgba(9, 9, 9, 0.65), transparent 52%);
+    }
+
+    .ab-hero--split .inner {
+        padding: 24px 20px 28px;
+    }
+
+    .ab-hero--split h1 {
+        font-size: clamp(27px, 8vw, 38px);
+    }
+
+    .ab-gallery--portrait {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ab-gallery--portrait figure:first-child {
+        grid-column: 1 / -1;
+    }
+
+    .ab-gallery--portrait figure:first-child img {
+        aspect-ratio: 4 / 3;
+    }
+
+    .ab-body--interview {
+        font-size: 16px;
+        line-height: 1.72;
     }
 
     #blog-home .hero-item-4,
@@ -1033,9 +1187,8 @@ body {
     }
 }
 
-/* Portraits Bakary Samaké et Johnson Suffo : photo entière, sans recadrage. */
-.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]),
-.ab-hero:has(.ab-hero-bg img[src*="johnson-suffo"]) {
+/* Portraits Bakary Samaké : photo entière, sans recadrage. */
+.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]) {
     min-height: 0;
     display: flex;
     flex-direction: column;
@@ -1045,15 +1198,13 @@ body {
     background: #0c0c0c;
 }
 
-.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]) .ab-hero-bg,
-.ab-hero:has(.ab-hero-bg img[src*="johnson-suffo"]) .ab-hero-bg {
+.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]) .ab-hero-bg {
     position: relative;
     inset: auto;
     height: auto;
 }
 
-.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]) .ab-hero-bg img,
-.ab-hero:has(.ab-hero-bg img[src*="johnson-suffo"]) .ab-hero-bg img {
+.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"]) .ab-hero-bg img {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -1062,18 +1213,15 @@ body {
     background: #111;
 }
 
-.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"])::after,
-.ab-hero:has(.ab-hero-bg img[src*="johnson-suffo"])::after {
+.ab-hero:has(.ab-hero-bg img[src*="bakary-samake"])::after {
     content: none;
 }
 
-.ab-gallery:has(img[src*="bakary-samake"]),
-.ab-gallery:has(img[src*="johnson-suffo"]) {
+.ab-gallery:has(img[src*="bakary-samake"]) {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
-.ab-gallery img[src*="bakary-samake"],
-.ab-gallery img[src*="johnson-suffo"] {
+.ab-gallery img[src*="bakary-samake"] {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -1082,8 +1230,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .ab-gallery:has(img[src*="bakary-samake"]),
-    .ab-gallery:has(img[src*="johnson-suffo"]) {
+    .ab-gallery:has(img[src*="bakary-samake"]) {
         grid-template-columns: 1fr;
         gap: 16px;
     }
