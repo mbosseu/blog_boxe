@@ -2,6 +2,12 @@
   "items": [
     {
       "publisher": "Boxemag",
+      "title": "Résumé Video du combat Ben Whittaker contre Conor Wallace",
+      "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-ben-whittaker-contre-conor-wallace/",
+      "published_at": "2026-10-04T06:29:23+00:00"
+    },
+    {
+      "publisher": "Boxemag",
       "title": "Anthony Joshua signe un contrat colossal avec Netflix pour une série “d’une authenticité brutales” sur sa vie, avec son combat contre Fury en guise de dénouement épique.",
       "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-signe-un-contrat-colossal-avec-netflix-pour-une-serie-dune-authenticite-brutales-sur-sa-vie-avec-son-combat-contre-fury-en-guise-de-denouement-epique/",
       "published_at": "2026-10-03T14:05:11+00:00"
@@ -101,12 +107,6 @@
       "title": "Fury confirme la mauvaise nouvelle pour Joshua et annonce un autre superfight",
       "url": "https://lasueur.com/fury-confirme-mauvaise-nouvelle-joshua-annonce-autre-superfight-27-9-2026",
       "published_at": "2026-09-27T18:00:00+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Amir, le fils de Mike Tyson, signe dans une grosse organisation",
-      "url": "https://lasueur.com/amir-le-fils-de-mike-tyson-signe-dans-une-grosse-organisation-27-09-2026",
-      "published_at": "2026-09-27T08:50:00+00:00"
     }
   ],
   "unavailable_feeds": []
