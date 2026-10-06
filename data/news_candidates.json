@@ -37,6 +37,12 @@
       "published_at": "2026-10-01T17:58:40+00:00"
     },
     {
+      "publisher": "FFBoxe",
+      "title": "Le pass Sport est de retour",
+      "url": "https://www.ffboxe.com/le-passsport-est-de-retour/",
+      "published_at": "2026-10-01T14:52:52+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Anthony Joshua a accepté de perdre plusieurs millions pour que le combat contre Tyson Fury ait lieu au Royaume-Uni affirme Eddie Hearn",
       "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-a-accepte-de-perdre-plusieurs-millions-pour-que-le-combat-contre-tyson-fury-ait-lieu-au-royaume-uni-affirme-eddie-hearn/",
@@ -67,16 +73,17 @@
       "published_at": "2026-09-30T16:01:42+00:00"
     },
     {
+      "publisher": "FFBoxe",
+      "title": "Appels à candidature - Organisation des compétitions nationales BA",
+      "url": "https://www.ffboxe.com/appels-a-candidature-organisation-des-competitions-nationales-ba/",
+      "published_at": "2026-09-29T16:17:49+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "L’ancienne championne Heather Hardy poursuit Jake Paul et Most Valuable Promotions pour 10 millions de dollars",
       "url": "https://boxemag.ouest-france.fr/boxe/lancienne-championne-heather-hardy-poursuit-jake-paul-et-most-valuable-promotions-pour-10-millions-de-dollars/",
       "published_at": "2026-09-29T16:17:34+00:00"
     }
   ],
-  "unavailable_feeds": [
-    {
-      "publisher": "FFBoxe",
-      "error": "HTTPError"
-    }
-  ]
+  "unavailable_feeds": []
 }
