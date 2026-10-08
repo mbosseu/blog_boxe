@@ -2,6 +2,12 @@
   "items": [
     {
       "publisher": "FFBoxe",
+      "title": "Développer la boxe, diversifier les pratiques",
+      "url": "https://www.ffboxe.com/developper-la-boxe-diversifier-les-pratiques/",
+      "published_at": "2026-10-08T14:46:32+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
       "title": "Championnats du Monde U19 : la sélection",
       "url": "https://www.ffboxe.com/championnats-du-monde-u19-la-selection/",
       "published_at": "2026-10-07T15:44:59+00:00"
@@ -41,12 +47,6 @@
       "title": "Tyson Fury dévoile son plan XXL après Anthony Joshua",
       "url": "https://lasueur.com/tyson-fury-devoile-son-plan-xxl-apres-anthony-joshua-01-10-2026",
       "published_at": "2026-10-01T17:58:40+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Le pass Sport est de retour",
-      "url": "https://www.ffboxe.com/le-passsport-est-de-retour/",
-      "published_at": "2026-10-01T14:52:52+00:00"
     }
   ],
   "unavailable_feeds": []
