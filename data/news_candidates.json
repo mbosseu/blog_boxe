@@ -2,6 +2,24 @@
   "items": [
     {
       "publisher": "FFBoxe",
+      "title": "Théo Ticout est fin prêt",
+      "url": "https://www.ffboxe.com/theo-ticout-est-fin-pret/",
+      "published_at": "2026-10-09T11:07:27+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Canelo révèle où il souhaite disputer son combat d’adieu, et ce ne sera pas à l’Estadio Azteca",
+      "url": "https://boxemag.ouest-france.fr/boxe/canelo-revele-ou-il-souhaite-disputer-son-combat-dadieu-et-ce-ne-sera-pas-a-lestadio-azteca/",
+      "published_at": "2026-10-09T10:03:50+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Alex Pereira s’exprime sur un éventuel avenir dans la boxe",
+      "url": "https://boxemag.ouest-france.fr/boxe/alex-pereira-sexprime-sur-un-eventuel-avenir-dans-la-boxe/",
+      "published_at": "2026-10-09T09:52:05+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
       "title": "Développer la boxe, diversifier les pratiques",
       "url": "https://www.ffboxe.com/developper-la-boxe-diversifier-les-pratiques/",
       "published_at": "2026-10-08T14:46:32+00:00"
@@ -35,18 +53,6 @@
       "title": "Ben Whittaker - Conor Wallace : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/ben-whittaker-conor-wallace-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610030013.html",
       "published_at": "2026-10-03T04:00:00+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Terence Crawford compare sa carrière à celle de Khabib : « C’est le jour et la nuit »",
-      "url": "https://lasueur.com/terence-crawford-compare-sa-carriere-a-celle-de-khabib-cest-le-jour-et-la-nuit-02-10-2026",
-      "published_at": "2026-10-02T14:13:41+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Tyson Fury dévoile son plan XXL après Anthony Joshua",
-      "url": "https://lasueur.com/tyson-fury-devoile-son-plan-xxl-apres-anthony-joshua-01-10-2026",
-      "published_at": "2026-10-01T17:58:40+00:00"
     }
   ],
   "unavailable_feeds": []
