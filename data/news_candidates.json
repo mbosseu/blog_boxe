@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "publisher": "BoxeNet",
+      "title": "Iglesias conserve avec brio ses couronnes !",
+      "url": "https://www.boxenet.fr/iglesias-conserve-avec-brio-ses-couronnes/",
+      "published_at": "2026-10-10T11:34:04+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Résultats des combats Floyd Schofield vs Lucas Bahdi",
+      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-floyd-schofield-vs-lucas-bahdi/",
+      "published_at": "2026-10-10T08:06:44+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Theo Ticout succède à Rakyb Mohamed Radji",
+      "url": "https://www.ffboxe.com/theo-ticout-succede-a-rakyb-mohamed-radji/",
+      "published_at": "2026-10-09T22:27:02+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Milan Prat dans les starting-blocks",
       "url": "https://www.ffboxe.com/milan-prat-dans-les-starting-blocks/",
@@ -49,6 +67,12 @@
       "published_at": "2026-10-07T15:44:59+00:00"
     },
     {
+      "publisher": "La Sueur",
+      "title": "Ryan Garcia a une solution aux problèmes financiers de Floyd Mayweather",
+      "url": "https://lasueur.com/ryan-garcia-a-une-solution-aux-problemes-financiers-de-floyd-mayweather-07-10-2026",
+      "published_at": "2026-10-07T05:46:01+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Résumé Video du combat Ben Whittaker contre Conor Wallace",
       "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-ben-whittaker-contre-conor-wallace/",
@@ -65,12 +89,6 @@
       "title": "Résultats des combats Ben Whittaker vs Conor Wallace",
       "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-ben-whittaker-vs-conor-wallace/",
       "published_at": "2026-10-03T13:45:13+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Ben Whittaker - Conor Wallace : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/ben-whittaker-conor-wallace-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610030013.html",
-      "published_at": "2026-10-03T04:00:00+00:00"
     }
   ],
   "unavailable_feeds": []
