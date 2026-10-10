@@ -2,118 +2,82 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "BoxeNet",
+      "title": "Iglesias conserve avec brio ses couronnes !",
+      "url": "https://www.boxenet.fr/iglesias-conserve-avec-brio-ses-couronnes/",
+      "published_at": "2026-10-10T11:34:04+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Résultats des combats Floyd Schofield vs Lucas Bahdi",
+      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-floyd-schofield-vs-lucas-bahdi/",
+      "published_at": "2026-10-10T08:06:44+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Theo Ticout succède à Rakyb Mohamed Radji",
+      "url": "https://www.ffboxe.com/theo-ticout-succede-a-rakyb-mohamed-radji/",
+      "published_at": "2026-10-09T22:27:02+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Milan Prat dans les starting-blocks",
+      "url": "https://www.ffboxe.com/milan-prat-dans-les-starting-blocks/",
+      "published_at": "2026-10-09T15:57:41+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Combien coûtaient les billets pour le combat Fury-Joshua ?",
+      "url": "https://boxemag.ouest-france.fr/boxe/combien-coutaient-les-billets-pour-le-combat-fury-joshua/",
+      "published_at": "2026-10-09T15:56:16+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Les billets pour le combat Tyson Fury-Anthony Joshua se sont arrachés en un temps record, avec plus de 650 000 personnes en file d’attente",
+      "url": "https://boxemag.ouest-france.fr/boxe/les-billets-pour-le-combat-tyson-fury-anthony-joshua-se-sont-arraches-en-un-temps-record-avec-plus-de-650-000-personnes-en-file-dattente/",
+      "published_at": "2026-10-09T15:48:19+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Théo Ticout est fin prêt",
+      "url": "https://www.ffboxe.com/theo-ticout-est-fin-pret/",
+      "published_at": "2026-10-09T11:07:27+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Canelo révèle où il souhaite disputer son combat d’adieu, et ce ne sera pas à l’Estadio Azteca",
+      "url": "https://boxemag.ouest-france.fr/boxe/canelo-revele-ou-il-souhaite-disputer-son-combat-dadieu-et-ce-ne-sera-pas-a-lestadio-azteca/",
+      "published_at": "2026-10-09T10:03:50+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Alex Pereira s’exprime sur un éventuel avenir dans la boxe",
+      "url": "https://boxemag.ouest-france.fr/boxe/alex-pereira-sexprime-sur-un-eventuel-avenir-dans-la-boxe/",
+      "published_at": "2026-10-09T09:52:05+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Développer la boxe, diversifier les pratiques",
+      "url": "https://www.ffboxe.com/developper-la-boxe-diversifier-les-pratiques/",
+      "published_at": "2026-10-08T14:46:32+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Championnats du Monde U19 : la sélection",
+      "url": "https://www.ffboxe.com/championnats-du-monde-u19-la-selection/",
+      "published_at": "2026-10-07T15:44:59+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Ryan Garcia a une solution aux problèmes financiers de Floyd Mayweather",
+      "url": "https://lasueur.com/ryan-garcia-a-une-solution-aux-problemes-financiers-de-floyd-mayweather-07-10-2026",
+      "published_at": "2026-10-07T05:46:01+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Résumé Video du combat Ben Whittaker contre Conor Wallace",
       "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-ben-whittaker-contre-conor-wallace/",
       "published_at": "2026-10-04T06:29:23+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Anthony Joshua signe un contrat colossal avec Netflix pour une série “d’une authenticité brutales” sur sa vie, avec son combat contre Fury en guise de dénouement épique.",
-      "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-signe-un-contrat-colossal-avec-netflix-pour-une-serie-dune-authenticite-brutales-sur-sa-vie-avec-son-combat-contre-fury-en-guise-de-denouement-epique/",
-      "published_at": "2026-10-03T14:05:11+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Résultats des combats Ben Whittaker vs Conor Wallace",
-      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-ben-whittaker-vs-conor-wallace/",
-      "published_at": "2026-10-03T13:45:13+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Ben Whittaker - Conor Wallace : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/ben-whittaker-conor-wallace-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610030013.html",
-      "published_at": "2026-10-03T04:00:00+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Terence Crawford compare sa carrière à celle de Khabib : « C’est le jour et la nuit »",
-      "url": "https://lasueur.com/terence-crawford-compare-sa-carriere-a-celle-de-khabib-cest-le-jour-et-la-nuit-02-10-2026",
-      "published_at": "2026-10-02T14:13:41+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Tyson Fury dévoile son plan XXL après Anthony Joshua",
-      "url": "https://lasueur.com/tyson-fury-devoile-son-plan-xxl-apres-anthony-joshua-01-10-2026",
-      "published_at": "2026-10-01T17:58:40+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Le pass Sport est de retour",
-      "url": "https://www.ffboxe.com/le-passsport-est-de-retour/",
-      "published_at": "2026-10-01T14:52:52+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Anthony Joshua a accepté de perdre plusieurs millions pour que le combat contre Tyson Fury ait lieu au Royaume-Uni affirme Eddie Hearn",
-      "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-a-accepte-de-perdre-plusieurs-millions-pour-que-le-combat-contre-tyson-fury-ait-lieu-au-royaume-uni-affirme-eddie-hearn/",
-      "published_at": "2026-10-01T06:26:05+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Manny Pacquiao a trois nouveaux adversaires potentiels pour la carte du combat Tyson Fury-Anthony Joshua, après l’annulation du combat contre Shakur Stevenson.",
-      "url": "https://boxemag.ouest-france.fr/boxe/manny-pacquiao-a-trois-nouveaux-adversaires-potentiels-pour-la-carte-du-combat-tyson-fury-anthony-joshua-apres-lannulation-du-combat-contre-shakur-stevenson/",
-      "published_at": "2026-10-01T05:57:49+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Tyson Fury dévoile sa stratégie pour battre Anthony Joshua",
-      "url": "https://lasueur.com/tyson-fury-devoile-strategie-battre-anthony-joshua-30-9-2026",
-      "published_at": "2026-09-30T18:05:30+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Amir Tyson, le fils de Mike Tyson, signe avec Misfits Boxing",
-      "url": "https://boxemag.ouest-france.fr/boxe/amir-tyson-le-fils-de-mike-tyson-signe-avec-misfits-boxing/",
-      "published_at": "2026-09-30T16:41:33+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Direct: Regardez la première conférence de presse du combat Tyson Fury contre Anthony Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/direct-regardez-la-premiere-conference-de-presse-du-combat-tyson-fury-contre-anthony-joshua/",
-      "published_at": "2026-09-30T16:01:42+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Appels à candidature - Organisation des compétitions nationales BA",
-      "url": "https://www.ffboxe.com/appels-a-candidature-organisation-des-competitions-nationales-ba/",
-      "published_at": "2026-09-29T16:17:49+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "L’ancienne championne Heather Hardy poursuit Jake Paul et Most Valuable Promotions pour 10 millions de dollars",
-      "url": "https://boxemag.ouest-france.fr/boxe/lancienne-championne-heather-hardy-poursuit-jake-paul-et-most-valuable-promotions-pour-10-millions-de-dollars/",
-      "published_at": "2026-09-29T16:17:34+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "L’édito de Baba: Fury-Joshua, les promoteurs veulent le premier rôle",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/l-edito-de-baba-fury-joshua-les-promoteurs-veulent-le-premier-role_AN-202609290442.html",
-      "published_at": "2026-09-29T10:15:47+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "« Un pour cent ! » – Fury s’attend à une annulation imminente du combat contre Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/un-pour-cent-fury-sattend-a-une-annulation-imminente-du-combat-contre-joshua/",
-      "published_at": "2026-09-28T11:17:53+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Dana White s’emporte contre un journaliste au sujet des questions sur le combat Joshua-Fury",
-      "url": "https://boxemag.ouest-france.fr/boxe/dana-white-semporte-contre-un-journaliste-au-sujet-des-questions-sur-le-combat-joshua-fury/",
-      "published_at": "2026-09-28T10:53:04+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Jake Paul et MVP dans la tourmente : un procès à 10 millions de dollars",
-      "url": "https://lasueur.com/jake-paul-et-mvp-dans-la-tourmente-un-proces-a-10-millions-de-dollars-27-09-2026",
-      "published_at": "2026-09-27T19:14:16+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Fury confirme la mauvaise nouvelle pour Joshua et annonce un autre superfight",
-      "url": "https://lasueur.com/fury-confirme-mauvaise-nouvelle-joshua-annonce-autre-superfight-27-9-2026",
-      "published_at": "2026-09-27T18:00:00+00:00"
     }
   ],
   "unavailable_feeds": []
