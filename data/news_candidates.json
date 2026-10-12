@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "publisher": "BoxeNet",
+      "title": "Milan Prat proche des sommets",
+      "url": "https://www.boxenet.fr/milan-prat-proche-des-sommets/",
+      "published_at": "2026-10-11T16:51:09+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Résultats des pros Français du week-end (10/10/2026)",
       "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-10-10-2026/",
@@ -17,6 +23,12 @@
       "title": "Résultats des combats Floyd Schofield vs Lucas Bahdi",
       "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-floyd-schofield-vs-lucas-bahdi/",
       "published_at": "2026-10-10T08:06:44+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Tyson Fury vs Anthony Joshua : record historique de billetterie en vue",
+      "url": "https://lasueur.com/tyson-fury-vs-anthony-joshua-record-historique-de-billetterie-en-vue-10-10-2026",
+      "published_at": "2026-10-10T08:00:00+00:00"
     },
     {
       "publisher": "FFBoxe",
