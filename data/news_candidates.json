@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Shanon Cabane représentera la France aux JOJ de Dakar 2026",
+      "url": "https://www.ffboxe.com/shanon-cabane-representera-la-france-aux-joj-de-dakar-2026/",
+      "published_at": "2026-10-14T14:01:22+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Naoya Inoue annonce son passage chez les poids plumes ; le promoteur de « Bam » Rodriguez réagit",
       "url": "https://boxemag.ouest-france.fr/boxe/naoya-inoue-annonce-son-passage-chez-les-poids-plumes-le-promoteur-de-bam-rodriguez-reagit/",
@@ -119,12 +125,6 @@
       "title": "Développer la boxe, diversifier les pratiques",
       "url": "https://www.ffboxe.com/developper-la-boxe-diversifier-les-pratiques/",
       "published_at": "2026-10-08T14:46:32+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Championnats du Monde U19 : la sélection",
-      "url": "https://www.ffboxe.com/championnats-du-monde-u19-la-selection/",
-      "published_at": "2026-10-07T15:44:59+00:00"
     }
   ],
   "unavailable_feeds": []
