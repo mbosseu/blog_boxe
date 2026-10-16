@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Milan Prat revenu de l’enfer",
+      "url": "https://www.ffboxe.com/milan-prat-revenu-de-lenfer/",
+      "published_at": "2026-10-16T11:14:29+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe: le Français Bruno Surace rejoint Zuffa Boxing, le retour sur le ring se précise",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-francais-bruno-surace-rejoint-zuffa-boxing-le-retour-sur-les-rings-se-precise_AV-202610160429.html",
+      "published_at": "2026-10-16T10:28:38+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Daniel Dubois - Fabio Wardley en streaming : comment regarder le combat de boxe en direct ?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/daniel-dubois-fabio-wardley-en-streaming-comment-regarder-le-combat-de-boxe-en-direct_AN-202610160037.html",
+      "published_at": "2026-10-16T08:30:00+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Un superbe Palatina 9 à Enghien",
+      "url": "https://www.ffboxe.com/un-superbe-palatina-9-a-enghien/",
+      "published_at": "2026-10-15T16:59:10+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Résultats des combats Prat vs Thysse avec Mendes Tani et Monny",
+      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-prat-vs-thysse-avec-mendes-tani-et-monny/",
+      "published_at": "2026-10-15T16:20:53+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Rico Verhoeven a accepté d’affronter Deontay Wilder sur la carte Fury vs Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/rico-verhoeven-a-accepte-daffronter-deontay-wilder-sur-la-carte-fury-vs-joshua/",
+      "published_at": "2026-10-15T15:52:22+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Dubois vs Wardley 2 – Découvrez la carte complète des combats pour samedi",
       "url": "https://boxemag.ouest-france.fr/boxe/dubois-vs-wardley-2-decouvrez-la-carte-complete-des-combats-pour-samedi/",
@@ -23,6 +59,12 @@
       "title": "Naoya Inoue annonce son passage chez les poids plumes ; le promoteur de « Bam » Rodriguez réagit",
       "url": "https://boxemag.ouest-france.fr/boxe/naoya-inoue-annonce-son-passage-chez-les-poids-plumes-le-promoteur-de-bam-rodriguez-reagit/",
       "published_at": "2026-10-14T07:53:22+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Fury vs Joshua : une légende s’invite sur la carte",
+      "url": "https://lasueur.com/fury-vs-joshua-legende-sinvite-sur-la-carte-14-10-2026",
+      "published_at": "2026-10-14T05:45:00+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -113,24 +155,6 @@
       "title": "Les billets pour le combat Tyson Fury-Anthony Joshua se sont arrachés en un temps record, avec plus de 650 000 personnes en file d’attente",
       "url": "https://boxemag.ouest-france.fr/boxe/les-billets-pour-le-combat-tyson-fury-anthony-joshua-se-sont-arraches-en-un-temps-record-avec-plus-de-650-000-personnes-en-file-dattente/",
       "published_at": "2026-10-09T15:48:19+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Théo Ticout est fin prêt",
-      "url": "https://www.ffboxe.com/theo-ticout-est-fin-pret/",
-      "published_at": "2026-10-09T11:07:27+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Canelo révèle où il souhaite disputer son combat d’adieu, et ce ne sera pas à l’Estadio Azteca",
-      "url": "https://boxemag.ouest-france.fr/boxe/canelo-revele-ou-il-souhaite-disputer-son-combat-dadieu-et-ce-ne-sera-pas-a-lestadio-azteca/",
-      "published_at": "2026-10-09T10:03:50+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Alex Pereira s’exprime sur un éventuel avenir dans la boxe",
-      "url": "https://boxemag.ouest-france.fr/boxe/alex-pereira-sexprime-sur-un-eventuel-avenir-dans-la-boxe/",
-      "published_at": "2026-10-09T09:52:05+00:00"
     }
   ],
   "unavailable_feeds": []
