@@ -7,12 +7,6 @@
       "published_at": "2026-10-17T12:21:05+00:00"
     },
     {
-      "publisher": "RMC Sport",
-      "title": "Daniel Dubois - Fabio Wardley 2 : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/daniel-dubois-fabio-wardley-2-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610170027.html",
-      "published_at": "2026-10-17T05:00:00+00:00"
-    },
-    {
       "publisher": "Boxemag",
       "title": "Dopage: La WBC décide d’acquitter Lawrence Okolie après un contrôle anti dopage anormal pour son combat contre Tony Yoka",
       "url": "https://boxemag.ouest-france.fr/boxe/dopage-la-wbc-decide-dacquitter-lawrence-okolie-apres-un-controle-anti-dopage-anormal-pour-son-combat-contre-tony-yoka/",
@@ -31,12 +25,6 @@
       "published_at": "2026-10-16T18:36:19+00:00"
     },
     {
-      "publisher": "FFBoxe",
-      "title": "Milan Prat revenu de l’enfer",
-      "url": "https://www.ffboxe.com/milan-prat-revenu-de-lenfer/",
-      "published_at": "2026-10-16T11:14:29+00:00"
-    },
-    {
       "publisher": "RMC Sport",
       "title": "Boxe: le Français Bruno Surace rejoint Zuffa Boxing, le retour sur le ring se précise",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-francais-bruno-surace-rejoint-zuffa-boxing-le-retour-sur-les-rings-se-precise_AV-202610160429.html",
@@ -47,12 +35,6 @@
       "title": "Daniel Dubois - Fabio Wardley en streaming : comment regarder le combat de boxe en direct ?",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/daniel-dubois-fabio-wardley-en-streaming-comment-regarder-le-combat-de-boxe-en-direct_AN-202610160037.html",
       "published_at": "2026-10-16T08:30:00+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Un superbe Palatina 9 à Enghien",
-      "url": "https://www.ffboxe.com/un-superbe-palatina-9-a-enghien/",
-      "published_at": "2026-10-15T16:59:10+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -79,12 +61,6 @@
       "published_at": "2026-10-14T16:39:52+00:00"
     },
     {
-      "publisher": "FFBoxe",
-      "title": "Shanon Cabane représentera la France aux JOJ de Dakar 2026",
-      "url": "https://www.ffboxe.com/shanon-cabane-representera-la-france-aux-joj-de-dakar-2026/",
-      "published_at": "2026-10-14T14:01:22+00:00"
-    },
-    {
       "publisher": "Boxemag",
       "title": "Naoya Inoue annonce son passage chez les poids plumes ; le promoteur de « Bam » Rodriguez réagit",
       "url": "https://boxemag.ouest-france.fr/boxe/naoya-inoue-annonce-son-passage-chez-les-poids-plumes-le-promoteur-de-bam-rodriguez-reagit/",
@@ -101,12 +77,6 @@
       "title": "Anthony Joshua refuse une offre “énormissime” pour combattre avec ZUFFA Boxing",
       "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-refuse-une-offre-enormissime-pour-combattre-avec-zuffa-boxing/",
       "published_at": "2026-10-13T18:12:25+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "La boxe comme outil de médiation et d’accompagnement",
-      "url": "https://www.ffboxe.com/la-boxe-comme-outil-de-mediation-et-daccompagnement/",
-      "published_at": "2026-10-13T15:52:02+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -131,13 +101,12 @@
       "title": "Milan Prat proche des sommets",
       "url": "https://www.boxenet.fr/milan-prat-proche-des-sommets/",
       "published_at": "2026-10-11T16:51:09+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Résultats des pros Français du week-end (10/10/2026)",
-      "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-10-10-2026/",
-      "published_at": "2026-10-11T14:42:57+00:00"
     }
   ],
-  "unavailable_feeds": []
+  "unavailable_feeds": [
+    {
+      "publisher": "FFBoxe",
+      "error": "HTTPError"
+    }
+  ]
 }
