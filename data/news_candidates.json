@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "publisher": "RMC Sport",
+      "title": "Daniel Dubois - Fabio Wardley 2 : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/daniel-dubois-fabio-wardley-2-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610170027.html",
+      "published_at": "2026-10-17T05:00:00+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Milan Prat revenu de l’enfer",
       "url": "https://www.ffboxe.com/milan-prat-revenu-de-lenfer/",
@@ -65,30 +71,6 @@
       "title": "Iglesias conserve avec brio ses couronnes !",
       "url": "https://www.boxenet.fr/iglesias-conserve-avec-brio-ses-couronnes/",
       "published_at": "2026-10-10T11:34:04+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Tyson Fury vs Anthony Joshua : record historique de billetterie en vue",
-      "url": "https://lasueur.com/tyson-fury-vs-anthony-joshua-record-historique-de-billetterie-en-vue-10-10-2026",
-      "published_at": "2026-10-10T08:00:00+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Theo Ticout succède à Rakyb Mohamed Radji",
-      "url": "https://www.ffboxe.com/theo-ticout-succede-a-rakyb-mohamed-radji/",
-      "published_at": "2026-10-09T22:27:02+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Gaetan NTambwe titré dans une seconde catégorie",
-      "url": "https://www.ffboxe.com/gaetan-ntambwe-titre-dans-une-seconde-categorie/",
-      "published_at": "2026-10-09T22:25:00+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Milan Prat dans les starting-blocks",
-      "url": "https://www.ffboxe.com/milan-prat-dans-les-starting-blocks/",
-      "published_at": "2026-10-09T15:57:41+00:00"
     }
   ],
   "unavailable_feeds": [
