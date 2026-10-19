@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Filip Hrgovic devrait affronter Frank Sanchez, malgré son souhait de croiser à nouveau le fer avec Daniel Dubois",
+      "url": "https://boxemag.ouest-france.fr/boxe/filip-hrgovic-devrait-affronter-frank-sanchez-malgre-son-souhait-de-croiser-a-nouveau-le-fer-avec-daniel-dubois/",
+      "published_at": "2026-10-19T16:35:12+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Fabio Wardley réagit à sa défaite expéditive lors de la revanche contre Daniel Dubois « n’était pas idéale »",
+      "url": "https://boxemag.ouest-france.fr/boxe/fabio-wardley-reagit-a-sa-defaite-expeditive-lors-de-la-revanche-contre-daniel-dubois-netait-pas-ideale/",
+      "published_at": "2026-10-19T16:28:15+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Kaoussou Cisse trône toujours",
       "url": "https://www.ffboxe.com/kaoussou-cisse-trone-toujours/",
@@ -149,18 +161,6 @@
       "title": "La boxe comme outil de médiation et d’accompagnement",
       "url": "https://www.ffboxe.com/la-boxe-comme-outil-de-mediation-et-daccompagnement/",
       "published_at": "2026-10-13T15:52:02+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Dmitry Bivol vs Callum Smith : Date et lieu confirmés après un long délai d’attente",
-      "url": "https://boxemag.ouest-france.fr/boxe/dmitry-bivol-vs-callum-smith-date-et-lieu-confirmes-apres-un-long-delai-dattente/",
-      "published_at": "2026-10-12T17:00:15+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Le combat Canelo Alvarez-Christian Mbilli aura lieu “quoi qu’il arrive” affirme Turki Alalshikh",
-      "url": "https://boxemag.ouest-france.fr/boxe/le-combat-canelo-alvarez-christian-mbilli-aura-lieu-quoi-quil-arrive-affirme-turki-alalshikh/",
-      "published_at": "2026-10-12T16:53:50+00:00"
     }
   ],
   "unavailable_feeds": []
