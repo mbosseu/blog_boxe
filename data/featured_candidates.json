@@ -3,6 +3,12 @@
   "items": [
     {
       "publisher": "Boxemag",
+      "title": "Le jeu EA Sports Fight Night de retour après 15 années d’attente",
+      "url": "https://boxemag.ouest-france.fr/boxe/le-jeu-ea-sports-fight-night-de-retour-apres-15-annees-dattente/",
+      "published_at": "2026-10-20T20:56:29+00:00"
+    },
+    {
+      "publisher": "Boxemag",
       "title": "Shakur Stevenson obtient sa libération de Zuffa Boxing sans avoir combattu pour l’organisation",
       "url": "https://boxemag.ouest-france.fr/boxe/shakur-stevenson-obtient-sa-liberation-de-zuffa-boxing-sans-avoir-combattu-pour-lorganisation/",
       "published_at": "2026-10-19T19:11:51+00:00"
@@ -18,6 +24,12 @@
       "title": "Fabio Wardley réagit à sa défaite expéditive lors de la revanche contre Daniel Dubois « n’était pas idéale »",
       "url": "https://boxemag.ouest-france.fr/boxe/fabio-wardley-reagit-a-sa-defaite-expeditive-lors-de-la-revanche-contre-daniel-dubois-netait-pas-ideale/",
       "published_at": "2026-10-19T16:28:15+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Floyd Mayweather vers un retour complètement fou ? Les négociations ont débuté",
+      "url": "https://lasueur.com/floyd-mayweather-vers-un-retour-completement-fou-les-negociations-ont-debute-19-10-2026",
+      "published_at": "2026-10-19T08:16:44+00:00"
     },
     {
       "publisher": "FFBoxe",
@@ -132,36 +144,6 @@
       "title": "Dubois vs Wardley 2 – Découvrez la carte complète des combats pour samedi",
       "url": "https://boxemag.ouest-france.fr/boxe/dubois-vs-wardley-2-decouvrez-la-carte-complete-des-combats-pour-samedi/",
       "published_at": "2026-10-15T10:01:13+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Alistair Overeem demande à Rico Verhoeven d’ ”arrêter de se cacher” et de l’affronter en boxe lors de la soirée Fury-Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/alistair-overeem-demande-a-rico-verhoeven-darreter-de-se-cacher-et-de-laffronter-en-boxe-lors-de-la-soiree-fury-joshua/",
-      "published_at": "2026-10-14T16:39:52+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Shanon Cabane représentera la France aux JOJ de Dakar 2026",
-      "url": "https://www.ffboxe.com/shanon-cabane-representera-la-france-aux-joj-de-dakar-2026/",
-      "published_at": "2026-10-14T14:01:22+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Naoya Inoue annonce son passage chez les poids plumes ; le promoteur de « Bam » Rodriguez réagit",
-      "url": "https://boxemag.ouest-france.fr/boxe/naoya-inoue-annonce-son-passage-chez-les-poids-plumes-le-promoteur-de-bam-rodriguez-reagit/",
-      "published_at": "2026-10-14T07:53:22+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Fury vs Joshua : une légende s’invite sur la carte",
-      "url": "https://lasueur.com/fury-vs-joshua-legende-sinvite-sur-la-carte-14-10-2026",
-      "published_at": "2026-10-14T05:45:00+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Anthony Joshua refuse une offre “énormissime” pour combattre avec ZUFFA Boxing",
-      "url": "https://boxemag.ouest-france.fr/boxe/anthony-joshua-refuse-une-offre-enormissime-pour-combattre-avec-zuffa-boxing/",
-      "published_at": "2026-10-13T18:12:25+00:00"
     }
   ],
   "unavailable_feeds": []
