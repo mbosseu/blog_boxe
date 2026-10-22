@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "RMC Sport",
+      "title": "Boxe: Ryan Garcia tease un combat face à Floyd Mayweather, une mauvaise nouvelle pour Souleymane Cissokho?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-ryan-garcia-tease-un-combat-face-a-floyd-mayweather-une-mauvaise-nouvelle-pour-souleymane-cissokho_AV-202610220515.html",
+      "published_at": "2026-10-22T10:55:59+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Floyd Mayweather s’attaque à Conor McGregor",
+      "url": "https://lasueur.com/floyd-mayweather-sattaque-a-conor-mcgregor-21-10-2026",
+      "published_at": "2026-10-21T11:02:14+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Le jeu EA Sports Fight Night de retour après 15 années d’attente",
       "url": "https://boxemag.ouest-france.fr/boxe/le-jeu-ea-sports-fight-night-de-retour-apres-15-annees-dattente/",
@@ -137,18 +149,6 @@
       "title": "Rico Verhoeven a accepté d’affronter Deontay Wilder sur la carte Fury vs Joshua",
       "url": "https://boxemag.ouest-france.fr/boxe/rico-verhoeven-a-accepte-daffronter-deontay-wilder-sur-la-carte-fury-vs-joshua/",
       "published_at": "2026-10-15T15:52:22+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Dubois vs Wardley 2 – Découvrez la carte complète des combats pour samedi",
-      "url": "https://boxemag.ouest-france.fr/boxe/dubois-vs-wardley-2-decouvrez-la-carte-complete-des-combats-pour-samedi/",
-      "published_at": "2026-10-15T10:01:13+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Alistair Overeem demande à Rico Verhoeven d’ ”arrêter de se cacher” et de l’affronter en boxe lors de la soirée Fury-Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/alistair-overeem-demande-a-rico-verhoeven-darreter-de-se-cacher-et-de-laffronter-en-boxe-lors-de-la-soiree-fury-joshua/",
-      "published_at": "2026-10-14T16:39:52+00:00"
     }
   ],
   "unavailable_feeds": []
