@@ -85,12 +85,6 @@
       "published_at": "2026-10-17T22:12:36+00:00"
     },
     {
-      "publisher": "BoxeNet",
-      "title": "Quelle suite pour Milan Prat ?",
-      "url": "https://www.boxenet.fr/quelle-suite-pour-milan-prat/",
-      "published_at": "2026-10-17T12:21:05+00:00"
-    },
-    {
       "publisher": "RMC Sport",
       "title": "Daniel Dubois - Fabio Wardley 2 : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/daniel-dubois-fabio-wardley-2-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610170027.html",
@@ -115,5 +109,10 @@
       "published_at": "2026-10-16T19:03:37+00:00"
     }
   ],
-  "unavailable_feeds": []
+  "unavailable_feeds": [
+    {
+      "publisher": "BoxeNet",
+      "error": "TimeoutError"
+    }
+  ]
 }
