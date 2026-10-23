@@ -2,6 +2,12 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Leonardo Mosquea aux portes d'un championnat du monde",
+      "url": "https://www.ffboxe.com/leonardo-mosquea-aux-portes-dun-championnat-du-monde/",
+      "published_at": "2026-10-22T20:04:08+00:00"
+    },
+    {
       "publisher": "RMC Sport",
       "title": "Boxe: Ryan Garcia tease un combat face à Floyd Mayweather, une mauvaise nouvelle pour Souleymane Cissokho?",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-ryan-garcia-tease-un-combat-face-a-floyd-mayweather-une-mauvaise-nouvelle-pour-souleymane-cissokho_AV-202610220515.html",
@@ -108,30 +114,6 @@
       "title": "Dubois vs Wardley 2: Quelle date, heure et chaine pour regarder le combat en direct ?",
       "url": "https://boxemag.ouest-france.fr/boxe/dubois-vs-wardley-2-quelle-date-heure-et-chaine-pour-regarder-le-combat-en-direct/",
       "published_at": "2026-10-16T19:03:37+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Milan Prat revenu de l’enfer",
-      "url": "https://www.ffboxe.com/milan-prat-revenu-de-lenfer/",
-      "published_at": "2026-10-16T11:14:29+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: le Français Bruno Surace rejoint Zuffa Boxing, le retour sur le ring se précise",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-francais-bruno-surace-rejoint-zuffa-boxing-le-retour-sur-les-rings-se-precise_AV-202610160429.html",
-      "published_at": "2026-10-16T10:28:38+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Zuffa Boxing signe une pépite française",
-      "url": "https://lasueur.com/zuffa-boxing-signe-une-pepite-francaise-16-10-2026",
-      "published_at": "2026-10-16T10:17:25+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Daniel Dubois - Fabio Wardley en streaming : comment regarder le combat de boxe en direct ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/daniel-dubois-fabio-wardley-en-streaming-comment-regarder-le-combat-de-boxe-en-direct_AN-202610160037.html",
-      "published_at": "2026-10-16T08:30:00+00:00"
     }
   ],
   "unavailable_feeds": []
