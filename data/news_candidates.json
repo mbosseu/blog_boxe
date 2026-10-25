@@ -25,6 +25,30 @@
       "published_at": "2026-10-21T11:02:14+00:00"
     },
     {
+      "publisher": "Boxemag",
+      "title": "Le jeu EA Sports Fight Night de retour après 15 années d’attente",
+      "url": "https://boxemag.ouest-france.fr/boxe/le-jeu-ea-sports-fight-night-de-retour-apres-15-annees-dattente/",
+      "published_at": "2026-10-20T20:56:29+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Shakur Stevenson obtient sa libération de Zuffa Boxing sans avoir combattu pour l’organisation",
+      "url": "https://boxemag.ouest-france.fr/boxe/shakur-stevenson-obtient-sa-liberation-de-zuffa-boxing-sans-avoir-combattu-pour-lorganisation/",
+      "published_at": "2026-10-19T19:11:51+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Filip Hrgovic devrait affronter Frank Sanchez, malgré son souhait de croiser à nouveau le fer avec Daniel Dubois",
+      "url": "https://boxemag.ouest-france.fr/boxe/filip-hrgovic-devrait-affronter-frank-sanchez-malgre-son-souhait-de-croiser-a-nouveau-le-fer-avec-daniel-dubois/",
+      "published_at": "2026-10-19T16:35:12+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Fabio Wardley réagit à sa défaite expéditive lors de la revanche contre Daniel Dubois « n’était pas idéale »",
+      "url": "https://boxemag.ouest-france.fr/boxe/fabio-wardley-reagit-a-sa-defaite-expeditive-lors-de-la-revanche-contre-daniel-dubois-netait-pas-ideale/",
+      "published_at": "2026-10-19T16:28:15+00:00"
+    },
+    {
       "publisher": "La Sueur",
       "title": "Floyd Mayweather vers un retour complètement fou ? Les négociations ont débuté",
       "url": "https://lasueur.com/floyd-mayweather-vers-un-retour-completement-fou-les-negociations-ont-debute-19-10-2026",
@@ -43,10 +67,5 @@
       "published_at": "2026-10-18T17:56:47+00:00"
     }
   ],
-  "unavailable_feeds": [
-    {
-      "publisher": "Boxemag",
-      "error": "HTTPError"
-    }
-  ]
+  "unavailable_feeds": []
 }
