@@ -2,6 +2,12 @@
   "items": [
     {
       "publisher": "FFBoxe",
+      "title": "Résultats des pros Français du week-end (24/10/2026)",
+      "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-24-10-2026/",
+      "published_at": "2026-10-25T10:05:04+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
       "title": "Leonardo Mosquea aux portes d'un championnat du monde",
       "url": "https://www.ffboxe.com/leonardo-mosquea-aux-portes-dun-championnat-du-monde/",
       "published_at": "2026-10-22T20:04:08+00:00"
@@ -59,30 +65,6 @@
       "title": "Ephrem Bariko reste roi de France",
       "url": "https://www.ffboxe.com/ephrem-bariko-reste-roi-de-france/",
       "published_at": "2026-10-18T17:56:47+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Résumé Video du combat Sebastian Fundora vs Ermal Hadribeaj pour la ceinture mondiale WBC",
-      "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-sebastian-fundora-vs-ermal-hadribeaj-pour-la-ceinture-mondiale-wbc/",
-      "published_at": "2026-10-18T08:01:54+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Daniel Dubois détruit Fabio Wardley lors du duel revanche",
-      "url": "https://lasueur.com/daniel-dubois-detruit-fabio-wardley-revanche-18-10-2026",
-      "published_at": "2026-10-18T02:43:05+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: sans pitié pour Wardley, Dubois garde sa ceinture WBO chez les lourds",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-sans-pitie-pour-wardley-dubois-garde-sa-ceinture-wbo-chez-les-lourds_AN-202610170394.html",
-      "published_at": "2026-10-17T22:13:55+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Résumé Vidéo: Daniel Dubois détruit Fabio Wardley en 2 rounds lors de la revanche",
-      "url": "https://boxemag.ouest-france.fr/boxe/video-daniel-dubois-detruit-fabio-wardley-en-2-rounds-lors-de-la-revanche/",
-      "published_at": "2026-10-17T22:12:36+00:00"
     }
   ],
   "unavailable_feeds": []
