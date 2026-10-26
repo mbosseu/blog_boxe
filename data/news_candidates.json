@@ -29,12 +29,19 @@
       "title": "Floyd Mayweather s’attaque à Conor McGregor",
       "url": "https://lasueur.com/floyd-mayweather-sattaque-a-conor-mcgregor-21-10-2026",
       "published_at": "2026-10-21T11:02:14+00:00"
-    }
-  ],
-  "unavailable_feeds": [
+    },
     {
       "publisher": "Boxemag",
-      "error": "HTTPError"
+      "title": "Le jeu EA Sports Fight Night de retour après 15 années d’attente",
+      "url": "https://boxemag.ouest-france.fr/boxe/le-jeu-ea-sports-fight-night-de-retour-apres-15-annees-dattente/",
+      "published_at": "2026-10-20T20:56:29+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Shakur Stevenson obtient sa libération de Zuffa Boxing sans avoir combattu pour l’organisation",
+      "url": "https://boxemag.ouest-france.fr/boxe/shakur-stevenson-obtient-sa-liberation-de-zuffa-boxing-sans-avoir-combattu-pour-lorganisation/",
+      "published_at": "2026-10-19T19:11:51+00:00"
     }
-  ]
+  ],
+  "unavailable_feeds": []
 }
