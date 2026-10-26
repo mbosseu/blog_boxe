@@ -2,10 +2,28 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Vasiliy Lomachenko annonce son retour et vise O’Shaquie Foster",
+      "url": "https://boxemag.ouest-france.fr/boxe/vasiliy-lomachenko-annonce-son-retour-et-vise-oshaquie-foster/",
+      "published_at": "2026-10-26T17:31:36+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Dana White révèle pourquoi Shakur Stevenson a été libéré si rapidement de Zuffa Boxing",
+      "url": "https://boxemag.ouest-france.fr/boxe/dana-white-revele-pourquoi-shakur-stevenson-a-ete-libere-si-rapidement-de-zuffa-boxing/",
+      "published_at": "2026-10-26T17:21:21+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Résultats des pros Français du week-end (24/10/2026)",
       "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-24-10-2026/",
       "published_at": "2026-10-25T10:05:04+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "La FFBoxe adresse ses condoléances aux proches de Pengo Bossio Wangi.",
+      "url": "https://www.ffboxe.com/la-ffboxe-adresse-ses-condoleances-aux-proches-de-pengo-bossio-wangi/",
+      "published_at": "2026-10-24T07:27:28+00:00"
     },
     {
       "publisher": "FFBoxe",
@@ -36,30 +54,6 @@
       "title": "Shakur Stevenson obtient sa libération de Zuffa Boxing sans avoir combattu pour l’organisation",
       "url": "https://boxemag.ouest-france.fr/boxe/shakur-stevenson-obtient-sa-liberation-de-zuffa-boxing-sans-avoir-combattu-pour-lorganisation/",
       "published_at": "2026-10-19T19:11:51+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Filip Hrgovic devrait affronter Frank Sanchez, malgré son souhait de croiser à nouveau le fer avec Daniel Dubois",
-      "url": "https://boxemag.ouest-france.fr/boxe/filip-hrgovic-devrait-affronter-frank-sanchez-malgre-son-souhait-de-croiser-a-nouveau-le-fer-avec-daniel-dubois/",
-      "published_at": "2026-10-19T16:35:12+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Fabio Wardley réagit à sa défaite expéditive lors de la revanche contre Daniel Dubois « n’était pas idéale »",
-      "url": "https://boxemag.ouest-france.fr/boxe/fabio-wardley-reagit-a-sa-defaite-expeditive-lors-de-la-revanche-contre-daniel-dubois-netait-pas-ideale/",
-      "published_at": "2026-10-19T16:28:15+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Floyd Mayweather vers un retour complètement fou ? Les négociations ont débuté",
-      "url": "https://lasueur.com/floyd-mayweather-vers-un-retour-completement-fou-les-negociations-ont-debute-19-10-2026",
-      "published_at": "2026-10-19T08:16:44+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Kaoussou Cisse trône toujours",
-      "url": "https://www.ffboxe.com/kaoussou-cisse-trone-toujours/",
-      "published_at": "2026-10-18T21:47:14+00:00"
     }
   ],
   "unavailable_feeds": []
