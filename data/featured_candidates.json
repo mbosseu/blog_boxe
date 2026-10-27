@@ -2,6 +2,36 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Isis Pizagou-Logerie fait son chemin",
+      "url": "https://www.ffboxe.com/isis-pizagou-logerie-fait-son-chemin/",
+      "published_at": "2026-10-27T13:12:10+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Romane Moulai élue à la Commission des Sportifs de Haut-niveau",
+      "url": "https://www.ffboxe.com/romane-moulai-elue-a-la-commission-des-sportifs-de-haut-niveau/",
+      "published_at": "2026-10-27T10:29:13+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Canelo-Mbilli: Découvrez la carte complète des combats prévus pour samedi en Arabie Saoudite",
+      "url": "https://boxemag.ouest-france.fr/boxe/canelo-mbilli-decouvrez-la-carte-complete-des-combats-prevus-pour-samedi-en-arabie-saoudite/",
+      "published_at": "2026-10-27T06:00:28+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Devin Haney contre Liam Paro prévu le 19 décembre pour l’unification des ceintures WBO et IBF",
+      "url": "https://boxemag.ouest-france.fr/boxe/devin-haney-contre-liam-paro-prevu-le-19-decembre-pour-lunification-des-ceintures-wbo-et-ibf/",
+      "published_at": "2026-10-27T05:30:54+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Tyson Fury écarte l’idée d’une retraite et pourrait signer un contrat pour “10 combats supplémentaires”",
+      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-ecarte-lidee-dune-retraite-et-pourrait-signer-un-contrat-pour-10-combats-supplementaires/",
+      "published_at": "2026-10-27T05:28:01+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Vasiliy Lomachenko annonce son retour et vise O’Shaquie Foster",
       "url": "https://boxemag.ouest-france.fr/boxe/vasiliy-lomachenko-annonce-son-retour-et-vise-oshaquie-foster/",
@@ -48,12 +78,6 @@
       "title": "Le jeu EA Sports Fight Night de retour après 15 années d’attente",
       "url": "https://boxemag.ouest-france.fr/boxe/le-jeu-ea-sports-fight-night-de-retour-apres-15-annees-dattente/",
       "published_at": "2026-10-20T20:56:29+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Shakur Stevenson obtient sa libération de Zuffa Boxing sans avoir combattu pour l’organisation",
-      "url": "https://boxemag.ouest-france.fr/boxe/shakur-stevenson-obtient-sa-liberation-de-zuffa-boxing-sans-avoir-combattu-pour-lorganisation/",
-      "published_at": "2026-10-19T19:11:51+00:00"
     }
   ],
   "unavailable_feeds": []
