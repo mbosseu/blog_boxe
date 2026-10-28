@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "publisher": "RMC Sport",
+      "title": "L'édito de Baba: pourquoi Christian Mbilli peut marquer l’histoire de la boxe française face à Canelo",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/l-edito-de-baba-pourquoi-christian-mbilli-peut-marquer-l-histoire-de-la-boxe-francaise-face-a-canelo_AV-202610280050.html",
+      "published_at": "2026-10-28T08:05:00+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Isis Pizagou-Logerie fait son chemin",
       "url": "https://www.ffboxe.com/isis-pizagou-logerie-fait-son-chemin/",
@@ -68,15 +74,9 @@
     },
     {
       "publisher": "La Sueur",
-      "title": "Floyd Mayweather s’attaque à Conor McGregor",
-      "url": "https://lasueur.com/floyd-mayweather-sattaque-a-conor-mcgregor-21-10-2026",
-      "published_at": "2026-10-21T11:02:14+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Le jeu EA Sports Fight Night de retour après 15 années d’attente",
-      "url": "https://boxemag.ouest-france.fr/boxe/le-jeu-ea-sports-fight-night-de-retour-apres-15-annees-dattente/",
-      "published_at": "2026-10-20T20:56:29+00:00"
+      "title": "Floyd Mayweather raconte une trahison à plus d’un demi-milliard de dollars",
+      "url": "https://lasueur.com/floyd-mayweather-raconte-une-trahison-a-plus-dun-demi-milliard-de-dollars-22-10-2026",
+      "published_at": "2026-10-22T07:45:00+00:00"
     }
   ],
   "unavailable_feeds": []
