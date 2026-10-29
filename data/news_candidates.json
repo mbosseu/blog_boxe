@@ -2,6 +2,24 @@
   "items": [
     {
       "publisher": "Boxemag",
+      "title": "Jake Paul annonce la date et le lieu de son retour sur le ring : “Quelqu’un va se faire mettre KO”",
+      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-annonce-la-date-et-le-lieu-de-son-retour-sur-le-ring-quelquun-va-se-faire-mettre-ko/",
+      "published_at": "2026-10-29T16:40:08+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Fedor Emelianenko réagit aux rumeurs d’un combat contre Francis Ngannou",
+      "url": "https://boxemag.ouest-france.fr/boxe/fedor-emelianenko-reagit-aux-rumeurs-dun-combat-contre-francis-ngannou/",
+      "published_at": "2026-10-29T16:31:02+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Les supers ceintures",
+      "url": "https://www.ffboxe.com/les-supers-ceintures/",
+      "published_at": "2026-10-29T16:07:11+00:00"
+    },
+    {
+      "publisher": "Boxemag",
       "title": "Mbilli vs Canelo, Quelle date, heure et chaine pour regarder le combat en direct à la TV ?",
       "url": "https://boxemag.ouest-france.fr/boxe/mbilli-vs-canelo-quelle-date-heure-et-chaine-pour-regarder-le-combat-en-direct-a-la-tv/",
       "published_at": "2026-10-29T12:13:27+00:00"
@@ -25,16 +43,46 @@
       "published_at": "2026-10-28T17:50:44+00:00"
     },
     {
+      "publisher": "FFBoxe",
+      "title": "Christian MBilli aux portes du paradis",
+      "url": "https://www.ffboxe.com/christian-mbilli-aux-portes-du-paradis/",
+      "published_at": "2026-10-28T17:23:04+00:00"
+    },
+    {
       "publisher": "RMC Sport",
       "title": "Voyage reporté, sécurité drastique, bruits de missiles: comment Christian Mbilli s'adapte à la situation saoudienne à quelques jours de son combat contre Alvarez",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/voyage-reporte-securite-drastique-bruits-de-missiles-comment-christian-mbilli-s-adapte-a-la-situation-saoudienne-a-quelques-jours-de-son-combat-contre-alvarez_AV-202610280643.html",
       "published_at": "2026-10-28T15:15:19+00:00"
     },
     {
+      "publisher": "La Sueur",
+      "title": "Canelo Alvarez vs Christian Mbilli : Quelle heure ? Quelle chaîne ?",
+      "url": "https://lasueur.com/canelo-alvarez-vs-christian-mbilli-quelle-heure-quelle-chaine-28-10-2026",
+      "published_at": "2026-10-28T13:13:30+00:00"
+    },
+    {
       "publisher": "RMC Sport",
       "title": "Boxe: Mbilli-Canelo, le combat le plus important pour la France au 21e siècle?",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/l-edito-de-baba-pourquoi-christian-mbilli-peut-marquer-l-histoire-de-la-boxe-francaise-face-a-canelo_AV-202610280050.html",
       "published_at": "2026-10-28T08:05:00+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Melina Ainaoui conserve sa ceinture",
+      "url": "https://www.ffboxe.com/melina-ainaoui-conserve-sa-ceinture/",
+      "published_at": "2026-10-27T14:45:34+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Isis Pizagou-Logerie fait son chemin",
+      "url": "https://www.ffboxe.com/isis-pizagou-logerie-fait-son-chemin/",
+      "published_at": "2026-10-27T13:12:10+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Romane Moulai élue à la Commission des Sportifs de Haut-niveau",
+      "url": "https://www.ffboxe.com/romane-moulai-elue-a-la-commission-des-sportifs-de-haut-niveau/",
+      "published_at": "2026-10-27T10:29:13+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -65,12 +113,25 @@
       "title": "Dana White révèle pourquoi Shakur Stevenson a été libéré si rapidement de Zuffa Boxing",
       "url": "https://boxemag.ouest-france.fr/boxe/dana-white-revele-pourquoi-shakur-stevenson-a-ete-libere-si-rapidement-de-zuffa-boxing/",
       "published_at": "2026-10-26T17:21:21+00:00"
-    }
-  ],
-  "unavailable_feeds": [
+    },
     {
       "publisher": "FFBoxe",
-      "error": "HTTPError"
+      "title": "Résultats des pros Français du week-end (24/10/2026)",
+      "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-24-10-2026/",
+      "published_at": "2026-10-25T10:05:04+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "La FFBoxe adresse ses condoléances aux proches de Pengo Bossio Wangi.",
+      "url": "https://www.ffboxe.com/la-ffboxe-adresse-ses-condoleances-aux-proches-de-pengo-bossio-wangi/",
+      "published_at": "2026-10-24T07:27:28+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Leonardo Mosquea aux portes d'un championnat du monde",
+      "url": "https://www.ffboxe.com/leonardo-mosquea-aux-portes-dun-championnat-du-monde/",
+      "published_at": "2026-10-22T20:04:08+00:00"
     }
-  ]
+  ],
+  "unavailable_feeds": []
 }
