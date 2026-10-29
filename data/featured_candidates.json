@@ -3,6 +3,42 @@
   "items": [
     {
       "publisher": "Boxemag",
+      "title": "Jake Paul annonce la date et le lieu de son retour sur le ring : “Quelqu’un va se faire mettre KO”",
+      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-annonce-la-date-et-le-lieu-de-son-retour-sur-le-ring-quelquun-va-se-faire-mettre-ko/",
+      "published_at": "2026-10-29T16:40:08+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Fedor Emelianenko réagit aux rumeurs d’un combat contre Francis Ngannou",
+      "url": "https://boxemag.ouest-france.fr/boxe/fedor-emelianenko-reagit-aux-rumeurs-dun-combat-contre-francis-ngannou/",
+      "published_at": "2026-10-29T16:31:02+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Les supers ceintures",
+      "url": "https://www.ffboxe.com/les-supers-ceintures/",
+      "published_at": "2026-10-29T16:07:11+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Mbilli vs Canelo, Quelle date, heure et chaine pour regarder le combat en direct à la TV ?",
+      "url": "https://boxemag.ouest-france.fr/boxe/mbilli-vs-canelo-quelle-date-heure-et-chaine-pour-regarder-le-combat-en-direct-a-la-tv/",
+      "published_at": "2026-10-29T12:13:27+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Christian Mbilli en totale confiance pour son combat contre Canelo Alvarez, ce samedi à Riyad, en Arabie saoudite.",
+      "url": "https://boxemag.ouest-france.fr/boxe/christian-mbilli-en-total-confiance-pour-son-combat-contre-canelo-alvarez-ce-samedi-a-riyad-en-arabie-saoudite/",
+      "published_at": "2026-10-29T10:45:06+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"C’est comme s'ils avaient gagné au loto\": Canelo Alvarez, le boxeur qui rend ses adversaires multimillionaires",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/c-est-comme-s-ils-avaient-gagne-au-loto-canelo-alvarez-le-boxeur-qui-rend-ses-adversaires-multimillionaires_AV-202610290001.html",
+      "published_at": "2026-10-29T07:05:00+00:00"
+    },
+    {
+      "publisher": "Boxemag",
       "title": "Jake Paul souhaite une revanche avec Anthony Joshua, malgré sa brutale défaite par KO",
       "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-souhaite-une-revanche-avec-anthony-joshua-malgre-sa-brutale-defaite-par-ko/",
       "published_at": "2026-10-28T17:50:44+00:00"
@@ -20,10 +56,22 @@
       "published_at": "2026-10-28T15:15:19+00:00"
     },
     {
+      "publisher": "La Sueur",
+      "title": "Canelo Alvarez vs Christian Mbilli : Quelle heure ? Quelle chaîne ?",
+      "url": "https://lasueur.com/canelo-alvarez-vs-christian-mbilli-quelle-heure-quelle-chaine-28-10-2026",
+      "published_at": "2026-10-28T13:13:30+00:00"
+    },
+    {
       "publisher": "RMC Sport",
-      "title": "L'édito de Baba: pourquoi Christian Mbilli peut marquer l’histoire de la boxe française face à Canelo",
+      "title": "Boxe: Mbilli-Canelo, le combat le plus important pour la France au 21e siècle?",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/l-edito-de-baba-pourquoi-christian-mbilli-peut-marquer-l-histoire-de-la-boxe-francaise-face-a-canelo_AV-202610280050.html",
       "published_at": "2026-10-28T08:05:00+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Melina Ainaoui conserve sa ceinture",
+      "url": "https://www.ffboxe.com/melina-ainaoui-conserve-sa-ceinture/",
+      "published_at": "2026-10-27T14:45:34+00:00"
     },
     {
       "publisher": "FFBoxe",
@@ -84,18 +132,6 @@
       "title": "Leonardo Mosquea aux portes d'un championnat du monde",
       "url": "https://www.ffboxe.com/leonardo-mosquea-aux-portes-dun-championnat-du-monde/",
       "published_at": "2026-10-22T20:04:08+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: Ryan Garcia tease un combat face à Floyd Mayweather, une mauvaise nouvelle pour Souleymane Cissokho?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-ryan-garcia-tease-un-combat-face-a-floyd-mayweather-une-mauvaise-nouvelle-pour-souleymane-cissokho_AV-202610220515.html",
-      "published_at": "2026-10-22T10:55:59+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Floyd Mayweather raconte une trahison à plus d’un demi-milliard de dollars",
-      "url": "https://lasueur.com/floyd-mayweather-raconte-une-trahison-a-plus-dun-demi-milliard-de-dollars-22-10-2026",
-      "published_at": "2026-10-22T07:45:00+00:00"
     }
   ],
   "unavailable_feeds": []
