@@ -2,10 +2,58 @@
   "instance": "featured",
   "items": [
     {
+      "publisher": "RMC Sport",
+      "title": "Christian Mbilli face à Canelo Alvarez : le combat d’une vie !",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-christian-mbilli-face-a-canelo-alvarez-le-combat-d-une-vie_VN-202610300706.html",
+      "published_at": "2026-10-30T16:25:53+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Canelo Alvarez vs. Christian Mbili : le combat de boxe le plus attendu de ce mois d’octobre à suivre en streaming et en direct via ce lien",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-vs-christian-mbili-le-combat-de-boxe-le-plus-attendu-de-ce-mois-d-octobre-a-suivre-en-streaming-et-en-direct-via-ce-lien_AB-202610300055.html",
+      "published_at": "2026-10-30T15:15:00+00:00"
+    },
+    {
+      "publisher": "BoxeNet",
+      "title": "Christian Mbilli fin prêt pour son grand rendez-vous contre Canelo !",
+      "url": "https://www.boxenet.fr/christian-mbilli-fin-pret-pour-son-grand-rendez-vous-contre-canelo/",
+      "published_at": "2026-10-30T12:33:40+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe: pourquoi Saul Alvarez, l'adversaire de Christian Mbilli, est surnommé \"Canelo\"",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-pourquoi-saul-alvarez-l-adversaire-de-christian-mbilli-est-surnomme-canelo_AV-202610300475.html",
+      "published_at": "2026-10-30T11:54:34+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Canelo Alvarez-Christian Mbilli en streaming: comment regarder le combat de boxe en direct ce samedi?",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-christian-mbilli-en-streaming-comment-regarder-le-combat-de-boxe-en-direct-ce-samedi_AN-202610300058.html",
+      "published_at": "2026-10-30T09:30:00+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe: Christian Mbilli, ce qui se cache derrière le monstre de pression et de puissance",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-christian-mbilli-ce-qui-se-cache-derriere-le-monstre-de-pression-et-de-puissance_AV-202610300050.html",
+      "published_at": "2026-10-30T07:05:00+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe: \"Choquer le monde entier\", Mbilli envoie un message fort avant son combat contre Canelo Alvarez",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-choquer-le-monde-entier-mbilli-envoie-un-message-fort-avant-son-combat-contre-canelo-alvarez_AV-202610290947.html",
+      "published_at": "2026-10-29T21:14:52+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Jake Paul annonce la date et le lieu de son retour sur le ring : “Quelqu’un va se faire mettre KO”",
       "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-annonce-la-date-et-le-lieu-de-son-retour-sur-le-ring-quelquun-va-se-faire-mettre-ko/",
       "published_at": "2026-10-29T16:40:08+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe: \"On aurait pu rester bloqués quelque part\", les proches de Mbilli ne pourront pas assister au combat contre Canelo en Arabie saoudite",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-on-aurait-pu-rester-bloques-quelque-part-les-proches-de-mbilli-ne-pourront-pas-assister-au-combat-contre-canelo-en-arabie-saoudite_AV-202610290685.html",
+      "published_at": "2026-10-29T16:31:52+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -126,12 +174,6 @@
       "title": "La FFBoxe adresse ses condoléances aux proches de Pengo Bossio Wangi.",
       "url": "https://www.ffboxe.com/la-ffboxe-adresse-ses-condoleances-aux-proches-de-pengo-bossio-wangi/",
       "published_at": "2026-10-24T07:27:28+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Leonardo Mosquea aux portes d'un championnat du monde",
-      "url": "https://www.ffboxe.com/leonardo-mosquea-aux-portes-dun-championnat-du-monde/",
-      "published_at": "2026-10-22T20:04:08+00:00"
     }
   ],
   "unavailable_feeds": []
