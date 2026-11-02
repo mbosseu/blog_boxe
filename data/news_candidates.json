@@ -1,6 +1,60 @@
 {
   "items": [
     {
+      "publisher": "BoxeNet",
+      "title": "Canelo l’emporte sur Mbilli !",
+      "url": "https://www.boxenet.fr/canelo-lemporte-sur-mbilli/",
+      "published_at": "2026-11-02T14:09:41+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Jake Paul et Cedric Doumbé réagissent à l’annonce de leur combat",
+      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-et-cedric-doumbe-reagissent-a-lannonce-de-leur-combat/",
+      "published_at": "2026-11-02T12:56:56+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Cedric Doumbé affrontera Jake Paul en Boxe le 24 décembre à Dubai",
+      "url": "https://boxemag.ouest-france.fr/boxe/cedric-doumbe-affrontera-jake-paul-en-boxe-le-24-decembre-a-dubai/",
+      "published_at": "2026-11-02T12:45:24+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Jake Paul commence le trash-talk avant son choc avec Doumbè",
+      "url": "https://lasueur.com/jake-paul-commence-le-trash-talk-avant-son-choc-avec-doumbe-02-11-2026",
+      "published_at": "2026-11-02T12:28:27+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Le grand retour de Cédric Doumbè face à Jake Paul se fera en boxe",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/le-grand-retour-de-cedric-doumbe-face-jake-paul-se-fera-en-boxe_AV-202611020513.html",
+      "published_at": "2026-11-02T12:17:20+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Cédric Doumbé de retour face à Jake Paul ! Toutes les infos",
+      "url": "https://lasueur.com/cedric-doumbe-de-retour-face-a-jake-paul-toutes-les-infos-02-11-2026",
+      "published_at": "2026-11-02T12:05:19+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Zuffa Boxing 12: Billam-Smith vs Clarke – Découvrez la carte complète des combats pour samedi",
+      "url": "https://boxemag.ouest-france.fr/boxe/zuffa-boxing-12-billam-smith-vs-clarke-decouvrez-la-carte-complete-des-combats-pour-samedi/",
+      "published_at": "2026-11-02T09:04:06+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Christian Mbilli s'incline face au roi Canelo",
+      "url": "https://www.ffboxe.com/christian-mbilli-sincline-face-au-roi-canelo/",
+      "published_at": "2026-11-01T21:50:53+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Floyd Mayweather Jr. affrontera Matt Floyd le 19 décembre, en vue d’un éventuel affrontement contre Ryan Garcia",
+      "url": "https://boxemag.ouest-france.fr/boxe/floyd-mayweather-jr-affrontera-matt-floyd-le-19-decembre-en-vue-dun-eventuel-affrontement-contre-ryan-garcia/",
+      "published_at": "2026-11-01T19:45:12+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Christian Mbilli publie sa première déclaration après sa défaite contre Canelo Alvarez et la perte de son titre WBC",
       "url": "https://boxemag.ouest-france.fr/boxe/christian-mbilli-publie-sa-premiere-declaration-apres-sa-defaite-contre-canelo-alvarez-et-la-perte-de-son-titre-wbc/",
@@ -29,6 +83,12 @@
       "title": "Boxe : \"Canelo était frustré et c'est bon signe\", positive le coach de Mbilli malgré la défaite",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-boxe-canelo-etait-frustre-et-c-est-bon-signe-positive-le-coach-de-mbilli-malgre-la-defaite_VN-202611010272.html",
       "published_at": "2026-11-01T13:17:09+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Canelo Alvarez : la statistique incroyable",
+      "url": "https://lasueur.com/canelo-alvarez-la-statistique-incroyable-01-11-2026",
+      "published_at": "2026-11-01T10:55:12+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -65,6 +125,12 @@
       "title": "Résumé Video: Canelo Alvarez vs Christian Mbilli pour le championnat du monde WBC",
       "url": "https://boxemag.ouest-france.fr/boxe/resume-video-canelo-alvarez-vs-christian-mbilli-pour-le-championnat-du-monde-wbc/",
       "published_at": "2026-10-31T23:21:24+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Résultats des pros Français du week-end (31/10/2026)",
+      "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-31-10-2026/",
+      "published_at": "2026-10-31T23:09:50+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -293,54 +359,6 @@
       "title": "Boxe: Mbilli-Canelo, le combat le plus important pour la France au 21e siècle?",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/l-edito-de-baba-pourquoi-christian-mbilli-peut-marquer-l-histoire-de-la-boxe-francaise-face-a-canelo_AV-202610280050.html",
       "published_at": "2026-10-28T08:05:00+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Melina Ainaoui conserve sa ceinture",
-      "url": "https://www.ffboxe.com/melina-ainaoui-conserve-sa-ceinture/",
-      "published_at": "2026-10-27T14:45:34+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Isis Pizagou-Logerie fait son chemin",
-      "url": "https://www.ffboxe.com/isis-pizagou-logerie-fait-son-chemin/",
-      "published_at": "2026-10-27T13:12:10+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Romane Moulai élue à la Commission des Sportifs de Haut-niveau",
-      "url": "https://www.ffboxe.com/romane-moulai-elue-a-la-commission-des-sportifs-de-haut-niveau/",
-      "published_at": "2026-10-27T10:29:13+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Canelo-Mbilli: Découvrez la carte complète des combats prévus pour samedi en Arabie Saoudite",
-      "url": "https://boxemag.ouest-france.fr/boxe/canelo-mbilli-decouvrez-la-carte-complete-des-combats-prevus-pour-samedi-en-arabie-saoudite/",
-      "published_at": "2026-10-27T06:00:28+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Devin Haney contre Liam Paro prévu le 19 décembre pour l’unification des ceintures WBO et IBF",
-      "url": "https://boxemag.ouest-france.fr/boxe/devin-haney-contre-liam-paro-prevu-le-19-decembre-pour-lunification-des-ceintures-wbo-et-ibf/",
-      "published_at": "2026-10-27T05:30:54+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Tyson Fury écarte l’idée d’une retraite et pourrait signer un contrat pour “10 combats supplémentaires”",
-      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-ecarte-lidee-dune-retraite-et-pourrait-signer-un-contrat-pour-10-combats-supplementaires/",
-      "published_at": "2026-10-27T05:28:01+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Vasiliy Lomachenko annonce son retour et vise O’Shaquie Foster",
-      "url": "https://boxemag.ouest-france.fr/boxe/vasiliy-lomachenko-annonce-son-retour-et-vise-oshaquie-foster/",
-      "published_at": "2026-10-26T17:31:36+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Dana White révèle pourquoi Shakur Stevenson a été libéré si rapidement de Zuffa Boxing",
-      "url": "https://boxemag.ouest-france.fr/boxe/dana-white-revele-pourquoi-shakur-stevenson-a-ete-libere-si-rapidement-de-zuffa-boxing/",
-      "published_at": "2026-10-26T17:21:21+00:00"
     }
   ],
   "unavailable_feeds": []
