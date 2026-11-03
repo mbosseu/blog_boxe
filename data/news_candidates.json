@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "RMC Sport",
+      "title": "\"Doumbè n'est pas un putain de boxeur\": Darren Till, qui devait affronter Jake Paul, prédit \"un combat bidon\" entre l'Américain et le Français",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/doumbe-n-est-pas-un-putain-de-boxeur-darren-till-qui-devait-affronter-jake-paul-predit-un-combat-bidon-entre-l-americain-et-le-francais_AV-202611030837.html",
+      "published_at": "2026-11-03T18:21:38+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Stage de détection à Bourges",
+      "url": "https://www.ffboxe.com/stage-de-detection-a-bourges/",
+      "published_at": "2026-11-03T16:14:08+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Critériums BEA Féminins 2027",
       "url": "https://www.ffboxe.com/criteriums-bea-feminins-2027/",
@@ -131,12 +143,6 @@
       "title": "Christian Mbilli publie sa première déclaration après sa défaite contre Canelo Alvarez et la perte de son titre WBC",
       "url": "https://boxemag.ouest-france.fr/boxe/christian-mbilli-publie-sa-premiere-declaration-apres-sa-defaite-contre-canelo-alvarez-et-la-perte-de-son-titre-wbc/",
       "published_at": "2026-11-01T18:38:08+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Lounes Hamraoui expéditif",
-      "url": "https://www.ffboxe.com/lounes-hamraoui-expeditif/",
-      "published_at": "2026-11-01T18:19:52+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -353,12 +359,6 @@
       "title": "Fedor Emelianenko « rêve » d’affronter Francis Ngannou",
       "url": "https://lasueur.com/fedor-emelianenko-reve-affronter-francis-ngannou-29-10-2026",
       "published_at": "2026-10-29T16:44:42+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jake Paul annonce la date et le lieu de son retour sur le ring : “Quelqu’un va se faire mettre KO”",
-      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-annonce-la-date-et-le-lieu-de-son-retour-sur-le-ring-quelquun-va-se-faire-mettre-ko/",
-      "published_at": "2026-10-29T16:40:08+00:00"
     }
   ],
   "unavailable_feeds": [
