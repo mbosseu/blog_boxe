@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Vasiliy Lomachenko contre Charly Suarez en finalisation pour le 13 février",
+      "url": "https://boxemag.ouest-france.fr/boxe/vasiliy-lomachenko-contre-charly-suarez-en-finalisation-pour-le-13-fevrier/",
+      "published_at": "2026-11-04T17:49:30+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "“Peut-être un de plus”: Terence Crawford interpelle Ryan Garcia alors qu’il envisage un ultime combat",
+      "url": "https://boxemag.ouest-france.fr/boxe/peut-etre-un-de-plus-terence-crawford-interpelle-ryan-garcia-alors-quil-envisage-un-ultime-combat/",
+      "published_at": "2026-11-04T17:32:10+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Fanny Galle double championne de France",
       "url": "https://www.ffboxe.com/fanny-galle-double-championne-de-france/",
@@ -347,18 +359,6 @@
       "title": "Boxe: les images de pesée et du face à face entre Christian Mbilli et Canelo Alvarez avant le combat choc à Riyad",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-les-images-de-pesee-et-du-face-a-face-entre-christian-mbilli-et-canelo-alvarez-avant-le-combat-choc-a-riyad_AV-202610300948.html",
       "published_at": "2026-10-30T22:33:59+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Christian Mbilli face à Canelo Alvarez : le combat d’une vie !",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-christian-mbilli-face-a-canelo-alvarez-le-combat-d-une-vie_VN-202610300706.html",
-      "published_at": "2026-10-30T16:25:53+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Canelo Alvarez vs. Christian Mbili : le combat de boxe le plus attendu de ce mois d’octobre à suivre en streaming et en direct via ce lien",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-vs-christian-mbili-le-combat-de-boxe-le-plus-attendu-de-ce-mois-d-octobre-a-suivre-en-streaming-et-en-direct-via-ce-lien_AB-202610300055.html",
-      "published_at": "2026-10-30T15:15:00+00:00"
     }
   ],
   "unavailable_feeds": []
