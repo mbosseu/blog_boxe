@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Fanny Galle double championne de France",
+      "url": "https://www.ffboxe.com/fanny-galle-double-championne-de-france/",
+      "published_at": "2026-11-04T14:12:57+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"S'il gagne, je raccroche les gants\", Jake Paul promet de prendre sa retraite s'il perd contre Cédric Doumbè",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/s-il-gagne-je-raccroche-les-gants-jake-paul-promet-de-prendre-sa-retraite-s-il-perd-contre-cedric-doumbe_AV-202611040392.html",
+      "published_at": "2026-11-04T09:18:26+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Jake Paul annonce une conséquence radicale en cas de défaite contre Cédric Doumbé",
+      "url": "https://lasueur.com/jake-paul-annonce-une-consequence-radicale-en-cas-de-defaite-contre-cedric-doumbe-03-11-2026",
+      "published_at": "2026-11-03T19:51:00+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Jake Paul promet de “raccrocher les gants” s’il perd face à Cédric Doumbé.",
+      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-promet-de-raccrocher-les-gants-sil-perd-face-a-cedric-doumbe/",
+      "published_at": "2026-11-03T19:32:04+00:00"
+    },
+    {
       "publisher": "RMC Sport",
       "title": "\"Doumbè n'est pas un putain de boxeur\": Darren Till, qui devait affronter Jake Paul, prédit \"un combat bidon\" entre l'Américain et le Français",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/doumbe-n-est-pas-un-putain-de-boxeur-darren-till-qui-devait-affronter-jake-paul-predit-un-combat-bidon-entre-l-americain-et-le-francais_AV-202611030837.html",
@@ -49,6 +73,12 @@
       "published_at": "2026-11-03T15:22:40+00:00"
     },
     {
+      "publisher": "La Sueur",
+      "title": "Jake Paul vs. Cédric Doumbé : la première cote dévoilée",
+      "url": "https://lasueur.com/jake-paul-vs-cedric-doumbe-la-premiere-cote-devoilee-03-11-2026",
+      "published_at": "2026-11-03T13:41:25+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Hadria Bader de nouveau au sommet",
       "url": "https://www.ffboxe.com/hadria-bader-de-nouveau-au-sommet/",
@@ -91,6 +121,12 @@
       "published_at": "2026-11-02T15:15:00+00:00"
     },
     {
+      "publisher": "BoxeNet",
+      "title": "Canelo l’emporte sur Mbilli !",
+      "url": "https://www.boxenet.fr/canelo-lemporte-sur-mbilli/",
+      "published_at": "2026-11-02T14:09:41+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Jake Paul et Cedric Doumbé réagissent à l’annonce de leur combat",
       "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-et-cedric-doumbe-reagissent-a-lannonce-de-leur-combat/",
@@ -125,12 +161,6 @@
       "title": "Zuffa Boxing 12: Billam-Smith vs Clarke – Découvrez la carte complète des combats pour samedi",
       "url": "https://boxemag.ouest-france.fr/boxe/zuffa-boxing-12-billam-smith-vs-clarke-decouvrez-la-carte-complete-des-combats-pour-samedi/",
       "published_at": "2026-11-02T09:04:06+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Christian Mbilli s'incline face au roi Canelo",
-      "url": "https://www.ffboxe.com/christian-mbilli-sincline-face-au-roi-canelo/",
-      "published_at": "2026-11-01T21:50:53+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -329,42 +359,7 @@
       "title": "Canelo Alvarez vs. Christian Mbili : le combat de boxe le plus attendu de ce mois d’octobre à suivre en streaming et en direct via ce lien",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-vs-christian-mbili-le-combat-de-boxe-le-plus-attendu-de-ce-mois-d-octobre-a-suivre-en-streaming-et-en-direct-via-ce-lien_AB-202610300055.html",
       "published_at": "2026-10-30T15:15:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: pourquoi Saul Alvarez, l'adversaire de Christian Mbilli, est surnommé \"Canelo\"",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-pourquoi-saul-alvarez-l-adversaire-de-christian-mbilli-est-surnomme-canelo_AV-202610300475.html",
-      "published_at": "2026-10-30T11:54:34+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Canelo Alvarez-Christian Mbilli en streaming: comment regarder le combat de boxe en direct ce samedi?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-christian-mbilli-en-streaming-comment-regarder-le-combat-de-boxe-en-direct-ce-samedi_AN-202610300058.html",
-      "published_at": "2026-10-30T09:30:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: Christian Mbilli, ce qui se cache derrière le monstre de pression et de puissance",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-christian-mbilli-ce-qui-se-cache-derriere-le-monstre-de-pression-et-de-puissance_AV-202610300050.html",
-      "published_at": "2026-10-30T07:05:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: \"Choquer le monde entier\", Mbilli envoie un message fort avant son combat contre Canelo Alvarez",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-choquer-le-monde-entier-mbilli-envoie-un-message-fort-avant-son-combat-contre-canelo-alvarez_AV-202610290947.html",
-      "published_at": "2026-10-29T21:14:52+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Fedor Emelianenko « rêve » d’affronter Francis Ngannou",
-      "url": "https://lasueur.com/fedor-emelianenko-reve-affronter-francis-ngannou-29-10-2026",
-      "published_at": "2026-10-29T16:44:42+00:00"
     }
   ],
-  "unavailable_feeds": [
-    {
-      "publisher": "BoxeNet",
-      "error": "HTTPError"
-    }
-  ]
+  "unavailable_feeds": []
 }
