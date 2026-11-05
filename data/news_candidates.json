@@ -2,6 +2,18 @@
   "items": [
     {
       "publisher": "Boxemag",
+      "title": "Jkitou vs Corzo: Découvrez la carte complète des combats prévus pour vendredi 13 au Clichy Hall",
+      "url": "https://boxemag.ouest-france.fr/boxe/jkitou-vs-corzo-decouvrez-la-carte-complete-des-combats-prevus-pour-vendredi-au-clichy-hall/",
+      "published_at": "2026-11-05T10:15:50+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Darren Till tacle Jake Paul après l’annonce du combat contre Cédric Doumbé",
+      "url": "https://boxemag.ouest-france.fr/boxe/darren-till-tacle-jake-paul-apres-lannonce-du-combat-contre-cedric-doumbe/",
+      "published_at": "2026-11-05T09:54:00+00:00"
+    },
+    {
+      "publisher": "Boxemag",
       "title": "Vasiliy Lomachenko contre Charly Suarez en finalisation pour le 13 février",
       "url": "https://boxemag.ouest-france.fr/boxe/vasiliy-lomachenko-contre-charly-suarez-en-finalisation-pour-le-13-fevrier/",
       "published_at": "2026-11-04T17:49:30+00:00"
@@ -347,18 +359,6 @@
       "title": "Résultats en direct : Canelo Alvarez affronte Christian Mbilli pour le titre WBC",
       "url": "https://boxemag.ouest-france.fr/boxe/resultats-en-direct-canelo-alvarez-affronte-christian-mbilli-pour-le-titre-wbc/",
       "published_at": "2026-10-31T04:19:45+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"Une question de réputation\": pourquoi l’Arabie saoudite a maintenu le combat Canelo-Mbilli malgré les tensions ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/une-question-de-reputation-pourquoi-l-arabie-saoudite-a-maintenu-le-combat-canelo-mbilli-malgre-les-tensions_AV-202610310062.html",
-      "published_at": "2026-10-31T00:02:11+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: les images de pesée et du face à face entre Christian Mbilli et Canelo Alvarez avant le combat choc à Riyad",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-les-images-de-pesee-et-du-face-a-face-entre-christian-mbilli-et-canelo-alvarez-avant-le-combat-choc-a-riyad_AV-202610300948.html",
-      "published_at": "2026-10-30T22:33:59+00:00"
     }
   ],
   "unavailable_feeds": []
