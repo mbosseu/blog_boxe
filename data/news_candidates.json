@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Dominique Nato fait Chevalier de la Légion d’honneur",
+      "url": "https://www.ffboxe.com/dominique-nato-fait-chevalier-de-la-legion-dhonneur/",
+      "published_at": "2026-11-06T13:17:23+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Le combat Devin Haney-Liam Paro est officialisé pour le 19 décembre à San Francisco",
+      "url": "https://boxemag.ouest-france.fr/boxe/le-combat-devin-haney-liam-paro-est-officialise-pour-le-19-decembre-a-san-francisco/",
+      "published_at": "2026-11-06T10:33:41+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Jkitou vs Corzo: Découvrez la carte complète des combats prévus pour vendredi 13 au Clichy Hall",
       "url": "https://boxemag.ouest-france.fr/boxe/jkitou-vs-corzo-decouvrez-la-carte-complete-des-combats-prevus-pour-vendredi-au-clichy-hall/",
@@ -29,6 +41,12 @@
       "title": "Fanny Galle double championne de France",
       "url": "https://www.ffboxe.com/fanny-galle-double-championne-de-france/",
       "published_at": "2026-11-04T14:12:57+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "« Bonne nuit, Cédric » : Le tacle de Jake Paul à Doumbè",
+      "url": "https://lasueur.com/bonne-nuit-cedric-le-tacle-de-jake-paul-a-doumbe-04-11-2026",
+      "published_at": "2026-11-04T11:20:40+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -119,12 +137,6 @@
       "title": "Deontay Wilder annonce qu’il va affronter Jai opetaia sur la carte Fury-Joshua",
       "url": "https://boxemag.ouest-france.fr/boxe/deontay-wilder-annonce-quil-va-affronter-jai-opetaia-sur-la-carte-fury-joshua/",
       "published_at": "2026-11-03T06:46:51+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Première ceinture en pros pour Makan Traoré",
-      "url": "https://www.ffboxe.com/premiere-ceinture-en-pros-pour-makan-traore/",
-      "published_at": "2026-11-02T17:57:49+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -347,18 +359,6 @@
       "title": "Boxe: comment Christian Mbilli, non médaillé à Rio 2016, est devenu le fer de lance de la Team Solide chez les pros",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-comment-christian-mbilli-non-medaille-a-rio-2016-est-devenu-le-fer-de-lance-de-la-team-solide-chez-les-pros_AV-202610310008.html",
       "published_at": "2026-10-31T06:05:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Canelo Alvarez - Christian Mbilli : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-christian-mbilli-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610310039.html",
-      "published_at": "2026-10-31T05:10:00+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Résultats en direct : Canelo Alvarez affronte Christian Mbilli pour le titre WBC",
-      "url": "https://boxemag.ouest-france.fr/boxe/resultats-en-direct-canelo-alvarez-affronte-christian-mbilli-pour-le-titre-wbc/",
-      "published_at": "2026-10-31T04:19:45+00:00"
     }
   ],
   "unavailable_feeds": []
