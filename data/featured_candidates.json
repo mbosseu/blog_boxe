@@ -2,10 +2,172 @@
   "instance": "featured",
   "items": [
     {
-      "publisher": "FFBoxe",
-      "title": "Lounes Hamraoui expéditif",
-      "url": "https://www.ffboxe.com/lounes-hamraoui-expeditif/",
-      "published_at": "2026-11-01T18:19:52+00:00"
+      "publisher": "Boxemag",
+      "title": "Conor Benn révèle avoir reçu une offre pour affronter Manny Pacquiao, le combat est envisagé pour 2027",
+      "url": "https://boxemag.ouest-france.fr/boxe/conor-benn-revele-avoir-recu-une-offre-pour-affronter-manny-pacquiao-le-combat-est-envisage-pour-2027/",
+      "published_at": "2026-11-06T17:51:14+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Tyson Fury s’inquiète pour Deontay Wilder, affirmant qu’il est “totalement usé” avant son combat contre Jai Opetaia.",
+      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-sinquiete-pour-deontay-wilder-affirmant-quil-est-totalement-use-avant-son-combat-contre-jai-opetaia/",
+      "published_at": "2026-11-06T17:25:53+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"La boxe et les rings m'ont manqué\": deux ans après l'or olympique, Imane Khelif part à la conquête du monde professionnel",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/la-boxe-et-les-rings-m-ont-manque-deux-ans-apres-l-or-olympique-imane-khelif-part-a-la-conquete-du-monde-professionnel_AN-202611060621.html",
+      "published_at": "2026-11-06T15:11:55+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Le combat Devin Haney-Liam Paro est officialisé pour le 19 décembre à San Francisco",
+      "url": "https://boxemag.ouest-france.fr/boxe/le-combat-devin-haney-liam-paro-est-officialise-pour-le-19-decembre-a-san-francisco/",
+      "published_at": "2026-11-06T10:33:41+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Jkitou vs Corzo: Découvrez la carte complète des combats prévus pour vendredi 13 au Clichy Hall",
+      "url": "https://boxemag.ouest-france.fr/boxe/jkitou-vs-corzo-decouvrez-la-carte-complete-des-combats-prevus-pour-vendredi-au-clichy-hall/",
+      "published_at": "2026-11-05T10:15:50+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Darren Till tacle Jake Paul après l’annonce du combat contre Cédric Doumbé",
+      "url": "https://boxemag.ouest-france.fr/boxe/darren-till-tacle-jake-paul-apres-lannonce-du-combat-contre-cedric-doumbe/",
+      "published_at": "2026-11-05T09:54:00+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Vasiliy Lomachenko contre Charly Suarez en finalisation pour le 13 février",
+      "url": "https://boxemag.ouest-france.fr/boxe/vasiliy-lomachenko-contre-charly-suarez-en-finalisation-pour-le-13-fevrier/",
+      "published_at": "2026-11-04T17:49:30+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "“Peut-être un de plus”: Terence Crawford interpelle Ryan Garcia alors qu’il envisage un ultime combat",
+      "url": "https://boxemag.ouest-france.fr/boxe/peut-etre-un-de-plus-terence-crawford-interpelle-ryan-garcia-alors-quil-envisage-un-ultime-combat/",
+      "published_at": "2026-11-04T17:32:10+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "« Bonne nuit, Cédric » : Le tacle de Jake Paul à Doumbè",
+      "url": "https://lasueur.com/bonne-nuit-cedric-le-tacle-de-jake-paul-a-doumbe-04-11-2026",
+      "published_at": "2026-11-04T11:20:40+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"S'il gagne, je raccroche les gants\", Jake Paul promet de prendre sa retraite s'il perd contre Cédric Doumbè",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/s-il-gagne-je-raccroche-les-gants-jake-paul-promet-de-prendre-sa-retraite-s-il-perd-contre-cedric-doumbe_AV-202611040392.html",
+      "published_at": "2026-11-04T09:18:26+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Jake Paul annonce une conséquence radicale en cas de défaite contre Cédric Doumbé",
+      "url": "https://lasueur.com/jake-paul-annonce-une-consequence-radicale-en-cas-de-defaite-contre-cedric-doumbe-03-11-2026",
+      "published_at": "2026-11-03T19:51:00+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Jake Paul promet de “raccrocher les gants” s’il perd face à Cédric Doumbé.",
+      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-promet-de-raccrocher-les-gants-sil-perd-face-a-cedric-doumbe/",
+      "published_at": "2026-11-03T19:32:04+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"Doumbè n'est pas un putain de boxeur\": Darren Till, qui devait affronter Jake Paul, prédit \"un combat bidon\" entre l'Américain et le Français",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/doumbe-n-est-pas-un-putain-de-boxeur-darren-till-qui-devait-affronter-jake-paul-predit-un-combat-bidon-entre-l-americain-et-le-francais_AV-202611030837.html",
+      "published_at": "2026-11-03T18:21:38+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Jake Paul vs. Cédric Doumbé : la première cote dévoilée",
+      "url": "https://lasueur.com/jake-paul-vs-cedric-doumbe-la-premiere-cote-devoilee-03-11-2026",
+      "published_at": "2026-11-03T13:41:25+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Règles du combat Jake Paul contre Cédric Doumbé : poids, rounds et gants pour l’affrontement du réveillon de Noël",
+      "url": "https://boxemag.ouest-france.fr/boxe/regles-du-combat-jake-paul-contre-cedric-doumbe-poids-rounds-et-gants-pour-laffrontement-du-reveillon-de-noel/",
+      "published_at": "2026-11-03T06:58:05+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Deontay Wilder annonce qu’il va affronter Jai opetaia sur la carte Fury-Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/deontay-wilder-annonce-quil-va-affronter-jai-opetaia-sur-la-carte-fury-joshua/",
+      "published_at": "2026-11-03T06:46:51+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"Tu te demandes si certains juges étaient vraiment là\": l'incompréhension de Mbilli après sa défaite contre Canelo Alvarez",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/tu-te-demandes-si-certains-juges-etaient-vraiment-la-l-incomprehension-de-mbilli-apres-sa-defaite-contre-canelo-alvarez_AV-202611020739.html",
+      "published_at": "2026-11-02T16:57:27+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe: \"Arbitré comme un champion, je gagne contre Canelo\" regrette Mbilli",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-boxe-arbitre-comme-un-champion-je-gagne-contre-canelo-regrette-mbilli_VN-202611020673.html",
+      "published_at": "2026-11-02T15:52:54+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Cédric Doumbé annonce la couleur à Jake Paul avant l’affrontement",
+      "url": "https://lasueur.com/cedric-doumbe-annonce-la-couleur-jake-paul-avant-affrontement-2-11-2026",
+      "published_at": "2026-11-02T15:15:00+00:00"
+    },
+    {
+      "publisher": "BoxeNet",
+      "title": "Canelo l’emporte sur Mbilli !",
+      "url": "https://www.boxenet.fr/canelo-lemporte-sur-mbilli/",
+      "published_at": "2026-11-02T14:09:41+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Jake Paul et Cedric Doumbé réagissent à l’annonce de leur combat",
+      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-et-cedric-doumbe-reagissent-a-lannonce-de-leur-combat/",
+      "published_at": "2026-11-02T12:56:56+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Cedric Doumbé affrontera Jake Paul en Boxe le 24 décembre à Dubai",
+      "url": "https://boxemag.ouest-france.fr/boxe/cedric-doumbe-affrontera-jake-paul-en-boxe-le-24-decembre-a-dubai/",
+      "published_at": "2026-11-02T12:45:24+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Jake Paul commence le trash-talk avant son choc avec Doumbè",
+      "url": "https://lasueur.com/jake-paul-commence-le-trash-talk-avant-son-choc-avec-doumbe-02-11-2026",
+      "published_at": "2026-11-02T12:28:27+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Le grand retour de Cédric Doumbè face à Jake Paul se fera en boxe",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/le-grand-retour-de-cedric-doumbe-face-jake-paul-se-fera-en-boxe_AV-202611020513.html",
+      "published_at": "2026-11-02T12:17:20+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Cédric Doumbé de retour face à Jake Paul ! Toutes les infos",
+      "url": "https://lasueur.com/cedric-doumbe-de-retour-face-a-jake-paul-toutes-les-infos-02-11-2026",
+      "published_at": "2026-11-02T12:05:19+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Zuffa Boxing 12: Billam-Smith vs Clarke – Découvrez la carte complète des combats pour samedi",
+      "url": "https://boxemag.ouest-france.fr/boxe/zuffa-boxing-12-billam-smith-vs-clarke-decouvrez-la-carte-complete-des-combats-pour-samedi/",
+      "published_at": "2026-11-02T09:04:06+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Floyd Mayweather Jr. affrontera Matt Floyd le 19 décembre, en vue d’un éventuel affrontement contre Ryan Garcia",
+      "url": "https://boxemag.ouest-france.fr/boxe/floyd-mayweather-jr-affrontera-matt-floyd-le-19-decembre-en-vue-dun-eventuel-affrontement-contre-ryan-garcia/",
+      "published_at": "2026-11-01T19:45:12+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Christian Mbilli publie sa première déclaration après sa défaite contre Canelo Alvarez et la perte de son titre WBC",
+      "url": "https://boxemag.ouest-france.fr/boxe/christian-mbilli-publie-sa-premiere-declaration-apres-sa-defaite-contre-canelo-alvarez-et-la-perte-de-son-titre-wbc/",
+      "published_at": "2026-11-01T18:38:08+00:00"
     },
     {
       "publisher": "Boxemag",
@@ -24,6 +186,12 @@
       "title": "Boxe : \"Canelo était frustré et c'est bon signe\", positive le coach de Mbilli malgré la défaite",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-boxe-canelo-etait-frustre-et-c-est-bon-signe-positive-le-coach-de-mbilli-malgre-la-defaite_VN-202611010272.html",
       "published_at": "2026-11-01T13:17:09+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Canelo Alvarez : la statistique incroyable",
+      "url": "https://lasueur.com/canelo-alvarez-la-statistique-incroyable-01-11-2026",
+      "published_at": "2026-11-01T10:55:12+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -96,247 +264,12 @@
       "title": "Ryan Garcia lance un ultimatum à Floyd Mayweather concernant un combat pour le titre prévu le 6 février",
       "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-lance-un-ultimatum-a-floyd-mayweather-concernant-un-combat-pour-le-titre-prevu-le-6-fevrier/",
       "published_at": "2026-10-31T19:21:42+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Mbilli vs Canelo: Comment regarder le combat en direct à la TV ?",
-      "url": "https://boxemag.ouest-france.fr/boxe/mbilli-vs-canelo-quelle-date-heure-et-chaine-pour-regarder-le-combat-en-direct-a-la-tv/",
-      "published_at": "2026-10-31T19:13:27+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Canelo Alvarez vs Christian Mbilli – Tous les résultats",
-      "url": "https://lasueur.com/canelo-alvarez-vs-christian-mbilli-tous-les-resultats-31-10-2026",
-      "published_at": "2026-10-31T16:42:43+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Salaires: Christian Mbilli va gagner plusieurs millions pour son combat contre Canelo Alavrez",
-      "url": "https://boxemag.ouest-france.fr/boxe/salaires-christian-mbilli-va-gagner-plusieurs-millions-pour-son-combat-contre-canelo-alavrez/",
-      "published_at": "2026-10-31T14:28:40+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Canelo-Mbilli: qui est le favori du combat selon les bookmakers ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-mbilli-qui-est-le-favori-du-combat-selon-les-bookmakers_AV-202610310250.html",
-      "published_at": "2026-10-31T13:14:01+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Canelo Alvarez vs Christian Mbilli : les salaires démentiels dévoilés",
-      "url": "https://lasueur.com/canelo-alvarez-vs-christian-mbilli-les-salaires-dementiels-devoiles-31-10-2026",
-      "published_at": "2026-10-31T10:45:58+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Canelo Alvarez-Christian Mbilli: à quelle heure exacte est prévu le début du combat à Riyad?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-christian-mbilli-a-quelle-heure-exacte-est-prevu-le-debut-du-combat-a-riyad_AV-202610310203.html",
-      "published_at": "2026-10-31T10:36:31+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: Makan Traoré, le titre en pro avant de retourner en boxe olympique?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-makan-traore-le-titre-en-pro-avant-de-retourner-en-boxe-olympique_AN-202610310050.html",
-      "published_at": "2026-10-31T09:00:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "La puissance de faire réfléchir: pourquoi Canelo Alvarez représente un immense défi pour Christian Mbilli",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/la-puissance-de-faire-reflechir-pourquoi-canelo-alvarez-represente-un-immense-defi-pour-christian-mbilli_AV-202610310044.html",
-      "published_at": "2026-10-31T07:15:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: comment Christian Mbilli, non médaillé à Rio 2016, est devenu le fer de lance de la Team Solide chez les pros",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-comment-christian-mbilli-non-medaille-a-rio-2016-est-devenu-le-fer-de-lance-de-la-team-solide-chez-les-pros_AV-202610310008.html",
-      "published_at": "2026-10-31T06:05:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Canelo Alvarez - Christian Mbilli : sur quelle chaîne TV et à quelle heure regarder le combat de boxe en direct ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-christian-mbilli-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-combat-de-boxe-en-direct_AN-202610310039.html",
-      "published_at": "2026-10-31T05:10:00+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Résultats en direct : Canelo Alvarez affronte Christian Mbilli pour le titre WBC",
-      "url": "https://boxemag.ouest-france.fr/boxe/resultats-en-direct-canelo-alvarez-affronte-christian-mbilli-pour-le-titre-wbc/",
-      "published_at": "2026-10-31T04:19:45+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"Une question de réputation\": pourquoi l’Arabie saoudite a maintenu le combat Canelo-Mbilli malgré les tensions ?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/une-question-de-reputation-pourquoi-l-arabie-saoudite-a-maintenu-le-combat-canelo-mbilli-malgre-les-tensions_AV-202610310062.html",
-      "published_at": "2026-10-31T00:02:11+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: les images de pesée et du face à face entre Christian Mbilli et Canelo Alvarez avant le combat choc à Riyad",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-les-images-de-pesee-et-du-face-a-face-entre-christian-mbilli-et-canelo-alvarez-avant-le-combat-choc-a-riyad_AV-202610300948.html",
-      "published_at": "2026-10-30T22:33:59+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Christian Mbilli face à Canelo Alvarez : le combat d’une vie !",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-christian-mbilli-face-a-canelo-alvarez-le-combat-d-une-vie_VN-202610300706.html",
-      "published_at": "2026-10-30T16:25:53+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Canelo Alvarez vs. Christian Mbili : le combat de boxe le plus attendu de ce mois d’octobre à suivre en streaming et en direct via ce lien",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-vs-christian-mbili-le-combat-de-boxe-le-plus-attendu-de-ce-mois-d-octobre-a-suivre-en-streaming-et-en-direct-via-ce-lien_AB-202610300055.html",
-      "published_at": "2026-10-30T15:15:00+00:00"
-    },
-    {
-      "publisher": "BoxeNet",
-      "title": "Christian Mbilli fin prêt pour son grand rendez-vous contre Canelo !",
-      "url": "https://www.boxenet.fr/christian-mbilli-fin-pret-pour-son-grand-rendez-vous-contre-canelo/",
-      "published_at": "2026-10-30T12:33:40+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: pourquoi Saul Alvarez, l'adversaire de Christian Mbilli, est surnommé \"Canelo\"",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-pourquoi-saul-alvarez-l-adversaire-de-christian-mbilli-est-surnomme-canelo_AV-202610300475.html",
-      "published_at": "2026-10-30T11:54:34+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Canelo Alvarez-Christian Mbilli en streaming: comment regarder le combat de boxe en direct ce samedi?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/canelo-alvarez-christian-mbilli-en-streaming-comment-regarder-le-combat-de-boxe-en-direct-ce-samedi_AN-202610300058.html",
-      "published_at": "2026-10-30T09:30:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: Christian Mbilli, ce qui se cache derrière le monstre de pression et de puissance",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-christian-mbilli-ce-qui-se-cache-derriere-le-monstre-de-pression-et-de-puissance_AV-202610300050.html",
-      "published_at": "2026-10-30T07:05:00+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: \"Choquer le monde entier\", Mbilli envoie un message fort avant son combat contre Canelo Alvarez",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-choquer-le-monde-entier-mbilli-envoie-un-message-fort-avant-son-combat-contre-canelo-alvarez_AV-202610290947.html",
-      "published_at": "2026-10-29T21:14:52+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Fedor Emelianenko « rêve » d’affronter Francis Ngannou",
-      "url": "https://lasueur.com/fedor-emelianenko-reve-affronter-francis-ngannou-29-10-2026",
-      "published_at": "2026-10-29T16:44:42+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jake Paul annonce la date et le lieu de son retour sur le ring : “Quelqu’un va se faire mettre KO”",
-      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-annonce-la-date-et-le-lieu-de-son-retour-sur-le-ring-quelquun-va-se-faire-mettre-ko/",
-      "published_at": "2026-10-29T16:40:08+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: \"On aurait pu rester bloqués quelque part\", les proches de Mbilli ne pourront pas assister au combat contre Canelo en Arabie saoudite",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-on-aurait-pu-rester-bloques-quelque-part-les-proches-de-mbilli-ne-pourront-pas-assister-au-combat-contre-canelo-en-arabie-saoudite_AV-202610290685.html",
-      "published_at": "2026-10-29T16:31:52+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Fedor Emelianenko réagit aux rumeurs d’un combat contre Francis Ngannou",
-      "url": "https://boxemag.ouest-france.fr/boxe/fedor-emelianenko-reagit-aux-rumeurs-dun-combat-contre-francis-ngannou/",
-      "published_at": "2026-10-29T16:31:02+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Les supers ceintures",
-      "url": "https://www.ffboxe.com/les-supers-ceintures/",
-      "published_at": "2026-10-29T16:07:11+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Christian Mbilli en totale confiance pour son combat contre Canelo Alvarez, ce samedi à Riyad, en Arabie saoudite.",
-      "url": "https://boxemag.ouest-france.fr/boxe/christian-mbilli-en-total-confiance-pour-son-combat-contre-canelo-alvarez-ce-samedi-a-riyad-en-arabie-saoudite/",
-      "published_at": "2026-10-29T10:45:06+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"C’est comme s'ils avaient gagné au loto\": Canelo Alvarez, le boxeur qui rend ses adversaires multimillionaires",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/c-est-comme-s-ils-avaient-gagne-au-loto-canelo-alvarez-le-boxeur-qui-rend-ses-adversaires-multimillionaires_AV-202610290001.html",
-      "published_at": "2026-10-29T07:05:00+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jake Paul souhaite une revanche avec Anthony Joshua, malgré sa brutale défaite par KO",
-      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-souhaite-une-revanche-avec-anthony-joshua-malgre-sa-brutale-defaite-par-ko/",
-      "published_at": "2026-10-28T17:50:44+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Christian MBilli aux portes du paradis",
-      "url": "https://www.ffboxe.com/christian-mbilli-aux-portes-du-paradis/",
-      "published_at": "2026-10-28T17:23:04+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Voyage reporté, sécurité drastique, bruits de missiles: comment Christian Mbilli s'adapte à la situation saoudienne à quelques jours de son combat contre Alvarez",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/voyage-reporte-securite-drastique-bruits-de-missiles-comment-christian-mbilli-s-adapte-a-la-situation-saoudienne-a-quelques-jours-de-son-combat-contre-alvarez_AV-202610280643.html",
-      "published_at": "2026-10-28T15:15:19+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Canelo Alvarez vs Christian Mbilli : Quelle heure ? Quelle chaîne ?",
-      "url": "https://lasueur.com/canelo-alvarez-vs-christian-mbilli-quelle-heure-quelle-chaine-28-10-2026",
-      "published_at": "2026-10-28T13:13:30+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Boxe: Mbilli-Canelo, le combat le plus important pour la France au 21e siècle?",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/l-edito-de-baba-pourquoi-christian-mbilli-peut-marquer-l-histoire-de-la-boxe-francaise-face-a-canelo_AV-202610280050.html",
-      "published_at": "2026-10-28T08:05:00+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Melina Ainaoui conserve sa ceinture",
-      "url": "https://www.ffboxe.com/melina-ainaoui-conserve-sa-ceinture/",
-      "published_at": "2026-10-27T14:45:34+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Isis Pizagou-Logerie fait son chemin",
-      "url": "https://www.ffboxe.com/isis-pizagou-logerie-fait-son-chemin/",
-      "published_at": "2026-10-27T13:12:10+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Romane Moulai élue à la Commission des Sportifs de Haut-niveau",
-      "url": "https://www.ffboxe.com/romane-moulai-elue-a-la-commission-des-sportifs-de-haut-niveau/",
-      "published_at": "2026-10-27T10:29:13+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Canelo-Mbilli: Découvrez la carte complète des combats prévus pour samedi en Arabie Saoudite",
-      "url": "https://boxemag.ouest-france.fr/boxe/canelo-mbilli-decouvrez-la-carte-complete-des-combats-prevus-pour-samedi-en-arabie-saoudite/",
-      "published_at": "2026-10-27T06:00:28+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Devin Haney contre Liam Paro prévu le 19 décembre pour l’unification des ceintures WBO et IBF",
-      "url": "https://boxemag.ouest-france.fr/boxe/devin-haney-contre-liam-paro-prevu-le-19-decembre-pour-lunification-des-ceintures-wbo-et-ibf/",
-      "published_at": "2026-10-27T05:30:54+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Tyson Fury écarte l’idée d’une retraite et pourrait signer un contrat pour “10 combats supplémentaires”",
-      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-ecarte-lidee-dune-retraite-et-pourrait-signer-un-contrat-pour-10-combats-supplementaires/",
-      "published_at": "2026-10-27T05:28:01+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Vasiliy Lomachenko annonce son retour et vise O’Shaquie Foster",
-      "url": "https://boxemag.ouest-france.fr/boxe/vasiliy-lomachenko-annonce-son-retour-et-vise-oshaquie-foster/",
-      "published_at": "2026-10-26T17:31:36+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Dana White révèle pourquoi Shakur Stevenson a été libéré si rapidement de Zuffa Boxing",
-      "url": "https://boxemag.ouest-france.fr/boxe/dana-white-revele-pourquoi-shakur-stevenson-a-ete-libere-si-rapidement-de-zuffa-boxing/",
-      "published_at": "2026-10-26T17:21:21+00:00"
     }
   ],
-  "unavailable_feeds": []
+  "unavailable_feeds": [
+    {
+      "publisher": "FFBoxe",
+      "error": "HTTPError"
+    }
+  ]
 }
