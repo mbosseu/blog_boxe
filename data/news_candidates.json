@@ -1,18 +1,6 @@
 {
   "items": [
     {
-      "publisher": "Boxemag",
-      "title": "Conor Benn révèle avoir reçu une offre pour affronter Manny Pacquiao, le combat est envisagé pour 2027",
-      "url": "https://boxemag.ouest-france.fr/boxe/conor-benn-revele-avoir-recu-une-offre-pour-affronter-manny-pacquiao-le-combat-est-envisage-pour-2027/",
-      "published_at": "2026-11-06T17:51:14+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Tyson Fury s’inquiète pour Deontay Wilder, affirmant qu’il est “totalement usé” avant son combat contre Jai Opetaia.",
-      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-sinquiete-pour-deontay-wilder-affirmant-quil-est-totalement-use-avant-son-combat-contre-jai-opetaia/",
-      "published_at": "2026-11-06T17:25:53+00:00"
-    },
-    {
       "publisher": "FFBoxe",
       "title": "Younes Mehidi a frappé un grand coup",
       "url": "https://www.ffboxe.com/younes-mehidi-a-frappe-un-grand-coup/",
@@ -29,36 +17,6 @@
       "title": "Dominique Nato fait Chevalier de la Légion d’honneur",
       "url": "https://www.ffboxe.com/dominique-nato-fait-chevalier-de-la-legion-dhonneur/",
       "published_at": "2026-11-06T13:17:23+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Le combat Devin Haney-Liam Paro est officialisé pour le 19 décembre à San Francisco",
-      "url": "https://boxemag.ouest-france.fr/boxe/le-combat-devin-haney-liam-paro-est-officialise-pour-le-19-decembre-a-san-francisco/",
-      "published_at": "2026-11-06T10:33:41+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jkitou vs Corzo: Découvrez la carte complète des combats prévus pour vendredi 13 au Clichy Hall",
-      "url": "https://boxemag.ouest-france.fr/boxe/jkitou-vs-corzo-decouvrez-la-carte-complete-des-combats-prevus-pour-vendredi-au-clichy-hall/",
-      "published_at": "2026-11-05T10:15:50+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Darren Till tacle Jake Paul après l’annonce du combat contre Cédric Doumbé",
-      "url": "https://boxemag.ouest-france.fr/boxe/darren-till-tacle-jake-paul-apres-lannonce-du-combat-contre-cedric-doumbe/",
-      "published_at": "2026-11-05T09:54:00+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Vasiliy Lomachenko contre Charly Suarez en finalisation pour le 13 février",
-      "url": "https://boxemag.ouest-france.fr/boxe/vasiliy-lomachenko-contre-charly-suarez-en-finalisation-pour-le-13-fevrier/",
-      "published_at": "2026-11-04T17:49:30+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "“Peut-être un de plus”: Terence Crawford interpelle Ryan Garcia alors qu’il envisage un ultime combat",
-      "url": "https://boxemag.ouest-france.fr/boxe/peut-etre-un-de-plus-terence-crawford-interpelle-ryan-garcia-alors-quil-envisage-un-ultime-combat/",
-      "published_at": "2026-11-04T17:32:10+00:00"
     },
     {
       "publisher": "FFBoxe",
@@ -83,12 +41,6 @@
       "title": "Jake Paul annonce une conséquence radicale en cas de défaite contre Cédric Doumbé",
       "url": "https://lasueur.com/jake-paul-annonce-une-consequence-radicale-en-cas-de-defaite-contre-cedric-doumbe-03-11-2026",
       "published_at": "2026-11-03T19:51:00+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jake Paul promet de “raccrocher les gants” s’il perd face à Cédric Doumbé.",
-      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-promet-de-raccrocher-les-gants-sil-perd-face-a-cedric-doumbe/",
-      "published_at": "2026-11-03T19:32:04+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -139,18 +91,6 @@
       "published_at": "2026-11-03T13:41:25+00:00"
     },
     {
-      "publisher": "Boxemag",
-      "title": "Règles du combat Jake Paul contre Cédric Doumbé : poids, rounds et gants pour l’affrontement du réveillon de Noël",
-      "url": "https://boxemag.ouest-france.fr/boxe/regles-du-combat-jake-paul-contre-cedric-doumbe-poids-rounds-et-gants-pour-laffrontement-du-reveillon-de-noel/",
-      "published_at": "2026-11-03T06:58:05+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Deontay Wilder annonce qu’il va affronter Jai opetaia sur la carte Fury-Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/deontay-wilder-annonce-quil-va-affronter-jai-opetaia-sur-la-carte-fury-joshua/",
-      "published_at": "2026-11-03T06:46:51+00:00"
-    },
-    {
       "publisher": "RMC Sport",
       "title": "\"Tu te demandes si certains juges étaient vraiment là\": l'incompréhension de Mbilli après sa défaite contre Canelo Alvarez",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/tu-te-demandes-si-certains-juges-etaient-vraiment-la-l-incomprehension-de-mbilli-apres-sa-defaite-contre-canelo-alvarez_AV-202611020739.html",
@@ -175,18 +115,6 @@
       "published_at": "2026-11-02T14:09:41+00:00"
     },
     {
-      "publisher": "Boxemag",
-      "title": "Jake Paul et Cedric Doumbé réagissent à l’annonce de leur combat",
-      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-et-cedric-doumbe-reagissent-a-lannonce-de-leur-combat/",
-      "published_at": "2026-11-02T12:56:56+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Cedric Doumbé affrontera Jake Paul en Boxe le 24 décembre à Dubai",
-      "url": "https://boxemag.ouest-france.fr/boxe/cedric-doumbe-affrontera-jake-paul-en-boxe-le-24-decembre-a-dubai/",
-      "published_at": "2026-11-02T12:45:24+00:00"
-    },
-    {
       "publisher": "La Sueur",
       "title": "Jake Paul commence le trash-talk avant son choc avec Doumbè",
       "url": "https://lasueur.com/jake-paul-commence-le-trash-talk-avant-son-choc-avec-doumbe-02-11-2026",
@@ -203,30 +131,6 @@
       "title": "Cédric Doumbé de retour face à Jake Paul ! Toutes les infos",
       "url": "https://lasueur.com/cedric-doumbe-de-retour-face-a-jake-paul-toutes-les-infos-02-11-2026",
       "published_at": "2026-11-02T12:05:19+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Zuffa Boxing 12: Billam-Smith vs Clarke – Découvrez la carte complète des combats pour samedi",
-      "url": "https://boxemag.ouest-france.fr/boxe/zuffa-boxing-12-billam-smith-vs-clarke-decouvrez-la-carte-complete-des-combats-pour-samedi/",
-      "published_at": "2026-11-02T09:04:06+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Floyd Mayweather Jr. affrontera Matt Floyd le 19 décembre, en vue d’un éventuel affrontement contre Ryan Garcia",
-      "url": "https://boxemag.ouest-france.fr/boxe/floyd-mayweather-jr-affrontera-matt-floyd-le-19-decembre-en-vue-dun-eventuel-affrontement-contre-ryan-garcia/",
-      "published_at": "2026-11-01T19:45:12+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Christian Mbilli publie sa première déclaration après sa défaite contre Canelo Alvarez et la perte de son titre WBC",
-      "url": "https://boxemag.ouest-france.fr/boxe/christian-mbilli-publie-sa-premiere-declaration-apres-sa-defaite-contre-canelo-alvarez-et-la-perte-de-son-titre-wbc/",
-      "published_at": "2026-11-01T18:38:08+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Canelo Alvarez s’exprime sur une éventuelle revanche contre Terence Crawford après avoir reconquis un titre mondial face à Mbilli",
-      "url": "https://boxemag.ouest-france.fr/boxe/canelo-alvarez-sexprime-sur-une-eventuelle-revanche-contre-terence-crawford-apres-avoir-reconquis-un-titre-mondial-face-a-mbilli/",
-      "published_at": "2026-11-01T16:07:51+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -277,18 +181,6 @@
       "published_at": "2026-10-31T23:41:47+00:00"
     },
     {
-      "publisher": "Boxemag",
-      "title": "Résumé Video: Canelo Alvarez vs Christian Mbilli pour le championnat du monde WBC",
-      "url": "https://boxemag.ouest-france.fr/boxe/resume-video-canelo-alvarez-vs-christian-mbilli-pour-le-championnat-du-monde-wbc/",
-      "published_at": "2026-10-31T23:21:24+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Canelo récupère le titre WBC grâce à une victoire nette face à Christian Mbilli",
-      "url": "https://boxemag.ouest-france.fr/boxe/canelo-recupere-le-titre-wbc-grace-a-une-victoire-nette-face-a-christian-mbilli/",
-      "published_at": "2026-10-31T23:06:37+00:00"
-    },
-    {
       "publisher": "RMC Sport",
       "title": "Boxe : Mbilli battu aux points par Canelo, le débrief de Asloum et Moscato",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-boxe-mbilli-battu-aux-points-par-canelo-le-debrief-de-asloum-et-moscato_VN-202610310400.html",
@@ -307,23 +199,16 @@
       "published_at": "2026-10-31T22:51:58+00:00"
     },
     {
-      "publisher": "Boxemag",
-      "title": "Canelo vs Mbilli Vidéo: Bek Nurmaganbet met Marcos Vazquez KO de manière brutale",
-      "url": "https://boxemag.ouest-france.fr/boxe/canelo-vs-mbilli-video-bek-nurmaganbet-met-marcos-vazquez-ko-de-maniere-brutale/",
-      "published_at": "2026-10-31T19:36:55+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Ryan Garcia lance un ultimatum à Floyd Mayweather concernant un combat pour le titre prévu le 6 février",
-      "url": "https://boxemag.ouest-france.fr/boxe/ryan-garcia-lance-un-ultimatum-a-floyd-mayweather-concernant-un-combat-pour-le-titre-prevu-le-6-fevrier/",
-      "published_at": "2026-10-31T19:21:42+00:00"
-    },
-    {
       "publisher": "La Sueur",
       "title": "Canelo Alvarez vs Christian Mbilli – Tous les résultats",
       "url": "https://lasueur.com/canelo-alvarez-vs-christian-mbilli-tous-les-resultats-31-10-2026",
       "published_at": "2026-10-31T16:42:43+00:00"
     }
   ],
-  "unavailable_feeds": []
+  "unavailable_feeds": [
+    {
+      "publisher": "Boxemag",
+      "error": "HTTPError"
+    }
+  ]
 }
