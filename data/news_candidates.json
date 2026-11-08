@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "publisher": "RMC Sport",
+      "title": "Boxe: le Français Mourad Aliev confirme qu'il a bien gagné la ceinture WBC Silver des lourds après l'énorme bagarre générale",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-francais-mourad-aliev-confirme-qu-il-a-bien-gagne-la-ceinture-wbc-silver-des-lourds-apres-l-enorme-bagarre-generale_AV-202611080266.html",
+      "published_at": "2026-11-08T13:09:43+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe: les images folles du Français Mourad Aliev, lynché sur le ring par un public turc hystérique après le combat",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-les-images-folles-du-francais-mourad-aliev-lynche-sur-le-ring-par-un-public-turc-hysterique-apres-le-combat_AV-202611080144.html",
+      "published_at": "2026-11-08T09:05:58+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Une BAGARRE GÉNÉRALE éclate après le combat entre Mourad Aliev et Umut Çamkıran !",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-une-bagarre-generale-eclate-apres-le-combat-entre-mourad-aliev-et-umut-camk-ran_VN-202611080140.html",
+      "published_at": "2026-11-08T08:45:47+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Résumé Vidéo du combat Willy Hutchinson vs Joshua Buatsi 2",
       "url": "https://boxemag.ouest-france.fr/boxe/resume-video-du-combat-willy-hutchinson-vs-joshua-buatsi-2/",
@@ -239,12 +257,6 @@
       "title": "Christian Mbilli publie sa première déclaration après sa défaite contre Canelo Alvarez et la perte de son titre WBC",
       "url": "https://boxemag.ouest-france.fr/boxe/christian-mbilli-publie-sa-premiere-declaration-apres-sa-defaite-contre-canelo-alvarez-et-la-perte-de-son-titre-wbc/",
       "published_at": "2026-11-01T18:38:08+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Canelo Alvarez s’exprime sur une éventuelle revanche contre Terence Crawford après avoir reconquis un titre mondial face à Mbilli",
-      "url": "https://boxemag.ouest-france.fr/boxe/canelo-alvarez-sexprime-sur-une-eventuelle-revanche-contre-terence-crawford-apres-avoir-reconquis-un-titre-mondial-face-a-mbilli/",
-      "published_at": "2026-11-01T16:07:51+00:00"
     }
   ],
   "unavailable_feeds": []
