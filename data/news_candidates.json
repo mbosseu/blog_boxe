@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Résultats des pros Français du week-end (07/11/2026)",
+      "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-07-11-2026/",
+      "published_at": "2026-11-08T18:03:45+00:00"
+    },
+    {
       "publisher": "RMC Sport",
       "title": "Boxe: le Français Mourad Aliev confirme qu'il a bien gagné la ceinture WBC Silver des lourds après l'énorme bagarre générale",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-le-francais-mourad-aliev-confirme-qu-il-a-bien-gagne-la-ceinture-wbc-silver-des-lourds-apres-l-enorme-bagarre-generale_AV-202611080266.html",
@@ -163,12 +169,6 @@
       "published_at": "2026-11-03T15:30:39+00:00"
     },
     {
-      "publisher": "FFBoxe",
-      "title": "1/4 et 1/2 de finales - CFA seniors 2027",
-      "url": "https://www.ffboxe.com/1-4-et-1-2-de-finales-cfa-seniors-2027/",
-      "published_at": "2026-11-03T15:26:06+00:00"
-    },
-    {
       "publisher": "La Sueur",
       "title": "Jake Paul vs. Cédric Doumbé : la première cote dévoilée",
       "url": "https://lasueur.com/jake-paul-vs-cedric-doumbe-la-premiere-cote-devoilee-03-11-2026",
@@ -251,12 +251,6 @@
       "title": "Floyd Mayweather Jr. affrontera Matt Floyd le 19 décembre, en vue d’un éventuel affrontement contre Ryan Garcia",
       "url": "https://boxemag.ouest-france.fr/boxe/floyd-mayweather-jr-affrontera-matt-floyd-le-19-decembre-en-vue-dun-eventuel-affrontement-contre-ryan-garcia/",
       "published_at": "2026-11-01T19:45:12+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Christian Mbilli publie sa première déclaration après sa défaite contre Canelo Alvarez et la perte de son titre WBC",
-      "url": "https://boxemag.ouest-france.fr/boxe/christian-mbilli-publie-sa-premiere-declaration-apres-sa-defaite-contre-canelo-alvarez-et-la-perte-de-son-titre-wbc/",
-      "published_at": "2026-11-01T18:38:08+00:00"
     }
   ],
   "unavailable_feeds": []
