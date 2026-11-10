@@ -1,10 +1,40 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Shanon Cabane défaite aux JOJ de Dakar 2026",
+      "url": "https://www.ffboxe.com/shanon-cabane-defaite-aux-joj-de-dakar-2026/",
+      "published_at": "2026-11-10T11:27:58+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Video Doumbe vs Paul – Regardez la première conférence de presse en direct de Paris",
+      "url": "https://boxemag.ouest-france.fr/boxe/video-doumbe-vs-paul-regardez-la-premiere-conference-de-presse-en-direct-de-paris/",
+      "published_at": "2026-11-10T07:49:39+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Zuffa Boxing 13: Découvrez la carte des combats complète avec Bruno Surace",
+      "url": "https://boxemag.ouest-france.fr/boxe/zuffa-boxing-13-decouvrez-la-carte-des-combats-complete-avec-bruno-surace/",
+      "published_at": "2026-11-10T07:25:14+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Japhet Mwanjwango Paul champion de France des super-coqs",
+      "url": "https://www.ffboxe.com/japhet-mwanjwango-paul-champion-de-france-des-super-coqs/",
+      "published_at": "2026-11-09T21:35:59+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Floyd Mayweather veut un “grand combat” en 2027 et cite quatre adversaires potentiels",
       "url": "https://boxemag.ouest-france.fr/boxe/floyd-mayweather-veut-un-grand-combat-en-2027-et-cite-quatre-adversaires-potentiels/",
       "published_at": "2026-11-09T17:43:13+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"Le pire gonflement que j’ai vu sur un ring\": les images terrifiantes du visage totalement déformé d'un boxeur anglais",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/le-pire-gonflement-que-j-ai-vu-sur-un-ring-les-images-terrifiantes-du-visage-totalement-deforme-d-un-boxeur-anglais_AV-202611090710.html",
+      "published_at": "2026-11-09T16:41:28+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -167,36 +197,6 @@
       "title": "Critériums BEA Masculins 2027",
       "url": "https://www.ffboxe.com/criteriums-bea-masculins-2027/",
       "published_at": "2026-11-03T15:51:40+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Finales Femmes - CFA seniors 2027",
-      "url": "https://www.ffboxe.com/finales-femmes-cfa-seniors-2027/",
-      "published_at": "2026-11-03T15:37:04+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Finales Hommes - CFA seniors 2027",
-      "url": "https://www.ffboxe.com/finales-hommes-cfa-seniors-2027/",
-      "published_at": "2026-11-03T15:30:39+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Jake Paul vs. Cédric Doumbé : la première cote dévoilée",
-      "url": "https://lasueur.com/jake-paul-vs-cedric-doumbe-la-premiere-cote-devoilee-03-11-2026",
-      "published_at": "2026-11-03T13:41:25+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Règles du combat Jake Paul contre Cédric Doumbé : poids, rounds et gants pour l’affrontement du réveillon de Noël",
-      "url": "https://boxemag.ouest-france.fr/boxe/regles-du-combat-jake-paul-contre-cedric-doumbe-poids-rounds-et-gants-pour-laffrontement-du-reveillon-de-noel/",
-      "published_at": "2026-11-03T06:58:05+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Deontay Wilder annonce qu’il va affronter Jai opetaia sur la carte Fury-Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/deontay-wilder-annonce-quil-va-affronter-jai-opetaia-sur-la-carte-fury-joshua/",
-      "published_at": "2026-11-03T06:46:51+00:00"
     }
   ],
   "unavailable_feeds": []
