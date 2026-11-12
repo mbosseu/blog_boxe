@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Jaron Ennis contre Josh Kelly confirmé pour le 27 février à Atlanta",
+      "url": "https://boxemag.ouest-france.fr/boxe/jaron-ennis-contre-josh-kelly-confirme-pour-le-27-fevrier-a-atlanta/",
+      "published_at": "2026-11-12T15:36:48+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Bilel Jkitou est fin prêt",
+      "url": "https://www.ffboxe.com/bilel-jkitou-est-fin-pret/",
+      "published_at": "2026-11-12T13:24:39+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Les Bleu(e)s à l'EURO U23",
+      "url": "https://www.ffboxe.com/les-bleues-a-leuro-u23/",
+      "published_at": "2026-11-12T11:00:00+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Bakole–Adebayo et Vanhouter–Essomba s’ajoutent à la carte Fury–Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/bakole-adebayo-et-vanhouter-essomba-sajoutent-a-la-carte-fury-joshua/",
+      "published_at": "2026-11-11T21:48:46+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"Il explique ne ressentir aucune douleur\": le boxeur au visage défiguré rassure sur son état",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/il-explique-ne-ressentir-aucune-douleur-le-boxeur-au-visage-defigure-rassure-sur-son-etat_AV-202611110705.html",
+      "published_at": "2026-11-11T18:39:01+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Yoni Valverde s’est parfaitement relancé",
       "url": "https://www.ffboxe.com/yoni-valverde-sest-parfaitement-relance/",
@@ -203,18 +233,6 @@
       "title": "« Il ne devrait même pas s’en approcher » : Tyson Fury s’inquiète pour Deontay Wilder",
       "url": "https://lasueur.com/il-ne-devrait-meme-pas-sen-approcher-tyson-fury-sinquiete-pour-deontay-wilder-06-11-2026",
       "published_at": "2026-11-06T08:05:28+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jkitou vs Corzo: Découvrez la carte complète des combats prévus pour vendredi 13 au Clichy Hall",
-      "url": "https://boxemag.ouest-france.fr/boxe/jkitou-vs-corzo-decouvrez-la-carte-complete-des-combats-prevus-pour-vendredi-au-clichy-hall/",
-      "published_at": "2026-11-05T10:15:50+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Darren Till tacle Jake Paul après l’annonce du combat contre Cédric Doumbé",
-      "url": "https://boxemag.ouest-france.fr/boxe/darren-till-tacle-jake-paul-apres-lannonce-du-combat-contre-cedric-doumbe/",
-      "published_at": "2026-11-05T09:54:00+00:00"
     }
   ],
   "unavailable_feeds": []
