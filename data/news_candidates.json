@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "publisher": "RMC Sport",
+      "title": "Bakary Samaké",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/bakary-samake_DN-202510310428.html",
+      "published_at": "2026-11-13T17:55:35+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "Boxe: \"Revenir et mettre les points sur les i\", Samaké face au \"gros défi\" Uisma Lima pour se relancer",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-revenir-et-mettre-les-points-sur-les-i-samake-face-au-gros-defi-uisma-lima-pour-se-relancer_AV-202611130742.html",
+      "published_at": "2026-11-13T17:55:34+00:00"
+    },
+    {
+      "publisher": "BoxeNet",
+      "title": "Bazinyan retrouve la victoire !",
+      "url": "https://www.boxenet.fr/bazinyan-retrouve-la-victoire/",
+      "published_at": "2026-11-13T16:27:34+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Sport 2027 : le manifeste",
       "url": "https://www.ffboxe.com/sport-2027-le-manifeste/",
@@ -221,18 +239,6 @@
       "title": "Un combat surprise de dernière minute: Tony Yoka vainqueur dans l'anonymat à Manchester",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/un-combat-surprise-de-derniere-minute-tony-yoka-vainqueur-dans-l-anonymat-a-manchester_AV-202611070472.html",
       "published_at": "2026-11-07T18:28:27+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Conor Benn révèle avoir reçu une offre pour affronter Manny Pacquiao, le combat est envisagé pour 2027",
-      "url": "https://boxemag.ouest-france.fr/boxe/conor-benn-revele-avoir-recu-une-offre-pour-affronter-manny-pacquiao-le-combat-est-envisage-pour-2027/",
-      "published_at": "2026-11-06T17:51:14+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Tyson Fury s’inquiète pour Deontay Wilder, affirmant qu’il est “totalement usé” avant son combat contre Jai Opetaia.",
-      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-sinquiete-pour-deontay-wilder-affirmant-quil-est-totalement-use-avant-son-combat-contre-jai-opetaia/",
-      "published_at": "2026-11-06T17:25:53+00:00"
     }
   ],
   "unavailable_feeds": []
