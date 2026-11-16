@@ -2,6 +2,12 @@
   "items": [
     {
       "publisher": "FFBoxe",
+      "title": "Résultats des pros Français du week-end (14/11/2026)",
+      "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-14-11-2026/",
+      "published_at": "2026-11-15T20:14:31+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
       "title": "Mustapha Zaouche, enfin !",
       "url": "https://www.ffboxe.com/mustapha-zaouche-enfin/",
       "published_at": "2026-11-15T17:38:22+00:00"
@@ -163,12 +169,6 @@
       "published_at": "2026-11-12T15:36:48+00:00"
     },
     {
-      "publisher": "FFBoxe",
-      "title": "Bilel Jkitou est fin prêt",
-      "url": "https://www.ffboxe.com/bilel-jkitou-est-fin-pret/",
-      "published_at": "2026-11-12T13:24:39+00:00"
-    },
-    {
       "publisher": "Boxemag",
       "title": "Bakole–Adebayo et Vanhouter–Essomba s’ajoutent à la carte Fury–Joshua",
       "url": "https://boxemag.ouest-france.fr/boxe/bakole-adebayo-et-vanhouter-essomba-sajoutent-a-la-carte-fury-joshua/",
@@ -275,18 +275,6 @@
       "title": "Floyd Mayweather veut un “grand combat” en 2027 et cite quatre adversaires potentiels",
       "url": "https://boxemag.ouest-france.fr/boxe/floyd-mayweather-veut-un-grand-combat-en-2027-et-cite-quatre-adversaires-potentiels/",
       "published_at": "2026-11-09T17:43:13+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"Le pire gonflement que j’ai vu sur un ring\": les images terrifiantes du visage totalement déformé d'un boxeur anglais",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/le-pire-gonflement-que-j-ai-vu-sur-un-ring-les-images-terrifiantes-du-visage-totalement-deforme-d-un-boxeur-anglais_AV-202611090710.html",
-      "published_at": "2026-11-09T16:41:28+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"Il n'y a pas de place pour la division entre nous\", le boxeur français Mourad Aliev appelle à l'union après avoir été lynché par le public turc",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/il-n-y-a-pas-de-place-pour-la-division-entre-nous-le-boxeur-francais-mourad-aliev-appelle-a-l-union-apres-avoir-ete-lynche-par-le-public-turc_AV-202611090308.html",
-      "published_at": "2026-11-09T07:58:51+00:00"
     }
   ],
   "unavailable_feeds": []
