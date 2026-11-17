@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "RMC Sport",
+      "title": "Il avait 31 ans: un boxeur irlandais meurt après trois mois de coma à la suite d'un combat",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-un-boxeur-irlandais-meurt-a-31-ans-apres-trois-mois-de-coma-a-cause-d-un-combat_AV-202611170608.html",
+      "published_at": "2026-11-17T13:45:16+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"Quelle folie!\", Jorge Linares, ancien champion du monde de boxe, a été arrêté par l'ICE aux Eats-Unis",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/quelle-folie-jorge-linares-ancien-champion-du-monde-de-boxe-a-ete-arrete-par-l-ice-aux-eats-unis_AV-202611170174.html",
+      "published_at": "2026-11-17T05:57:11+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Résultats des pros Français du week-end (14/11/2026)",
       "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-14-11-2026/",
@@ -257,18 +269,6 @@
       "title": "Jake Paul-Cédric Doumbè: revivez la conférence de presse parisienne avant le grand combat de boxe",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/direct-jake-paul-cedric-doumbe-suivez-en-live-la-conference-de-presse-parisienne-avant-le-grand-combat-de-boxe_LN-202611100688.html",
       "published_at": "2026-11-10T17:43:17+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Video Doumbe vs Paul – Regardez la première conférence de presse en direct de Paris",
-      "url": "https://boxemag.ouest-france.fr/boxe/video-doumbe-vs-paul-regardez-la-premiere-conference-de-presse-en-direct-de-paris/",
-      "published_at": "2026-11-10T07:49:39+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Zuffa Boxing 13: Découvrez la carte des combats complète avec Bruno Surace",
-      "url": "https://boxemag.ouest-france.fr/boxe/zuffa-boxing-13-decouvrez-la-carte-des-combats-complete-avec-bruno-surace/",
-      "published_at": "2026-11-10T07:25:14+00:00"
     }
   ],
   "unavailable_feeds": []
