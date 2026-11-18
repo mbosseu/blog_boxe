@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Jarrell Miller a été contacté pour affronter Deontay Wilder en marge du combat Joshua-Fury",
+      "url": "https://boxemag.ouest-france.fr/boxe/jarrell-miller-a-ete-contacte-pour-affronter-deontay-wilder-en-marge-du-combat-joshua-fury/",
+      "published_at": "2026-11-18T16:07:03+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "La championne olympique de boxe Estelle Mossely s'engage dans la campagne présidentielle d'Edouard Philippe",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/la-championne-olympique-de-boxe-estelle-mossely-s-engage-dans-la-campagne-presidentielle-d-edouard-philippe_AV-202611180705.html",
+      "published_at": "2026-11-18T15:15:20+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Djamel Djemmal lance les siens",
+      "url": "https://www.ffboxe.com/djamel-djemmal-lance-les-siens/",
+      "published_at": "2026-11-17T19:27:00+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Rumeur : Jai Opetaia s’est retiré du combat contre Deontay Wilder, prévu lors du choc Fury-Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/rumeur-jai-opetaia-sest-retire-du-combat-contre-deontay-wilder-prevu-lors-du-choc-fury-joshua/",
+      "published_at": "2026-11-17T17:55:12+00:00"
+    },
+    {
       "publisher": "RMC Sport",
       "title": "Il avait 31 ans: un boxeur irlandais meurt après trois mois de coma à la suite d'un combat",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-un-boxeur-irlandais-meurt-a-31-ans-apres-trois-mois-de-coma-a-cause-d-un-combat_AV-202611170608.html",
@@ -11,6 +35,12 @@
       "title": "\"Quelle folie!\", Jorge Linares, ancien champion du monde de boxe, a été arrêté par l'ICE aux Eats-Unis",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/quelle-folie-jorge-linares-ancien-champion-du-monde-de-boxe-a-ete-arrete-par-l-ice-aux-eats-unis_AV-202611170174.html",
       "published_at": "2026-11-17T05:57:11+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Nicolas Virassamy roi de France des poids coqs",
+      "url": "https://www.ffboxe.com/nicolas-virassamy-roi-de-france-des-poids-coqs/",
+      "published_at": "2026-11-16T16:13:04+00:00"
     },
     {
       "publisher": "FFBoxe",
@@ -163,18 +193,6 @@
       "published_at": "2026-11-13T08:00:12+00:00"
     },
     {
-      "publisher": "FFBoxe",
-      "title": "Seydi Coupé a tout à gagner",
-      "url": "https://www.ffboxe.com/seydi-coupe-a-tout-a-gagner/",
-      "published_at": "2026-11-12T22:54:36+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Bakary Samaké n’a plus droit à l’erreur",
-      "url": "https://www.ffboxe.com/bakary-samake-na-plus-droit-a-lerreur/",
-      "published_at": "2026-11-12T22:52:40+00:00"
-    },
-    {
       "publisher": "Boxemag",
       "title": "Jaron Ennis contre Josh Kelly confirmé pour le 27 février à Atlanta",
       "url": "https://boxemag.ouest-france.fr/boxe/jaron-ennis-contre-josh-kelly-confirme-pour-le-27-fevrier-a-atlanta/",
@@ -191,84 +209,6 @@
       "title": "\"Il explique ne ressentir aucune douleur\": le boxeur au visage défiguré rassure sur son état",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/il-explique-ne-ressentir-aucune-douleur-le-boxeur-au-visage-defigure-rassure-sur-son-etat_AV-202611110705.html",
       "published_at": "2026-11-11T18:39:01+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Après son combat surprise, un gros duel pour Tony Yoka: le boxeur français va défier Jarrell Miller en décembre au Ghana",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/apres-son-combat-surprise-un-gros-duel-pour-tony-yoka-le-boxeur-francais-va-defier-jarrell-miller-en-decembre-au-ghana_AV-202611110560.html",
-      "published_at": "2026-11-11T15:15:51+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Tony Yoka face au TOP 20 mondial Jarrell Miller le 20 décembre au Ghana",
-      "url": "https://boxemag.ouest-france.fr/boxe/tony-yoka-face-au-top-20-mondial-jarrell-miller-le-20-decembre-au-ghana/",
-      "published_at": "2026-11-11T14:30:07+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Avant Cédric Doumbé, Jake Paul s’en prend au public français",
-      "url": "https://lasueur.com/avant-cedric-doumbe-jake-paul-sen-prend-au-public-francais-11-11-2026",
-      "published_at": "2026-11-11T12:59:14+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"J'aimerais une trilogie contre Munguia\", Bruno Surace est de retour le 14 novembre au Zuffa Boxing",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/video-j-aimerais-une-trilogie-contre-munguia-bruno-surace-est-de-retour-le-14-novembre-au-zuffa-boxing_VN-202611110391.html",
-      "published_at": "2026-11-11T10:16:05+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"Son parcours est une leçon de vie\": la chanteuse Kayna Samet raconte son amitié avec Imane Khelif, qui va débuter sa carrière de boxeuse professionnelle",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/son-parcours-est-une-lecon-de-vie-la-chanteuse-kayna-samet-raconte-son-amitie-avec-imane-khelif-qui-va-debuter-sa-carriere-de-boxeuse-professionnelle_AV-202611110382.html",
-      "published_at": "2026-11-11T10:15:59+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Cedric Doumbé dévoile a quel moment il espère mettre KO Jake Paul",
-      "url": "https://boxemag.ouest-france.fr/boxe/cedric-doumbe-devoile-a-quel-moment-il-espere-mettre-ko-jake-paul/",
-      "published_at": "2026-11-11T06:50:53+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jake Paul explique pourquoi il a choisi Cedric Doumbé comme prochain adversaire: “Il va finir K.O. C’est une certitude”",
-      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-explique-pourquoi-il-a-choisi-cedric-doumbe-comme-prochain-adversaire-il-va-finir-k-o-cest-une-certitude/",
-      "published_at": "2026-11-11T06:39:34+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jake Paul réagit aux cris hostiles « F*ck you » des fans français avant son combat contre Cédric Doumbé",
-      "url": "https://boxemag.ouest-france.fr/boxe/jake-paul-reagit-aux-cris-hostiles-fck-you-des-fans-francais-avant-son-combat-contre-cedric-doumbe/",
-      "published_at": "2026-11-10T20:08:13+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"Si tu perds contre un YouTubeur qui ne sait pas boxer, c’est chaud\": Cédric Doumbè et Jake Paul font monter la température à Paris avant leur combat de boxe",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/si-tu-perds-contre-un-you-tubeur-qui-ne-sait-pas-boxer-c-est-chaud-cedric-doumbe-et-jake-paul-font-monter-la-temperature-a-paris-avant-leur-combat-de-boxe_AV-202611100839.html",
-      "published_at": "2026-11-10T18:59:01+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Cedric Doumbé assure qu’il n’a pas été payé par Jake Paul pour se coucher: “impossible que j’accepte un fight où je me couche pour de l’argent”",
-      "url": "https://boxemag.ouest-france.fr/boxe/cedric-doumbe-assure-quil-na-pas-ete-paye-par-jake-paul-pour-se-coucher-impossible-que-jaccepte-un-fight-ou-je-me-couche-pour-de-largent/",
-      "published_at": "2026-11-10T18:36:42+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Cédric Doumbé vs Jake Paul : le premier face-à-face à Paris",
-      "url": "https://lasueur.com/cedric-doumbe-vs-jake-paul-premier-face-a-face-paris-10-11-2026",
-      "published_at": "2026-11-10T18:14:38+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Jake Paul fait une promesse avant d’affronter Cédric Doumbé",
-      "url": "https://lasueur.com/jake-paul-fait-une-promesse-avant-daffronter-cedric-doumbe-10-11-2026",
-      "published_at": "2026-11-10T17:50:26+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Jake Paul-Cédric Doumbè: revivez la conférence de presse parisienne avant le grand combat de boxe",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/direct-jake-paul-cedric-doumbe-suivez-en-live-la-conference-de-presse-parisienne-avant-le-grand-combat-de-boxe_LN-202611100688.html",
-      "published_at": "2026-11-10T17:43:17+00:00"
     }
   ],
   "unavailable_feeds": []
