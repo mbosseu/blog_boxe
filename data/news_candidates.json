@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Entre les cordes - Épisode 7",
+      "url": "https://www.ffboxe.com/entre-les-cordes-episode-7/",
+      "published_at": "2026-11-19T11:59:24+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Cédric Doumbé fait un aveu surprenant avant d’affronter Jake Paul",
+      "url": "https://lasueur.com/cedric-doumbe-aveu-surprenant-avant-daffronter-jake-paul-18-11-2026",
+      "published_at": "2026-11-18T21:58:56+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Le retour de Deontay Wilder tombe à l’eau",
+      "url": "https://lasueur.com/retour-deontay-wilder-tombe-a-leau-18-11-2026",
+      "published_at": "2026-11-18T17:18:45+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Jai Opetai confirme son forfait face à Wilder et s’excuse.",
       "url": "https://boxemag.ouest-france.fr/boxe/jai-opetai-confirme-son-forfait-face-a-wilder-et-sexcuse/",
@@ -97,6 +115,12 @@
       "published_at": "2026-11-14T23:25:38+00:00"
     },
     {
+      "publisher": "La Sueur",
+      "title": "Bakary Samaké arrache la victoire après une énorme bataille",
+      "url": "https://lasueur.com/bakary-samake-arrache-la-victoire-apres-une-enorme-bataille-15-11-2026",
+      "published_at": "2026-11-14T23:22:39+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Résultats des combats Bakary Samake vs Uisma Lima",
       "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-bakary-samake-vs-uisma-lima/",
@@ -181,12 +205,6 @@
       "published_at": "2026-11-13T16:27:34+00:00"
     },
     {
-      "publisher": "FFBoxe",
-      "title": "Sport 2027 : le manifeste",
-      "url": "https://www.ffboxe.com/sport-2027-le-manifeste/",
-      "published_at": "2026-11-13T14:32:21+00:00"
-    },
-    {
       "publisher": "Boxemag",
       "title": "Résultats des combats Bilel Jkitou vs Gabriel Corzo",
       "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-bilel-jkitou-vs-gabriel-corzo/",
@@ -197,24 +215,6 @@
       "title": "Cédric Doumbé et Jake Paul acceptent un pari avant de s’affronter",
       "url": "https://lasueur.com/cedric-doumbe-jake-paul-acceptent-pari-avant-de-saffronter-13-11-2026",
       "published_at": "2026-11-13T08:00:12+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jaron Ennis contre Josh Kelly confirmé pour le 27 février à Atlanta",
-      "url": "https://boxemag.ouest-france.fr/boxe/jaron-ennis-contre-josh-kelly-confirme-pour-le-27-fevrier-a-atlanta/",
-      "published_at": "2026-11-12T15:36:48+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Bakole–Adebayo et Vanhouter–Essomba s’ajoutent à la carte Fury–Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/bakole-adebayo-et-vanhouter-essomba-sajoutent-a-la-carte-fury-joshua/",
-      "published_at": "2026-11-11T21:48:46+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"Il explique ne ressentir aucune douleur\": le boxeur au visage défiguré rassure sur son état",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/il-explique-ne-ressentir-aucune-douleur-le-boxeur-au-visage-defigure-rassure-sur-son-etat_AV-202611110705.html",
-      "published_at": "2026-11-11T18:39:01+00:00"
     }
   ],
   "unavailable_feeds": []
