@@ -2,6 +2,12 @@
   "items": [
     {
       "publisher": "FFBoxe",
+      "title": "Maloé Teresi avec la manière",
+      "url": "https://www.ffboxe.com/maloe-teresi-avec-la-maniere/",
+      "published_at": "2026-11-20T15:54:14+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
       "title": "Réglement et inscription Challenge Jean-Claude Bouttier 2027",
       "url": "https://www.ffboxe.com/reglement-et-inscription-challenge-jean-claude-bouttier-2027/",
       "published_at": "2026-11-19T16:39:23+00:00"
@@ -17,6 +23,12 @@
       "title": "Cédric Doumbé fait un aveu surprenant avant d’affronter Jake Paul",
       "url": "https://lasueur.com/cedric-doumbe-aveu-surprenant-avant-daffronter-jake-paul-18-11-2026",
       "published_at": "2026-11-18T21:58:56+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Un triplé gagnant",
+      "url": "https://www.ffboxe.com/un-triple-gagnant/",
+      "published_at": "2026-11-18T18:22:15+00:00"
     },
     {
       "publisher": "La Sueur",
@@ -97,12 +109,6 @@
       "published_at": "2026-11-15T12:34:07+00:00"
     },
     {
-      "publisher": "FFBoxe",
-      "title": "Seydi Coupé s'incline sans démériter",
-      "url": "https://www.ffboxe.com/seydi-coupe-sincline-sans-demeriter/",
-      "published_at": "2026-11-15T00:07:30+00:00"
-    },
-    {
       "publisher": "Boxemag",
       "title": "Résumé vidéo: Bakary Samake vs Uisma Lima pour la ceinture WBC Silver",
       "url": "https://boxemag.ouest-france.fr/boxe/resume-video-bakary-samake-vs-uisma-lima-pour-la-ceinture-wbc-silver/",
@@ -131,12 +137,6 @@
       "title": "Résultats des combats Bakary Samake vs Uisma Lima",
       "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-bakary-samake-vs-uisma-lima/",
       "published_at": "2026-11-14T21:50:32+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Bruno Surace s'impose avec brio",
-      "url": "https://www.ffboxe.com/bruno-surace-simpose-avec-brio/",
-      "published_at": "2026-11-14T19:29:55+00:00"
     },
     {
       "publisher": "RMC Sport",
@@ -203,18 +203,6 @@
       "title": "Bazinyan retrouve la victoire !",
       "url": "https://www.boxenet.fr/bazinyan-retrouve-la-victoire/",
       "published_at": "2026-11-13T16:27:34+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Résultats des combats Bilel Jkitou vs Gabriel Corzo",
-      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-bilel-jkitou-vs-gabriel-corzo/",
-      "published_at": "2026-11-13T10:32:57+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Cédric Doumbé et Jake Paul acceptent un pari avant de s’affronter",
-      "url": "https://lasueur.com/cedric-doumbe-jake-paul-acceptent-pari-avant-de-saffronter-13-11-2026",
-      "published_at": "2026-11-13T08:00:12+00:00"
     }
   ],
   "unavailable_feeds": []
