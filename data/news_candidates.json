@@ -2,6 +2,12 @@
   "items": [
     {
       "publisher": "FFBoxe",
+      "title": "Résultats des pros Français du week-end (21/11/2026)",
+      "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-21-11-2026/",
+      "published_at": "2026-11-22T17:33:31+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
       "title": "Junior Tadah et Djamel Djemmal sur le podium",
       "url": "https://www.ffboxe.com/junior-tadah-et-djamel-djemmal-sur-le-podium/",
       "published_at": "2026-11-21T15:53:10+00:00"
@@ -95,12 +101,6 @@
       "title": "Résultats des pros Français du week-end (14/11/2026)",
       "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-14-11-2026/",
       "published_at": "2026-11-15T20:14:31+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Mustapha Zaouche, enfin !",
-      "url": "https://www.ffboxe.com/mustapha-zaouche-enfin/",
-      "published_at": "2026-11-15T17:38:22+00:00"
     }
   ],
   "unavailable_feeds": []
