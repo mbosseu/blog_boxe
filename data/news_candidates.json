@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Deontay Wilder contre Martin Bakole officialisé sur la carte Fury-Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/deontay-wilder-contre-martin-bakole-officialise-sur-la-carte-fury-joshua/",
+      "published_at": "2026-11-23T15:49:37+00:00"
+    },
+    {
+      "publisher": "La Sueur",
+      "title": "Tyson Fury se livre et revient sur la période la plus difficile de sa vie",
+      "url": "https://lasueur.com/tyson-fury-se-livre-et-revient-sur-la-periode-la-plus-difficile-de-sa-vie-23-11-2026",
+      "published_at": "2026-11-23T14:35:08+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Kabayel vs Hysa: Découvrez la carte complète des combats prévue samedi à Dusseldorf",
+      "url": "https://boxemag.ouest-france.fr/boxe/kabayel-vs-hysa-decouvrez-la-carte-complete-des-combats-prevu-samedi-a-dusseldorf/",
+      "published_at": "2026-11-23T11:34:51+00:00"
+    },
+    {
+      "publisher": "RMC Sport",
+      "title": "\"Les Illuminati sont tous de mèche, ils vont me tuer\": le récit glaçant de l'hospitalisation de Tyson Fury, diagnostiqué schizophrène en 2016",
+      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/les-illuminati-sont-tous-de-meche-ils-vont-me-tuer-le-recit-glacant-de-l-hospitalisation-de-tyson-fury-diagnostique-schizophrene-en-2016_AV-202611230433.html",
+      "published_at": "2026-11-23T10:30:20+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Résultats des pros Français du week-end (21/11/2026)",
       "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-21-11-2026/",
@@ -8,13 +32,19 @@
     },
     {
       "publisher": "FFBoxe",
-      "title": "Junior Tadah et Djamel Djemmal sur le podium",
+      "title": "Euro U23 : et trois autres demis, trois !",
+      "url": "https://www.ffboxe.com/euro-u23-et-trois-autres-demis-trois/",
+      "published_at": "2026-11-21T22:59:51+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Euro U23 : Junior Tadah et Djamel Djemmal sur le podium",
       "url": "https://www.ffboxe.com/junior-tadah-et-djamel-djemmal-sur-le-podium/",
       "published_at": "2026-11-21T15:53:10+00:00"
     },
     {
       "publisher": "FFBoxe",
-      "title": "Maloé Teresi avec la manière",
+      "title": "Euro U23 : Maloé Teresi avec la manière",
       "url": "https://www.ffboxe.com/maloe-teresi-avec-la-maniere/",
       "published_at": "2026-11-20T15:54:14+00:00"
     },
@@ -38,7 +68,7 @@
     },
     {
       "publisher": "FFBoxe",
-      "title": "Un triplé gagnant",
+      "title": "Euro U23 : Un triplé gagnant",
       "url": "https://www.ffboxe.com/un-triple-gagnant/",
       "published_at": "2026-11-18T18:22:15+00:00"
     },
@@ -68,39 +98,9 @@
     },
     {
       "publisher": "FFBoxe",
-      "title": "Djamel Djemmal lance les siens",
+      "title": "Euro U23 : Djamel Djemmal lance les siens",
       "url": "https://www.ffboxe.com/djamel-djemmal-lance-les-siens/",
       "published_at": "2026-11-17T19:27:00+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Rumeur : Jai Opetaia s’est retiré du combat contre Deontay Wilder, prévu lors du choc Fury-Joshua",
-      "url": "https://boxemag.ouest-france.fr/boxe/rumeur-jai-opetaia-sest-retire-du-combat-contre-deontay-wilder-prevu-lors-du-choc-fury-joshua/",
-      "published_at": "2026-11-17T17:55:12+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "Il avait 31 ans: un boxeur irlandais meurt après trois mois de coma à la suite d'un combat",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/boxe-un-boxeur-irlandais-meurt-a-31-ans-apres-trois-mois-de-coma-a-cause-d-un-combat_AV-202611170608.html",
-      "published_at": "2026-11-17T13:45:16+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "\"Quelle folie!\", Jorge Linares, ancien champion du monde de boxe, a été arrêté par l'ICE aux Eats-Unis",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/quelle-folie-jorge-linares-ancien-champion-du-monde-de-boxe-a-ete-arrete-par-l-ice-aux-eats-unis_AV-202611170174.html",
-      "published_at": "2026-11-17T05:57:11+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Nicolas Virassamy roi de France des poids coqs",
-      "url": "https://www.ffboxe.com/nicolas-virassamy-roi-de-france-des-poids-coqs/",
-      "published_at": "2026-11-16T16:13:04+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Résultats des pros Français du week-end (14/11/2026)",
-      "url": "https://www.ffboxe.com/resultats-des-pros-francais-du-week-end-14-11-2026/",
-      "published_at": "2026-11-15T20:14:31+00:00"
     }
   ],
   "unavailable_feeds": []
