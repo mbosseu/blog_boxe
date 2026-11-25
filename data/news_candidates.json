@@ -2,6 +2,30 @@
   "items": [
     {
       "publisher": "Boxemag",
+      "title": "Garcia se propose comme remplaçant de dernière minute pour affronter Liam Paro",
+      "url": "https://boxemag.ouest-france.fr/boxe/garcia-se-propose-comme-remplacant-de-derniere-minute-pour-affronter-liam-paro/",
+      "published_at": "2026-11-25T14:31:04+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Tyson Fury dévoile les deux combats qu’il souhaite disputer après son duel face à Anthony Joshua",
+      "url": "https://boxemag.ouest-france.fr/boxe/tyson-fury-devoile-les-deux-combats-quil-souhaite-disputer-apres-son-duel-face-a-anthony-joshua/",
+      "published_at": "2026-11-25T14:17:46+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Netflix annonce la date de sortie de “Fight for ’84”, drame sur la boxe olympique avec Jamie Foxx",
+      "url": "https://boxemag.ouest-france.fr/multimedia/cinema/netflix-annonce-la-date-de-sortie-de-fight-for-84-drame-sur-la-boxe-olympique-avec-jamie-foxx/",
+      "published_at": "2026-11-25T14:08:35+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Deux titres et trois médailles pour les Français(e)s à l'Euro U23",
+      "url": "https://www.ffboxe.com/deux-titres-et-trois-medailles-pour-les-francaises-a-leuro-u23/",
+      "published_at": "2026-11-24T21:50:40+00:00"
+    },
+    {
+      "publisher": "Boxemag",
       "title": "Deontay Wilder contre Martin Bakole officialisé sur la carte Fury-Joshua",
       "url": "https://boxemag.ouest-france.fr/boxe/deontay-wilder-contre-martin-bakole-officialise-sur-la-carte-fury-joshua/",
       "published_at": "2026-11-23T15:49:37+00:00"
@@ -71,36 +95,6 @@
       "title": "Euro U23 : Un triplé gagnant",
       "url": "https://www.ffboxe.com/un-triple-gagnant/",
       "published_at": "2026-11-18T18:22:15+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Le retour de Deontay Wilder tombe à l’eau",
-      "url": "https://lasueur.com/retour-deontay-wilder-tombe-a-leau-18-11-2026",
-      "published_at": "2026-11-18T17:18:45+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jai Opetai confirme son forfait face à Wilder et s’excuse.",
-      "url": "https://boxemag.ouest-france.fr/boxe/jai-opetai-confirme-son-forfait-face-a-wilder-et-sexcuse/",
-      "published_at": "2026-11-18T16:42:36+00:00"
-    },
-    {
-      "publisher": "Boxemag",
-      "title": "Jarrell Miller a été contacté pour affronter Deontay Wilder en marge du combat Joshua-Fury",
-      "url": "https://boxemag.ouest-france.fr/boxe/jarrell-miller-a-ete-contacte-pour-affronter-deontay-wilder-en-marge-du-combat-joshua-fury/",
-      "published_at": "2026-11-18T16:07:03+00:00"
-    },
-    {
-      "publisher": "RMC Sport",
-      "title": "La championne olympique de boxe Estelle Mossely s'engage dans la campagne présidentielle d'Edouard Philippe",
-      "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/la-championne-olympique-de-boxe-estelle-mossely-s-engage-dans-la-campagne-presidentielle-d-edouard-philippe_AV-202611180705.html",
-      "published_at": "2026-11-18T15:15:20+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Euro U23 : Djamel Djemmal lance les siens",
-      "url": "https://www.ffboxe.com/djamel-djemmal-lance-les-siens/",
-      "published_at": "2026-11-17T19:27:00+00:00"
     }
   ],
   "unavailable_feeds": []
