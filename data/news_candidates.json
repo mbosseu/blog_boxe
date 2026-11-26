@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "publisher": "FFBoxe",
+      "title": "Réglement et bulletin d'inscription du Challenge Jean-Claude Bouttier 2027",
+      "url": "https://www.ffboxe.com/reglement-et-bulletin-dinscription-du-challenge-jean-claude-bouttier-2027/",
+      "published_at": "2026-11-26T13:40:23+00:00"
+    },
+    {
+      "publisher": "FFBoxe",
+      "title": "Euro U23 : un bilan exceptionnel pour les Tricolores",
+      "url": "https://www.ffboxe.com/euro-u23-un-bilan-exceptionnel-pour-les-tricolores/",
+      "published_at": "2026-11-26T10:35:42+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Daniel Dubois affrontera Joseph Parker pour le titre WBO le 30 janvier à Manchester",
+      "url": "https://boxemag.ouest-france.fr/boxe/daniel-dubois-affrontera-joseph-parker-pour-le-titre-wbo-le-30-janvier-a-manchester/",
+      "published_at": "2026-11-25T20:50:29+00:00"
+    },
+    {
       "publisher": "Boxemag",
       "title": "Garcia se propose comme remplaçant de dernière minute pour affronter Liam Paro",
       "url": "https://boxemag.ouest-france.fr/boxe/garcia-se-propose-comme-remplacant-de-derniere-minute-pour-affronter-liam-paro/",
@@ -71,24 +89,6 @@
       "title": "Euro U23 : Maloé Teresi avec la manière",
       "url": "https://www.ffboxe.com/maloe-teresi-avec-la-maniere/",
       "published_at": "2026-11-20T15:54:14+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Réglement et inscription Challenge Jean-Claude Bouttier 2027",
-      "url": "https://www.ffboxe.com/reglement-et-inscription-challenge-jean-claude-bouttier-2027/",
-      "published_at": "2026-11-19T16:39:23+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Entre les cordes - Épisode 7",
-      "url": "https://www.ffboxe.com/entre-les-cordes-episode-7/",
-      "published_at": "2026-11-19T11:59:24+00:00"
-    },
-    {
-      "publisher": "La Sueur",
-      "title": "Cédric Doumbé fait un aveu surprenant avant d’affronter Jake Paul",
-      "url": "https://lasueur.com/cedric-doumbe-aveu-surprenant-avant-daffronter-jake-paul-18-11-2026",
-      "published_at": "2026-11-18T21:58:56+00:00"
     }
   ],
   "unavailable_feeds": []
