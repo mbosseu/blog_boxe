@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Kabayel vs Hysa : Quelle date, heure et chaine pour regarder le combat en direct ?",
+      "url": "https://boxemag.ouest-france.fr/boxe/kabayel-vs-hysa-quelle-date-heure-et-chaine-pour-regarder-le-combat-en-direct/",
+      "published_at": "2026-11-27T10:54:23+00:00"
+    },
+    {
       "publisher": "FFBoxe",
       "title": "Réglement et bulletin d'inscription du Challenge Jean-Claude Bouttier 2027",
       "url": "https://www.ffboxe.com/reglement-et-bulletin-dinscription-du-challenge-jean-claude-bouttier-2027/",
@@ -83,12 +89,6 @@
       "title": "Euro U23 : Junior Tadah et Djamel Djemmal sur le podium",
       "url": "https://www.ffboxe.com/junior-tadah-et-djamel-djemmal-sur-le-podium/",
       "published_at": "2026-11-21T15:53:10+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Euro U23 : Maloé Teresi avec la manière",
-      "url": "https://www.ffboxe.com/maloe-teresi-avec-la-maniere/",
-      "published_at": "2026-11-20T15:54:14+00:00"
     }
   ],
   "unavailable_feeds": []
