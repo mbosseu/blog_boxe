@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "publisher": "Boxemag",
+      "title": "Résultats des combats Agit Kabayel vs Nelson Hysa",
+      "url": "https://boxemag.ouest-france.fr/boxe/resultats-des-combats-agit-kabayel-vs-nelson-hysa/",
+      "published_at": "2026-11-28T07:51:33+00:00"
+    },
+    {
+      "publisher": "Boxemag",
+      "title": "Martin Bakole prêt à “prendre le contrôle de la catégorie des poids lourds” après son combat contre Deontay Wilder",
+      "url": "https://boxemag.ouest-france.fr/boxe/martin-bakole-pret-a-prendre-le-controle-de-la-categorie-des-poids-lourds-apres-son-combat-contre-deontay-wilder/",
+      "published_at": "2026-11-28T07:09:11+00:00"
+    },
+    {
       "publisher": "RMC Sport",
       "title": "\"Il n'est pas atteint de schizophrénie\": Tyson Fury autorisé à combattre contre Anthony Joshua après la mise au point de sa femme sur sa santé mentale",
       "url": "https://rmcsport.bfmtv.com/sports-de-combat/boxe/il-n-est-pas-atteint-de-schizophrenie-tyson-fury-autorise-a-combattre-contre-anthony-joshua-apres-la-mise-au-point-de-sa-femme-sur-sa-sante-mentale_AD-202611270678.html",
@@ -89,12 +101,6 @@
       "title": "Euro U23 : et trois autres demis, trois !",
       "url": "https://www.ffboxe.com/euro-u23-et-trois-autres-demis-trois/",
       "published_at": "2026-11-21T22:59:51+00:00"
-    },
-    {
-      "publisher": "FFBoxe",
-      "title": "Euro U23 : Junior Tadah et Djamel Djemmal sur le podium",
-      "url": "https://www.ffboxe.com/junior-tadah-et-djamel-djemmal-sur-le-podium/",
-      "published_at": "2026-11-21T15:53:10+00:00"
     }
   ],
   "unavailable_feeds": []
